@@ -41,4 +41,4 @@ jobs:
       - name: Trigger build verification
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh workflow run build.yml --ref develop
+        run: gh workflow run rapidocr-build.yml --ref develop
