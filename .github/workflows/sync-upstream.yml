@@ -1,0 +1,44 @@
+name: Sync upstream
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          ref: develop
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge upstream develop
+        run: |
+          git remote add upstream https://github.com/ShareX/ShareX.git
+          git fetch upstream develop
+          git merge --no-edit upstream/develop
+
+      - name: Push synced branch
+        run: git push origin develop
+
+      - name: Trigger build verification
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run build.yml --ref develop
