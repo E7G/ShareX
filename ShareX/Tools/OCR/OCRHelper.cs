@@ -24,49 +24,37 @@
 #endregion License Information (GPL v3)
 
 using ShareX.HelpersLib;
-using ShareX.Properties;
+using RapidOcrNet;
+using SkiaSharp;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Windows.Globalization;
-using Windows.Graphics.Imaging;
-using Windows.Media.Ocr;
-using Windows.Storage.Streams;
 
 namespace ShareX
 {
     public static class OCRHelper
     {
-        private const string SupportedVersion = "10.0.18362.0";
-
-        public static bool IsSupported
-        {
-            get
-            {
-                return Helpers.OSVersion >= new Version(SupportedVersion);
-            }
-        }
+        private static readonly OCRLanguage[] Languages =
+        [
+            new OCRLanguage("Chinese (Simplified)", "zh-CN"),
+            new OCRLanguage("English", "en"),
+            new OCRLanguage("Japanese", "ja"),
+            new OCRLanguage("Korean", "ko")
+        ];
 
         public static OCRLanguage[] AvailableLanguages
         {
             get
             {
-                ThrowIfNotSupported();
-
-                return OcrEngine.AvailableRecognizerLanguages.Select(x => new OCRLanguage(x.DisplayName, x.LanguageTag)).ToArray();
+                return Languages;
             }
         }
 
         public static void ThrowIfNotSupported()
         {
-            if (!IsSupported)
-            {
-                throw new Exception(string.Format(Resources.OpticalCharacterRecognitionFeatureIsOnlyAvailableWithWindowsVersion0OrNewer, SupportedVersion));
-            }
         }
 
         public static async Task<string> OCR(Bitmap bmp, string languageTag = "en", float scaleFactor = 1f, bool singleLine = false)
@@ -79,63 +67,49 @@ namespace ShareX
             {
                 using (Bitmap bmpScaled = ImageHelpers.ScaleImageFast(bmp, scaleFactor))
                 {
-                    return await OCRInternal(bmpScaled, languageTag, singleLine);
+                    return OCRInternal(bmpScaled, languageTag, singleLine);
                 }
             });
         }
 
-        private static async Task<string> OCRInternal(Bitmap bmp, string languageTag, bool singleLine = false)
+        private static string OCRInternal(Bitmap bmp, string languageTag, bool singleLine = false)
         {
-            Language language = new Language(languageTag);
+            using RapidOcr ocr = new RapidOcr();
+            InitModels(ocr, languageTag);
 
-            if (!OcrEngine.IsLanguageSupported(language))
+            using (MemoryStream stream = new MemoryStream())
             {
-                throw new Exception($"{language.DisplayName} language is not available in this system for OCR.");
+                bmp.Save(stream, ImageFormat.Png);
+                stream.Position = 0;
+
+                using SKBitmap skBitmap = SKBitmap.Decode(stream);
+                OcrResult ocrResult = ocr.Detect(skBitmap, RapidOcrOptions.Default);
+
+                string separator = singleLine ? " " : Environment.NewLine;
+                string[] lines = ocrResult.TextBlocks.Select(x => x.Text).Where(x => !string.IsNullOrWhiteSpace(x)).ToArray();
+
+                return string.Join(separator, lines);
             }
+        }
 
-            OcrEngine engine = OcrEngine.TryCreateFromLanguage(language);
-
-            using (InMemoryRandomAccessStream stream = new InMemoryRandomAccessStream())
+        private static void InitModels(RapidOcr ocr, string languageTag)
+        {
+            if (languageTag.StartsWith("zh", StringComparison.OrdinalIgnoreCase))
             {
-                bmp.Save(stream.AsStream(), ImageFormat.Bmp);
-                BitmapDecoder decoder = await BitmapDecoder.CreateAsync(stream);
+                string modelsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "models", "v5");
+                string detPath = Path.Combine(modelsDir, "ch_PP-OCRv5_mobile_det.onnx");
+                string clsPath = Path.Combine(modelsDir, "ch_ppocr_mobile_v2.0_cls_infer.onnx");
+                string recPath = Path.Combine(modelsDir, "ch_PP-OCRv5_rec_mobile.onnx");
+                string keysPath = Path.Combine(modelsDir, "ppocrv5_dict.txt");
 
-                using (SoftwareBitmap softwareBitmap = await decoder.GetSoftwareBitmapAsync())
+                if (File.Exists(detPath) && File.Exists(clsPath) && File.Exists(recPath) && File.Exists(keysPath))
                 {
-                    OcrResult ocrResult = await engine.RecognizeAsync(softwareBitmap);
-
-                    string separator;
-
-                    if (singleLine)
-                    {
-                        separator = " ";
-                    }
-                    else
-                    {
-                        separator = Environment.NewLine;
-                    }
-
-                    IEnumerable<string> lines;
-
-                    if (language.LanguageTag.StartsWith("zh", StringComparison.OrdinalIgnoreCase) || // Chinese
-                        language.LanguageTag.StartsWith("ja", StringComparison.OrdinalIgnoreCase)) // Japanese
-                    {
-                        // If CJK language then remove spaces between words.
-                        lines = ocrResult.Lines.Select(line => string.Concat(line.Words.Select(word => word.Text)));
-                    }
-                    else if (language.LayoutDirection == LanguageLayoutDirection.Rtl)
-                    {
-                        // If RTL language then reverse order of words.
-                        lines = ocrResult.Lines.Select(line => string.Join(" ", line.Words.Reverse().Select(word => word.Text)));
-                    }
-                    else
-                    {
-                        lines = ocrResult.Lines.Select(line => line.Text);
-                    }
-
-                    return string.Join(separator, lines);
+                    ocr.InitModels(detPath, clsPath, recPath, keysPath);
+                    return;
                 }
             }
+
+            ocr.InitModels();
         }
     }
 }

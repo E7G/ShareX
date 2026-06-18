@@ -221,12 +221,20 @@ namespace ShareX
         {
             return new List<HotkeySettings>
             {
-                new HotkeySettings(HotkeyType.RectangleRegion, Keys.Control | Keys.PrintScreen),
+                new HotkeySettings(HotkeyType.RectangleRegion, Keys.Alt | Keys.A),
                 new HotkeySettings(HotkeyType.PrintScreen, Keys.PrintScreen),
                 new HotkeySettings(HotkeyType.ActiveWindow, Keys.Alt | Keys.PrintScreen),
-                new HotkeySettings(HotkeyType.ScreenRecorder, Keys.Shift | Keys.PrintScreen),
-                new HotkeySettings(HotkeyType.ScreenRecorderGIF, Keys.Control | Keys.Shift | Keys.PrintScreen)
+                new HotkeySettings(HotkeyType.ScreenRecorder, Keys.Control | Keys.Alt | Keys.R),
+                new HotkeySettings(HotkeyType.ScreenRecorderGIF, Keys.Control | Keys.Alt | Keys.G),
+                CreateHotkey(HotkeyType.OCR, Keys.Alt | Keys.C, true)
             };
+        }
+
+        private static HotkeySettings CreateHotkey(HotkeyType job, Keys hotkey, bool win = false)
+        {
+            HotkeySettings hotkeySettings = new HotkeySettings(job, hotkey);
+            hotkeySettings.HotkeyInfo.Win = win;
+            return hotkeySettings;
         }
     }
 }

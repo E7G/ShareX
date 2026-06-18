@@ -1,0 +1,59 @@
+name: Build and release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag"
+        required: false
+        default: "manual"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Restore
+        run: dotnet restore ShareX/ShareX.csproj -p:BuildImageEditor=false -p:Platform=x64 --disable-parallel --verbosity minimal
+
+      - name: Build
+        run: dotnet build ShareX/ShareX.csproj -c Release -p:Platform=x64 -p:BuildImageEditor=false --no-restore
+
+      - name: Pack portable build
+        shell: pwsh
+        run: |
+          $out = "ShareX/bin/Release/win-x64"
+          $zip = "ShareX-RapidOCR-win-x64.zip"
+          Compress-Archive -Path "$out/*" -DestinationPath $zip -Force
+
+      - name: Create release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "${{ github.ref_name }}"
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") {
+            $inputTag = "${{ inputs.tag }}"
+            if ($inputTag -eq "manual") {
+              $tag = "manual-${{ github.run_number }}"
+            } else {
+              $tag = $inputTag
+            }
+            git tag $tag
+            git push origin $tag
+          }
+          gh release create $tag ShareX-RapidOCR-win-x64.zip --title "ShareX RapidOCR $tag" --notes "ShareX build with RapidOCR and Win+Alt+C OCR hotkey."

@@ -29,7 +29,7 @@ namespace ShareX
 {
     public class OCROptions
     {
-        public string Language { get; set; } = "en";
+        public string Language { get; set; } = "zh-CN";
         public float ScaleFactor { get; set; } = 2f;
         public bool SingleLine { get; set; } = false;
         public bool Silent { get; set; } = false;
