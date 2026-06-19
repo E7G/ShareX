@@ -94,9 +94,7 @@ namespace ShareX.ImageEffectsLib
                 return bmp;
             }
 
-            string imageFilePath = FileHelpers.ExpandFolderVariables(ImageLocation, true);
-
-            if (!string.IsNullOrEmpty(imageFilePath) && File.Exists(imageFilePath))
+            if (ImageEffectPathHelpers.TryGetSafeLocalFilePath(ImageLocation, out string imageFilePath) && File.Exists(imageFilePath))
             {
                 using (Bitmap bmpWatermark = ImageHelpers.LoadImage(imageFilePath))
                 {

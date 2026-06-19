@@ -70,6 +70,7 @@ public partial class AnnotationToolbar : UserControl
     public event EventHandler<bool>? TextItalicChanged;
     public event EventHandler<bool>? ShadowChanged;
     public event EventHandler<bool>? SpeechBalloonTailChanged;
+    public event EventHandler<bool>? EffectEllipseChanged;
     public event EventHandler<Control>? FavoriteEffectsMenuRequested;
 
     public AnnotationToolbar()
@@ -327,6 +328,15 @@ public partial class AnnotationToolbar : UserControl
         {
             toolbar.SpeechBalloonTail = !toolbar.SpeechBalloonTail;
             SpeechBalloonTailChanged?.Invoke(this, toolbar.SpeechBalloonTail);
+        }
+    }
+
+    private void OnEffectEllipseClick(object? sender, RoutedEventArgs e)
+    {
+        if (DataContext is IAnnotationToolbarAdapter toolbar)
+        {
+            toolbar.EffectEllipse = !toolbar.EffectEllipse;
+            EffectEllipseChanged?.Invoke(this, toolbar.EffectEllipse);
         }
     }
 

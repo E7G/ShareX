@@ -622,6 +622,30 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
         }
 
         [ObservableProperty]
+        private bool _effectEllipse;
+
+        partial void OnEffectEllipseChanged(bool value)
+        {
+            bool isMagnify = ActiveTool == EditorTool.Magnify;
+            bool isSpotlight = ActiveTool == EditorTool.Spotlight;
+
+            if (ActiveTool == EditorTool.Select && SelectedAnnotation != null)
+            {
+                isMagnify = SelectedAnnotation is MagnifyAnnotation;
+                isSpotlight = SelectedAnnotation is SpotlightAnnotation;
+            }
+
+            if (isMagnify)
+            {
+                Options.MagnifierEllipse = value;
+            }
+            else if (isSpotlight)
+            {
+                Options.SpotlightEllipse = value;
+            }
+        }
+
+        [ObservableProperty]
         private bool _shadowEnabled = true;
 
         partial void OnShadowEnabledChanged(bool value)
@@ -635,15 +659,21 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
         partial void OnSpeechBalloonTailChanged(bool value)
         {
             bool appliesToSpeechBalloon = ActiveTool == EditorTool.SpeechBalloon;
+            bool appliesToStep = ActiveTool == EditorTool.Step;
 
-            if (ActiveTool == EditorTool.Select && SelectedAnnotation is SpeechBalloonAnnotation)
+            if (ActiveTool == EditorTool.Select)
             {
-                appliesToSpeechBalloon = true;
+                appliesToSpeechBalloon = SelectedAnnotation is SpeechBalloonAnnotation;
+                appliesToStep = SelectedAnnotation is NumberAnnotation;
             }
 
             if (appliesToSpeechBalloon)
             {
                 Options.SpeechBalloonTail = value;
+            }
+            else if (appliesToStep)
+            {
+                Options.StepTail = value;
             }
         }
 
@@ -839,6 +869,13 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             _ => false
         };
 
+        public bool ShowEffectEllipse => ActiveTool switch
+        {
+            EditorTool.Magnify or EditorTool.Spotlight => true,
+            EditorTool.Select => SelectedAnnotation is MagnifyAnnotation or SpotlightAnnotation,
+            _ => false
+        };
+
         public bool ShowShadow => ActiveTool switch
         {
             EditorTool.Rectangle or EditorTool.Ellipse or EditorTool.Line or EditorTool.Arrow
@@ -854,8 +891,8 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
 
         public bool ShowSpeechBalloonTail => ActiveTool switch
         {
-            EditorTool.SpeechBalloon => true,
-            EditorTool.Select => SelectedAnnotation is SpeechBalloonAnnotation,
+            EditorTool.SpeechBalloon or EditorTool.Step => true,
+            EditorTool.Select => SelectedAnnotation is SpeechBalloonAnnotation or NumberAnnotation,
             _ => false
         };
 
@@ -966,6 +1003,7 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             OnPropertyChanged(nameof(ShowCornerRadius));
             OnPropertyChanged(nameof(ShowStrength));
             OnPropertyChanged(nameof(ShowSpotlightBlur));
+            OnPropertyChanged(nameof(ShowEffectEllipse));
             OnPropertyChanged(nameof(ShowTextStyle));
             OnPropertyChanged(nameof(ShowTextItalic));
             OnPropertyChanged(nameof(ShowShadow));
@@ -976,7 +1014,7 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             OnPropertyChanged(nameof(ShowToolOptionsSeparator));
         }
 
-        public bool ShowToolOptionsSeparator => ShowBorderColor || ShowFillColor || ShowTextColor || ShowThickness || ShowFontSize || ShowStepStartNumber || ShowStepType || ShowTextHorizontalAlignment || ShowFontFamily || ShowBorderStyle || ShowArrowStyle || ShowCursorType || ShowCornerRadius || ShowStrength || ShowSpotlightBlur || ShowTextStyle || ShowShadow || ShowSpeechBalloonTail;
+        public bool ShowToolOptionsSeparator => ShowBorderColor || ShowFillColor || ShowTextColor || ShowThickness || ShowFontSize || ShowStepStartNumber || ShowStepType || ShowTextHorizontalAlignment || ShowFontFamily || ShowBorderStyle || ShowArrowStyle || ShowCursorType || ShowCornerRadius || ShowStrength || ShowSpotlightBlur || ShowEffectEllipse || ShowTextStyle || ShowShadow || ShowSpeechBalloonTail;
 
         [ObservableProperty]
         private EditorTool _activeTool = EditorTool.Rectangle;
@@ -1122,6 +1160,7 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
                     TextColorValue = Options.StepTextColor;
                     StrokeWidth = Options.StepThickness;
                     ShadowEnabled = Options.Shadow;
+                    SpeechBalloonTail = Options.StepTail;
                     FontSize = Options.StepFontSize;
                     SelectedStepType = NormalizeStepType(Options.StepType);
                     TextBold = Options.StepTextBold;
@@ -1138,10 +1177,12 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
                     break;
                 case EditorTool.Magnify:
                     EffectStrength = Options.MagnifierStrength;
+                    EffectEllipse = Options.MagnifierEllipse;
                     break;
                 case EditorTool.Spotlight:
                     EffectStrength = Options.SpotlightStrength;
                     SpotlightBlur = GetSpotlightBlurOption();
+                    EffectEllipse = Options.SpotlightEllipse;
                     break;
             }
         }

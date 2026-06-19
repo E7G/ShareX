@@ -448,6 +448,12 @@
                                              ToolTip.Tip="Blur amount"/>
 
                     <Button Classes="editor-button toolbar-button"
+                            Classes.active="{Binding EffectEllipse}"
+                            Click="OnEffectEllipseClick"
+                            IsVisible="{Binding ShowEffectEllipse}"
+                            ToolTip.Tip="Toggle ellipse shape"
+                            Content="{x:Static theming:EditorIcons.ToggleEllipseShape}"/>
+                    <Button Classes="editor-button toolbar-button"
                             Classes.active="{Binding SpeechBalloonTail}"
                             Click="OnSpeechBalloonTailClick"
                             IsVisible="{Binding ShowSpeechBalloonTail}"

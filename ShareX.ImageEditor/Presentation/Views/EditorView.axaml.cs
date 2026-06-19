@@ -25,6 +25,7 @@
 
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Controls.Primitives;
 using Avalonia.Input;
 using Avalonia.Input.Platform;
 using Avalonia.Interactivity;
@@ -355,6 +356,7 @@ namespace ShareX.ImageEditor.Presentation.Views
                         vm.FontSize = num.FontSize;
                         vm.TextBold = num.IsBold;
                         vm.FillColor = num.FillColor;
+                        vm.SpeechBalloonTail = num.TailEnabled;
                         if (!string.IsNullOrEmpty(num.TextColor))
                             vm.TextColorValue = Avalonia.Media.Color.Parse(num.TextColor);
                     }
@@ -414,10 +416,15 @@ namespace ShareX.ImageEditor.Presentation.Views
                             spotlight.DarkenOpacity / 255f * MainViewModel.GetMaxEffectStrength(EditorTool.Spotlight),
                             MidpointRounding.AwayFromZero);
                         vm.SpotlightBlur = spotlight.BlurAmount;
+                        vm.EffectEllipse = spotlight.IsEllipse;
                     }
                     else if (vm.SelectedAnnotation is BaseEffectAnnotation effect)
                     {
                         vm.EffectStrength = (int)effect.Amount;
+                        if (effect is MagnifyAnnotation magnify)
+                        {
+                            vm.EffectEllipse = magnify.IsEllipse;
+                        }
                         if (effect is HighlightAnnotation highlight)
                         {
                             vm.FillColor = highlight.FillColor;
@@ -1984,6 +1991,24 @@ namespace ShareX.ImageEditor.Presentation.Views
             {
                 vm.SetBackgroundImagePath(files[0].Path.LocalPath);
             }
+        }
+
+        private void OnGradientColor1PreviewPointerPressed(object? sender, PointerPressedEventArgs e)
+        {
+            OpenGradientColorPicker(BackgroundGradientColor1Popup, BackgroundGradientColor2Popup);
+            e.Handled = true;
+        }
+
+        private void OnGradientColor2PreviewPointerPressed(object? sender, PointerPressedEventArgs e)
+        {
+            OpenGradientColorPicker(BackgroundGradientColor2Popup, BackgroundGradientColor1Popup);
+            e.Handled = true;
+        }
+
+        private static void OpenGradientColorPicker(Popup popupToOpen, Popup popupToClose)
+        {
+            popupToClose.IsOpen = false;
+            popupToOpen.IsOpen = true;
         }
 
         private void OnNewImageRequested(object? sender, EventArgs e)

@@ -187,6 +187,12 @@ public sealed class EditorToolbarAdapter : IAnnotationToolbarAdapter
         set => _viewModel.SpeechBalloonTail = value;
     }
 
+    public bool EffectEllipse
+    {
+        get => _viewModel.EffectEllipse;
+        set => _viewModel.EffectEllipse = value;
+    }
+
     public bool TextBold
     {
         get => _viewModel.TextBold;
@@ -244,6 +250,8 @@ public sealed class EditorToolbarAdapter : IAnnotationToolbarAdapter
     public bool ShowShadow => _viewModel.ShowShadow;
 
     public bool ShowSpeechBalloonTail => _viewModel.ShowSpeechBalloonTail;
+
+    public bool ShowEffectEllipse => _viewModel.ShowEffectEllipse;
 
     public bool ShowToolOptions => _viewModel.ShowToolOptionsSeparator;
 

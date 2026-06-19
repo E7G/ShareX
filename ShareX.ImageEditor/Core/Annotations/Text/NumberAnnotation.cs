@@ -82,6 +82,11 @@ public partial class NumberAnnotation : Annotation
     public bool TailPointInitialized { get; set; }
 
     /// <summary>
+    /// Controls whether the tail geometry and handle are shown.
+    /// </summary>
+    public bool TailEnabled { get; set; } = true;
+
+    /// <summary>
     /// Calculate radius based on font size to ensure text fits
     /// </summary>
     private float CalculateRadius()
@@ -132,6 +137,11 @@ public partial class NumberAnnotation : Annotation
 
     public bool IsTailVisible()
     {
+        if (!TailEnabled)
+        {
+            return false;
+        }
+
         return TryGetTailPolygon(out _, out _, out _);
     }
 
@@ -163,7 +173,7 @@ public partial class NumberAnnotation : Annotation
         tailTip = default;
         tailBaseEnd = default;
 
-        if (!HasTailPoint)
+        if (!TailEnabled || !HasTailPoint)
         {
             return false;
         }

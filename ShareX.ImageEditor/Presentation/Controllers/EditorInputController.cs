@@ -390,7 +390,8 @@ public class EditorInputController
                     EndPoint = ToSKPoint(_startPoint),
                     CanvasSize = ToSKSize(canvas.Bounds.Size),
                     DarkenOpacity = opacity,
-                    BlurAmount = vm.SpotlightBlur
+                    BlurAmount = vm.SpotlightBlur,
+                    IsEllipse = vm.EffectEllipse
                 };
                 var spotlightControl = spotlightAnnotation.CreateVisual();
                 spotlightControl.Width = canvas.Bounds.Width;
@@ -408,7 +409,7 @@ public class EditorInputController
                 _isCreatingEffect = true;
                 break;
             case EditorTool.Magnify:
-                _currentShape = new MagnifyAnnotation { Amount = vm.EffectStrength, StartPoint = ToSKPoint(_startPoint), EndPoint = ToSKPoint(_startPoint) }.CreateVisual();
+                _currentShape = new MagnifyAnnotation { Amount = vm.EffectStrength, IsEllipse = vm.EffectEllipse, StartPoint = ToSKPoint(_startPoint), EndPoint = ToSKPoint(_startPoint) }.CreateVisual();
                 _isCreatingEffect = true;
                 break;
             case EditorTool.Highlight:
@@ -440,6 +441,7 @@ public class EditorInputController
                     FontSize = vm.FontSize,
                     IsBold = vm.TextBold,
                     StepType = vm.SelectedStepType,
+                    TailEnabled = vm.SpeechBalloonTail,
                     ShadowEnabled = vm.ShadowEnabled,
                     ShadowColor = shadowColor,
                     StartPoint = ToSKPoint(_startPoint),

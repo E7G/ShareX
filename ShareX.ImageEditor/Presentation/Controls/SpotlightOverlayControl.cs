@@ -84,7 +84,15 @@ public class SpotlightOverlayControl : SKCanvasControl
 
             foreach (SpotlightAnnotation spotlight in spotlights)
             {
-                canvas.DrawRect(spotlight.GetBounds(), clearPaint);
+                SKRect bounds = spotlight.GetBounds();
+                if (spotlight.IsEllipse)
+                {
+                    canvas.DrawOval(bounds, clearPaint);
+                }
+                else
+                {
+                    canvas.DrawRect(bounds, clearPaint);
+                }
             }
         });
     }

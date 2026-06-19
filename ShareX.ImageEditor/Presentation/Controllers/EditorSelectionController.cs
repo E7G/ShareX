@@ -571,7 +571,7 @@ public class EditorSelectionController
             return;
         }
 
-        if (_selectedShape is StepControl stepControl && stepControl.Annotation is NumberAnnotation number && handleTag == "StepTail")
+        if (_selectedShape is StepControl stepControl && stepControl.Annotation is NumberAnnotation number && number.TailEnabled && handleTag == "StepTail")
         {
             number.SetTailPoint(new SKPoint((float)currentPoint.X, (float)currentPoint.Y));
             AnnotationVisualFactory.UpdateVisualControl(
@@ -1128,8 +1128,12 @@ public class EditorSelectionController
 
         if (_selectedShape is StepControl stepControl && stepControl.Annotation is NumberAnnotation number)
         {
-            var tailHandlePoint = number.GetTailHandlePoint();
-            CreateHandle(tailHandlePoint.X, tailHandlePoint.Y, "StepTail");
+            if (number.TailEnabled)
+            {
+                var tailHandlePoint = number.GetTailHandlePoint();
+                CreateHandle(tailHandlePoint.X, tailHandlePoint.Y, "StepTail");
+            }
+
             UpdateHoverOutline();
             return;
         }
@@ -1602,7 +1606,6 @@ public class EditorSelectionController
             BorderThickness = new Thickness(0),
             CornerRadius = new CornerRadius(0), // No corner radius needed if no border/background match
             Foreground = foregroundBrush,
-            CaretBrush = foregroundBrush,
             FontSize = annotation.FontSize,
             FontFamily = new Avalonia.Media.FontFamily(string.IsNullOrWhiteSpace(annotation.FontFamily) ? "Segoe UI" : annotation.FontFamily),
             FontWeight = annotation.IsBold ? FontWeight.Bold : FontWeight.Normal,
@@ -1798,7 +1801,7 @@ public class EditorSelectionController
 
             if (child is SpotlightControl sc && sc.Annotation is SpotlightAnnotation sa)
             {
-                if (sa.GetBounds().Contains(ToSKPoint(currentPoint))) return sc;
+                if (sa.HitTest(ToSKPoint(currentPoint))) return sc;
                 continue;
             }
 
@@ -2029,8 +2032,11 @@ public class EditorSelectionController
 
         if (width <= 0 || height <= 0) return;
 
-        // 3. Ellipse Outline (for Ellipse and Step/Number)
-        if (_hoveredShape is Ellipse || (_hoveredShape is StepControl hoveredStepControl && hoveredStepControl.Annotation is NumberAnnotation hoveredNumberAnnotation && !hoveredNumberAnnotation.IsTailVisible()))
+        // 3. Ellipse Outline (for Ellipse, Step/Number, and ellipse effect regions)
+        if (_hoveredShape is Ellipse ||
+            (_hoveredShape?.Tag is MagnifyAnnotation { IsEllipse: true }) ||
+            (_hoveredShape is SpotlightControl { Annotation.IsEllipse: true }) ||
+            (_hoveredShape is StepControl hoveredStepControl && hoveredStepControl.Annotation is NumberAnnotation hoveredNumberAnnotation && !hoveredNumberAnnotation.IsTailVisible()))
         {
             if (_hoverEllipseBlack == null)
             {
@@ -2253,7 +2259,6 @@ public class EditorSelectionController
 
         _balloonTextEditor.Background = editorBackground;
         _balloonTextEditor.Foreground = foregroundBrush;
-        _balloonTextEditor.CaretBrush = foregroundBrush;
 
         // Update resource overrides for Focus state
         _balloonTextEditor.Resources["TextControlBackground"] = editorBackground;

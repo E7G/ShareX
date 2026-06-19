@@ -61,6 +61,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             toolbar.TextItalicChanged += OnToolbarTextItalicChanged;
             toolbar.ShadowChanged += OnToolbarShadowChanged;
             toolbar.SpeechBalloonTailChanged += OnToolbarSpeechBalloonTailChanged;
+            toolbar.EffectEllipseChanged += OnToolbarEffectEllipseChanged;
             toolbar.FavoriteEffectsMenuRequested += OnFavoriteEffectsMenuRequested;
         }
 
@@ -88,6 +89,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             toolbar.TextItalicChanged -= OnToolbarTextItalicChanged;
             toolbar.ShadowChanged -= OnToolbarShadowChanged;
             toolbar.SpeechBalloonTailChanged -= OnToolbarSpeechBalloonTailChanged;
+            toolbar.EffectEllipseChanged -= OnToolbarEffectEllipseChanged;
             toolbar.FavoriteEffectsMenuRequested -= OnFavoriteEffectsMenuRequested;
         }
 
@@ -253,6 +255,11 @@ namespace ShareX.ImageEditor.Presentation.Views
         private void OnToolbarSpeechBalloonTailChanged(object? sender, bool isEnabled)
         {
             ApplySelectedSpeechBalloonTail(isEnabled);
+        }
+
+        private void OnToolbarEffectEllipseChanged(object? sender, bool isEllipse)
+        {
+            ApplySelectedEffectEllipse(isEllipse);
         }
 
         private void OnWidthChanged(object? sender, int width)
@@ -720,6 +727,43 @@ namespace ShareX.ImageEditor.Presentation.Views
             }
         }
 
+        private void ApplySelectedEffectEllipse(bool isEllipse)
+        {
+            var selected = _selectionController.SelectedShape;
+
+            if (selected?.Tag is MagnifyAnnotation magnifyAnnotation)
+            {
+                magnifyAnnotation.IsEllipse = isEllipse;
+                selected.Clip = CreateEllipseClipIfNeeded(selected, isEllipse);
+                OnRequestUpdateEffect(selected);
+                _selectionController.UpdateSelectionHandles();
+            }
+            else if (selected?.Tag is SpotlightAnnotation spotlightAnnotation)
+            {
+                spotlightAnnotation.IsEllipse = isEllipse;
+                RefreshSpotlightOverlay();
+                _selectionController.UpdateSelectionHandles();
+            }
+        }
+
+        private static Geometry? CreateEllipseClipIfNeeded(Control control, bool isEllipse)
+        {
+            if (!isEllipse)
+            {
+                return null;
+            }
+
+            double width = Math.Max(1, control.Width);
+            double height = Math.Max(1, control.Height);
+            if (double.IsNaN(width) || double.IsNaN(height))
+            {
+                width = Math.Max(1, control.Bounds.Width);
+                height = Math.Max(1, control.Bounds.Height);
+            }
+
+            return new EllipseGeometry(new Rect(0, 0, width, height));
+        }
+
         private void ApplySelectedShadowState(bool isEnabled)
         {
             var selected = _selectionController.SelectedShape;
@@ -745,15 +789,22 @@ namespace ShareX.ImageEditor.Presentation.Views
 
         private void ApplySelectedSpeechBalloonTail(bool isEnabled)
         {
-            if (_selectionController.SelectedShape is not SpeechBalloonControl balloonControl ||
-                balloonControl.Annotation is not SpeechBalloonAnnotation balloonAnnotation)
+            if (_selectionController.SelectedShape is SpeechBalloonControl balloonControl &&
+                balloonControl.Annotation is SpeechBalloonAnnotation balloonAnnotation)
             {
+                balloonAnnotation.TailEnabled = isEnabled;
+                balloonControl.InvalidateVisual();
+                _selectionController.UpdateSelectionHandles();
                 return;
             }
 
-            balloonAnnotation.TailEnabled = isEnabled;
-            balloonControl.InvalidateVisual();
-            _selectionController.UpdateSelectionHandles();
+            if (_selectionController.SelectedShape is StepControl stepControl &&
+                stepControl.Annotation is NumberAnnotation numberAnnotation)
+            {
+                numberAnnotation.TailEnabled = isEnabled;
+                AnnotationVisualFactory.UpdateVisualControl(stepControl, numberAnnotation);
+                _selectionController.UpdateSelectionHandles();
+            }
         }
 
         private void ApplySelectedTextBold(bool isBold)

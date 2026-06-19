@@ -46,6 +46,11 @@ public abstract class BaseEffectAnnotation : Annotation, IDisposable
     public bool IsFreehand { get; set; }
 
     /// <summary>
+    /// Whether the effect region is rendered as an ellipse instead of a rectangle.
+    /// </summary>
+    public bool IsEllipse { get; set; }
+
+    /// <summary>
     /// The generated bitmap for the effect (pre-rendered effect result)
     /// </summary>
     public SKBitmap? EffectBitmap { get; protected set; }
@@ -76,7 +81,22 @@ public abstract class BaseEffectAnnotation : Annotation, IDisposable
         }
 
         var inflatedBounds = SKRect.Inflate(bounds, tolerance, tolerance);
-        return inflatedBounds.Contains(point);
+
+        if (!IsEllipse)
+        {
+            return inflatedBounds.Contains(point);
+        }
+
+        float radiusX = inflatedBounds.Width / 2f;
+        float radiusY = inflatedBounds.Height / 2f;
+        if (radiusX <= 0 || radiusY <= 0)
+        {
+            return false;
+        }
+
+        float normalizedX = (point.X - inflatedBounds.MidX) / radiusX;
+        float normalizedY = (point.Y - inflatedBounds.MidY) / radiusY;
+        return normalizedX * normalizedX + normalizedY * normalizedY <= 1f;
     }
 
     public override Annotation Clone()

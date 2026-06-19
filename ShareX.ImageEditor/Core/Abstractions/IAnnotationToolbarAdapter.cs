@@ -67,6 +67,7 @@ public interface IAnnotationToolbarAdapter : INotifyPropertyChanged
     float SpotlightBlurMaximum { get; }
     bool ShadowEnabled { get; set; }
     bool SpeechBalloonTail { get; set; }
+    bool EffectEllipse { get; set; }
     bool TextBold { get; set; }
     bool TextItalic { get; set; }
     string ActiveToolIcon { get; }
@@ -94,6 +95,7 @@ public interface IAnnotationToolbarAdapter : INotifyPropertyChanged
     bool ShowTextItalic { get; }
     bool ShowShadow { get; }
     bool ShowSpeechBalloonTail { get; }
+    bool ShowEffectEllipse { get; }
     bool ShowToolOptions { get; }
     bool ShowToolOptionsSeparator { get; }
     bool ShowOptionsButton { get; }

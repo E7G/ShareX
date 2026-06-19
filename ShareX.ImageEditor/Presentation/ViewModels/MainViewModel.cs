@@ -44,6 +44,16 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
         {
             public required string Name { get; init; }
             public required IBrush Brush { get; init; }
+
+            public Color Color1 => GetGradientStopColor(0);
+            public Color Color2 => GetGradientStopColor(1);
+
+            private Color GetGradientStopColor(int index)
+            {
+                return Brush is LinearGradientBrush { GradientStops.Count: > 0 } linear
+                    ? linear.GradientStops[Math.Min(index, linear.GradientStops.Count - 1)].Color
+                    : Colors.Transparent;
+            }
         }
 
         public enum EditorTaskResult

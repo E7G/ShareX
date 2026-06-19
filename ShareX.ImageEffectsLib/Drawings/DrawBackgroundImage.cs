@@ -49,7 +49,12 @@ namespace ShareX.ImageEffectsLib
 
         public override Bitmap Apply(Bitmap bmp)
         {
-            return ImageHelpers.DrawBackgroundImage(bmp, ImageFilePath, Center, Tile);
+            if (ImageEffectPathHelpers.TryGetSafeLocalFilePath(ImageFilePath, out string imageFilePath))
+            {
+                return ImageHelpers.DrawBackgroundImage(bmp, imageFilePath, Center, Tile);
+            }
+
+            return bmp;
         }
 
         protected override string GetSummary()

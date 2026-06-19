@@ -177,6 +177,8 @@ namespace ShareX.ImageEditor.Presentation.Views
 
         private bool TryUpdateCachedEffectVisual(Control shape, BaseEffectAnnotation annotation, SkiaSharp.SKBitmap sourceBitmap, Rect? overrideBounds = null)
         {
+            Rect? effectBounds = null;
+
             if (overrideBounds.HasValue)
             {
                 var bounds = overrideBounds.Value;
@@ -187,6 +189,7 @@ namespace ShareX.ImageEditor.Presentation.Views
 
                 annotation.StartPoint = new SkiaSharp.SKPoint((float)bounds.X, (float)bounds.Y);
                 annotation.EndPoint = new SkiaSharp.SKPoint((float)(bounds.X + bounds.Width), (float)(bounds.Y + bounds.Height));
+                effectBounds = bounds;
             }
 
             if (!EnsureEffectPreviewCache(annotation, sourceBitmap) || _cachedEffectPreviewBitmap == null)
@@ -195,8 +198,38 @@ namespace ShareX.ImageEditor.Presentation.Views
             }
 
             annotation.UpdateEffectFromInteractionCache(sourceBitmap, _cachedEffectPreviewBitmap);
+            AnnotationEffectVisualUpdater.ApplyEffectClip(shape, annotation, effectBounds ?? GetEffectVisualBounds(shape, annotation));
             AnnotationEffectVisualUpdater.ApplyEffectBrush(shape, annotation);
             return true;
+        }
+
+        private static Rect GetEffectVisualBounds(Control shape, BaseEffectAnnotation annotation)
+        {
+            double left = Canvas.GetLeft(shape);
+            double top = Canvas.GetTop(shape);
+            double width = shape.Width;
+            double height = shape.Height;
+
+            if (double.IsNaN(width) || width <= 0)
+            {
+                width = shape.Bounds.Width;
+            }
+
+            if (double.IsNaN(height) || height <= 0)
+            {
+                height = shape.Bounds.Height;
+            }
+
+            if (double.IsNaN(left) || double.IsNaN(top) || width <= 0 || height <= 0)
+            {
+                var annotationBounds = annotation.GetBounds();
+                left = annotationBounds.Left;
+                top = annotationBounds.Top;
+                width = annotationBounds.Width;
+                height = annotationBounds.Height;
+            }
+
+            return new Rect(left, top, width, height);
         }
 
         private bool EnsureEffectPreviewCache(BaseEffectAnnotation annotation, SkiaSharp.SKBitmap sourceBitmap)

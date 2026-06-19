@@ -117,8 +117,9 @@ namespace ShareX.ImageEffectsLib
                 e.ShowError();
             }
 
-            if (preset != null && preset.Effects.Count > 0)
+            if (preset != null && preset.Effects != null && preset.Effects.Count > 0)
             {
+                SanitizeImportedPreset(preset);
                 AddPreset(preset);
             }
         }
@@ -143,6 +144,41 @@ namespace ShareX.ImageEffectsLib
         protected void OnImageProcessRequested(Bitmap bmp)
         {
             ImageProcessRequested?.Invoke(bmp);
+        }
+
+        private void SanitizeImportedPreset(ImageEffectPreset preset)
+        {
+            string imageEffectsFolder = HelpersOptions.ShareXSpecialFolders["ShareXImageEffects"];
+
+            foreach (ImageEffect effect in preset.Effects)
+            {
+                switch (effect)
+                {
+                    case DrawImage drawImage:
+                        if (!IsImportedImageEffectPathAllowed(drawImage.ImageLocation, imageEffectsFolder))
+                        {
+                            drawImage.ImageLocation = "";
+                        }
+                        break;
+                    case DrawBackgroundImage drawBackgroundImage:
+                        if (!IsImportedImageEffectPathAllowed(drawBackgroundImage.ImageFilePath, imageEffectsFolder))
+                        {
+                            drawBackgroundImage.ImageFilePath = "";
+                        }
+                        break;
+                    case DrawParticles drawParticles:
+                        if (!IsImportedImageEffectPathAllowed(drawParticles.ImageFolder, imageEffectsFolder))
+                        {
+                            drawParticles.ImageFolder = "";
+                        }
+                        break;
+                }
+            }
+        }
+
+        private bool IsImportedImageEffectPathAllowed(string path, string imageEffectsFolder)
+        {
+            return string.IsNullOrEmpty(path) || ImageEffectPathHelpers.IsPathInFolder(path, imageEffectsFolder);
         }
 
         private void AddAllEffectsToContextMenu()

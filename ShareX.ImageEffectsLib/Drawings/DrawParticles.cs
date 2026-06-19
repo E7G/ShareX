@@ -130,9 +130,7 @@ namespace ShareX.ImageEffectsLib
 
         private void DrawParticlesFromFolder(Bitmap bmp, string imageFolder)
         {
-            imageFolder = FileHelpers.ExpandFolderVariables(imageFolder, true);
-
-            if (!string.IsNullOrEmpty(imageFolder) && Directory.Exists(imageFolder))
+            if (ImageEffectPathHelpers.TryGetSafeLocalFolderPath(imageFolder, out imageFolder) && Directory.Exists(imageFolder))
             {
                 string[] files = FileHelpers.GetFilesByExtensions(imageFolder, ".png", ".jpg").ToArray();
 

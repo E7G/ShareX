@@ -181,12 +181,12 @@ public static class AnnotationVisualFactory
                 balloonControl.InvalidateVisual();
                 break;
 
-            case BaseEffectAnnotation effectAnnotation when control is Rectangle effectControl:
+            case BaseEffectAnnotation effectAnnotation when control is Shape effectControl:
                 ApplyBoundsControl(effectControl, effectAnnotation.GetBounds(), ensureMinimumSize);
                 ApplyRotationTransform(effectControl, effectAnnotation.RotationAngle);
                 break;
 
-            case SpotlightAnnotation spotlight when mode == AnnotationVisualMode.Preview && control is Rectangle:
+            case SpotlightAnnotation spotlight when mode == AnnotationVisualMode.Preview && control is Shape:
                 ApplyBoundsControl(control, spotlight.GetBounds(), ensureMinimumSize: true);
                 break;
 
@@ -632,14 +632,15 @@ public static class AnnotationVisualFactory
 
     private static Control CreateSpotlightPreviewPlaceholder(SpotlightAnnotation annotation)
     {
-        return new Rectangle
-        {
-            Fill = Brushes.Transparent,
-            Stroke = new SolidColorBrush(Color.FromArgb(200, 255, 255, 255)),
-            StrokeThickness = 2,
-            StrokeDashArray = new AvaloniaList<double> { 6, 3 },
-            Tag = annotation
-        };
+        Shape shape = annotation.IsEllipse ? new Ellipse() : new Rectangle();
+
+        shape.Fill = Brushes.Transparent;
+        shape.Stroke = new SolidColorBrush(Color.FromArgb(200, 255, 255, 255));
+        shape.StrokeThickness = 2;
+        shape.StrokeDashArray = new AvaloniaList<double> { 6, 3 };
+        shape.Tag = annotation;
+
+        return shape;
     }
 
     private static Control CreateBlurPreviewPlaceholder(BlurAnnotation annotation)
@@ -699,6 +700,13 @@ public static class AnnotationVisualFactory
         Canvas.SetTop(control, top);
         control.Width = width;
         control.Height = height;
+
+        if (control.Tag is MagnifyAnnotation magnifyAnnotation)
+        {
+            control.Clip = magnifyAnnotation.IsEllipse
+                ? new EllipseGeometry(new Rect(0, 0, Math.Max(1, width), Math.Max(1, height)))
+                : null;
+        }
     }
 
     private static RelativePoint GetRelativeCenterOrigin(SKRect innerBounds, SKRect outerBounds)
