@@ -613,6 +613,13 @@ namespace ShareX
                 DebugHelper.WriteLine("Image copied to clipboard.");
             }
 
+            if (Info.TaskSettings.AfterCaptureJob.HasFlag(AfterCaptureTasks.SendImageToDoubao))
+            {
+                ClipboardHelpers.CopyImage(Image, Info.FileName);
+                DebugHelper.WriteLine("Image copied to clipboard for Doubao.");
+                URLHelpers.OpenURL(Links.DoubaoChat);
+            }
+
             if (Info.TaskSettings.AfterCaptureJob.HasFlag(AfterCaptureTasks.PinToScreen))
             {
                 Image imageCopy = Image.CloneSafe();

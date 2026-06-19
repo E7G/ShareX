@@ -431,6 +431,9 @@ Would you like to download it?</value>
   <data name="AfterCaptureTasks_DeleteFile" xml:space="preserve">
     <value>Delete file locally</value>
   </data>
+  <data name="AfterCaptureTasks_SendImageToDoubao" xml:space="preserve">
+    <value>Send image to Doubao web</value>
+  </data>
   <data name="ExportImportControl_Serialize_Export_failed_" xml:space="preserve">
     <value>Export failed.</value>
   </data>

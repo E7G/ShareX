@@ -2092,6 +2092,7 @@ namespace ShareX
                     case AfterCaptureTasks.ShowBeforeUploadWindow: return Resources.application__arrow;
                     case AfterCaptureTasks.UploadImageToHost: return Resources.upload_cloud;
                     case AfterCaptureTasks.DeleteFile: return Resources.bin;
+                    case AfterCaptureTasks.SendImageToDoubao: return Resources.robot;
                 }
             }
             else if (value is AfterUploadTasks afterUploadTask)
