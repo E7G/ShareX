@@ -427,9 +427,6 @@
   <data name="AfterCaptureTasks_DeleteFile" xml:space="preserve">
     <value>删除本地文件</value>
   </data>
-  <data name="AfterCaptureTasks_SendImageToDoubao" xml:space="preserve">
-    <value>发送图像到豆包网页版</value>
-  </data>
   <data name="ExportImportControl_Serialize_Export_failed_" xml:space="preserve">
     <value>导出失败。</value>
   </data>

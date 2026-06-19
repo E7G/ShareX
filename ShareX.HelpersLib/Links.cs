@@ -39,7 +39,6 @@ namespace ShareX.HelpersLib
         public const string DocsKeybinds = Docs + "/keybinds";
         public const string DocsOCR = Docs + "/ocr";
         public const string DocsScrollingScreenshot = Docs + "/scrolling-screenshot";
-        public const string DoubaoChat = "https://www.doubao.com/chat/";
 
         public const string GitHub = "https://github.com/ShareX/ShareX";
         public const string GitHubIssues = GitHub + "/issues?q=is%3Aissue";

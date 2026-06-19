@@ -151,8 +151,7 @@ namespace ShareX
         DoOCR = 1 << 18,
         ShowBeforeUploadWindow = 1 << 19,
         UploadImageToHost = 1 << 20,
-        DeleteFile = 1 << 21,
-        SendImageToDoubao = 1 << 22
+        DeleteFile = 1 << 21
     }
 
     [Flags]
