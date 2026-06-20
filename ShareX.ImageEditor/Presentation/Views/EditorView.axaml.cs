@@ -1995,19 +1995,29 @@ namespace ShareX.ImageEditor.Presentation.Views
 
         private void OnGradientColor1PreviewPointerPressed(object? sender, PointerPressedEventArgs e)
         {
-            OpenGradientColorPicker(BackgroundGradientColor1Popup, BackgroundGradientColor2Popup);
+            OpenBackgroundColorPicker(BackgroundGradientColor1Popup, BackgroundGradientColor2Popup, BackgroundColorPopup);
             e.Handled = true;
         }
 
         private void OnGradientColor2PreviewPointerPressed(object? sender, PointerPressedEventArgs e)
         {
-            OpenGradientColorPicker(BackgroundGradientColor2Popup, BackgroundGradientColor1Popup);
+            OpenBackgroundColorPicker(BackgroundGradientColor2Popup, BackgroundGradientColor1Popup, BackgroundColorPopup);
             e.Handled = true;
         }
 
-        private static void OpenGradientColorPicker(Popup popupToOpen, Popup popupToClose)
+        private void OnBackgroundColorPreviewPointerPressed(object? sender, PointerPressedEventArgs e)
         {
-            popupToClose.IsOpen = false;
+            OpenBackgroundColorPicker(BackgroundColorPopup, BackgroundGradientColor1Popup, BackgroundGradientColor2Popup);
+            e.Handled = true;
+        }
+
+        private static void OpenBackgroundColorPicker(Popup popupToOpen, params Popup[] popupsToClose)
+        {
+            foreach (Popup popupToClose in popupsToClose)
+            {
+                popupToClose.IsOpen = false;
+            }
+
             popupToOpen.IsOpen = true;
         }
 
