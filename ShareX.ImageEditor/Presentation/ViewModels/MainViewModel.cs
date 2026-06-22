@@ -638,6 +638,7 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             OnPropertyChanged(nameof(AreBackgroundEffectsActive));
             OnPropertyChanged(nameof(EffectiveCanvasBackground));
             RefreshSmartPaddingState(ensureCache: value && _originalSourceImage != null, forceCacheRefresh: value);
+            RefreshToolbarItemActiveStates();
         }
 
         public void UpdateCoreHistoryState(bool canUndo, bool canRedo)
@@ -843,6 +844,7 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             RecentImageFiles = new ReadOnlyObservableCollection<string>(_recentImageFiles);
             _activeTool = GetInitialAnnotationTool();
 
+            InitializeToolbarCustomization();
             ToolbarAdapter = new EditorToolbarAdapter(this);
             Current = this;
             GradientPresets = BuildGradientPresets();
@@ -862,6 +864,11 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             _selectedBorderStyle = NormalizeBorderStyle(_options.BorderStyle);
             _selectedArrowStyle = NormalizeArrowStyle(_options.ArrowStyle);
             _shadowEnabled = _options.Shadow;
+            _shadowColor = _options.ShadowColorHex;
+            _shadowBlurRadius = _options.ShadowBlurRadius;
+            _shadowOpacity = _options.ShadowOpacity;
+            _shadowOffsetX = _options.ShadowOffsetX;
+            _shadowOffsetY = _options.ShadowOffsetY;
             _textBold = _options.TextBold;
             _textItalic = _options.TextItalic;
 

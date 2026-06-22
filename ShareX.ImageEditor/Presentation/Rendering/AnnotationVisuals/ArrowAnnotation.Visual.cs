@@ -52,7 +52,7 @@ public partial class ArrowAnnotation
 
         if (ShadowEnabled)
         {
-            path.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(ShadowColor);
+            path.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(this);
         }
 
         return path;

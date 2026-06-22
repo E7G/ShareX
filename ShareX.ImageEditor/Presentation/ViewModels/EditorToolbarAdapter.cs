@@ -181,6 +181,36 @@ public sealed class EditorToolbarAdapter : IAnnotationToolbarAdapter
         set => _viewModel.ShadowEnabled = value;
     }
 
+    public IBrush ShadowColorBrush
+    {
+        get => _viewModel.ShadowColorBrush;
+        set => _viewModel.ShadowColorBrush = value;
+    }
+
+    public double ShadowBlurRadius
+    {
+        get => _viewModel.ShadowBlurRadius;
+        set => _viewModel.ShadowBlurRadius = value;
+    }
+
+    public double ShadowOpacity
+    {
+        get => _viewModel.ShadowOpacity;
+        set => _viewModel.ShadowOpacity = value;
+    }
+
+    public double ShadowOffsetX
+    {
+        get => _viewModel.ShadowOffsetX;
+        set => _viewModel.ShadowOffsetX = value;
+    }
+
+    public double ShadowOffsetY
+    {
+        get => _viewModel.ShadowOffsetY;
+        set => _viewModel.ShadowOffsetY = value;
+    }
+
     public bool SpeechBalloonTail
     {
         get => _viewModel.SpeechBalloonTail;
@@ -334,6 +364,9 @@ public sealed class EditorToolbarAdapter : IAnnotationToolbarAdapter
 
     public ReadOnlyObservableCollection<string> RecentImageFiles => _viewModel.RecentImageFiles;
 
+    public ReadOnlyObservableCollection<ToolbarCustomizationItemViewModel> ToolbarItems => _viewModel.ToolbarItems;
+    public ReadOnlyObservableCollection<ToolbarCustomizationItemViewModel> VisibleToolbarItems => _viewModel.VisibleToolbarItems;
+
     public bool HasRecentImageFiles => _viewModel.HasRecentImageFiles;
 
     public ICommand NewImageCommand => _viewModel.NewImageCommand;
@@ -349,6 +382,8 @@ public sealed class EditorToolbarAdapter : IAnnotationToolbarAdapter
     public ICommand OpenOptionsPanelCommand => _viewModel.OpenOptionsPanelCommand;
 
     public ICommand ExitEditorCommand => _viewModel.ExitEditorCommand;
+
+    public void ExecuteToolbarItem(ToolbarCustomizationItemViewModel item) => _viewModel.ExecuteToolbarItem(item);
 
     private void OnRecentImageFilesChanged(object? sender, NotifyCollectionChangedEventArgs e)
     {
@@ -411,6 +446,9 @@ public sealed class EditorToolbarAdapter : IAnnotationToolbarAdapter
             case nameof(MainViewModel.TextColor):
                 OnPropertyChanged(nameof(TextColor));
                 OnPropertyChanged(nameof(TextColorBrush));
+                break;
+            case nameof(MainViewModel.ShadowColor):
+                OnPropertyChanged(nameof(ShadowColorBrush));
                 break;
             case nameof(MainViewModel.HasSelectedAnnotation):
                 OnPropertyChanged(nameof(HasSelection));

@@ -54,7 +54,7 @@ public partial class EllipseAnnotation
 
         if (ShadowEnabled)
         {
-            ellipse.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(ShadowColor);
+            ellipse.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(this);
         }
 
         return ellipse;

@@ -1,4 +1,4 @@
-﻿#region License Information (GPL v3)
+#region License Information (GPL v3)
 
 /*
     ShareX - A program that allows you to take screenshots and share any file type
@@ -23,31 +23,13 @@
 
 #endregion License Information (GPL v3)
 
-using Avalonia.Controls;
-using ShareX.ImageEditor.Presentation.Controls;
-
-namespace ShareX.ImageEditor.Core.Annotations;
-
-public partial class NumberAnnotation
+namespace ShareX.ImageEditor.Hosting
 {
-    /// <summary>
-    /// Creates the Avalonia visual for this annotation.
-    /// </summary>
-    public Control CreateVisual()
+    public class ImageEditorToolbarItemOptions
     {
-        var control = new StepControl
-        {
-            Width = Radius * 2,
-            Height = Radius * 2,
-            Annotation = this,
-            Tag = this
-        };
-
-        if (ShadowEnabled)
-        {
-            control.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(this);
-        }
-
-        return control;
+        public string Id { get; set; } = "";
+        public bool? BeginGroup { get; set; }
+        public bool IsVisible { get; set; } = true;
+        public string Hotkey { get; set; } = "";
     }
 }

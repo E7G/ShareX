@@ -68,6 +68,9 @@
         <DataTemplate DataType="{x:Type vm:StartScreenDialogViewModel}" x:DataType="vm:StartScreenDialogViewModel">
             <views:StartScreenDialogView />
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ToolbarCustomizationDialogViewModel}" x:DataType="vm:ToolbarCustomizationDialogViewModel">
+            <views:ToolbarCustomizationDialogView />
+        </DataTemplate>
     </UserControl.DataTemplates>
 
     <UserControl.Resources>

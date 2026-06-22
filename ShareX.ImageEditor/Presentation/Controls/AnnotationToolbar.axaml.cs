@@ -25,6 +25,7 @@
 
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Controls.Primitives;
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
@@ -37,6 +38,7 @@ using ShareX.ImageEditor.Core.Annotations;
 using ShareX.ImageEditor.Presentation.Theming;
 using ShareX.ImageEditor.Presentation.ViewModels;
 using ShareX.ImageEditor.Presentation.Views;
+using System.ComponentModel;
 
 namespace ShareX.ImageEditor.Presentation.Controls;
 
@@ -47,12 +49,10 @@ public partial class AnnotationToolbar : UserControl
     public static readonly StyledProperty<bool> ShowEditingActionsProperty =
         AvaloniaProperty.Register<AnnotationToolbar, bool>(nameof(ShowEditingActions), true);
 
-    public static readonly StyledProperty<bool> ShowTrailingActionsProperty =
-        AvaloniaProperty.Register<AnnotationToolbar, bool>(nameof(ShowTrailingActions), true);
-
     private readonly SolidColorBrush? _activeBrush;
     private readonly SolidColorBrush? _activeForegroundBrush;
     private IPlatformSettings? _platformSettings;
+    private IAnnotationToolbarAdapter? _toolbarAdapter;
 
     public event EventHandler<IBrush>? ColorChanged;
     public event EventHandler<IBrush>? FillColorChanged;
@@ -69,6 +69,7 @@ public partial class AnnotationToolbar : UserControl
     public event EventHandler<bool>? TextBoldChanged;
     public event EventHandler<bool>? TextItalicChanged;
     public event EventHandler<bool>? ShadowChanged;
+    public event EventHandler? ShadowSettingsChanged;
     public event EventHandler<bool>? SpeechBalloonTailChanged;
     public event EventHandler<bool>? EffectEllipseChanged;
     public event EventHandler<Control>? FavoriteEffectsMenuRequested;
@@ -90,10 +91,16 @@ public partial class AnnotationToolbar : UserControl
         set => SetValue(ShowEditingActionsProperty, value);
     }
 
-    public bool ShowTrailingActions
+    public void OpenFileMenu()
     {
-        get => GetValue(ShowTrailingActionsProperty);
-        set => SetValue(ShowTrailingActionsProperty, value);
+        Button? fileButton = this.GetVisualDescendants()
+            .OfType<Button>()
+            .FirstOrDefault(button => button.DataContext is ToolbarCustomizationItemViewModel item && item.IsFileMenu);
+
+        if (fileButton?.Flyout is FlyoutBase flyout)
+        {
+            flyout.ShowAt(fileButton);
+        }
     }
 
     private void InitializeComponent()
@@ -167,6 +174,7 @@ public partial class AnnotationToolbar : UserControl
     private void OnLoaded(object? sender, RoutedEventArgs e)
     {
         ThemeManager.ThemeChanged += OnThemeChanged;
+        SetToolbarAdapter(DataContext as IAnnotationToolbarAdapter);
         RefreshPlatformColorTracking();
     }
 
@@ -174,13 +182,48 @@ public partial class AnnotationToolbar : UserControl
     {
         ThemeManager.ThemeChanged -= OnThemeChanged;
         SetPlatformSettings(null);
+        SetToolbarAdapter(null);
     }
 
     private void OnDataContextChanged(object? sender, EventArgs e)
     {
+        SetToolbarAdapter(DataContext as IAnnotationToolbarAdapter);
+
         if (IsLoaded)
         {
             RefreshPlatformColorTracking();
+        }
+    }
+
+    private void SetToolbarAdapter(IAnnotationToolbarAdapter? toolbarAdapter)
+    {
+        if (ReferenceEquals(_toolbarAdapter, toolbarAdapter))
+        {
+            return;
+        }
+
+        if (_toolbarAdapter != null)
+        {
+            _toolbarAdapter.PropertyChanged -= OnToolbarAdapterPropertyChanged;
+        }
+
+        _toolbarAdapter = toolbarAdapter;
+
+        if (_toolbarAdapter != null)
+        {
+            _toolbarAdapter.PropertyChanged += OnToolbarAdapterPropertyChanged;
+        }
+    }
+
+    private void OnToolbarAdapterPropertyChanged(object? sender, PropertyChangedEventArgs e)
+    {
+        if (e.PropertyName is nameof(IAnnotationToolbarAdapter.ShadowColorBrush)
+            or nameof(IAnnotationToolbarAdapter.ShadowBlurRadius)
+            or nameof(IAnnotationToolbarAdapter.ShadowOpacity)
+            or nameof(IAnnotationToolbarAdapter.ShadowOffsetX)
+            or nameof(IAnnotationToolbarAdapter.ShadowOffsetY))
+        {
+            ShadowSettingsChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 
@@ -236,6 +279,16 @@ public partial class AnnotationToolbar : UserControl
         }
     }
 
+    private void OnToolbarItemClick(object? sender, RoutedEventArgs e)
+    {
+        if (sender is Button { Tag: ToolbarCustomizationItemViewModel item } &&
+            DataContext is EditorToolbarAdapter toolbar)
+        {
+            toolbar.ExecuteToolbarItem(item);
+            e.Handled = true;
+        }
+    }
+
     private void OnUndoClick(object? sender, RoutedEventArgs e)
     {
         if (DataContext is IAnnotationToolbarAdapter toolbar)
@@ -268,9 +321,10 @@ public partial class AnnotationToolbar : UserControl
         }
     }
 
-    private void OnImageEffectsButtonPointerPressed(object? sender, PointerPressedEventArgs e)
+    private void OnToolbarItemPointerPressed(object? sender, PointerPressedEventArgs e)
     {
-        if (sender is not Control control)
+        if (sender is not Control { DataContext: ToolbarCustomizationItemViewModel item } control ||
+            item.Id != ToolbarCustomizationItemViewModel.ImageEffectsItemId)
         {
             return;
         }
@@ -319,6 +373,26 @@ public partial class AnnotationToolbar : UserControl
         {
             toolbar.ShadowEnabled = !toolbar.ShadowEnabled;
             ShadowChanged?.Invoke(this, toolbar.ShadowEnabled);
+        }
+    }
+
+    private void OnShadowPointerPressed(object? sender, PointerPressedEventArgs e)
+    {
+        if (sender is not Control control)
+        {
+            return;
+        }
+
+        PointerPointProperties properties = e.GetCurrentPoint(control).Properties;
+        if (!properties.IsRightButtonPressed)
+        {
+            return;
+        }
+
+        if (this.FindControl<Popup>("ShadowOptionsPopup") is Popup popup)
+        {
+            popup.IsOpen = true;
+            e.Handled = true;
         }
     }
 

@@ -56,7 +56,7 @@ public partial class RectangleAnnotation
 
         if (ShadowEnabled)
         {
-            rect.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(ShadowColor);
+            rect.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(this);
         }
 
         return rect;

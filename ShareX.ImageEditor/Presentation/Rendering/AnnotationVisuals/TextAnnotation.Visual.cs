@@ -43,7 +43,7 @@ public partial class TextAnnotation
 
         if (ShadowEnabled)
         {
-            control.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(ShadowColor);
+            control.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(this);
         }
 
         // Rotation is handled by AnnotationVisualFactory.UpdateVisualControl

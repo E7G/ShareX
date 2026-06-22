@@ -52,6 +52,10 @@ namespace ShareX.ImageEditor.Core.Annotations;
 public abstract class Annotation
 {
     public const string DefaultShadowColorHex = "#80000000";
+    public const double DefaultShadowBlurRadius = 4;
+    public const double DefaultShadowOpacity = 1;
+    public const double DefaultShadowOffsetX = 3;
+    public const double DefaultShadowOffsetY = 3;
 
     /// <summary>
     /// Functional category of this annotation type (Shapes, Effects, or Text).
@@ -92,6 +96,26 @@ public abstract class Annotation
     /// Shadow color (hex color string)
     /// </summary>
     public string ShadowColor { get; set; } = DefaultShadowColorHex;
+
+    /// <summary>
+    /// Shadow blur radius in pixels
+    /// </summary>
+    public double ShadowBlurRadius { get; set; } = DefaultShadowBlurRadius;
+
+    /// <summary>
+    /// Shadow opacity from 0 to 1
+    /// </summary>
+    public double ShadowOpacity { get; set; } = DefaultShadowOpacity;
+
+    /// <summary>
+    /// Horizontal shadow offset in pixels
+    /// </summary>
+    public double ShadowOffsetX { get; set; } = DefaultShadowOffsetX;
+
+    /// <summary>
+    /// Vertical shadow offset in pixels
+    /// </summary>
+    public double ShadowOffsetY { get; set; } = DefaultShadowOffsetY;
 
     /// <summary>
     /// Starting point (top-left for rectangles, start for lines/arrows)

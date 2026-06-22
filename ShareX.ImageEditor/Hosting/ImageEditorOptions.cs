@@ -69,6 +69,7 @@ namespace ShareX.ImageEditor.Hosting
         public bool AutoCopyImageToClipboard { get; set; } = false;
         public bool ShowInsertImageDialog { get; set; } = true;
         public bool ShowNotifications { get; set; } = true;
+        public List<ImageEditorToolbarItemOptions> ToolbarItems { get; set; } = new List<ImageEditorToolbarItemOptions>();
 
         // Shared
         public string BorderColorHex { get; set; } = ColorToHex(PrimaryColor);
@@ -81,10 +82,14 @@ namespace ShareX.ImageEditor.Hosting
 
         public int Thickness { get; set; } = 4;
         public int CornerRadius { get; set; } = 4;
-        public bool Shadow { get; set; } = true;
+        public bool Shadow { get; set; } = false;
         public string ShadowColorHex { get; set; } = Annotation.DefaultShadowColorHex;
         [JsonIgnore]
         public Color ShadowColor { get => HexToColor(ShadowColorHex); set => ShadowColorHex = ColorToHex(value); }
+        public double ShadowBlurRadius { get; set; } = Annotation.DefaultShadowBlurRadius;
+        public double ShadowOpacity { get; set; } = Annotation.DefaultShadowOpacity;
+        public double ShadowOffsetX { get; set; } = Annotation.DefaultShadowOffsetX;
+        public double ShadowOffsetY { get; set; } = Annotation.DefaultShadowOffsetY;
         public BorderStyle BorderStyle { get; set; } = BorderStyle.Solid;
         public ArrowStyle ArrowStyle { get; set; } = ArrowStyle.Classic;
         public CursorType CursorType { get; set; } = CursorType.Default;
@@ -166,10 +171,10 @@ namespace ShareX.ImageEditor.Hosting
         public double BackgroundRoundedCorner { get; set; } = 20;
         public double BackgroundShadowRadius { get; set; } = 30;
         public string BackgroundType { get; set; } = "Transparent";
-        public string BackgroundGradientColor1Hex { get; set; } = ColorToHex(Color.FromArgb(255, 255, 126, 95));
+        public string BackgroundGradientColor1Hex { get; set; } = ColorToHex(Color.FromArgb(255, 221, 36, 118));
         [JsonIgnore]
         public Color BackgroundGradientColor1 { get => HexToColor(BackgroundGradientColor1Hex); set => BackgroundGradientColor1Hex = ColorToHex(value); }
-        public string BackgroundGradientColor2Hex { get; set; } = ColorToHex(Color.FromArgb(255, 254, 180, 123));
+        public string BackgroundGradientColor2Hex { get; set; } = ColorToHex(Color.FromArgb(255, 255, 81, 47));
         [JsonIgnore]
         public Color BackgroundGradientColor2 { get => HexToColor(BackgroundGradientColor2Hex); set => BackgroundGradientColor2Hex = ColorToHex(value); }
         public string BackgroundColorHex { get; set; } = ColorToHex(Color.FromArgb(255, 34, 34, 34));

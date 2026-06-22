@@ -654,6 +654,84 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
         }
 
         [ObservableProperty]
+        private string _shadowColor = Annotation.DefaultShadowColorHex;
+
+        public IBrush ShadowColorBrush
+        {
+            get => new SolidColorBrush(Color.Parse(ShadowColor));
+            set
+            {
+                if (value is SolidColorBrush solidBrush)
+                {
+                    ShadowColor = $"#{solidBrush.Color.A:X2}{solidBrush.Color.R:X2}{solidBrush.Color.G:X2}{solidBrush.Color.B:X2}";
+                }
+            }
+        }
+
+        public Color ShadowColorValue
+        {
+            get => Color.Parse(ShadowColor);
+            set => ShadowColor = $"#{value.A:X2}{value.R:X2}{value.G:X2}{value.B:X2}";
+        }
+
+        partial void OnShadowColorChanged(string value)
+        {
+            OnPropertyChanged(nameof(ShadowColorBrush));
+            OnPropertyChanged(nameof(ShadowColorValue));
+
+            if (Color.TryParse(value, out Color color))
+            {
+                Options.ShadowColor = color;
+            }
+        }
+
+        [ObservableProperty]
+        private double _shadowBlurRadius = Annotation.DefaultShadowBlurRadius;
+
+        partial void OnShadowBlurRadiusChanged(double value)
+        {
+            double clamped = Math.Max(0, value);
+            if (Math.Abs(clamped - value) > double.Epsilon)
+            {
+                ShadowBlurRadius = clamped;
+                return;
+            }
+
+            Options.ShadowBlurRadius = clamped;
+        }
+
+        [ObservableProperty]
+        private double _shadowOpacity = Annotation.DefaultShadowOpacity;
+
+        partial void OnShadowOpacityChanged(double value)
+        {
+            double clamped = Math.Clamp(value, 0, 1);
+            if (Math.Abs(clamped - value) > double.Epsilon)
+            {
+                ShadowOpacity = clamped;
+                return;
+            }
+
+            Options.ShadowOpacity = clamped;
+        }
+
+        [ObservableProperty]
+        private double _shadowOffsetX = Annotation.DefaultShadowOffsetX;
+
+        partial void OnShadowOffsetXChanged(double value)
+        {
+            Options.ShadowOffsetX = value;
+        }
+
+        [ObservableProperty]
+        private double _shadowOffsetY = Annotation.DefaultShadowOffsetY;
+
+        partial void OnShadowOffsetYChanged(double value)
+        {
+            Options.ShadowOffsetY = value;
+        }
+
+        [ObservableProperty]
         private bool _speechBalloonTail = true;
 
         partial void OnSpeechBalloonTailChanged(bool value)
@@ -1022,6 +1100,7 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
         partial void OnActiveToolChanged(EditorTool value)
         {
             RememberAnnotationToolIfEligible(value);
+            UpdateToolbarActiveStates();
 
             _isLoadingOptions = true;
             try
@@ -1094,6 +1173,12 @@ namespace ShareX.ImageEditor.Presentation.ViewModels
             // However, setting properties triggers On...Changed which calls UpdateOptionsFrom...
             // Use a flag to suppress updates back to Options?
             // Actually, if we set the property to the value from Options, updating Options back to the same value is harmless.
+
+            ShadowColorValue = Options.ShadowColor;
+            ShadowBlurRadius = Options.ShadowBlurRadius;
+            ShadowOpacity = Options.ShadowOpacity;
+            ShadowOffsetX = Options.ShadowOffsetX;
+            ShadowOffsetY = Options.ShadowOffsetY;
 
             switch (tool)
             {

@@ -60,6 +60,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             toolbar.TextBoldChanged += OnToolbarTextBoldChanged;
             toolbar.TextItalicChanged += OnToolbarTextItalicChanged;
             toolbar.ShadowChanged += OnToolbarShadowChanged;
+            toolbar.ShadowSettingsChanged += OnToolbarShadowSettingsChanged;
             toolbar.SpeechBalloonTailChanged += OnToolbarSpeechBalloonTailChanged;
             toolbar.EffectEllipseChanged += OnToolbarEffectEllipseChanged;
             toolbar.FavoriteEffectsMenuRequested += OnFavoriteEffectsMenuRequested;
@@ -88,6 +89,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             toolbar.TextBoldChanged -= OnToolbarTextBoldChanged;
             toolbar.TextItalicChanged -= OnToolbarTextItalicChanged;
             toolbar.ShadowChanged -= OnToolbarShadowChanged;
+            toolbar.ShadowSettingsChanged -= OnToolbarShadowSettingsChanged;
             toolbar.SpeechBalloonTailChanged -= OnToolbarSpeechBalloonTailChanged;
             toolbar.EffectEllipseChanged -= OnToolbarEffectEllipseChanged;
             toolbar.FavoriteEffectsMenuRequested -= OnFavoriteEffectsMenuRequested;
@@ -250,6 +252,11 @@ namespace ShareX.ImageEditor.Presentation.Views
         private void OnToolbarShadowChanged(object? sender, bool isEnabled)
         {
             ApplySelectedShadowState(isEnabled);
+        }
+
+        private void OnToolbarShadowSettingsChanged(object? sender, EventArgs e)
+        {
+            ApplySelectedShadowSettings();
         }
 
         private void OnToolbarSpeechBalloonTailChanged(object? sender, bool isEnabled)
@@ -778,12 +785,37 @@ namespace ShareX.ImageEditor.Presentation.Views
             {
                 if (isEnabled)
                 {
-                    control.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(annotation.ShadowColor);
+                    control.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(annotation);
                 }
                 else
                 {
                     control.Effect = null;
                 }
+            }
+        }
+
+        private void ApplySelectedShadowSettings()
+        {
+            if (DataContext is not MainViewModel vm)
+            {
+                return;
+            }
+
+            var selected = _selectionController.SelectedShape;
+            if (selected?.Tag is not Annotation annotation)
+            {
+                return;
+            }
+
+            annotation.ShadowColor = vm.Options.ShadowColorHex;
+            annotation.ShadowBlurRadius = vm.Options.ShadowBlurRadius;
+            annotation.ShadowOpacity = vm.Options.ShadowOpacity;
+            annotation.ShadowOffsetX = vm.Options.ShadowOffsetX;
+            annotation.ShadowOffsetY = vm.Options.ShadowOffsetY;
+
+            if (selected is Control control && annotation.ShadowEnabled)
+            {
+                control.Effect = ShareX.ImageEditor.Presentation.Helpers.ShadowEffectHelper.CreateDropShadow(annotation);
             }
         }
 

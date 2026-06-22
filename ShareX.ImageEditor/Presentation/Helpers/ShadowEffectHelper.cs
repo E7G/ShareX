@@ -24,26 +24,45 @@
 #endregion License Information (GPL v3)
 
 using Avalonia.Media;
+using ShareX.ImageEditor.Core.Annotations;
 using ShareX.ImageEditor.Hosting;
 
 namespace ShareX.ImageEditor.Presentation.Helpers;
 
 public static class ShadowEffectHelper
 {
-    private const double AnnotationShadowOffsetX = 3;
-    private const double AnnotationShadowOffsetY = 3;
-    private const double AnnotationShadowBlurRadius = 4;
     private const double CanvasShadowOffsetY = 10;
     private const byte CanvasShadowDefaultAlpha = 80;
 
     public static DropShadowEffect CreateDropShadow(string? shadowColorHex)
     {
+        return CreateDropShadow(
+            shadowColorHex,
+            Annotation.DefaultShadowBlurRadius,
+            Annotation.DefaultShadowOpacity,
+            Annotation.DefaultShadowOffsetX,
+            Annotation.DefaultShadowOffsetY);
+    }
+
+    public static DropShadowEffect CreateDropShadow(Annotation annotation)
+    {
+        return CreateDropShadow(
+            annotation.ShadowColor,
+            annotation.ShadowBlurRadius,
+            annotation.ShadowOpacity,
+            annotation.ShadowOffsetX,
+            annotation.ShadowOffsetY);
+    }
+
+    public static DropShadowEffect CreateDropShadow(string? shadowColorHex, double blurRadius, double opacity, double offsetX, double offsetY)
+    {
         return new DropShadowEffect
         {
-            OffsetX = AnnotationShadowOffsetX,
-            OffsetY = AnnotationShadowOffsetY,
-            BlurRadius = AnnotationShadowBlurRadius,
-            Color = ParseShadowColor(shadowColorHex)
+            OffsetX = offsetX,
+            OffsetY = offsetY,
+            BlurRadius = Math.Max(0, blurRadius),
+            Color = ParseShadowColor(shadowColorHex),
+            Opacity = Math.Clamp(opacity, 0, 1)
         };
     }
 
