@@ -499,6 +499,12 @@
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>Image editor...</value>
   </data>
+  <data name="tsmiImageComparer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>Image comparer...</value>
+  </data>
   <data name="tsmiImageBeautifier.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
   </data>
@@ -1555,6 +1561,12 @@
   <data name="tsmiTrayImageEditor.Text" xml:space="preserve">
     <value>Image editor...</value>
   </data>
+  <data name="tsmiTrayImageComparer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>Image comparer...</value>
+  </data>
   <data name="tsmiTrayImageBeautifier.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
   </data>
@@ -2288,6 +2300,12 @@
     <value>tsmiImageEditor</value>
   </data>
   <data name="&gt;&gt;tsmiImageEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiImageComparer.Name" xml:space="preserve">
+    <value>tsmiImageComparer</value>
+  </data>
+  <data name="&gt;&gt;tsmiImageComparer.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiImageBeautifier.Name" xml:space="preserve">
@@ -3212,6 +3230,12 @@
     <value>tsmiTrayImageEditor</value>
   </data>
   <data name="&gt;&gt;tsmiTrayImageEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiTrayImageComparer.Name" xml:space="preserve">
+    <value>tsmiTrayImageComparer</value>
+  </data>
+  <data name="&gt;&gt;tsmiTrayImageComparer.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTrayImageBeautifier.Name" xml:space="preserve">

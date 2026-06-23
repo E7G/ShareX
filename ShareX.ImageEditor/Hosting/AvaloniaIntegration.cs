@@ -105,6 +105,17 @@ namespace ShareX.ImageEditor.Hosting
             return ShowEditorDialog(null, options, events, taskMode, imageFilePath);
         }
 
+        public static void ShowImageComparerWindow()
+        {
+            Initialize();
+
+            Dispatcher.UIThread.Post(() =>
+            {
+                ImageComparerWindow window = new ImageComparerWindow();
+                window.Show();
+            });
+        }
+
         public static SKBitmap? ShowEditorDialog(SKBitmap? imageBitmap, ImageEditorOptions options, EditorEvents? events = null,
             bool taskMode = false, string? imageFilePath = null)
         {

@@ -1005,6 +1005,11 @@ namespace ShareX
             imageCombinerForm.Show();
         }
 
+        public static void OpenImageComparer()
+        {
+            AvaloniaIntegration.ShowImageComparerWindow();
+        }
+
         public static void CombineImages(IEnumerable<string> imageFiles, Orientation orientation, TaskSettings taskSettings = null)
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();

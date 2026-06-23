@@ -68,13 +68,6 @@
                           VerticalAlignment="Center"/>
         </Grid>
 
-        <Button Classes="editor-button"
-                Command="{Binding OpenToolbarCustomizationDialogCommand}"
-                HorizontalAlignment="Stretch"
-                HorizontalContentAlignment="Left"
-                Margin="0,0,0,12"
-                Content="Customize toolbar..."/>
-
         <controls:LabeledToggleSwitch Label="Remember window state"
                                       IsChecked="{Binding EditorRememberWindowState, Mode=TwoWay}"
                                       Margin="0,0,0,8"/>
@@ -106,5 +99,12 @@
         <controls:LabeledToggleSwitch Label="Show notifications"
                                       IsChecked="{Binding EditorShowNotifications, Mode=TwoWay}"
                                       Margin="0,0,0,8"/>
+
+        <Button Classes="editor-button"
+                Command="{Binding OpenToolbarCustomizationDialogCommand}"
+                HorizontalAlignment="Stretch"
+                HorizontalContentAlignment="Left"
+                Margin="0,0,0,12"
+                Content="Customize toolbar..."/>
     </StackPanel>
 </UserControl>
