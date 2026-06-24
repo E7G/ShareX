@@ -660,4 +660,10 @@
   <data name="lblRegionCaptureBackgroundDimStrength.Text" xml:space="preserve">
     <value>Arka plan karartma yoğunluğu:</value>
   </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>Merkez artı işaretini göster</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>Eski görüntü düzenleyiciyi kullan</value>
+  </data>
 </root>

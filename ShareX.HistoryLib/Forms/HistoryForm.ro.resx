@@ -135,9 +135,6 @@
   <data name="tsbAdvancedSearch.Text" xml:space="preserve">
     <value>Căutare avansată...</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>Comutați mai multe informații</value>
-  </data>
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>Arată statisticile...</value>
   </data>

@@ -195,7 +195,4 @@
   <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
     <value>마크다운 링크 이미지</value>
   </data>
-  <data name="HistoryItemManager_InitializeComponent_More_info" xml:space="preserve">
-    <value>자세한 정보...</value>
-  </data>
 </root>

@@ -156,4 +156,10 @@
   <data name="ThumbnailsSuccessfullyGenerated" xml:space="preserve">
     <value>Küçük resimler başarıyla oluşturuldu.</value>
   </data>
+  <data name="WouldYouLikeToResetOptions" xml:space="preserve">
+    <value>Seçenekleri sıfırlamak ister misiniz?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Onay</value>
+  </data>
 </root>

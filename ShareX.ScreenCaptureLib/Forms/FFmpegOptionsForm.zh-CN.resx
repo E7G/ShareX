@@ -120,29 +120,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - 屏幕录制选项</value>
   </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>复制</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>刷新</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>使用命令行测试</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>使用自定义命令：</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>比特率：</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>音频解码器：</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>音频源：</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>视频编解码器：</value>
   </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>质量：</value>
@@ -157,23 +139,11 @@
     <value>CRF：范围为 0-51。其中，0 表示无损，30 为默认值，51 表示最差质量。
 值越高质量越差，但文件体积越小。</value>
   </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>默认值为 128k。</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>范围为 0-9，较低的值表示更高的质量。0-3 通常会产生透明效果，4（默认）接近感知透明度，6 为“可勉强接受的”质量。</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>范围为 0-10，其中 10 为最高质量，3-6 为推荐测试范围，默认值为 3.</value>
-  </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>预设：</value>
   </data>
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>可变比特率：</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>使用自定义路径</value>
   </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>可变比特率：</value>
@@ -197,9 +167,6 @@
   </data>
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1表示最高质量、最大文件，31表示最低质量、最小文件。</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>所选视频容器不支持此音频解码器。</value>
   </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>对于实时编码，如屏幕录制，建议选择尽可能快的预设。
@@ -229,12 +196,6 @@
   <data name="lblAMFUsage.Text" xml:space="preserve">
     <value>使用量：</value>
   </data>
-  <data name="lblOpusQuality.Text" xml:space="preserve">
-    <value>比特率：</value>
-  </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>默认值为 128k。</value>
-  </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>控制 Bayer Scale 指数，更高的值将带来更多颜色。默认为 2。</value>
   </data>
@@ -253,9 +214,6 @@
   <data name="tpNVENC.Text" xml:space="preserve">
     <value>NVENC</value>
   </data>
-  <data name="tbQSV.Text" xml:space="preserve">
-    <value>QuickSync</value>
-  </data>
   <data name="tpVorbis.Text" xml:space="preserve">
     <value>Vorbis</value>
   </data>
@@ -273,12 +231,6 @@
   </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>命令行额外参数：</value>
-  </data>
-  <data name="lblCommandLinePreview.Text" xml:space="preserve">
-    <value>命令行预览：</value>
-  </data>
-  <data name="lblFFmpegPath.Text" xml:space="preserve">
-    <value>FFmpeg 路径：</value>
   </data>
   <data name="lblNVENCBitrateK.Text" xml:space="preserve">
     <value>kbps</value>

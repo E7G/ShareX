@@ -236,6 +236,7 @@
   </data>
   <data name="lblThumbnailSizeWidthUnit.Text" xml:space="preserve">
     <value>px</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblThumbnailSizeWidthUnit.Name" xml:space="preserve">
     <value>lblThumbnailSizeWidthUnit</value>
@@ -404,6 +405,7 @@
   </data>
   <data name="lblThumbnailSizeHeightUnit.Text" xml:space="preserve">
     <value>px</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblThumbnailSizeHeightUnit.Name" xml:space="preserve">
     <value>lblThumbnailSizeHeightUnit</value>

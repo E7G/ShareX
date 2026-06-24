@@ -159,9 +159,6 @@
   <data name="lblFilterTo.Text" xml:space="preserve">
     <value>إلى:</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>عرض/إخفاء المعلومات الإضافية</value>
-  </data>
   <data name="cbTypeFilter.Text" xml:space="preserve">
     <value>النوع:</value>
   </data>

@@ -135,4 +135,10 @@
   <data name="cbRememberWindowState.Text" xml:space="preserve">
     <value>Pencere durumunu hatırla</value>
   </data>
+  <data name="cbImageOnly.Text" xml:space="preserve">
+    <value>Yalnızca görüntü dosyalarını göster</value>
+  </data>
+  <data name="cbAutoLoadMoreItems.Text" xml:space="preserve">
+    <value>Daha fazla görüntüyü otomatik yükle</value>
+  </data>
 </root>

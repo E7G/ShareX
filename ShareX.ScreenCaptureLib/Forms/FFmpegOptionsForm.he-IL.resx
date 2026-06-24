@@ -123,13 +123,7 @@
   <data name="cbx264UseBitrate.Text" xml:space="preserve">
     <value>השתמש בקצב סיביות</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>קצב סיביות:</value>
-  </data>
   <data name="lblNVENCBitrate.Text" xml:space="preserve">
-    <value>קצב סיביות:</value>
-  </data>
-  <data name="lblOpusQuality.Text" xml:space="preserve">
     <value>קצב סיביות:</value>
   </data>
   <data name="lblQSVBitrate.Text" xml:space="preserve">
@@ -141,17 +135,8 @@
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>קצב סיביות משתנה:</value>
   </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>העתק</value>
-  </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
     <value>התקן מכשירי הקלטה...</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>רענן</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>בדיקה עם CMD</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>השתמש בפקודות מותאמות אישית:</value>
@@ -161,9 +146,6 @@
   </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>ברירת המחדל היא מלאה.</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>השתמש בנתיב אחר</value>
   </data>
   <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
     <value>השתמש בנתיב FFmpeg מותאם אישית:</value>
@@ -179,23 +161,11 @@
   <data name="lblAMFUsage.Text" xml:space="preserve">
     <value>שימוש:</value>
   </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>קידוד שמע:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>מקור שמע:</value>
   </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>קידוד וידאו:</value>
-  </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>ארגומנטים נוספים של שורת הפקודה:</value>
-  </data>
-  <data name="lblCommandLinePreview.Text" xml:space="preserve">
-    <value>תצוגה מקדימה של שורת הפקודה:</value>
-  </data>
-  <data name="lblFFmpegPath.Text" xml:space="preserve">
-    <value>נתיב FFmpeg:</value>
   </data>
   <data name="lblGIFDither.Text" xml:space="preserve">
     <value>מצב חילוף:</value>
@@ -238,21 +208,6 @@
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1 הוא האיכותי ביותר/גודל הקובץ הגדול ביותר ו-31 הוא האיכות הנמוכה ביותר/גודל הקובץ הקטן ביותר.</value>
   </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>קידוד שמע זה אינו נתמך על ידי עוטף הוידאו שנבחר.</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>ברירת המחדל היא 128k.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>הטווח הוא 0-9 כאשר ערך נמוך יותר הוא איכות גבוהה יותר. 0-3 בדרך כלל יפיקו תוצאות שקופות, 4 (ברירת מחדל) צריך להיות קרוב לשקיפות תפיסתית, ו-6 מייצר איכות "מקובלת".</value>
-  </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>ברירת המחדל היא 128k.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>הטווח הוא 0-10, כאשר 10 הוא האיכות הגבוהה ביותר. 3-6 הוא טווח טוב לנסות. ברירת המחדל היא 3.</value>
-  </data>
   <data name="tpGIF.Text" xml:space="preserve">
     <value>GIF</value>
   </data>
@@ -264,12 +219,6 @@
   </data>
   <data name="tpOpus.Text" xml:space="preserve">
     <value>Opus</value>
-  </data>
-  <data name="tbQSV.Text" xml:space="preserve">
-    <value>QuickSync</value>
-  </data>
-  <data name="tbAMF.Text" xml:space="preserve">
-    <value>AMF</value>
   </data>
   <data name="tpAAC.Text" xml:space="preserve">
     <value>AAC</value>

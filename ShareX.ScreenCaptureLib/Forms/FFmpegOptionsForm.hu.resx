@@ -120,29 +120,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - FFmpeg beállítások</value>
   </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Másolás</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Frissítés</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Tesztelés CMD-vel</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Egyedi parancsok használata</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Bitráta:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Audió kodek:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Audió forrás:</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Videó kodek:</value>
   </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>Minőség:</value>
@@ -152,15 +134,6 @@
   </data>
   <data name="lblVorbisQuality.Text" xml:space="preserve">
     <value>Minőség:</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Az alapértelmezett 128k.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Az értékek 0-9 közt változhatnak, ahol az alacsonyabb érték jobb minőséget jelent. A 0-3 közti érték alapesetben zajos eredményeket fog szülni, a 4 (alapértelmezett) viszonylag megfelelő, a 6 pedig egy "elfogadható" minőség.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Az értékek 0-10 közt változhatnak, ahol 10 a legmagasabb minőség. A 3–6 közti értékekkel érdemes kísérletezni. Az alapértelmezés 3.</value>
   </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Megszabja a videó minőségét.

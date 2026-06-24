@@ -162,9 +162,6 @@
   <data name="tsbSearch.Text" xml:space="preserve">
     <value>Procurar</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>Alternar mais informações</value>
-  </data>
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>Mostrar estatísticas...</value>
   </data>

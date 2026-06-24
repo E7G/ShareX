@@ -153,4 +153,7 @@
   <data name="lblPlacementOffset.Text" xml:space="preserve">
     <value>Yerleşim ofseti:</value>
   </data>
+  <data name="lblScaleStep.Text" xml:space="preserve">
+    <value>Ölçek adımı:</value>
+  </data>
 </root>

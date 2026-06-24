@@ -125,27 +125,6 @@
 フィールドが空の場合は、バケット名をURLとして使用します。
 たとえば、バケット名が「bucket.example.com」であれば、URLは「http://bucket.example.com/...」となります。</value>
   </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>更新</value>
-  </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>既定のツイート メッセージ:</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>ツイート メッセージ ボックスをスキップする</value>
-  </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>名前:</value>
-  </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>削除</value>
-  </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>追加</value>
-  </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>その他のアップローダー</value>
-  </data>
   <data name="lblBitlyDomain.Text" xml:space="preserve">
     <value>ドメイン名:</value>
   </data>
@@ -160,12 +139,6 @@
   </data>
   <data name="lblYourlsSignature.Text" xml:space="preserve">
     <value>シグネチャ:</value>
-  </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>自分の API キーと UID をここで確認</value>
-  </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>API キー:</value>
   </data>
   <data name="cbPolrUseAPIv1.Text" xml:space="preserve">
     <value>旧式のAPI v1を使用</value>
@@ -395,30 +368,6 @@
   <data name="lblAzureStorageCustomDomain.Text" xml:space="preserve">
     <value>独自のドメイン:</value>
   </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>更新</value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>構成済み / 未構成</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>登録...</value>
-  </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>フォルダー:</value>
-  </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>状態: </value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
-    <value>Eメール:</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
-    <value>ログイン</value>
-  </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
-    <value>パスワード:</value>
-  </data>
   <data name="lblOwnCloudHostExample.Text" xml:space="preserve">
     <value>例: http://example.com/owncloud</value>
   </data>
@@ -481,18 +430,6 @@
   </data>
   <data name="lblLocalhostrEmail.Text" xml:space="preserve">
     <value>Eメール:</value>
-  </data>
-  <data name="lblJiraIssuePrefix.Text" xml:space="preserve">
-    <value>Jira issue 接頭辞:</value>
-  </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>テンプレート</value>
-  </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Jira ホスト:</value>
-  </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Jira サーバー</value>
   </data>
   <data name="lblLambdaInfo.Text" xml:space="preserve">
     <value>API キーの取得方法は、Lambda (https://lambda.sx/) にログインし、あなたのユーザー名をクリックし、アカウントの管理をクリック。</value>
@@ -578,9 +515,6 @@
   </data>
   <data name="grpSeafileObtainAuthToken.Text" xml:space="preserve">
     <value>認証トークンを取得</value>
-  </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>無効なSSL証明書を無視する</value>
   </data>
   <data name="cbSeafileCreateShareableURL.Text" xml:space="preserve">
     <value>共有可能なリンクを作成する</value>
@@ -852,18 +786,6 @@
   <data name="gbPhotobucketUserAccount.Text" xml:space="preserve">
     <value>ユーザー アカウント</value>
   </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>アップロードするアルバム ID (空白 = アルバム アップロードなし):</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>名前</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>説明</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>アルバム一覧の更新</value>
-  </data>
   <data name="lblCheveretoUploadURLExample.Text" xml:space="preserve">
     <value>例: http://example.com/api/1/upload</value>
   </data>
@@ -887,9 +809,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - アップロード先の設定</value>
-  </data>
-  <data name="btnGooglePhotosCreateAlbum.Text" xml:space="preserve">
-    <value>作成</value>
   </data>
   <data name="btnSharedFolderAdd.Text" xml:space="preserve">
     <value>追加</value>
@@ -926,12 +845,6 @@
   </data>
   <data name="cbSeafileCreateShareableURLRaw.Text" xml:space="preserve">
     <value>生のURLを使用</value>
-  </data>
-  <data name="cbTeknikGenDeleteKey.Text" xml:space="preserve">
-    <value>削除キーを生成</value>
-  </data>
-  <data name="cbTeknikEncrypt.Text" xml:space="preserve">
-    <value>クライアント側で暗号化</value>
   </data>
   <data name="cbPlikTTLUnit.Items3" xml:space="preserve">
     <value>なし</value>
@@ -1023,21 +936,6 @@
   <data name="cbOwnCloudAutoExpire.Text" xml:space="preserve">
     <value>共有リンクを自動で期限切れにする</value>
   </data>
-  <data name="lblTeknikExpiration.Text" xml:space="preserve">
-    <value>有効期限:</value>
-  </data>
-  <data name="lblTeknikAuthUrl.Text" xml:space="preserve">
-    <value>認証URL:</value>
-  </data>
-  <data name="lblTeknikUploadAPIUrl.Text" xml:space="preserve">
-    <value>アップロード API の URL:</value>
-  </data>
-  <data name="lblTeknikPasteAPIUrl.Text" xml:space="preserve">
-    <value>貼り付け API の URL:</value>
-  </data>
-  <data name="lblTeknikUrlShortenerAPIUrl.Text" xml:space="preserve">
-    <value>URL 短縮 API の URL:</value>
-  </data>
   <data name="cbYouTubeUseShortenedLink.Text" xml:space="preserve">
     <value>短縮リンクを使用</value>
   </data>
@@ -1050,14 +948,8 @@
   <data name="cbYouTubeShowDialog.Text" xml:space="preserve">
     <value>動画のオプション用ダイアログを表示</value>
   </data>
-  <data name="lblGooglePhotosCreateAlbumName.Text" xml:space="preserve">
-    <value>アルバム名:</value>
-  </data>
   <data name="cbOwnCloudUsePreviewLinks.Text" xml:space="preserve">
     <value>プレビューできるリンクを使用 (NextCloudのみ)</value>
-  </data>
-  <data name="cbGooglePhotosIsPublic.Text" xml:space="preserve">
-    <value>公開する</value>
   </data>
   <data name="lblFirebaseDomainExample.Text" xml:space="preserve">
     <value>例: google.page.link</value>

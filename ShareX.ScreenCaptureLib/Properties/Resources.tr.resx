@@ -492,4 +492,48 @@
   <data name="ShapeManager_CreateToolbar_Redo" xml:space="preserve">
     <value>Yeniden yap</value>
   </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>Merkez artı işaretini göster</value>
+  </data>
+  <data name="WouldYouLikeToResetOptions" xml:space="preserve">
+    <value>Seçenekleri sıfırlamak ister misiniz?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Onay</value>
+  </data>
+  <data name="ImageURL" xml:space="preserve">
+    <value>Görüntü URL'si</value>
+  </data>
+  <data name="RegionCaptureForm_SaveChangesBeforeClosingEditor" xml:space="preserve">
+    <value>Kaydedilmemiş değişiklikler var.
+
+Görüntü düzenleyicisini kapatmadan önce değişiklikleri kaydetmek ister misiniz?</value>
+  </data>
+  <data name="CutOutBackgroundColor" xml:space="preserve">
+    <value>Kesip çıkarma arka plan rengi...</value>
+  </data>
+  <data name="RulerAngle" xml:space="preserve">
+    <value>Açı</value>
+  </data>
+  <data name="RulerPerimeter" xml:space="preserve">
+    <value>Çevre</value>
+  </data>
+  <data name="RulerArea" xml:space="preserve">
+    <value>Alan</value>
+  </data>
+  <data name="RulerWidth" xml:space="preserve">
+    <value>Genişlik</value>
+  </data>
+  <data name="RulerHeight" xml:space="preserve">
+    <value>Yükseklik</value>
+  </data>
+  <data name="RulerDistance" xml:space="preserve">
+    <value>Mesafe</value>
+  </data>
+  <data name="RulerRight" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="RulerBottom" xml:space="preserve">
+    <value>Alt</value>
+  </data>
 </root>

@@ -125,9 +125,6 @@
 Se o campo de texto estiver vazio então o nome do bucket será usado no URL.
 Por exemplo, se o seu bucket é chamado bucket.example.com então o URL será "http://bucket.example.com/...".</value>
   </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>Outras hospedagens</value>
-  </data>
   <data name="tpURLShorteners.Text" xml:space="preserve">
     <value>Encurtadores de URL</value>
   </data>
@@ -146,9 +143,6 @@ Por exemplo, se o seu bucket é chamado bucket.example.com então o URL será "h
   <data name="tpAmazonS3.Text" xml:space="preserve">
     <value>Amazon S3</value>
   </data>
-  <data name="tpMega.Text" xml:space="preserve">
-    <value>MEGA</value>
-  </data>
   <data name="tpOwnCloud.Text" xml:space="preserve">
     <value>ownCloud</value>
   </data>
@@ -163,9 +157,6 @@ Por exemplo, se o seu bucket é chamado bucket.example.com então o URL será "h
   </data>
   <data name="tpHostr.Text" xml:space="preserve">
     <value>Hostr</value>
-  </data>
-  <data name="tpJira.Text" xml:space="preserve">
-    <value>Atlassian Jira</value>
   </data>
   <data name="tpLambda.Text" xml:space="preserve">
     <value>Lambda</value>
@@ -296,9 +287,6 @@ Por exemplo, se o seu bucket é chamado bucket.example.com então o URL será "h
   <data name="cbSeafileCreateShareableURL.Text" xml:space="preserve">
     <value>Criar URL compartilhável</value>
   </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>Ignorar certificado SSL inválido</value>
-  </data>
   <data name="lblSeafilePassword.Text" xml:space="preserve">
     <value>Senha:</value>
   </data>
@@ -390,21 +378,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   <data name="lblLambdaInfo.Text" xml:space="preserve">
     <value>Para obter uma chave de API, logue no Lambda em https://lambda.xs/ e clique no ícone de configurações no canto superior direito.</value>
   </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Domínio Jira:</value>
-  </data>
-  <data name="txtJiraHost.Text" xml:space="preserve">
-    <value>http://</value>
-  </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>Modelo</value>
-  </data>
-  <data name="lblJiraIssuePrefix.Text" xml:space="preserve">
-    <value>Prefixo de questão do Jira:</value>
-  </data>
-  <data name="txtJiraIssuePrefix.Text" xml:space="preserve">
-    <value>PROJETO-</value>
-  </data>
   <data name="lblLocalhostrEmail.Text" xml:space="preserve">
     <value>Email:</value>
   </data>
@@ -464,30 +437,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   </data>
   <data name="cbOwnCloud81Compatibility.Text" xml:space="preserve">
     <value>Compatibilidade com ownCloud 8.1+</value>
-  </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
-    <value>Senha:</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
-    <value>Logar</value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
-    <value>Email:</value>
-  </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>Status: </value>
-  </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>Pasta:</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>Registrar...</value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>Configurado / Não configurado</value>
-  </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>Atualizar</value>
   </data>
   <data name="lblAmazonS3AccessKey.Text" xml:space="preserve">
     <value>Chave de Acesso:</value>
@@ -564,35 +513,11 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   <data name="tpPolr.Text" xml:space="preserve">
     <value>Polr</value>
   </data>
-  <data name="tpAdFly.Text" xml:space="preserve">
-    <value>adf.ly</value>
-  </data>
   <data name="tpYourls.Text" xml:space="preserve">
     <value>YOURLS</value>
   </data>
   <data name="tpBitly.Text" xml:space="preserve">
     <value>bit.ly</value>
-  </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>Adicionar</value>
-  </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>Remover</value>
-  </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>Nome:</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>Pular caixa de mensagem de tuite</value>
-  </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>Tuite padrão:</value>
-  </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>Atualizar</value>
-  </data>
-  <data name="tpTwitter.Text" xml:space="preserve">
-    <value>Twitter</value>
   </data>
   <data name="lblBitlyDomain.Text" xml:space="preserve">
     <value>Domínio:</value>
@@ -611,15 +536,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   </data>
   <data name="lblYourlsAPIURL.Text" xml:space="preserve">
     <value>URL da API:</value>
-  </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>Você pode achar sua chave de API e UID aqui</value>
-  </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>UID da API:</value>
-  </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>Chave de API:</value>
   </data>
   <data name="lblPolrAPIKey.Text" xml:space="preserve">
     <value>Chave da API:</value>
@@ -653,21 +569,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   </data>
   <data name="tpChevereto.Text" xml:space="preserve">
     <value>Chevereto</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>Atualizar lista de álbuns</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>Descrição</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>Nome</value>
-  </data>
-  <data name="chPicasaID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>ID de album para upload (Vazio = sem upload de album):</value>
   </data>
   <data name="lblPhotobucketAccountStatus.Text" xml:space="preserve">
     <value>Login exigido.</value>
@@ -1089,30 +990,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   <data name="cbOwnCloudUsePreviewLinks.Text" xml:space="preserve">
     <value>Usar prévia de links (somente NextCloud)</value>
   </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Servidor Jira</value>
-  </data>
-  <data name="lblTeknikExpiration.Text" xml:space="preserve">
-    <value>Expira:</value>
-  </data>
-  <data name="lblTeknikUrlShortenerAPIUrl.Text" xml:space="preserve">
-    <value>URL da API URL Shortener:</value>
-  </data>
-  <data name="lblTeknikPasteAPIUrl.Text" xml:space="preserve">
-    <value>Colar URL da API:</value>
-  </data>
-  <data name="lblTeknikAuthUrl.Text" xml:space="preserve">
-    <value>URL de autenticação:</value>
-  </data>
-  <data name="cbTeknikGenDeleteKey.Text" xml:space="preserve">
-    <value>Gerar chave de exclusão</value>
-  </data>
-  <data name="cbTeknikEncrypt.Text" xml:space="preserve">
-    <value>Criptografia do lado do cliente</value>
-  </data>
-  <data name="lblTeknikUploadAPIUrl.Text" xml:space="preserve">
-    <value>URL da API de upload:</value>
-  </data>
   <data name="cbSeafileCreateShareableURLRaw.Text" xml:space="preserve">
     <value>Use a URL bruta</value>
   </data>
@@ -1194,15 +1071,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   <data name="cbFlickrDirectLink.Text" xml:space="preserve">
     <value>Use link direto</value>
   </data>
-  <data name="lblGooglePhotosCreateAlbumName.Text" xml:space="preserve">
-    <value>Nome do álbum:</value>
-  </data>
-  <data name="btnGooglePhotosCreateAlbum.Text" xml:space="preserve">
-    <value>Criar</value>
-  </data>
-  <data name="cbGooglePhotosIsPublic.Text" xml:space="preserve">
-    <value>Upload público</value>
-  </data>
   <data name="cbYouTubeShowDialog.Text" xml:space="preserve">
     <value>Mostrar caixa de diálogo de opções de vídeo</value>
   </data>
@@ -1260,9 +1128,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   <data name="tpVgyme.Text" xml:space="preserve">
     <value>vgy.me</value>
   </data>
-  <data name="tpTeknik.Text" xml:space="preserve">
-    <value>Teknik</value>
-  </data>
   <data name="tpKutt.Text" xml:space="preserve">
     <value>Kutt</value>
   </data>
@@ -1271,9 +1136,6 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
   </data>
   <data name="llYouTubePermissionsLink.Text" xml:space="preserve">
     <value>https://security.google.com/settings/security/permissions</value>
-  </data>
-  <data name="tpGooglePhotos.Text" xml:space="preserve">
-    <value>Google Photos</value>
   </data>
   <data name="cbAzureStorageEnvironment.Items2" xml:space="preserve">
     <value>blob.core.chinacloudapi.cn</value>

@@ -1274,4 +1274,52 @@
   <data name="ToastClickAction_DeleteFile" xml:space="preserve">
     <value>Yerel dosyayı sil</value>
   </data>
+  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
+    <value>Otomatik yakalamayı durdur</value>
+  </data>
+  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
+    <value>Görüntüyü analiz et</value>
+  </data>
+  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
+    <value>Görüntüyü analiz et</value>
+  </data>
+  <data name="ShapeType_ToolSpotlight" xml:space="preserve">
+    <value>Spot ışığı</value>
+  </data>
+  <data name="PrivateBinExpiration_M5" xml:space="preserve">
+    <value>5 Dakika</value>
+  </data>
+  <data name="PrivateBinExpiration_M10" xml:space="preserve">
+    <value>10 Dakika</value>
+  </data>
+  <data name="PrivateBinExpiration_H1" xml:space="preserve">
+    <value>1 Saat</value>
+  </data>
+  <data name="PrivateBinExpiration_D1" xml:space="preserve">
+    <value>1 Gün</value>
+  </data>
+  <data name="PrivateBinExpiration_W1" xml:space="preserve">
+    <value>1 Hafta</value>
+  </data>
+  <data name="PrivateBinExpiration_M1" xml:space="preserve">
+    <value>1 Ay</value>
+  </data>
+  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
+    <value>1 Yıl</value>
+  </data>
+  <data name="PrivateBinExpiration_N" xml:space="preserve">
+    <value>Asla</value>
+  </data>
+  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
+    <value>Düz Metin</value>
+  </data>
+  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
+    <value>Söz Dizimi Vurgulama</value>
+  </data>
+  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
+    <value>Markdown</value>
+  </data>
+  <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
+    <value>Klasör yolunu panoya kopyala</value>
+  </data>
 </root>

@@ -126,9 +126,6 @@
   <data name="lblOutputFileName.Text" xml:space="preserve">
     <value>変換後のファイル名:</value>
   </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>動画コーデック:</value>
-  </data>
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>動画の品質:</value>
   </data>

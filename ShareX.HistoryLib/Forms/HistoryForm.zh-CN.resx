@@ -168,9 +168,6 @@
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>显示统计...</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>切换更多信息</value>
-  </data>
   <data name="tslSearch.Text" xml:space="preserve">
     <value>搜索：</value>
   </data>

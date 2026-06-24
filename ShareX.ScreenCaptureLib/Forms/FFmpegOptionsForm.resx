@@ -348,6 +348,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="btnFFmpegBrowse.Text" xml:space="preserve">
     <value>...</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;btnFFmpegBrowse.Name" xml:space="preserve">
     <value>btnFFmpegBrowse</value>
@@ -600,6 +601,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
     <value>?</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;btnHelperDevicesHelp.Name" xml:space="preserve">
     <value>btnHelperDevicesHelp</value>
@@ -804,6 +806,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblAACBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblAACBitrateK.Name" xml:space="preserve">
     <value>lblAACBitrateK</value>
@@ -883,6 +886,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpAAC.Text" xml:space="preserve">
     <value>AAC</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpAAC.Name" xml:space="preserve">
     <value>tpAAC</value>
@@ -910,6 +914,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblOpusBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblOpusBitrateK.Name" xml:space="preserve">
     <value>lblOpusBitrateK</value>
@@ -988,6 +993,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpOpus.Text" xml:space="preserve">
     <value>Opus</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpOpus.Name" xml:space="preserve">
     <value>tpOpus</value>
@@ -1066,6 +1072,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpVorbis.Text" xml:space="preserve">
     <value>Vorbis</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpVorbis.Name" xml:space="preserve">
     <value>tpVorbis</value>
@@ -1144,6 +1151,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpMP3.Text" xml:space="preserve">
     <value>MP3</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpMP3.Name" xml:space="preserve">
     <value>tpMP3</value>
@@ -1195,6 +1203,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblx264BitrateK.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblx264BitrateK.Name" xml:space="preserve">
     <value>lblx264BitrateK</value>
@@ -1255,6 +1264,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblx264CRF.Text" xml:space="preserve">
     <value>CRF:</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblx264CRF.Name" xml:space="preserve">
     <value>lblx264CRF</value>
@@ -1336,6 +1346,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpX264.Text" xml:space="preserve">
     <value>x264 / x265</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpX264.Name" xml:space="preserve">
     <value>tpX264</value>
@@ -1366,6 +1377,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblVP8BitrateK.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblVP8BitrateK.Name" xml:space="preserve">
     <value>lblVP8BitrateK</value>
@@ -1444,6 +1456,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpVpx.Text" xml:space="preserve">
     <value>VP8</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpVpx.Name" xml:space="preserve">
     <value>tpVpx</value>
@@ -1498,6 +1511,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpXvid.Text" xml:space="preserve">
     <value>Xvid</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpXvid.Name" xml:space="preserve">
     <value>tpXvid</value>
@@ -1579,6 +1593,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblNVENCBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblNVENCBitrateK.Name" xml:space="preserve">
     <value>lblNVENCBitrateK</value>
@@ -1711,6 +1726,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpNVENC.Text" xml:space="preserve">
     <value>NVENC</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpNVENC.Name" xml:space="preserve">
     <value>tpNVENC</value>
@@ -1798,6 +1814,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpGIF.Text" xml:space="preserve">
     <value>GIF</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpGIF.Name" xml:space="preserve">
     <value>tpGIF</value>
@@ -1828,6 +1845,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblAMFBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblAMFBitrateK.Name" xml:space="preserve">
     <value>lblAMFBitrateK</value>
@@ -2011,6 +2029,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpAMF.Text" xml:space="preserve">
     <value>AMF</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpAMF.Name" xml:space="preserve">
     <value>tpAMF</value>
@@ -2041,6 +2060,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblQSVBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblQSVBitrateK.Name" xml:space="preserve">
     <value>lblQSVBitrateK</value>
@@ -2173,6 +2193,7 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpQSV.Text" xml:space="preserve">
     <value>QuickSync</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpQSV.Name" xml:space="preserve">
     <value>tpQSV</value>

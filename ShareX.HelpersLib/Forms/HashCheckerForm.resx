@@ -541,8 +541,8 @@
   <data name="pbProgress.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="pbProgress.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="pbProgress.Text" xml:space="preserve">
+    <value />  <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;pbProgress.Name" xml:space="preserve">
     <value>pbProgress</value>

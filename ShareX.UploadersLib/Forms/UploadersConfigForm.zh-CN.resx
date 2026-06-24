@@ -125,29 +125,8 @@
 如果文本字段为空，则存储桶名称将被用于 URL。
 例如，如果你的存储桶名称为 bucket.example.com，则URL将为 “http://bucket.example.com/...”。</value>
   </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>其他上传</value>
-  </data>
   <data name="tpURLShorteners.Text" xml:space="preserve">
     <value>网址缩短服务</value>
-  </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>添加</value>
-  </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>删除</value>
-  </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>名称：</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>跳过推特消息框</value>
-  </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>默认推特消息：</value>
-  </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>更新</value>
   </data>
   <data name="lblBitlyDomain.Text" xml:space="preserve">
     <value>域名：</value>
@@ -163,12 +142,6 @@
   </data>
   <data name="lblYourlsSignature.Text" xml:space="preserve">
     <value>签名：</value>
-  </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>可在此处找到你的 API 密钥和 UID</value>
-  </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>API 密钥：</value>
   </data>
   <data name="lblPolrAPIKey.Text" xml:space="preserve">
     <value>API 密钥：</value>
@@ -278,9 +251,6 @@
   <data name="cbSeafileCreateShareableURL.Text" xml:space="preserve">
     <value>创建共享 URL</value>
   </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>忽略无效的 SSL 证书</value>
-  </data>
   <data name="lblSeafilePassword.Text" xml:space="preserve">
     <value>密码：</value>
   </data>
@@ -357,15 +327,6 @@
   <data name="lblLambdaInfo.Text" xml:space="preserve">
     <value>为了得到一个API密钥，在 https://lambda.sx/ 登录 Lambda 并点击你的用户名，单击管理帐户。</value>
   </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Jira 域名:</value>
-  </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>模板</value>
-  </data>
-  <data name="lblJiraIssuePrefix.Text" xml:space="preserve">
-    <value>Jira 问题的前缀:</value>
-  </data>
   <data name="lblLocalhostrEmail.Text" xml:space="preserve">
     <value>邮箱：</value>
   </data>
@@ -419,30 +380,6 @@
   </data>
   <data name="cbOwnCloudDirectLink.Text" xml:space="preserve">
     <value>直接链接</value>
-  </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
-    <value>密码：</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
-    <value>登录</value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
-    <value>邮箱：</value>
-  </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>状态: </value>
-  </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>文件夹：</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>注册...</value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>配置/未配置</value>
-  </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>刷新</value>
   </data>
   <data name="lblAmazonS3ObjectPrefix.Text" xml:space="preserve">
     <value>上传路径：</value>
@@ -515,18 +452,6 @@
   </data>
   <data name="cbCheveretoDirectURL.Text" xml:space="preserve">
     <value>直链</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>刷新相册列表</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>描述</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>名称</value>
-  </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>上传相册 ID（空 = 无相册上传）:</value>
   </data>
   <data name="lblPhotobucketAccountStatus.Text" xml:space="preserve">
     <value>需要登录。</value>
@@ -837,9 +762,6 @@
   <data name="gbAmazonS3Advanced.Text" xml:space="preserve">
     <value>高级</value>
   </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>API UID：</value>
-  </data>
   <data name="lblSeafileAPIURL.Text" xml:space="preserve">
     <value>API URL：</value>
   </data>
@@ -903,14 +825,8 @@
   <data name="tpGoogleDrive.Text" xml:space="preserve">
     <value>Google 云端硬盘</value>
   </data>
-  <data name="tpGooglePhotos.Text" xml:space="preserve">
-    <value>Google 相册</value>
-  </data>
   <data name="cbAmazonS3StripExtensionImage.Text" xml:space="preserve">
     <value>图片</value>
-  </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Jira 服务器</value>
   </data>
   <data name="tpLambda.Text" xml:space="preserve">
     <value>Lambda</value>
@@ -981,9 +897,6 @@
   <data name="gbGoogleCloudStorageAdvanced.Text" xml:space="preserve">
     <value>高级</value>
   </data>
-  <data name="lblGooglePhotosCreateAlbumName.Text" xml:space="preserve">
-    <value>相册名：</value>
-  </data>
   <data name="lblKuttAPIKey.Text" xml:space="preserve">
     <value>API 密钥：</value>
   </data>
@@ -993,32 +906,17 @@
   <data name="lblB2ApplicationKeyId.Text" xml:space="preserve">
     <value>应用程序密钥 ID：</value>
   </data>
-  <data name="lblTeknikAuthUrl.Text" xml:space="preserve">
-    <value>认证 URL：</value>
-  </data>
   <data name="cbOwnCloudAutoExpire.Text" xml:space="preserve">
     <value>共享连接自动过期</value>
   </data>
   <data name="lblB2Bucket.Text" xml:space="preserve">
     <value>存储桶名称：</value>
   </data>
-  <data name="cbTeknikEncrypt.Text" xml:space="preserve">
-    <value>客户端加密</value>
-  </data>
   <data name="lblB2ManageLink.Text" xml:space="preserve">
     <value>单击此处以创建应用程序密钥或管理存储桶。</value>
   </data>
-  <data name="btnGooglePhotosCreateAlbum.Text" xml:space="preserve">
-    <value>创建</value>
-  </data>
-  <data name="lblTeknikExpiration.Text" xml:space="preserve">
-    <value>有效期：</value>
-  </data>
   <data name="lblOwnCloudExpiryTime.Text" xml:space="preserve">
     <value>有效期（天）：</value>
-  </data>
-  <data name="cbTeknikGenDeleteKey.Text" xml:space="preserve">
-    <value>生成删除密钥</value>
   </data>
   <data name="lblKuttHost.Text" xml:space="preserve">
     <value>主机：</value>
@@ -1032,12 +930,6 @@
   <data name="lblKuttPassword.Text" xml:space="preserve">
     <value>密码：</value>
   </data>
-  <data name="lblTeknikPasteAPIUrl.Text" xml:space="preserve">
-    <value>粘贴 API URL：</value>
-  </data>
-  <data name="cbGooglePhotosIsPublic.Text" xml:space="preserve">
-    <value>公开上传</value>
-  </data>
   <data name="lblGoogleCloudStorageStripExtension.Text" xml:space="preserve">
     <value>移除文件扩展名于：</value>
   </data>
@@ -1050,17 +942,11 @@
   <data name="cbGoogleCloudStorageStripExtensionText.Text" xml:space="preserve">
     <value>文本</value>
   </data>
-  <data name="lblTeknikUploadAPIUrl.Text" xml:space="preserve">
-    <value>上传 API URL：</value>
-  </data>
   <data name="lblB2UploadPath.Text" xml:space="preserve">
     <value>上传路径：</value>
   </data>
   <data name="lblB2UrlPreview.Text" xml:space="preserve">
     <value>预览</value>
-  </data>
-  <data name="lblTeknikUrlShortenerAPIUrl.Text" xml:space="preserve">
-    <value>URL 短链 API URL：</value>
   </data>
   <data name="cbB2CustomUrl.Text" xml:space="preserve">
     <value>使用自定义 URL（支持模板格式）：</value>
@@ -1092,20 +978,11 @@
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
   </data>
-  <data name="chPicasaID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
   <data name="gbSFTP.Text" xml:space="preserve">
     <value>SFTP</value>
   </data>
-  <data name="tpAdFly.Text" xml:space="preserve">
-    <value>adf.ly</value>
-  </data>
   <data name="tpAmazonS3.Text" xml:space="preserve">
     <value>Amazon S3</value>
-  </data>
-  <data name="tpJira.Text" xml:space="preserve">
-    <value>Atlassian Jira</value>
   </data>
   <data name="tpBackblazeB2.Text" xml:space="preserve">
     <value>Backblaze B2</value>
@@ -1151,9 +1028,6 @@
   </data>
   <data name="cbSeafileAPIURL.Items1" xml:space="preserve">
     <value>https://cloud.mein-seafile.de/api2/</value>
-  </data>
-  <data name="txtJiraHost.Text" xml:space="preserve">
-    <value>http://</value>
   </data>
   <data name="tpHostr.Text" xml:space="preserve">
     <value>Hostr</value>
@@ -1212,9 +1086,6 @@
   <data name="tpPomf.Text" xml:space="preserve">
     <value>Pomf</value>
   </data>
-  <data name="txtJiraIssuePrefix.Text" xml:space="preserve">
-    <value>PROJECT-</value>
-  </data>
   <data name="tpPushbullet.Text" xml:space="preserve">
     <value>Pushbullet</value>
   </data>
@@ -1223,9 +1094,6 @@
   </data>
   <data name="tpSeafile.Text" xml:space="preserve">
     <value>Seafile</value>
-  </data>
-  <data name="tpTwitter.Text" xml:space="preserve">
-    <value>Twitter</value>
   </data>
   <data name="tpUpaste.Text" xml:space="preserve">
     <value>uPaste</value>
@@ -1241,9 +1109,6 @@
   </data>
   <data name="tpSul.Text" xml:space="preserve">
     <value>s-ul</value>
-  </data>
-  <data name="tpTeknik.Text" xml:space="preserve">
-    <value>Teknik</value>
   </data>
   <data name="tpStreamable.Text" xml:space="preserve">
     <value>Streamable</value>
@@ -1283,9 +1148,6 @@
   </data>
   <data name="rbFTPProtocolSFTP.Text" xml:space="preserve">
     <value>SFTP</value>
-  </data>
-  <data name="tpMega.Text" xml:space="preserve">
-    <value>Mega</value>
   </data>
   <data name="tpZeroWidthShortener.Text" xml:space="preserve">
     <value>Zero Width 缩短器</value>

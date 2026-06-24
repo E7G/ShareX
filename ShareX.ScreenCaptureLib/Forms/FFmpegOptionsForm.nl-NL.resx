@@ -120,29 +120,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - FFmpeg opties</value>
   </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Kopieer</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Ververs</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Test met CLI</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Gebruik aangepaste commando's</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Bitrate:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Audio codec:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Audio bron:</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Video codec:</value>
   </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>Kwaliteit:</value>
@@ -160,15 +142,6 @@ Een lagere waarde betekent hogere kwaliteit en een subjectieve schaal is 18-28.
 Het bereik is exponentieel, dus de CRF met 6 verhogen halveert ongeveer de bitrate (en omgekeerd verdubbelt bij verlagen met 6).
 Een veelgebruikte methode is om de hoogste CRF waarde te kiezen die nog een acceptabele kwaliteit genereert.
 Als het resultaat er goed uitziet, probeer een hogere waarde, is het slechter, probeer een lagere waarde.</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Standaard is 128k.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Het bereik is 0-9 waar een lagere waarde hogere kwaliteit betekend. 0-3 zal transparante resultaten produceren, 4 (standaardkeuze) is quasi transparant en 6 is acceptabele kwaliteit.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Het bereik is 0-10, met 10 de hoogste kwaliteit. 3-6 is een aanbevolen bereik. 3 is standaard.</value>
   </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
     <value>Opnametoestellen installeren</value>
@@ -213,12 +186,6 @@ Gelijkaardig kan er voor een constante kwaliteitsencoding een tragere preset gek
   </data>
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1 is de hoogste kwaliteit/grootste bestandsgrootte en 31 is de laagste kwaliteit/kleinste bestandsgrootte.</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Gebruik afwijkend pad</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Deze audio codec wordt niet ondersteund door de geselecteerde videocontainer.</value>
   </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Voor realtime encoding (zoals schermopname) is het aangeraden om een zo snel mogelijke preset te kiezen.

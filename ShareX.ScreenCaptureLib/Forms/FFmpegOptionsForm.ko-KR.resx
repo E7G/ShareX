@@ -120,35 +120,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - FFmpeg 설정</value>
   </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>복사</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>기본값은 128k입니다.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>범위는 0부터 10까지이며, 10이 최고 품질입니다. 3~6 사이에서 조절하면 괜찮습니다. 기본값은 3입니다.</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>새로고침</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>CMD로 테스트</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>명령 직접 입력</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>비트레이트:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>오디오 코덱:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>오디오 소스:</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>비디오 코덱:</value>
   </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>품질:</value>
@@ -162,9 +138,6 @@
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>항율 인자 (CRF): 값의 범위는 0부터 51까지이며, 0은 무손실, 30이 기본값, 그리고 51이 가능한 최저 품질입니다.
 값이 높아질수록 품질은 낮아지지만, 파일 크기 또한 줄어듭니다.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>범위는 0부터 9까지이며, 낮을수록 더 나은 품질을 제공합니다. 0부터 3까지는 보통 깨끗한 결과를, 기본값인 4는 겉보기에 깨끗한 결과를 내놓으며, 6은 "그럭저럭 볼 만한" 품질의 결과를 내놓습니다.</value>
   </data>
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1이 최고 품질/최대 파일 크기, 31이 최소 품질/최소 파일 크기입니다.</value>
@@ -193,17 +166,11 @@
   <data name="lblGIFDither.Text" xml:space="preserve">
     <value>디더링 모드:</value>
   </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>경로 직접 입력</value>
-  </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>프리셋:</value>
   </data>
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>가변 비트레이트:</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>이 오디오 코덱은 선택된 비디오 컨테이너에 의해 지원되지 않습니다.</value>
   </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>기본값은 full입니다.</value>

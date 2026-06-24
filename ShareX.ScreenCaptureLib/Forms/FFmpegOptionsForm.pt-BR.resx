@@ -117,35 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Copiar</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opções de gravações de tela</value>
   </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
     <value>Instalar dispositivos de gravação</value>
   </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Atualizar</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Testar com Prompt de Comando</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Usar comandos customizados</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Taxa de bits:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Codec de áudio:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Fonte de áudio:</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Codec de vídeo:</value>
   </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>Qualidade:</value>
@@ -165,17 +147,8 @@
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>Taxa de bits variável:</value>
   </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Padrão é 128k.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Limite de 0-10, aonde 10 é a maior qualidade. 3-6 é um bom limite para experimentar. O padrão é 3.</value>
-  </data>
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1 sendo o tamanho de arquivo maior e de melhor qualidade e 31 sendo o tamanho de arquivo menor e pior qualidade.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Limite é de 0-9, aonde o menor valor equivale a maior qualidade. 0-3 normalmente produz resultados transparentes, 4 (padrão) deveria produzir algo perto da transparência perceptual e 6 produz uma qualidade aceitavel.</value>
   </data>
   <data name="lblGIFStatsMode.Text" xml:space="preserve">
     <value>Modo da paleta:</value>
@@ -204,18 +177,12 @@ Da mesma forma, para qualidade de encoding constante, você irá simplesmente ec
   <data name="lblVP8BitrateK.Text" xml:space="preserve">
     <value>kbps</value>
   </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Este codec de áudio não é suportado pelo conteiner de vídeo selecionado.</value>
-  </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Para codificação em tempo real como gravação de tela é recomendado que se selecione uma predefinição mais rápida.
 Caso contrário a gravação não conseguirá continuar e várias quedas de quadros acontecerão.</value>
   </data>
   <data name="lblx264CRF.Text" xml:space="preserve">
     <value>CRF:</value>
-  </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>O padrão é 128k.</value>
   </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>Controla o índice da escala Bayer, uma escala maior exibirá mais faixas. O padrão é 2.</value>
@@ -238,9 +205,6 @@ Caso contrário a gravação não conseguirá continuar e várias quedas de quad
   <data name="lblNVENCBitrate.Text" xml:space="preserve">
     <value>Taxa de bits:</value>
   </data>
-  <data name="lblOpusQuality.Text" xml:space="preserve">
-    <value>Taxa de bits:</value>
-  </data>
   <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
     <value>Usar caminho personalizado para FFmpeg:</value>
   </data>
@@ -253,14 +217,8 @@ Caso contrário a gravação não conseguirá continuar e várias quedas de quad
   <data name="lblQSVBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
   </data>
-  <data name="tbQSV.Text" xml:space="preserve">
-    <value>QuickSync</value>
-  </data>
   <data name="tpGIF.Text" xml:space="preserve">
     <value>GIF</value>
-  </data>
-  <data name="tbAMF.Text" xml:space="preserve">
-    <value>AMF</value>
   </data>
   <data name="lblx264BitrateK.Text" xml:space="preserve">
     <value>kbps</value>
@@ -282,9 +240,6 @@ Caso contrário a gravação não conseguirá continuar e várias quedas de quad
   </data>
   <data name="tpAAC.Text" xml:space="preserve">
     <value>AAC</value>
-  </data>
-  <data name="lblCommandLinePreview.Text" xml:space="preserve">
-    <value>Visualização da linha de comando:</value>
   </data>
   <data name="tpMP3.Text" xml:space="preserve">
     <value>MP3</value>

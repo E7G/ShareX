@@ -120,17 +120,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Настройки записи экрана</value>
   </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>В буфер</value>
-  </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
     <value>Установить устройства...</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Обновить</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Тест в консоли</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Использовать команды:</value>
@@ -141,15 +132,6 @@
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>По умолчанию full.</value>
   </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>По умолчанию 128k.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Диапазон от 0 до 10, где 10 это наилучшее качество. Попробуйте от 3 до 6. По умолчанию 3.</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Пользовательский путь</value>
-  </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Установка:</value>
   </data>
@@ -158,17 +140,8 @@
 Значит при желании получить определенный размер файла при постоянном битрейте, лучшие результаты получаются на более медленных предустановках.
 Соответственно для кодирования с постоянным качеством вы можете попросту уменьшить битрейт, выбрав предустановку помедленнее.</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Битрейт:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Аудиокодек:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Звук:</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Видеокодек:</value>
   </data>
   <data name="lblGIFDither.Text" xml:space="preserve">
     <value>Режим дизеринга:</value>
@@ -197,9 +170,6 @@
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1 = лучшее качество/наибольший размер файла, а 31 = наихудшее качество/наименьший размер файла.</value>
   </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Диапазон от 0 до 9, где ниже значение — лучше качество. 0-3 обычно производит прозрачные результаты, 4 (изначально) должно быть близко к перцепционной прозрачности, а 6 производит "приемлемое" качество.</value>
-  </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Однопроходное сжатие (CRF): диапазон масштаба квантизации от 0 до 51, где 0 = без потерь, 23 по умолчанию, а 51 наихудшее из возможных.
 Низкие значения улучшают качество, разумный диапазон субъективно 18-28.
@@ -207,9 +177,6 @@
 Диапазон экспоненциален, значит увеличение CRF на 6 уменьшит битрейт грубо говоря в 2 раза, а увеличение на 6 удвоит его.
 В общем выберите наибольшее значение, которое все еще производит приемлемое качество.
 Если вывод выглядит хорошо, попробуйте значение повыше, если плохо, выбирайте более низкое значение.</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Этот аудио кодек не поддерживается выбранным контейнером видео.</value>
   </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Для кодирования в реальном времени, например, для записи экрана, рекомендуется выбрать самую быструю предустановку.
@@ -230,26 +197,14 @@
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>Качество:</value>
   </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>По умолчанию 128k.</value>
-  </data>
-  <data name="lblOpusQuality.Text" xml:space="preserve">
-    <value>Битрейт:</value>
-  </data>
   <data name="lblAMFUsage.Text" xml:space="preserve">
     <value>Usage:</value>
   </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>Настраивает индекс Bayer Scale, с большим значением больше бандинг. По умолчанию 2.</value>
   </data>
-  <data name="lblFFmpegPath.Text" xml:space="preserve">
-    <value>Путь к FFmpeg:</value>
-  </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>Дополнительные аргументы:</value>
-  </data>
-  <data name="lblCommandLinePreview.Text" xml:space="preserve">
-    <value>Предпросмотр:</value>
   </data>
   <data name="cbx264UseBitrate.Text" xml:space="preserve">
     <value>Битрейт</value>

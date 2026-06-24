@@ -189,9 +189,6 @@
   <data name="lblOwnCloudHost.Text" xml:space="preserve">
     <value>URL:</value>
   </data>
-  <data name="tpTwitter.Text" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
   <data name="lblLambdaApiKey.Text" xml:space="preserve">
     <value>Kunci API:</value>
   </data>
@@ -213,19 +210,10 @@
   <data name="lblOneTimeSecretAPIKey.Text" xml:space="preserve">
     <value>Kunci API:</value>
   </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>Kunci API:</value>
-  </data>
   <data name="lblPlikAPIKey.Text" xml:space="preserve">
     <value>Kunci API:</value>
   </data>
-  <data name="tpAdFly.Text" xml:space="preserve">
-    <value>adf.ly</value>
-  </data>
   <data name="btnFTPAdd.Text" xml:space="preserve">
-    <value>Tambah</value>
-  </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
     <value>Tambah</value>
   </data>
   <data name="tpBitly.Text" xml:space="preserve">
@@ -240,9 +228,6 @@
   <data name="chImgurDescription.Text" xml:space="preserve">
     <value>Deskripsi</value>
   </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>Deskripsi</value>
-  </data>
   <data name="btnFTPDuplicate.Text" xml:space="preserve">
     <value>Duplikat</value>
   </data>
@@ -253,9 +238,6 @@
     <value>Email:</value>
   </data>
   <data name="lblPuushEmail.Text" xml:space="preserve">
-    <value>Email:</value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
     <value>Email:</value>
   </data>
   <data name="lblLocalhostrEmail.Text" xml:space="preserve">
@@ -291,9 +273,6 @@
   <data name="tpUpaste.Text" xml:space="preserve">
     <value>uPaste</value>
   </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>Perbarui</value>
-  </data>
   <data name="chImgurTitle.Text" xml:space="preserve">
     <value>Judul</value>
   </data>
@@ -315,17 +294,11 @@
   <data name="btnFTPTest.Text" xml:space="preserve">
     <value>Uji</value>
   </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>Templat</value>
-  </data>
   <data name="btnPhotobucketAuthOpen.Text" xml:space="preserve">
     <value>Langkah 1: Buka halaman otorisasi...</value>
   </data>
   <data name="btnPhotobucketAuthComplete.Text" xml:space="preserve">
     <value>Langkah 2: Selesaikan otorisasi</value>
-  </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>Status:</value>
   </data>
   <data name="lblPastebinLoginStatus.Text" xml:space="preserve">
     <value>Status:</value>
@@ -342,13 +315,7 @@
   <data name="btnFTPRemove.Text" xml:space="preserve">
     <value>Buang</value>
   </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>Buang</value>
-  </data>
   <data name="txtSeafileUploadLocationRefresh.Text" xml:space="preserve">
-    <value>Segarkan</value>
-  </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
     <value>Segarkan</value>
   </data>
   <data name="btnRefreshSeafileAccInfo.Text" xml:space="preserve">
@@ -390,9 +357,6 @@
   <data name="lblSendSpacePassword.Text" xml:space="preserve">
     <value>Sandi:</value>
   </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
-    <value>Sandi:</value>
-  </data>
   <data name="lblSeafilePassword.Text" xml:space="preserve">
     <value>Sandi:</value>
   </data>
@@ -410,12 +374,6 @@
   </data>
   <data name="lblFTPName.Text" xml:space="preserve">
     <value>Nama:</value>
-  </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>Nama:</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>Nama</value>
   </data>
   <data name="colSeafileLibraryName.Text" xml:space="preserve">
     <value>Nama</value>
@@ -444,9 +402,6 @@
   <data name="lblBitlyDomain.Text" xml:space="preserve">
     <value>Domain:</value>
   </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>UID API:</value>
-  </data>
   <data name="lblYourlsAPIURL.Text" xml:space="preserve">
     <value>URL API:</value>
   </data>
@@ -464,9 +419,6 @@
   </data>
   <data name="tpGoogleDrive.Text" xml:space="preserve">
     <value>Google Drive</value>
-  </data>
-  <data name="tpGooglePhotos.Text" xml:space="preserve">
-    <value>Google Photo</value>
   </data>
   <data name="tpHastebin.Text" xml:space="preserve">
     <value>Hastebin</value>
@@ -489,9 +441,6 @@
   <data name="tpChevereto.Text" xml:space="preserve">
     <value>Chevereto</value>
   </data>
-  <data name="tpJira.Text" xml:space="preserve">
-    <value>Atlassian Jira</value>
-  </data>
   <data name="tpLambda.Text" xml:space="preserve">
     <value>Lambda</value>
   </data>
@@ -500,9 +449,6 @@
   </data>
   <data name="tpMediaFire.Text" xml:space="preserve">
     <value>MediaFire</value>
-  </data>
-  <data name="tpMega.Text" xml:space="preserve">
-    <value>Mega</value>
   </data>
   <data name="tpOneDrive.Text" xml:space="preserve">
     <value>OneDrive</value>
@@ -552,12 +498,6 @@
   <data name="tpStreamable.Text" xml:space="preserve">
     <value>Streamable</value>
   </data>
-  <data name="txtJiraHost.Text" xml:space="preserve">
-    <value>http://</value>
-  </data>
-  <data name="txtJiraIssuePrefix.Text" xml:space="preserve">
-    <value>PROYEK-</value>
-  </data>
   <data name="cbAzureStorageEnvironment.Items" xml:space="preserve">
     <value>blob.core.windows.net</value>
   </data>
@@ -579,14 +519,8 @@
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
   </data>
-  <data name="chPicasaID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
   <data name="cbAmazonS3CustomCNAME.Text" xml:space="preserve">
     <value>Gunakan domain khusus:</value>
-  </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>Pengunggah lainnya</value>
   </data>
   <data name="btnPhotobucketAddAlbum.Text" xml:space="preserve">
     <value>Tambah album</value>
@@ -629,9 +563,6 @@
   </data>
   <data name="lblPastebinPrivacy.Text" xml:space="preserve">
     <value>Privasi:</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>Segarkan daftar album</value>
   </data>
   <data name="btnImgurRefreshAlbumList.Text" xml:space="preserve">
     <value>Segarkan daftar album</value>
@@ -786,17 +717,11 @@
   <data name="lblPolrAPIHostname.Text" xml:space="preserve">
     <value>URL API: (mis. http://demo.polr.me/api/v2/action/shorten)</value>
   </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>ID Album untuk diunggah (Kosong = Tidak ada yang diunggah):</value>
-  </data>
   <data name="cbFTPAppendRemoteDirectory.Text" xml:space="preserve">
     <value>Tambahkan direktori jarak jauh ke jalur URL</value>
   </data>
   <data name="cbPlikComment.Text" xml:space="preserve">
     <value>Komentar (Markdown)</value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>Dikonfigurasi / Tidak dikonfigurasi</value>
   </data>
   <data name="lblAzureStorageContainer.Text" xml:space="preserve">
     <value>Wadah:</value>
@@ -831,9 +756,6 @@
   <data name="lblEmailDefaultSubject.Text" xml:space="preserve">
     <value>Subyek bawaan:</value>
   </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>Tweet pesan bawaan:</value>
-  </data>
   <data name="cbPlikOneShot.Text" xml:space="preserve">
     <value>Hancurkan setelah unduhan pertama</value>
   </data>
@@ -867,9 +789,6 @@
   <data name="tpFirebaseDynamicLinks.Text" xml:space="preserve">
     <value>Tautan Dinamis Firebase</value>
   </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>Folder:</value>
-  </data>
   <data name="llPuushForgottenPassword.Text" xml:space="preserve">
     <value>Lupa sandi?</value>
   </data>
@@ -884,9 +803,6 @@
   </data>
   <data name="btnPaste_eeGetUserKey.Text" xml:space="preserve">
     <value>Dapatkan kunci pengguna...</value>
-  </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>Abaikan sertifikat SSL tidak valid</value>
   </data>
   <data name="lblSharedFolderImages.Text" xml:space="preserve">
     <value>Gambar:</value>
@@ -912,15 +828,6 @@
   <data name="lblSFTPKeyLocation.Text" xml:space="preserve">
     <value>Lokasi kunci:</value>
   </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Server Jira</value>
-  </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Host Jira:</value>
-  </data>
-  <data name="lblJiraIssuePrefix.Text" xml:space="preserve">
-    <value>Awalan isu Jira:</value>
-  </data>
   <data name="btnPuushLogin.Text" xml:space="preserve">
     <value>Login</value>
   </data>
@@ -928,9 +835,6 @@
     <value>Login</value>
   </data>
   <data name="btnImageShackLogin.Text" xml:space="preserve">
-    <value>Login</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
     <value>Login</value>
   </data>
   <data name="btnSeafileLibraryPasswordValidate.Text" xml:space="preserve">
@@ -981,9 +885,6 @@
   <data name="lblFTPURLPreview.Text" xml:space="preserve">
     <value>Pratinjau URL:</value>
   </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>Anda bisa menemukan kunci API dan UID Anda di sini</value>
-  </data>
   <data name="llVgymeAccountDetailsPage.Text" xml:space="preserve">
     <value>Anda bisa mendapatkan kunci pengguna dari halaman rincian akun.</value>
   </data>
@@ -1013,9 +914,6 @@
   </data>
   <data name="lblAmazonS3StorageClass.Text" xml:space="preserve">
     <value>Kelas penyimpanan:</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>Abaikan kotak pesan tweet</value>
   </data>
   <data name="lblYourlsSignature.Text" xml:space="preserve">
     <value>Tanda tangan:</value>
@@ -1071,9 +969,6 @@
   <data name="lblSeafileWritePermNotif.Text" xml:space="preserve">
     <value>Pustakan tanpa izin menulis disembunyikan.
 Menggunakan pustaka terenkripsi menonaktifkan berbagi.</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>Daftar...</value>
   </data>
   <data name="btnSendSpaceRegister.Text" xml:space="preserve">
     <value>Daftar...</value>

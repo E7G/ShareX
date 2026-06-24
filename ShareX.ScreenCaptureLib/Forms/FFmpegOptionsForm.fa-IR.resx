@@ -120,9 +120,6 @@
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>منبع ویدئو:</value>
   </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>کدک ویدئو:</value>
-  </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>نرخ بیت متغیر:</value>
   </data>
@@ -132,9 +129,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - تنظیمات ضبط فیلم صفحه</value>
   </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>بارگذاری مجدد</value>
-  </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>کیفیت:</value>
   </data>
@@ -143,9 +137,6 @@
   </data>
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>کیفیت:</value>
-  </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>کپی</value>
   </data>
   <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
     <value>؟</value>
@@ -162,24 +153,8 @@
   <data name="lblNVENCBitrate.Text" xml:space="preserve">
     <value>نرخ بیت:</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>نرخ بیت:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>منبع صدا:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>منبع صدا:</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>مقدار باید بین ۰ تا ۱۰ باشد که ۱۰ به معنای بالاترین کیفیت است. برای امتحان میتوانید رنج ۳ تا ۶ را انتخاب کنید. 
-مقدار پیش فرض ۳ است.</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>کدک صوتی با فرمت ویديویی انتخاب شده ناسازگار است.</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>مقدار پیش فرض 128K است.</value>
   </data>
   <data name="tpGIF.Text" xml:space="preserve">
     <value>گیف</value>

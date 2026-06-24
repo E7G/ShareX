@@ -125,29 +125,8 @@
 Eğer yazı alanı boş ise o zaman klasör ismi adres için kullanılır.
 Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.example.com/..." olacaktır.</value>
   </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>Diğer yükleyiciler</value>
-  </data>
   <data name="tpURLShorteners.Text" xml:space="preserve">
     <value>Adres kısaltıcılar</value>
-  </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>Ekle</value>
-  </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>Kaldır</value>
-  </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>İsim:</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>Tweet mesaj kutusunu gösterme</value>
-  </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>Varsayılan tweet mesajı:</value>
-  </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>Güncelle</value>
   </data>
   <data name="lblBitlyDomain.Text" xml:space="preserve">
     <value>Alan adı:</value>
@@ -163,12 +142,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="lblYourlsSignature.Text" xml:space="preserve">
     <value>İmza:</value>
-  </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>API anahtarı ve UID bilgisini burada bulabilirsiniz</value>
-  </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>API anahtarı:</value>
   </data>
   <data name="lblPolrAPIKey.Text" xml:space="preserve">
     <value>API anahtarı:</value>
@@ -229,9 +202,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="cbSeafileCreateShareableURL.Text" xml:space="preserve">
     <value>Paylaşılabilir adres yarat</value>
-  </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>Geçersiz SSL sertifika hatasını yoksay</value>
   </data>
   <data name="lblSeafilePassword.Text" xml:space="preserve">
     <value>Şifre:</value>
@@ -318,15 +288,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   <data name="lblLambdaInfo.Text" xml:space="preserve">
     <value>API anahtarını almak için Lambda sitesine giriş yapın https://lambda.sx/ adresinden ve sağ üstteki dişli tuşuna basın.</value>
   </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Jira sunucu:</value>
-  </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>Tasarım</value>
-  </data>
-  <data name="lblJiraIssuePrefix.Text" xml:space="preserve">
-    <value>Jira sorun öneki:</value>
-  </data>
   <data name="lblLocalhostrEmail.Text" xml:space="preserve">
     <value>Eposta:</value>
   </data>
@@ -387,30 +348,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   <data name="cbOwnCloud81Compatibility.Text" xml:space="preserve">
     <value>ownCloud 8.1+ uyumluluk</value>
   </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
-    <value>Şifre:</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
-    <value>Giriş</value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
-    <value>Eposta:</value>
-  </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>Durum: </value>
-  </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>Dizin:</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>Kayıt...</value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>Ayarlandı / Ayarlanmadı</value>
-  </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>Yenile</value>
-  </data>
   <data name="lblAmazonS3AccessKey.Text" xml:space="preserve">
     <value>Erişim anahtarı:</value>
   </data>
@@ -448,7 +385,7 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
     <value>Not: Dizin içine gitmek için dizin adına çift tıklayabilirsiniz.</value>
   </data>
   <data name="cbGoogleDriveIsPublic.Text" xml:space="preserve">
-    <value>Yükleme halka açık mı?</value>
+    <value>Yükleme halka açık mı</value>
   </data>
   <data name="btnGoogleDriveRefreshFolders.Text" xml:space="preserve">
     <value>Dizin listesini yenile</value>
@@ -560,18 +497,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="lblCheveretoUploadURLExample.Text" xml:space="preserve">
     <value>Örnek: http://example.com/api/1/upload</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>Albüm listesini yenile</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>Açıklama</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>İsim</value>
-  </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>Yükleme için Albüm ID (Boş = Albüm yok):</value>
   </data>
   <data name="lblPhotobucketAccountStatus.Text" xml:space="preserve">
     <value>Giriş gereklidir.</value>
@@ -777,9 +702,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   <data name="lblGistCustomURLExample.Text" xml:space="preserve">
     <value>Örnek: https://api.github.com</value>
   </data>
-  <data name="lblTeknikExpiration.Text" xml:space="preserve">
-    <value>Son kullanma:</value>
-  </data>
   <data name="llPuushForgottenPassword.Text" xml:space="preserve">
     <value>Şifrenizi mi unuttunuz?</value>
   </data>
@@ -831,15 +753,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   <data name="lblYouTubePrivacyType.Text" xml:space="preserve">
     <value>Gizlilik tipi:</value>
   </data>
-  <data name="cbGooglePhotosIsPublic.Text" xml:space="preserve">
-    <value>Halka açık karşıya yükle</value>
-  </data>
-  <data name="lblTeknikPasteAPIUrl.Text" xml:space="preserve">
-    <value>API adresini yapıştır:</value>
-  </data>
-  <data name="lblTeknikUploadAPIUrl.Text" xml:space="preserve">
-    <value>Yükleme API adresi:</value>
-  </data>
   <data name="lblGoogleCloudStorageObjectPrefix.Text" xml:space="preserve">
     <value>Yükleme yolu:</value>
   </data>
@@ -863,9 +776,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="lblZWSURL.Text" xml:space="preserve">
     <value>Adres:</value>
-  </data>
-  <data name="lblTeknikUrlShortenerAPIUrl.Text" xml:space="preserve">
-    <value>Adres kısaltıcı API adresi:</value>
   </data>
   <data name="cbFlickrDirectLink.Text" xml:space="preserve">
     <value>Direkt link kullan</value>
@@ -891,17 +801,11 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   <data name="lblAzureStorageAccessKey.Text" xml:space="preserve">
     <value>Erişim anahtarı:</value>
   </data>
-  <data name="lblGooglePhotosCreateAlbumName.Text" xml:space="preserve">
-    <value>Albüm ismi:</value>
-  </data>
   <data name="lblYourlsAPIURL.Text" xml:space="preserve">
     <value>API adresi:</value>
   </data>
   <data name="lblSeafileAPIURL.Text" xml:space="preserve">
     <value>API adresi:</value>
-  </data>
-  <data name="btnGooglePhotosCreateAlbum.Text" xml:space="preserve">
-    <value>Oluştur</value>
   </data>
   <data name="btnSulGetAPIKey.Text" xml:space="preserve">
     <value>API anahtarını al...</value>
@@ -917,12 +821,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
-  </data>
-  <data name="chPicasaID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>API UID:</value>
   </data>
   <data name="lblB2ApplicationKeyId.Text" xml:space="preserve">
     <value>Uygulama anahtarı:</value>
@@ -951,14 +849,8 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   <data name="cbPolrIsSecret.Text" xml:space="preserve">
     <value>Gizli adres mi</value>
   </data>
-  <data name="cbTeknikEncrypt.Text" xml:space="preserve">
-    <value>İstemci tarafı şifreleme</value>
-  </data>
   <data name="cbYouTubeUseShortenedLink.Text" xml:space="preserve">
     <value>Kısaltılmış adres kullan</value>
-  </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Jira sunucusu</value>
   </data>
   <data name="lblFTPProtocol.Text" xml:space="preserve">
     <value>Protokol:</value>
@@ -983,9 +875,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="lblOwnCloudExpiryTime.Text" xml:space="preserve">
     <value>Süre sonu (gün):</value>
-  </data>
-  <data name="cbTeknikGenDeleteKey.Text" xml:space="preserve">
-    <value>Silme anahtarı yarat</value>
   </data>
   <data name="lblAzureStorageContainer.Text" xml:space="preserve">
     <value>Konteyner:</value>
@@ -1031,9 +920,6 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="cbOwnCloudUsePreviewLinks.Text" xml:space="preserve">
     <value>Ön izleme bağlantısı kullan (sadece NextCloud)</value>
-  </data>
-  <data name="lblTeknikAuthUrl.Text" xml:space="preserve">
-    <value>Kimlik doğrulama adresi:</value>
   </data>
   <data name="cbFTPAppendRemoteDirectory.Text" xml:space="preserve">
     <value>Adres yoluna uzak dizini ekle</value>
@@ -1088,5 +974,35 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
   </data>
   <data name="cbOneDriveUseDirectLink.Text" xml:space="preserve">
     <value>Direkt link kullan</value>
+  </data>
+  <data name="lblPrivateBinPassword.Text" xml:space="preserve">
+    <value>Parola:</value>
+  </data>
+  <data name="lblPrivateBinUsername.Text" xml:space="preserve">
+    <value>Kullanıcı adı:</value>
+  </data>
+  <data name="gbPrivateBinCredentials.Text" xml:space="preserve">
+    <value>Kimlik bilgileri</value>
+  </data>
+  <data name="gbPrivateBinCredentials.ToolTip" xml:space="preserve">
+    <value>Bazı sunucular ek yetkilendirme gerektirebilir</value>
+  </data>
+  <data name="lblAzureStorageCacheControl.Text" xml:space="preserve">
+    <value>Cache-Control üst bilgisi:</value>
+  </data>
+  <data name="lblPrivateBinCustomUrl.Text" xml:space="preserve">
+    <value>Özel URL:</value>
+  </data>
+  <data name="lblPrivateBinExpiration.Text" xml:space="preserve">
+    <value>Sona erme:</value>
+  </data>
+  <data name="lblPrivateBinFormat.Text" xml:space="preserve">
+    <value>Biçim:</value>
+  </data>
+  <data name="lblPrivateBinPastePassword.Text" xml:space="preserve">
+    <value>Paylaşım parolası:</value>
+  </data>
+  <data name="cbPrivateBinBurnAfterReading.Text" xml:space="preserve">
+    <value>Okunduktan sonra yok et</value>
   </data>
 </root>

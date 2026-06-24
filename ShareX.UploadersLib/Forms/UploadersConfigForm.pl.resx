@@ -129,15 +129,6 @@
   <data name="cbAmazonS3StripExtensionVideo.Text" xml:space="preserve">
     <value>Film</value>
   </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>Dodaj</value>
-  </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>Aktualizuj</value>
-  </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>Usuń</value>
-  </data>
   <data name="btnSulGetAPIKey.Text" xml:space="preserve">
     <value>Uzyskaj klucz API...</value>
   </data>
@@ -159,17 +150,8 @@
   <data name="btnPhotobucketRemoveAlbum.Text" xml:space="preserve">
     <value>Usuń album</value>
   </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>Odśwież listę albumów</value>
-  </data>
   <data name="btnPhotobucketAddAlbum.Text" xml:space="preserve">
     <value>Dodaj do albumu</value>
-  </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>Odśwież</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
-    <value>Zaloguj się</value>
   </data>
   <data name="btnImgurRefreshAlbumList.Text" xml:space="preserve">
     <value>Odśwież listę albumów</value>
@@ -192,9 +174,6 @@
   <data name="btnGoogleDriveRefreshFolders.Text" xml:space="preserve">
     <value>Odśwież listę folderów</value>
   </data>
-  <data name="btnGooglePhotosCreateAlbum.Text" xml:space="preserve">
-    <value>Utwórz</value>
-  </data>
   <data name="btnImageShackLogin.Text" xml:space="preserve">
     <value>Zaloguj się</value>
   </data>
@@ -209,9 +188,6 @@
   </data>
   <data name="btnLithiioFetchAPIKey.Text" xml:space="preserve">
     <value>Pobierz klucz API</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>Zarejestruj się...</value>
   </data>
   <data name="btnPastebinLogin.Text" xml:space="preserve">
     <value>Zaloguj się</value>
@@ -292,9 +268,6 @@
     <value>Hasło:</value>
   </data>
   <data name="lblLocalhostrPassword.Text" xml:space="preserve">
-    <value>Hasło:</value>
-  </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
     <value>Hasło:</value>
   </data>
   <data name="lblOwnCloudHost.Text" xml:space="preserve">
@@ -411,9 +384,6 @@
   <data name="cbGoogleDriveIsPublic.Text" xml:space="preserve">
     <value>Przesyłanie publiczne?</value>
   </data>
-  <data name="cbGooglePhotosIsPublic.Text" xml:space="preserve">
-    <value>Publiczne przesyłanie</value>
-  </data>
   <data name="cbHastebinUseFileExtension.Text" xml:space="preserve">
     <value>Użyj rozszerzenia pliku do podświetlania składni (z wyjątkiem .txt)</value>
   </data>
@@ -426,15 +396,6 @@
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
   </data>
-  <data name="chPicasaID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>Opis</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>Nazwa</value>
-  </data>
   <data name="colSeafileLibraryName.Text" xml:space="preserve">
     <value>Nazwa</value>
   </data>
@@ -446,9 +407,6 @@
   </data>
   <data name="gbGoogleCloudStorageAdvanced.Text" xml:space="preserve">
     <value>Zaawansowane</value>
-  </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Serwer Jira</value>
   </data>
   <data name="gbPhotobucketUserAccount.Text" xml:space="preserve">
     <value>Konto użytkownika</value>
@@ -465,17 +423,11 @@
   <data name="lblZWSURL.Text" xml:space="preserve">
     <value>Link:</value>
   </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>Nazwa:</value>
-  </data>
   <data name="llPuushForgottenPassword.Text" xml:space="preserve">
     <value>Zapomniane hasło?</value>
   </data>
   <data name="txtSeafileUploadLocationRefresh.Text" xml:space="preserve">
     <value>Odśwież</value>
-  </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>Szablon</value>
   </data>
   <data name="lblSharedFolderFiles.Text" xml:space="preserve">
     <value>Plik:</value>
@@ -494,12 +446,6 @@
   </data>
   <data name="lblSulAPIKey.Text" xml:space="preserve">
     <value>Klucz API:</value>
-  </data>
-  <data name="lblTeknikAuthUrl.Text" xml:space="preserve">
-    <value>Link uwierzytelniania:</value>
-  </data>
-  <data name="lblTeknikExpiration.Text" xml:space="preserve">
-    <value>Wygasa:</value>
   </data>
   <data name="lblSeafileSelectLibrary.Text" xml:space="preserve">
     <value>Wybierz bibliotekę:</value>
@@ -543,15 +489,6 @@
   <data name="lblOneDriveFolderID.Text" xml:space="preserve">
     <value>Wybrany folder:</value>
   </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>Status: </value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>Skonfigurowany / Nie skonfigurowany</value>
-  </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>Folder:</value>
-  </data>
   <data name="lblMediaFirePassword.Text" xml:space="preserve">
     <value>Hasło:</value>
   </data>
@@ -581,9 +518,6 @@
   </data>
   <data name="lblGoogleDriveFolderID.Text" xml:space="preserve">
     <value>ID folderu:</value>
-  </data>
-  <data name="lblGooglePhotosCreateAlbumName.Text" xml:space="preserve">
-    <value>Nazwa albumu:</value>
   </data>
   <data name="lblFTPHost.Text" xml:space="preserve">
     <value>Host:</value>
@@ -753,9 +687,6 @@
   <data name="lblAmazonS3Region.Text" xml:space="preserve">
     <value>Region:</value>
   </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>Klucz API:</value>
-  </data>
   <data name="grpSeafileShareSettings.Text" xml:space="preserve">
     <value>Ustawienia udostępniania plików Seafile</value>
   </data>
@@ -784,9 +715,6 @@
     <value>E-mail:</value>
   </data>
   <data name="lblMediaFireEmail.Text" xml:space="preserve">
-    <value>E-mail:</value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
     <value>E-mail:</value>
   </data>
   <data name="lblOneTimeSecretEmail.Text" xml:space="preserve">
@@ -819,17 +747,11 @@
   <data name="tpTextUploaders.Text" xml:space="preserve">
     <value>Serwisy tekstu</value>
   </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>Inne serwisy</value>
-  </data>
   <data name="tpImageUploaders.Text" xml:space="preserve">
     <value>Serwisy obrazów</value>
   </data>
   <data name="lblPomfUploadURL.Text" xml:space="preserve">
     <value>Link serwisu:</value>
-  </data>
-  <data name="lblTeknikUploadAPIUrl.Text" xml:space="preserve">
-    <value>Link API serwisu:</value>
   </data>
   <data name="lblMediaFirePath.Text" xml:space="preserve">
     <value>Ścieżka przesyłania:</value>
@@ -849,20 +771,11 @@
   <data name="cbUpasteIsPublic.Text" xml:space="preserve">
     <value>Przesyłanie publiczne?</value>
   </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>ID albumu do przesłania (Puste = Brak możliwości przesłania albumu):</value>
-  </data>
   <data name="cbImgurUploadSelectedAlbum.Text" xml:space="preserve">
     <value>Prześlij obrazy do wybranego albumu</value>
   </data>
   <data name="cbStreamableUseDirectURL.Text" xml:space="preserve">
     <value>Użyj bezpośredniego linku</value>
-  </data>
-  <data name="cbTeknikEncrypt.Text" xml:space="preserve">
-    <value>Szyfrowanie po stronie klienta</value>
-  </data>
-  <data name="cbTeknikGenDeleteKey.Text" xml:space="preserve">
-    <value>Wygeneruj klucz usuwania</value>
   </data>
   <data name="colSeafileLibraryEncrypted.Text" xml:space="preserve">
     <value>Szyfrowany</value>
@@ -876,17 +789,11 @@
   <data name="lblUpasteUserKey.Text" xml:space="preserve">
     <value>Klucz użytkownika:</value>
   </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>Tutaj znajdziesz swój UID i klucz API</value>
-  </data>
   <data name="llVgymeAccountDetailsPage.Text" xml:space="preserve">
     <value>Możesz uzyskać klucz użytkownika ze strony szczegółów konta.</value>
   </data>
   <data name="lvlVgymeUserKey.Text" xml:space="preserve">
     <value>Klucz użytkownika:</value>
-  </data>
-  <data name="lblTeknikUrlShortenerAPIUrl.Text" xml:space="preserve">
-    <value>Link API skracacza linku:</value>
   </data>
   <data name="tpSharedFolder.Text" xml:space="preserve">
     <value>Udostępniony folder</value>
@@ -911,15 +818,6 @@ Na przykład, jeśli Twój bucket nazywa się "bucket.example.com" to URL będzi
   <data name="cbEmailRememberLastTo.Text" xml:space="preserve">
     <value>Zapamiętaj ostatni adres odbiorcy</value>
   </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>Domyślna wiadomość tweeta:</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>Pomiń okno wiadomości tweeta</value>
-  </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>API UID:</value>
-  </data>
   <data name="lblAmazonS3BucketName.Text" xml:space="preserve">
     <value>Nazwa bucketu:</value>
   </data>
@@ -940,9 +838,6 @@ Na przykład, jeśli Twój bucket nazywa się "bucket.example.com" to URL będzi
   </data>
   <data name="lblImgurThumbnailType.Text" xml:space="preserve">
     <value>Typ miniatury:</value>
-  </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Host Jira:</value>
   </data>
   <data name="lblLambdaInfo.Text" xml:space="preserve">
     <value>Aby uzyskać klucz API, zaloguj się do Lambda pod adresem https://lambda.sx/, a następnie kliknij swoją nazwę użytkownika, a następnie kliknij zarządzaj kontem.</value>
@@ -1037,9 +932,6 @@ Na przykład, jeśli Twój bucket nazywa się "bucket.example.com" to URL będzi
   <data name="cbSeafileCreateShareableURL.Text" xml:space="preserve">
     <value>Utwórz link do udostępniania</value>
   </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>Zignoruj nieprawidłowy certyfikat SSL</value>
-  </data>
   <data name="lblBoxFolderTip.Text" xml:space="preserve">
     <value>Uwaga: Możesz dwukrotnie kliknąć nazwę folderu, aby przejść do tego folderu.</value>
   </data>
@@ -1079,9 +971,6 @@ Używanie zaszyfrowanej biblioteki wyłącza udostępnianie.</value>
   </data>
   <data name="lblAzureStorageCacheControl.Text" xml:space="preserve">
     <value>Nagłówek Cache-Control:</value>
-  </data>
-  <data name="lblTeknikPasteAPIUrl.Text" xml:space="preserve">
-    <value>Wklej URL API:</value>
   </data>
   <data name="cbOneDriveUseDirectLink.Text" xml:space="preserve">
     <value>Użyj bezpośredniego linku</value>

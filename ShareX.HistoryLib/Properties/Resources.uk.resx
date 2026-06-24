@@ -237,7 +237,4 @@
   <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
     <value>Позначити зображення з посиланням</value>
   </data>
-  <data name="HistoryItemManager_InitializeComponent_More_info" xml:space="preserve">
-    <value>Подробиці...</value>
-  </data>
 </root>

@@ -237,7 +237,4 @@
   <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
     <value>صورة Markdown مع الرابط</value>
   </data>
-  <data name="HistoryItemManager_InitializeComponent_More_info" xml:space="preserve">
-    <value>المزيد من المعلومات...</value>
-  </data>
 </root>

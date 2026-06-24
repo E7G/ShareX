@@ -190,9 +190,6 @@
   <data name="tsbSettings.Text" xml:space="preserve">
     <value>Ayarlar...</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>Daha fazla bilgi göster/gizle</value>
-  </data>
   <data name="tslSearch.Text" xml:space="preserve">
     <value>Ara:</value>
   </data>
@@ -201,5 +198,11 @@
   </data>
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>İstatistikleri göster...</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Sık kullanılanlar</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Klasörü içe aktar...</value>
   </data>
 </root>

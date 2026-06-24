@@ -132,9 +132,6 @@
   <data name="lblThumbnailSize.Text" xml:space="preserve">
     <value>Tamaño de la miniatura:</value>
   </data>
-  <data name="lblThumbnailSizeUnit.Text" xml:space="preserve">
-    <value> px</value>
-  </data>
   <data name="cbRememberWindowState.Text" xml:space="preserve">
     <value>Recordar estado de ventana</value>
   </data>

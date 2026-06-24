@@ -138,9 +138,6 @@
   <data name="cbUseCustomArguments.Text" xml:space="preserve">
     <value>使用自定义参数：</value>
   </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>视频编解码器:</value>
-  </data>
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>视频品质:</value>
   </data>

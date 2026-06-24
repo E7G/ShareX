@@ -132,9 +132,6 @@
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>Качество видео:</value>
   </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>Кодек видео:</value>
-  </data>
   <data name="lblOutputFileName.Text" xml:space="preserve">
     <value>Имя выходного файла:</value>
   </data>

@@ -165,9 +165,6 @@
   <data name="tsbSettings.Text" xml:space="preserve">
     <value>Настройки...</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>Детальная информация</value>
-  </data>
   <data name="tslSearch.Text" xml:space="preserve">
     <value>Поиск:</value>
   </data>

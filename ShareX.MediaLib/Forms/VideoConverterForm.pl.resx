@@ -126,9 +126,6 @@
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>Jakość wideo:</value>
   </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>Kodek wideo:</value>
-  </data>
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>Folder wyjściowy:</value>
   </data>

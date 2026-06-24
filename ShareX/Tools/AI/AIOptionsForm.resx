@@ -321,18 +321,23 @@
   </data>
   <data name="cbOpenAIModel.Items" xml:space="preserve">
     <value>gpt-5.2</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIModel.Items1" xml:space="preserve">
     <value>gpt-5.1</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIModel.Items2" xml:space="preserve">
     <value>gpt-5</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIModel.Items3" xml:space="preserve">
     <value>gpt-5-mini</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIModel.Items4" xml:space="preserve">
     <value>gpt-5-nano</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIModel.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 84</value>
@@ -414,15 +419,19 @@
   </data>
   <data name="cbOpenAIReasoningEffort.Items" xml:space="preserve">
     <value>minimal</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIReasoningEffort.Items1" xml:space="preserve">
     <value>low</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIReasoningEffort.Items2" xml:space="preserve">
     <value>medium</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIReasoningEffort.Items3" xml:space="preserve">
     <value>high</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIReasoningEffort.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 130</value>
@@ -510,12 +519,15 @@
   </data>
   <data name="cbOpenAIVerbosity.Items" xml:space="preserve">
     <value>low</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIVerbosity.Items1" xml:space="preserve">
     <value>medium</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIVerbosity.Items2" xml:space="preserve">
     <value>high</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenAIVerbosity.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 176</value>
@@ -657,15 +669,19 @@
   </data>
   <data name="cbGeminiModel.Items" xml:space="preserve">
     <value>gemini-2.0-flash</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbGeminiModel.Items1" xml:space="preserve">
     <value>gemini-2.0-flash-lite</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbGeminiModel.Items2" xml:space="preserve">
     <value>gemini-1.5-flash</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbGeminiModel.Items3" xml:space="preserve">
     <value>gemini-1.5-pro</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbGeminiModel.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 78</value>
@@ -810,12 +826,15 @@
   </data>
   <data name="cbOpenRouterModel.Items" xml:space="preserve">
     <value>openai/gpt-4o</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenRouterModel.Items1" xml:space="preserve">
     <value>anthropic/claude-3.5-sonnet</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenRouterModel.Items2" xml:space="preserve">
     <value>google/gemini-pro-1.5</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="cbOpenRouterModel.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 78</value>

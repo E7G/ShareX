@@ -126,9 +126,6 @@
   <data name="lblOutputFileName.Text" xml:space="preserve">
     <value>Numele fișierului de ieșire:</value>
   </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>Codec video:</value>
-  </data>
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>Calitatea video:</value>
   </data>

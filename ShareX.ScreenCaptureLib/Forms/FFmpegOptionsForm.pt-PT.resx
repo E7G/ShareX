@@ -133,33 +133,15 @@ Um valor mais alto significa pior qualidade, mas com um tamanho de ficheiro meno
 Preset lento = Lenta codificação mas menos tamanho de ficheiro.
 Para codificação em tempo real (e.x. captura de ecrã), o preset têm de ser o mais rápido possível.</value>
   </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Alcance entre 0-10, onde 10 é a melhor qualidade possível. 3-6 é um bom limite para experimentar. Por defeito é 3.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Alcance entre 0-9, onde um número menor é igual a maior qualidade. 0-3 normalmente produz resultados transparentes, 4 (padrão) deve ser perto de transparência perceptível e 6 produz uma qualidade "aceitável".</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Padrão é 128k</value>
-  </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>Padrão é cheio.</value>
   </data>
   <data name="cbGIFDither.ToolTip" xml:space="preserve">
     <value>Padrão é sierra2_4a.</value>
   </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Este codec de aúdio não é suportado pelo recipiente de vídeo seleccionado.</value>
-  </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Para codificação em tempo real como captura de ecrã é recomendado seleccionar um preset mais rápido possível.
 Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas falhas de imagem.</value>
-  </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>Padrão é 128k.</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Codec de vídeo:</value>
   </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Predefinição:</value>
@@ -169,9 +151,6 @@ Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas fa
   </data>
   <data name="btnFFmpegBrowse.Text" xml:space="preserve">
     <value>...</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Utilizar caminho personalizado</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Utilizador comandos personalizados</value>
@@ -191,12 +170,6 @@ Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas fa
   <data name="lblAMFUsage.Text" xml:space="preserve">
     <value>Utilização:</value>
   </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Testar com linha de comandos</value>
-  </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Copiar</value>
-  </data>
   <data name="lblVorbisQuality.Text" xml:space="preserve">
     <value>Qualidade:</value>
   </data>
@@ -209,17 +182,11 @@ Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas fa
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Fonte de áudio:</value>
   </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Codec de áudio:</value>
-  </data>
   <data name="lblHelperDevices.Text" xml:space="preserve">
     <value>Instala fonte de vídeo/audio "screen-capture-recorder" e "virtual-audio-capturer".</value>
   </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
     <value>Instalar dispositivos de gravação</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Actualizar</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opções de gravação do ecrã</value>

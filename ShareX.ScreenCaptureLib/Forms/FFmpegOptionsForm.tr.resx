@@ -120,17 +120,8 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Ekran kayıt ayarları</value>
   </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Kopyala</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Yenile</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>CMD ile test et</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
-    <value>Özel komutları kullan</value>
+    <value>Özel komutları kullan:</value>
   </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>Kalite:</value>
@@ -140,24 +131,6 @@
   </data>
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>Video kaynağı:</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Varsayılan 128k.</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Video çözücü:</value>
-  </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Bit hızı:</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>0-10 arasında, 10 en yüksek kalite. 3-6 arası denenebilir. Varsayılan 3'dür.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>0-9 arası, küçük değer yüksek kalite anlamına gelir.</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Ses çözücü:</value>
   </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Ses kaynağı:</value>
@@ -188,7 +161,7 @@ Gerçek zamanlı kodlama (ekran kaydetme gibi) için ön ayar olabildiğince hı
     <value>"screen-capture-recorder" ve "virtual-audio-capturer" video/ses kaynaklarını yükler.</value>
   </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
-    <value>Kayıt cihazlarını yükle</value>
+    <value>Kayıt cihazlarını yükle...</value>
   </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>Varsayılan full.</value>
@@ -201,12 +174,6 @@ Gerçek zamanlı kodlama (ekran kaydetme gibi) için ön ayar olabildiğince hı
   </data>
   <data name="lblGIFStatsMode.Text" xml:space="preserve">
     <value>Palet modu:</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Kişisel dosya yolu kullan</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Seçili olan ses çözücü bu video format ı tarafından desteklenmemektedir.</value>
   </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Gerçek zamanlı kodlama (ekran kaydetme gibi) için ön ayar olabildiğince hızlı olmalıdır.
@@ -227,12 +194,6 @@ Yoksa yeterince hızlı kaydetemez ve kare kayıpları meydana gelir.</value>
   <data name="lblQSVPreset.Text" xml:space="preserve">
     <value>Ön ayar:</value>
   </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>Varsayılan 128k.</value>
-  </data>
-  <data name="lblOpusQuality.Text" xml:space="preserve">
-    <value>Bit hızı:</value>
-  </data>
   <data name="lblQSVBitrate.Text" xml:space="preserve">
     <value>Bit hızı:</value>
   </data>
@@ -242,13 +203,31 @@ Yoksa yeterince hızlı kaydetemez ve kare kayıpları meydana gelir.</value>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>Ek komut satırı parametreleri:</value>
   </data>
-  <data name="lblFFmpegPath.Text" xml:space="preserve">
-    <value>FFmpeg yolu:</value>
-  </data>
-  <data name="lblCommandLinePreview.Text" xml:space="preserve">
-    <value>Komut satırı önizleme:</value>
-  </data>
   <data name="cbx264UseBitrate.Text" xml:space="preserve">
     <value>Bit hızı kullan</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Özel FFmpeg yolu kullan:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video kodlayıcı:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Ses kodlayıcı:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Bit hızı:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Bit hızı:</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>İnce ayar:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Bit hızı:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Seçenekleri sıfırla...</value>
   </data>
 </root>

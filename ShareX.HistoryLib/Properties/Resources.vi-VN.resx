@@ -234,7 +234,4 @@
   <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
     <value>Ảnh liên kết Markdown</value>
   </data>
-  <data name="HistoryItemManager_InitializeComponent_More_info" xml:space="preserve">
-    <value>Thông tin thêm...</value>
-  </data>
 </root>

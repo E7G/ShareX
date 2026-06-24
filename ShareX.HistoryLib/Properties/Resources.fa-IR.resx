@@ -174,7 +174,4 @@
   <data name="HistoryItemManager_InitializeComponent_URL" xml:space="preserve">
     <value>آدرس</value>
   </data>
-  <data name="HistoryItemManager_InitializeComponent_More_info" xml:space="preserve">
-    <value>اطلاعات بیشتر</value>
-  </data>
 </root>

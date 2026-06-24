@@ -128,30 +128,6 @@ Por exemplo, se o teu nome for 'bucket.example.com' a hiperligação será http:
   <data name="cbB2CustomUrl.Text" xml:space="preserve">
     <value>Utilizar hiperligação personalizada (suporta o formato padrão):</value>
   </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>Outras hospedagens</value>
-  </data>
-  <data name="tpTwitter.Text" xml:space="preserve">
-    <value>Twitter</value>
-  </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>Actualizar</value>
-  </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>Mensagem padrão do Twitter:</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>Ignorar caixa de texto do twitter</value>
-  </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>Nome:</value>
-  </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>Remover</value>
-  </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>Adicionar</value>
-  </data>
   <data name="tpURLShorteners.Text" xml:space="preserve">
     <value>Encurtadores de hiperligações</value>
   </data>
@@ -172,15 +148,6 @@ Por exemplo, se o teu nome for 'bucket.example.com' a hiperligação será http:
   </data>
   <data name="lblYourlsAPIURL.Text" xml:space="preserve">
     <value>Hiperligação da API:</value>
-  </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>Pode encontrar a sua chave da API e do UID aqui:</value>
-  </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>UID da API:</value>
-  </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>Chave da API:</value>
   </data>
   <data name="cbPolrUseAPIv1.Text" xml:space="preserve">
     <value>Utilizar API descontinuada v1</value>
@@ -500,30 +467,6 @@ Por exemplo, se o teu nome for 'bucket.example.com' a hiperligação será http:
   <data name="lblB2ApplicationKeyId.Text" xml:space="preserve">
     <value>ID da chave secreta:</value>
   </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>Actualizar</value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>Configurado / Não configurado</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>Registar...</value>
-  </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>Pasta:</value>
-  </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>Estado: </value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
-    <value>Email:</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
-    <value>Iniciar sessão</value>
-  </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
-    <value>Palavra-passe:</value>
-  </data>
   <data name="cbOwnCloudAutoExpire.Text" xml:space="preserve">
     <value>Expirar automaticamente hiperligações partilhadas</value>
   </data>
@@ -596,18 +539,6 @@ Por exemplo, se o teu nome for 'bucket.example.com' a hiperligação será http:
   <data name="lblLocalhostrEmail.Text" xml:space="preserve">
     <value>Email:</value>
   </data>
-  <data name="lblJiraIssuePrefix.Text" xml:space="preserve">
-    <value>Prefixo de solicitação do JIRA</value>
-  </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Servidor do JIRA</value>
-  </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>Modelo</value>
-  </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Domínio JIRA:</value>
-  </data>
   <data name="lblLambdaInfo.Text" xml:space="preserve">
     <value>Para obter uma chave de API, inicie sessão no Lambda em https://lambda.xs/ e clique no ícone de configurações no canto superior direito.</value>
   </data>
@@ -616,27 +547,6 @@ Por exemplo, se o teu nome for 'bucket.example.com' a hiperligação será http:
   </data>
   <data name="lblLambdaUploadURL.Text" xml:space="preserve">
     <value>Hiperligação do envio:</value>
-  </data>
-  <data name="lblTeknikExpiration.Text" xml:space="preserve">
-    <value>Expiração:</value>
-  </data>
-  <data name="lblTeknikUrlShortenerAPIUrl.Text" xml:space="preserve">
-    <value>API do encurtador de hiperligações:</value>
-  </data>
-  <data name="lblTeknikPasteAPIUrl.Text" xml:space="preserve">
-    <value>API da hiperligação de colagem:</value>
-  </data>
-  <data name="lblTeknikAuthUrl.Text" xml:space="preserve">
-    <value>Hiperligação de autênticação:</value>
-  </data>
-  <data name="cbTeknikGenDeleteKey.Text" xml:space="preserve">
-    <value>Gerar chave de remoção</value>
-  </data>
-  <data name="cbTeknikEncrypt.Text" xml:space="preserve">
-    <value>Encriptação do "client side"</value>
-  </data>
-  <data name="lblTeknikUploadAPIUrl.Text" xml:space="preserve">
-    <value>API da Hiperligação de Envio:</value>
   </data>
   <data name="lblPomfResultURL.Text" xml:space="preserve">
     <value>Hiperligação do resultado:</value>
@@ -713,9 +623,6 @@ Utilizar uma biblioteca encriptada desactiva compartilhamento.</value>
   </data>
   <data name="lblSeafilePassword.Text" xml:space="preserve">
     <value>Palavra-passe:</value>
-  </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>Ignorar certificado SSL inválido</value>
   </data>
   <data name="cbSeafileCreateShareableURL.Text" xml:space="preserve">
     <value>Criar hiperligação compartilhável</value>
@@ -1010,30 +917,6 @@ Utilizar uma biblioteca encriptada desactiva compartilhamento.</value>
   </data>
   <data name="lblPhotobucketAccountStatus.Text" xml:space="preserve">
     <value>Necessário iniciar sessão</value>
-  </data>
-  <data name="lblGooglePhotosCreateAlbumName.Text" xml:space="preserve">
-    <value>Nome do álbum:</value>
-  </data>
-  <data name="btnGooglePhotosCreateAlbum.Text" xml:space="preserve">
-    <value>Criar</value>
-  </data>
-  <data name="cbGooglePhotosIsPublic.Text" xml:space="preserve">
-    <value>Envio público</value>
-  </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>ID de álbum de envio (Vazio = Sem envio):</value>
-  </data>
-  <data name="chPicasaID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>Nome</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>Descrição</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>Actualizar lista de albums</value>
   </data>
   <data name="lblCheveretoUploadURLExample.Text" xml:space="preserve">
     <value>Exemplo: http://exemplo.com/api/1/upload</value>

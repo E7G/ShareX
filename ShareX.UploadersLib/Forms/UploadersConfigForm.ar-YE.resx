@@ -183,17 +183,11 @@
   <data name="gbPhotobucketUserAccount.Text" xml:space="preserve">
     <value>حساب المستخدم</value>
   </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>يمكنك إيجاد المعرٍّف UID و مفتاح API الخاصّين بك هنا</value>
-  </data>
   <data name="llVgymeAccountDetailsPage.Text" xml:space="preserve">
     <value>اذهب إلى صفحة تفاصيل الحساب للحصول على مفتاح المستخدم.</value>
   </data>
   <data name="lblYouTubePermissionsTip.Text" xml:space="preserve">
     <value>لسحب القدرة على الوصول استخدم الرابط التالي متى شئت:</value>
-  </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>إضافة</value>
   </data>
   <data name="btnFTPAdd.Text" xml:space="preserve">
     <value>إضافة</value>
@@ -209,9 +203,6 @@
   </data>
   <data name="gbGoogleCloudStorageAdvanced.Text" xml:space="preserve">
     <value>متقدّم</value>
-  </data>
-  <data name="lblGooglePhotosCreateAlbumName.Text" xml:space="preserve">
-    <value>اسم الألبوم:</value>
   </data>
   <data name="lblSulAPIKey.Text" xml:space="preserve">
     <value>مفتاح API:</value>
@@ -234,14 +225,8 @@
   <data name="lblOneTimeSecretAPIKey.Text" xml:space="preserve">
     <value>مفتاح API:</value>
   </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>مفتاح API:</value>
-  </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>مفتاح API:</value>
-  </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>معّرف API:</value>
   </data>
   <data name="lblKuttAPIKey.Text" xml:space="preserve">
     <value>مفتاح API:</value>
@@ -258,14 +243,8 @@
   <data name="cbPlikComment.Text" xml:space="preserve">
     <value>تعليق (Markdown)</value>
   </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>تم الإعداد / لم يتم الإعداد</value>
-  </data>
   <data name="lblAzureStorageContainer.Text" xml:space="preserve">
     <value>الحاوية:</value>
-  </data>
-  <data name="btnGooglePhotosCreateAlbum.Text" xml:space="preserve">
-    <value>إنشاء</value>
   </data>
   <data name="btnPhotobucketCreateAlbum.Text" xml:space="preserve">
     <value>إنشاء ألبوم</value>
@@ -317,12 +296,6 @@
   </data>
   <data name="lblEmailDefaultSubject.Text" xml:space="preserve">
     <value>العنوان الافتراضي:</value>
-  </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>الرسالة الافتراضية للتغريدة:</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
-    <value>الوصف</value>
   </data>
   <data name="chImgurDescription.Text" xml:space="preserve">
     <value>الوصف</value>
@@ -379,9 +352,6 @@
     <value>البريد الإلكتروني:</value>
   </data>
   <data name="lblSeafileUsername.Text" xml:space="preserve">
-    <value>البريد الإلكتروني:</value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
     <value>البريد الإلكتروني:</value>
   </data>
   <data name="colSeafileLibraryEncrypted.Text" xml:space="preserve">
@@ -453,9 +423,6 @@
   <data name="btnSharedFolderRemove.Text" xml:space="preserve">
     <value>حذف</value>
   </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
-    <value>حذف</value>
-  </data>
   <data name="btnFTPRemove.Text" xml:space="preserve">
     <value>حذف</value>
   </data>
@@ -466,9 +433,6 @@
     <value>مجلد بعيد:</value>
   </data>
   <data name="btnPastebinRegister.Text" xml:space="preserve">
-    <value>تسجيل...</value>
-  </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
     <value>تسجيل...</value>
   </data>
   <data name="btnSendSpaceRegister.Text" xml:space="preserve">
@@ -483,12 +447,6 @@
   <data name="btnRefreshSeafileAccInfo.Text" xml:space="preserve">
     <value>تحديث</value>
   </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>تحديث</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>تحديث قائمة الألبومات</value>
-  </data>
   <data name="btnImgurRefreshAlbumList.Text" xml:space="preserve">
     <value>تحديث قائمة الألبومات</value>
   </data>
@@ -497,9 +455,6 @@
   </data>
   <data name="btnGoogleDriveRefreshFolders.Text" xml:space="preserve">
     <value>تحديث قائمة المجلدات</value>
-  </data>
-  <data name="cbGooglePhotosIsPublic.Text" xml:space="preserve">
-    <value>رفع عمومي</value>
   </data>
   <data name="lblFTPProtocol.Text" xml:space="preserve">
     <value>البروتوكول:</value>
@@ -541,9 +496,6 @@
     <value>كلمة المرور:</value>
   </data>
   <data name="lblEmailPassword.Text" xml:space="preserve">
-    <value>كلمة المرور:</value>
-  </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
     <value>كلمة المرور:</value>
   </data>
   <data name="lblYourlsPassword.Text" xml:space="preserve">
@@ -647,9 +599,6 @@
   <data name="cbGoogleDriveUseFolder.Text" xml:space="preserve">
     <value>رفع الملفات إلى المجلد المحدد</value>
   </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>تحديث</value>
-  </data>
   <data name="lblFTPTransferMode.Text" xml:space="preserve">
     <value>أسلوب النقل:</value>
   </data>
@@ -683,9 +632,6 @@
   <data name="btnFTPTest.Text" xml:space="preserve">
     <value>اختبار</value>
   </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>القالب</value>
-  </data>
   <data name="lblHastebinSyntaxHighlighting.Text" xml:space="preserve">
     <value>تمييز النصوص:</value>
   </data>
@@ -698,17 +644,11 @@
   <data name="btnPhotobucketAuthComplete.Text" xml:space="preserve">
     <value>الخطوة 2: أكمل المصادقة</value>
   </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>الحالة: </value>
-  </data>
   <data name="lblPastebinLoginStatus.Text" xml:space="preserve">
     <value>الحالة:</value>
   </data>
   <data name="lblEmailSmtpServer.Text" xml:space="preserve">
     <value>عنوان خادوم SMTP:</value>
-  </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>تخطي مربع التغريدة</value>
   </data>
   <data name="colSeafileLibrarySize.Text" xml:space="preserve">
     <value>الحجم</value>
@@ -803,9 +743,6 @@
   <data name="lblPastebinSyntax.Text" xml:space="preserve">
     <value>نوع تهجئة الملصقة:</value>
   </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>الرافعون الآخرون</value>
-  </data>
   <data name="gbPlikSettings.Text" xml:space="preserve">
     <value>الإعدادت الأخرى</value>
   </data>
@@ -839,13 +776,7 @@
   <data name="lblFTPName.Text" xml:space="preserve">
     <value>الاسم:</value>
   </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
-    <value>الاسم:</value>
-  </data>
   <data name="colSeafileLibraryName.Text" xml:space="preserve">
-    <value>الاسم</value>
-  </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
     <value>الاسم</value>
   </data>
   <data name="cbPlikTTLUnit.Items2" xml:space="preserve">
@@ -861,9 +792,6 @@
     <value>تسجيل الدخول</value>
   </data>
   <data name="btnImageShackLogin.Text" xml:space="preserve">
-    <value>تسجيل الدخول</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
     <value>تسجيل الدخول</value>
   </data>
   <data name="btnPastebinLogin.Text" xml:space="preserve">
@@ -909,9 +837,6 @@
   <data name="cbAmazonS3StripExtensionImage.Text" xml:space="preserve">
     <value>الصورة</value>
   </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>تجاهل شهادات SSL غير الصالحة</value>
-  </data>
   <data name="cbKuttReuse.Text" xml:space="preserve">
     <value>في حالة وجود عنوان URL بالهدف المحدد، قم بإرجاعه</value>
   </data>
@@ -941,9 +866,6 @@
   </data>
   <data name="llPuushForgottenPassword.Text" xml:space="preserve">
     <value>هل نسيت كلمة المرور؟</value>
-  </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>المجلد:</value>
   </data>
   <data name="btnLithiioFetchAPIKey.Text" xml:space="preserve">
     <value>جلب مفتاح API</value>
@@ -992,9 +914,6 @@
   </data>
   <data name="cbOwnCloudAppendFileNameToURL.Text" xml:space="preserve">
     <value>إلحاق اسم الملف بعنوان URL</value>
-  </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>معرف الألبوم الخاص بالرفع (فارغ = لا يوجد ألبوم رفع):</value>
   </data>
   <data name="lblFTPAccounts.Text" xml:space="preserve">
     <value>الحسابات:</value>

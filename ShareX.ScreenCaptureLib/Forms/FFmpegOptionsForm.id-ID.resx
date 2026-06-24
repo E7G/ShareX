@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Segarkan</value>
-  </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Laju bit variabel:</value>
   </data>
@@ -141,18 +138,6 @@
   <data name="lblGIFStatsMode.Text" xml:space="preserve">
     <value>Mode palet:</value>
   </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Uji dengan CMD</value>
-  </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Salin</value>
-  </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Laju bit:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Kodek audio:</value>
-  </data>
   <data name="lblVorbisQuality.Text" xml:space="preserve">
     <value>Kualitas:</value>
   </data>
@@ -168,14 +153,8 @@
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>Sumber video:</value>
   </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Gunakan jalur khusus</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Gunakan perintah khusus</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Kodek video:</value>
   </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Pra-atur:</value>
@@ -183,14 +162,8 @@
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>Laju bit variabel:</value>
   </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Kodek audio ini tidak didukung oleh wadah video terpilih.</value>
-  </data>
   <data name="cbGIFDither.ToolTip" xml:space="preserve">
     <value>Bawaannya adalah sierra2_4a.</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Bawaannya adalah 128k.</value>
   </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>Bawaannya adalah penuh.</value>
@@ -210,11 +183,5 @@ Nilai lebih tinggi berarti kualitas buruk, tetapi ukuran file kecil.</value>
     <value>Pra-atur cepat = Enkode lebih cepat tetapi ukuran file besar.
 Pra-atur lambat = Enkode lebih lambat tetapi ukuran file kecil.
 Untuk enkode waktu nyata (mis. perekaman layar), pra-atur harus secepat mungkin.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Rentang 0–10, 10 adalah kualitas tinggi. 3–6 adalah kisaran baik untuk dicoba. Bawaannya adalah 3.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Rentang 0-9 dimana nilai rendah adalah kualitas tinggi. 0-3 biasanya akan menghasilkan hasil transparan, 4 (bawaan) harus mendekati transparansi perseptual, dan 6 menghasilkan kualitas yang "bisa diterima".</value>
   </data>
 </root>

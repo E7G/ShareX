@@ -308,6 +308,7 @@
   </data>
   <data name="btnHelp.Text" xml:space="preserve">
     <value>?</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;btnHelp.Name" xml:space="preserve">
     <value>btnHelp</value>

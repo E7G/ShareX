@@ -159,9 +159,6 @@
   <data name="tslSearch.Text" xml:space="preserve">
     <value>Пошук:</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>Більше інформації</value>
-  </data>
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>Показати статистику...</value>
   </data>

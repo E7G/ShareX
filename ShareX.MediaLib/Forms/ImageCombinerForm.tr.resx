@@ -159,4 +159,10 @@
   <data name="rbOrientationVertical.Text" xml:space="preserve">
     <value>Dikey</value>
   </data>
+  <data name="lblWrapAfter.Text" xml:space="preserve">
+    <value>Şundan sonra sar:</value>
+  </data>
+  <data name="lblWrapAfterImages.Text" xml:space="preserve">
+    <value>görüntü</value>
+  </data>
 </root>

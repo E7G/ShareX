@@ -178,6 +178,7 @@
   </data>
   <data name="btnInputFilePathBrowse.Text" xml:space="preserve">
     <value>...</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;btnInputFilePathBrowse.Name" xml:space="preserve">
     <value>btnInputFilePathBrowse</value>
@@ -250,6 +251,7 @@
   </data>
   <data name="btnOutputFolderBrowse.Text" xml:space="preserve">
     <value>...</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;btnOutputFolderBrowse.Name" xml:space="preserve">
     <value>btnOutputFolderBrowse</value>
@@ -456,8 +458,8 @@
   <data name="pbProgress.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
-  <data name="pbProgress.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="pbProgress.Text" xml:space="preserve">
+    <value />  <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;pbProgress.Name" xml:space="preserve">
     <value>pbProgress</value>
@@ -569,6 +571,7 @@
   </data>
   <data name="lblVideoQualityValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblVideoQualityValue.Name" xml:space="preserve">
     <value>lblVideoQualityValue</value>
@@ -596,6 +599,7 @@
   </data>
   <data name="lblVideoQualityHigher.Text" xml:space="preserve">
     <value>xxxxxxxxxxxxxxxxxxxxxxxxxxxx -&gt;   99</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblVideoQualityHigher.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopRight</value>
@@ -626,6 +630,7 @@
   </data>
   <data name="lblVideoQualityLower.Text" xml:space="preserve">
     <value>99   &lt;- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblVideoQualityLower.Name" xml:space="preserve">
     <value>lblVideoQualityLower</value>
@@ -677,6 +682,7 @@
   </data>
   <data name="lblVideoQualityBitrateHint.Text" xml:space="preserve">
     <value>kbps</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblVideoQualityBitrateHint.Name" xml:space="preserve">
     <value>lblVideoQualityBitrateHint</value>

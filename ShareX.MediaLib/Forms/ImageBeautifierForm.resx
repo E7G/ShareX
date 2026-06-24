@@ -413,6 +413,7 @@
   </data>
   <data name="lblMarginValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblMarginValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -443,6 +444,7 @@
   </data>
   <data name="lblPaddingValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblPaddingValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -473,6 +475,7 @@
   </data>
   <data name="lblRoundedCornerValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblRoundedCornerValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -503,6 +506,7 @@
   </data>
   <data name="lblShadowRadiusValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblShadowRadiusValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -584,6 +588,7 @@
   </data>
   <data name="lblShadowAngleValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblShadowAngleValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -614,6 +619,7 @@
   </data>
   <data name="lblShadowDistanceValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblShadowDistanceValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
@@ -644,6 +650,7 @@
   </data>
   <data name="lblShadowOpacityValue.Text" xml:space="preserve">
     <value>0</value>
+    <comment>@Invariant</comment>
   </data>
   <data name="lblShadowOpacityValue.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>

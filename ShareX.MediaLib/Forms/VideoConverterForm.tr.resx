@@ -127,7 +127,7 @@
     <value>Kodlama bittikten sonra klasörü aç</value>
   </data>
   <data name="cbUseCustomArguments.Text" xml:space="preserve">
-    <value>Özel argümanlar kullan</value>
+    <value>Özel argümanlar kullan:</value>
   </data>
   <data name="lblInputFilePath.Text" xml:space="preserve">
     <value>Girdi dosya yolu:</value>
@@ -138,10 +138,13 @@
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>Çıktı klasörü:</value>
   </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>Video kodlayıcı:</value>
-  </data>
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>Video kalitesi:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video kodlayıcı:</value>
+  </data>
+  <data name="cbVideoQualityUseBitrate.Text" xml:space="preserve">
+    <value>Bit hızı kullan</value>
   </data>
 </root>

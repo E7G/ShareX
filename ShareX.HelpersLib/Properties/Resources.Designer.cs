@@ -198,7 +198,7 @@ namespace ShareX.HelpersLib.Properties {
                 return ResourceManager.GetString("AfterCaptureTasks_CopyFileToClipboard", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Copy folder path to clipboard.
         /// </summary>
@@ -207,7 +207,7 @@ namespace ShareX.HelpersLib.Properties {
                 return ResourceManager.GetString("AfterCaptureTasks_CopyFolderPathToClipboard", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Copy image to clipboard.
         /// </summary>

@@ -262,4 +262,10 @@ Oluşturulmuş dizinler:</value>
   <data name="Error" xml:space="preserve">
     <value>Hata</value>
   </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Bağlantıyı kes</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Bağlan...</value>
+  </data>
 </root>

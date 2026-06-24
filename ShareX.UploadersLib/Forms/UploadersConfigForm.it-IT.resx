@@ -141,9 +141,6 @@
   <data name="btnFTPAdd.Text" xml:space="preserve">
     <value>Aggiungi</value>
   </data>
-  <data name="btnTwitterAdd.Text" xml:space="preserve">
-    <value>Aggiungi</value>
-  </data>
   <data name="btnPhotobucketAddAlbum.Text" xml:space="preserve">
     <value>Aggiungi Album</value>
   </data>
@@ -168,14 +165,8 @@
   <data name="lblPolrAPIKey.Text" xml:space="preserve">
     <value>Chiave API:</value>
   </data>
-  <data name="lblAdflyAPIKEY.Text" xml:space="preserve">
-    <value>Chiave API:</value>
-  </data>
   <data name="lblPlikAPIKey.Text" xml:space="preserve">
     <value>Chiave API:</value>
-  </data>
-  <data name="lblPicasaAlbumID.Text" xml:space="preserve">
-    <value>ID Album per il Caricamento (Vuoto = No caricamento album)</value>
   </data>
   <data name="lblPolrAPIHostname.Text" xml:space="preserve">
     <value>URL API: (es. "http://demo.polr.me/api/v2/action/shorten")</value>
@@ -190,9 +181,6 @@
     <value>Nome Bucket:</value>
   </data>
   <data name="chImgurDescription.Text" xml:space="preserve">
-    <value>Descrizione</value>
-  </data>
-  <data name="chPicasaDescription.Text" xml:space="preserve">
     <value>Descrizione</value>
   </data>
   <data name="chGoogleDriveDescription.Text" xml:space="preserve">
@@ -217,9 +205,6 @@
     <value>Email:</value>
   </data>
   <data name="lblSeafileUsername.Text" xml:space="preserve">
-    <value>Email:</value>
-  </data>
-  <data name="lblMegaEmail.Text" xml:space="preserve">
     <value>Email:</value>
   </data>
   <data name="lblEmailFrom.Text" xml:space="preserve">
@@ -276,9 +261,6 @@
   <data name="chBoxFoldersName.Text" xml:space="preserve">
     <value>Nome Cartella</value>
   </data>
-  <data name="lblMegaFolder.Text" xml:space="preserve">
-    <value>Cartella:</value>
-  </data>
   <data name="llPuushForgottenPassword.Text" xml:space="preserve">
     <value>Password dimenticata?</value>
   </data>
@@ -296,9 +278,6 @@
   </data>
   <data name="lblFTPHost.Text" xml:space="preserve">
     <value>Host:</value>
-  </data>
-  <data name="cbSeafileIgnoreInvalidCert.Text" xml:space="preserve">
-    <value>Ignora Certificato SSL non Valido</value>
   </data>
   <data name="tpImageUploaders.Text" xml:space="preserve">
     <value>Caricamento Immagini</value>
@@ -324,23 +303,11 @@
   <data name="cbPolrIsSecret.Text" xml:space="preserve">
     <value>URL Segreto?</value>
   </data>
-  <data name="lblJiraHost.Text" xml:space="preserve">
-    <value>Host Jira:</value>
-  </data>
-  <data name="gbJiraServer.Text" xml:space="preserve">
-    <value>Server Jira</value>
-  </data>
-  <data name="lblJiraIssuePrefix.Text" xml:space="preserve">
-    <value>Prefisso Problema Jira:</value>
-  </data>
   <data name="lblSFTPKeyLocation.Text" xml:space="preserve">
     <value>Posizione Chiave:</value>
   </data>
   <data name="lblSFTPKeyPassphrase.Text" xml:space="preserve">
     <value>Passphrase:</value>
-  </data>
-  <data name="btnMegaLogin.Text" xml:space="preserve">
-    <value>Accedi</value>
   </data>
   <data name="btnImageShackLogin.Text" xml:space="preserve">
     <value>Accedi</value>
@@ -360,13 +327,7 @@
   <data name="colSeafileLibraryName.Text" xml:space="preserve">
     <value>Nome</value>
   </data>
-  <data name="chPicasaName.Text" xml:space="preserve">
-    <value>Nome</value>
-  </data>
   <data name="lblFTPName.Text" xml:space="preserve">
-    <value>Nome:</value>
-  </data>
-  <data name="lblTwitterDescription.Text" xml:space="preserve">
     <value>Nome:</value>
   </data>
   <data name="rbFTPTransferModePassive.Text" xml:space="preserve">
@@ -400,9 +361,6 @@
     <value>Password:</value>
   </data>
   <data name="lblSendSpacePassword.Text" xml:space="preserve">
-    <value>Password:</value>
-  </data>
-  <data name="lblMegaPassword.Text" xml:space="preserve">
     <value>Password:</value>
   </data>
   <data name="lblPuushPassword.Text" xml:space="preserve">
@@ -444,14 +402,8 @@
   <data name="btnRefreshSeafileAccInfo.Text" xml:space="preserve">
     <value>Aggiorna</value>
   </data>
-  <data name="btnMegaRefreshFolders.Text" xml:space="preserve">
-    <value>Aggiorna</value>
-  </data>
   <data name="txtSeafileUploadLocationRefresh.Text" xml:space="preserve">
     <value>Aggiorna</value>
-  </data>
-  <data name="btnPicasaRefreshAlbumList.Text" xml:space="preserve">
-    <value>Aggiorna Lista Album</value>
   </data>
   <data name="btnImgurRefreshAlbumList.Text" xml:space="preserve">
     <value>Aggiorna Lista Album</value>
@@ -471,9 +423,6 @@
   <data name="btnSendSpaceRegister.Text" xml:space="preserve">
     <value>Registrati...</value>
   </data>
-  <data name="btnMegaRegister.Text" xml:space="preserve">
-    <value>Registrati...</value>
-  </data>
   <data name="lblFTPRemoteDirectory.Text" xml:space="preserve">
     <value>Cartella Remota:</value>
   </data>
@@ -481,9 +430,6 @@
     <value>Rimovibile</value>
   </data>
   <data name="btnFTPRemove.Text" xml:space="preserve">
-    <value>Rimuovi</value>
-  </data>
-  <data name="btnTwitterRemove.Text" xml:space="preserve">
     <value>Rimuovi</value>
   </data>
   <data name="btnPhotobucketRemoveAlbum.Text" xml:space="preserve">
@@ -528,9 +474,6 @@
   <data name="lblPastebinLoginStatus.Text" xml:space="preserve">
     <value>Stato:</value>
   </data>
-  <data name="lblMegaStatusTitle.Text" xml:space="preserve">
-    <value>Stato:</value>
-  </data>
   <data name="btnFTPTest.Text" xml:space="preserve">
     <value>Prova</value>
   </data>
@@ -554,12 +497,6 @@
   </data>
   <data name="lblHastebinSyntaxHighlighting.Text" xml:space="preserve">
     <value>Evidenziazione Sintassi:</value>
-  </data>
-  <data name="txtJiraConfigHelp.Text" xml:space="preserve">
-    <value>Modello</value>
-  </data>
-  <data name="btnTwitterNameUpdate.Text" xml:space="preserve">
-    <value>Aggiorna</value>
   </data>
   <data name="lblFTPTransferMode.Text" xml:space="preserve">
     <value>Modalità Trasferimento:</value>
@@ -611,9 +548,6 @@
   </data>
   <data name="lblPhotobucketVerificationCode.Text" xml:space="preserve">
     <value>Codice Verifica (Ottienilo dalla pagina di autorizzazione):</value>
-  </data>
-  <data name="llAdflyLink.Text" xml:space="preserve">
-    <value>Puoi trovare qui chiave API e UID</value>
   </data>
   <data name="llVgymeAccountDetailsPage.Text" xml:space="preserve">
     <value>Puoi teovare la chiave utente sulla pagina Dettagli dell'account</value>
@@ -705,9 +639,6 @@
   <data name="cbAmazonS3CustomCNAME.Text" xml:space="preserve">
     <value>Usa Dominio Personalizzato:</value>
   </data>
-  <data name="cbTwitterSkipMessageBox.Text" xml:space="preserve">
-    <value>Ignora Finestra Messaggio del Tweet</value>
-  </data>
   <data name="lblSeafileSelectLibrary.Text" xml:space="preserve">
     <value>Selezione Library:</value>
   </data>
@@ -725,9 +656,6 @@
   </data>
   <data name="cbOwnCloud81Compatibility.Text" xml:space="preserve">
     <value>Compatibilità ownCloud 8.1+</value>
-  </data>
-  <data name="tpOtherUploaders.Text" xml:space="preserve">
-    <value>Altri Servizi</value>
   </data>
   <data name="gbPlikSettings.Text" xml:space="preserve">
     <value>Altre Impostazioni</value>
@@ -775,9 +703,6 @@ Usare una library criptata disabilita la condivisione.</value>
   <data name="cbPlikOneShot.Text" xml:space="preserve">
     <value>Distruggi Dopo il Primo Scaricamento</value>
   </data>
-  <data name="lblTwitterDefaultMessage.Text" xml:space="preserve">
-    <value>Tweet Predefinito:</value>
-  </data>
   <data name="lblEmailDefaultSubject.Text" xml:space="preserve">
     <value>Oggetto Predefinito:</value>
   </data>
@@ -798,9 +723,6 @@ Usare una library criptata disabilita la condivisione.</value>
   </data>
   <data name="cbPlikComment.Text" xml:space="preserve">
     <value>Commento (Markdown)</value>
-  </data>
-  <data name="lblMegaStatus.Text" xml:space="preserve">
-    <value>Configurato / Non Configurato</value>
   </data>
   <data name="lblAzureStorageContainer.Text" xml:space="preserve">
     <value>Contenitore:</value>
@@ -864,17 +786,11 @@ Ad esempio, se il bucket si chiama "bucket.example.com", l'URL sarà "http://buc
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
   </data>
-  <data name="chPicasaID.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
   <data name="gbFTPS.Text" xml:space="preserve">
     <value>FTPS</value>
   </data>
   <data name="gbSFTP.Text" xml:space="preserve">
     <value>SFTP</value>
-  </data>
-  <data name="lblAdflyAPIUID.Text" xml:space="preserve">
-    <value>UID API:</value>
   </data>
   <data name="lblAzureStorageCustomDomain.Text" xml:space="preserve">
     <value>Dominio Personalizzato:</value>
@@ -893,12 +809,6 @@ Ad esempio, se il bucket si chiama "bucket.example.com", l'URL sarà "http://buc
   </data>
   <data name="rbFTPProtocolSFTP.Text" xml:space="preserve">
     <value>SFTP</value>
-  </data>
-  <data name="txtJiraHost.Text" xml:space="preserve">
-    <value>http://</value>
-  </data>
-  <data name="txtJiraIssuePrefix.Text" xml:space="preserve">
-    <value>PROJECT-</value>
   </data>
   <data name="btnPaste_eeGetUserKey.Text" xml:space="preserve">
     <value>Ottieni chiave utente...</value>

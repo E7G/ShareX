@@ -117,21 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Refrescar</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Prueba con CMD</value>
-  </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Copiar</value>
-  </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Tasa de bits:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Codec de audio:</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opciones FFmpeg</value>
   </data>
@@ -141,9 +126,6 @@
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Fuente de audio:</value>
   </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Códec de vídeo:</value>
-  </data>
   <data name="lblMP3Quality.Text" xml:space="preserve">
     <value>Calidad:</value>
   </data>
@@ -152,16 +134,6 @@
   </data>
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>Fuente de vídeo:</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>El valor predeterminado es de 128k.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>El rango es de 0 a 9, donde un valor inferior es de mayor calidad.  0-3 normalmente producir resultados transparentes, 
-4 (Predeterminado) debe estar cerca de la transparencia perceptual, y 6 produce una calidad "aceptable".</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>El rango es de 0 a 10, donde 10 es la más alta calidad. 3-6 es un buen rango para probar. El valor predeterminado es 3.</value>
   </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Factor Constante de Velocidad (CRF): El rango de la escala del cuantificador es 0-51: donde 0 es sin pérdidas, 23 es predeterminado, y 51 es el peor posible.

@@ -138,9 +138,6 @@
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>תיקיית פלט:</value>
   </data>
-  <data name="lblVideoCodec.Text" xml:space="preserve">
-    <value>קידוד וידאו:</value>
-  </data>
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>איכות וידאו:</value>
   </data>

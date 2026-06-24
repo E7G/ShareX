@@ -139,17 +139,8 @@ O valoare mai mare înseamnă o calitate proastă, dar o dimensiune redusă a fi
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>Argumente suplimentare pentru linia de comandă:</value>
   </data>
-  <data name="tbAMF.Text" xml:space="preserve">
-    <value>AMF</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Codec audio:</value>
-  </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Sursă audio:</value>
-  </data>
-  <data name="lblOpusQuality.Text" xml:space="preserve">
-    <value>Rata de biți:</value>
   </data>
   <data name="lblQSVBitrate.Text" xml:space="preserve">
     <value>Rata de biți:</value>
@@ -160,23 +151,8 @@ O valoare mai mare înseamnă o calitate proastă, dar o dimensiune redusă a fi
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Rata de biți:</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Rata de biți:</value>
-  </data>
-  <data name="lblCommandLinePreview.Text" xml:space="preserve">
-    <value>Previzualizarea liniei de comandă:</value>
-  </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>Controlează indicele Scalei Bayer, o scară mai mare va afișa mai multe benzi. Valoarea implicită este 2.</value>
-  </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Copiați</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Prestabilit este 128k.</value>
-  </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>Prestabilit este 128k.</value>
   </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>Prestabilit este full.</value>
@@ -191,9 +167,6 @@ O valoare mai mare înseamnă o calitate proastă, dar o dimensiune redusă a fi
     <value>Presetare rapidă = Codificare mai rapidă, dar dimensiune mai mare a fișierului.
 Presetare lentă = Codificare mai lentă, dar dimensiune mai mică a fișierului.
 Pentru codificarea în timp real (de exemplu, înregistrarea ecranului), presetarea trebuie să fie cât mai rapidă posibil.</value>
-  </data>
-  <data name="lblFFmpegPath.Text" xml:space="preserve">
-    <value>Calea FFmpeg:</value>
   </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Pentru codificarea în timp real, cum ar fi înregistrarea ecranului, se recomandă selectarea unei presetări rapide.
@@ -250,26 +223,8 @@ Pentru codificarea în timp real (de exemplu, înregistrarea ecranului), preseta
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>Calitate:</value>
   </data>
-  <data name="tbQSV.Text" xml:space="preserve">
-    <value>QuickSync</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Intervalul este 0-10, unde 10 reprezintă cea mai bună calitate. 3-6 este un interval bun pentru a încerca. Valoarea implicită este 3.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Intervalul este 0-9, unde o valoare mai mică reprezintă o calitate mai bună. 0-3 va produce în mod normal rezultate transparente, 4 (valoarea implicită) ar trebui să fie aproape de transparența percepută, iar 6 produce o calitate "acceptabilă".</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Reîmprosătare</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opțiuni înregistrare exran</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Test cu CMD</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Acest codec audio nu este acceptat de containerul video selectat.</value>
   </data>
   <data name="lblAMFUsage.Text" xml:space="preserve">
     <value>Utilizare:</value>
@@ -280,14 +235,8 @@ Pentru codificarea în timp real (de exemplu, înregistrarea ecranului), preseta
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Utilizare comandă particularizată</value>
   </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Utilizare cale particularizată</value>
-  </data>
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>Rată de biți variabilă:</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Codec video:</value>
   </data>
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>Sursă video:</value>

@@ -171,9 +171,6 @@
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>הצג סטטיסטיקות...</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>הצג/הסתר מידע נוסף</value>
-  </data>
   <data name="tslSearch.Text" xml:space="preserve">
     <value>חפש:</value>
   </data>

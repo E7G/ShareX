@@ -117,17 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Testuj z CMD...</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Odśwież</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opcje nagrywania ekranu</value>
-  </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Kopiuj</value>
   </data>
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>Jakość:</value>
@@ -147,14 +138,8 @@
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Bitrate:</value>
   </data>
-  <data name="lblOpusQuality.Text" xml:space="preserve">
-    <value>Bitrate:</value>
-  </data>
   <data name="lblNVENCBitrate.Text" xml:space="preserve">
     <value>Bitrate:</value>
-  </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Kodek audio:</value>
   </data>
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Źródło audio:</value>
@@ -168,23 +153,14 @@
   <data name="lblHelperDevices.Text" xml:space="preserve">
     <value>Instaluje "screen-capture-recorder"i "virtual-audio-capturer" źródło wideo/audio.</value>
   </data>
-  <data name="lblFFmpegPath.Text" xml:space="preserve">
-    <value>Ścieżka FFmpeg:</value>
-  </data>
   <data name="lblGIFStatsMode.Text" xml:space="preserve">
     <value>Tryb palety:</value>
   </data>
   <data name="lblGIFDither.Text" xml:space="preserve">
     <value>Tryb ditheringu:</value>
   </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
-    <value>Bitrate:</value>
-  </data>
   <data name="lblQSVBitrate.Text" xml:space="preserve">
     <value>Bitrate:</value>
-  </data>
-  <data name="lblCommandLinePreview.Text" xml:space="preserve">
-    <value>Podgląd wiersza poleceń:</value>
   </data>
   <data name="lblNVENCPreset.Text" xml:space="preserve">
     <value>Preset:</value>
@@ -200,9 +176,6 @@
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Użyj własnych poleceń</value>
-  </data>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Kodek wideo:</value>
   </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>Dodatkowe argumenty wiersza poleceń:</value>
@@ -226,29 +199,11 @@ Wyższa wartość oznacza złą jakość, ale niski rozmiar pliku.</value>
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1 oznacza najwyższą jakość/największy rozmiar plików, a 31 najniższą jakość/najmniejszy rozmiar plików.</value>
   </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Ten kodek audio nie jest obsługiwany przez wybrany kontener wideo.</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Wartość domyślna to 128k.</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Zakres to 0-9, gdzie niższa wartość oznacza wyższą jakość. 0-3 zwykle daje przejrzyste wyniki, 4 (domyślnie) powinno być bliskie percepcyjnej przezroczystości, a 6 daje "akceptowalną" jakość.</value>
-  </data>
-  <data name="tbOpusBitrate.ToolTip" xml:space="preserve">
-    <value>Wartość domyślna to 128k.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Zakres to 0–10, gdzie 10 to najwyższa jakość. 3–6 to dobry zakres do wypróbowania. Wartość domyślna to 3.</value>
-  </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>Domyślnie jest to full.</value>
   </data>
   <data name="cbGIFDither.ToolTip" xml:space="preserve">
     <value>Domyślnie jest to sierra2_4a.</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Użyj niestandardowej ścieżki</value>
   </data>
   <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
     <value>Użyj własnej ścieżki FFmpeg:</value>

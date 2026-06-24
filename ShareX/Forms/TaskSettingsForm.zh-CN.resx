@@ -684,23 +684,8 @@
   <data name="cbUseRandomImageEffect.Text" xml:space="preserve">
     <value>使用随机的图片效果</value>
   </data>
-  <data name="tpToolsImageEditor.Text" xml:space="preserve">
-    <value>图片编辑器</value>
-  </data>
-  <data name="cbImageEditorExitConfirmation.Text" xml:space="preserve">
-    <value>显示退出确认</value>
-  </data>
   <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
     <value>使用旧版图像编辑器</value>
-  </data>
-  <data name="cbImageEditorZoomToFitOnOpen.Text" xml:space="preserve">
-    <value>缩放以适应打开的屏幕</value>
-  </data>
-  <data name="cbImageEditorAutoCloseEditorOnTask.Text" xml:space="preserve">
-    <value>任务完成后自动关闭编辑器</value>
-  </data>
-  <data name="cbImageEditorAutoCopyImageToClipboard.Text" xml:space="preserve">
-    <value>自动将图片复制到剪贴板</value>
   </data>
   <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
     <value>自动隐藏桌面图标</value>

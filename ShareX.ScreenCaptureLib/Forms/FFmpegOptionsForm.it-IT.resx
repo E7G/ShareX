@@ -117,17 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblCodec.Text" xml:space="preserve">
-    <value>Codificatore Video:</value>
-  </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Preset:</value>
   </data>
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>Bitrate Variabile:</value>
-  </data>
-  <data name="cbOverrideFFmpegPath.Text" xml:space="preserve">
-    <value>Usa Percorso Personalizzato</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Usa Comandi Personalizzati</value>
@@ -139,15 +133,6 @@
     <value>Preset:</value>
   </data>
   <data name="lblNVENCBitrate.Text" xml:space="preserve">
-    <value>Bitrate:</value>
-  </data>
-  <data name="btnTest.Text" xml:space="preserve">
-    <value>Prova con CMD</value>
-  </data>
-  <data name="btnCopyPreview.Text" xml:space="preserve">
-    <value>Copia</value>
-  </data>
-  <data name="lblAACQuality.Text" xml:space="preserve">
     <value>Bitrate:</value>
   </data>
   <data name="lblVorbisQuality.Text" xml:space="preserve">
@@ -162,12 +147,6 @@
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>Sorgente Audio:</value>
   </data>
-  <data name="lblAudioCodec.Text" xml:space="preserve">
-    <value>Codificatore Audio:</value>
-  </data>
-  <data name="btnRefreshSources.Text" xml:space="preserve">
-    <value>Aggiorna</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opzioni Registrazione Schermo</value>
   </data>
@@ -176,12 +155,6 @@
   </data>
   <data name="lblHelperDevices.Text" xml:space="preserve">
     <value>Installa le sorgenti video/audio "screen-capture-recorder" e "virtual-audio-capturer".</value>
-  </data>
-  <data name="pbAudioCodecWarning.ToolTip" xml:space="preserve">
-    <value>Questo codificatore audio non è supportato dal contenitore video selezionato.</value>
-  </data>
-  <data name="tbAACBitrate.ToolTip" xml:space="preserve">
-    <value>Predefinito: "128k"</value>
   </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>Predefinito: "Full"</value>
@@ -212,20 +185,6 @@ Un valore alto significa cattiva qualità, ma dimensione del file inferiore.</va
 - Preset Lento = Codifica più lenta, ma dimensione file inferore.
 
 Per la codifica in tempo reale (es. registra schermo), il preset deve essere il più veloce possibile.</value>
-  </data>
-  <data name="tbVorbis_qscale.ToolTip" xml:space="preserve">
-    <value>Valore 0-10:
-- 10:Qualità maggiore
-- 3-6: Qualità buona
-- 3: Predefinito</value>
-  </data>
-  <data name="tbMP3_qscale.ToolTip" xml:space="preserve">
-    <value>Valore basso = qualità maggiore
-
-Valore 0-9:
-- 0-3: Normallmente produce risultati trasparenti
-- 4: Predefinito (dovrebbe essere vicino alla trasparenza percettiva)
-- 6: Qualità "accettabile"</value>
   </data>
   <data name="lblGIFStatsMode.Text" xml:space="preserve">
     <value>Modalità Paletta:</value>

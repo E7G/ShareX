@@ -159,9 +159,6 @@
   <data name="tsbAdvancedSearch.Text" xml:space="preserve">
     <value>Erweiterte Suche...</value>
   </data>
-  <data name="tsbToggleMoreInfo.Text" xml:space="preserve">
-    <value>mehr Infos umschalten</value>
-  </data>
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>Zeige Statistiken...</value>
   </data>
