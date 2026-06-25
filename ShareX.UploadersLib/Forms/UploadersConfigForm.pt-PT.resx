@@ -161,9 +161,6 @@ Por exemplo, se o teu nome for 'bucket.example.com' a hiperligação será http:
   <data name="lblPolrAPIHostname.Text" xml:space="preserve">
     <value>Anfitrião da API: (e.g http://example.com/api.php, Deixe em branco para usar polr.me)</value>
   </data>
-  <data name="tpFirebaseDynamicLinks.Text" xml:space="preserve">
-    <value>Hiperligações dinâmicas Firebase</value>
-  </data>
   <data name="lblFirebaseDomainExample.Text" xml:space="preserve">
     <value>Exemplo: google.page.ink</value>
   </data>
@@ -633,9 +630,6 @@ Utilizar uma biblioteca encriptada desactiva compartilhamento.</value>
   <data name="lblSeafileAPIURL.Text" xml:space="preserve">
     <value>Hiperligação da API:</value>
   </data>
-  <data name="tpStreamable.Text" xml:space="preserve">
-    <value>Transmitível</value>
-  </data>
   <data name="cbStreamableUseDirectURL.Text" xml:space="preserve">
     <value>Utilizar hiperligação directa</value>
   </data>
@@ -682,7 +676,7 @@ Utilizar uma biblioteca encriptada desactiva compartilhamento.</value>
     <value>Credenciais de início de sessão</value>
   </data>
   <data name="lblPlikTTL.Text" xml:space="preserve">
-    <value>Ficheiro serão automáticamente removidos em </value>
+    <value>Ficheiro serão automáticamente removidos em</value>
   </data>
   <data name="lblPlikURL.Text" xml:space="preserve">
     <value>Anfitrião</value>
@@ -941,5 +935,74 @@ Utilizar uma biblioteca encriptada desactiva compartilhamento.</value>
   </data>
   <data name="cbOneDriveUseDirectLink.Text" xml:space="preserve">
     <value>Usar hiperligação directa</value>
+  </data>
+  <data name="lblPrivateBinPassword.Text" xml:space="preserve">
+    <value>Palavra-passe:</value>
+  </data>
+  <data name="lblPrivateBinUsername.Text" xml:space="preserve">
+    <value>Nome de utilizador:</value>
+  </data>
+  <data name="gbPrivateBinCredentials.Text" xml:space="preserve">
+    <value>Credenciais</value>
+  </data>
+  <data name="gbPrivateBinCredentials.ToolTip" xml:space="preserve">
+    <value>Some servers might require adicionaritional authorization</value>
+  </data>
+  <data name="lblKuttDomain.Text" xml:space="preserve">
+    <value>Domínio:</value>
+  </data>
+  <data name="lblZWSToken.Text" xml:space="preserve">
+    <value>Token:</value>
+  </data>
+  <data name="lblZWSURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblBoxShareAccessLevel.Text" xml:space="preserve">
+    <value>Shared ligação access level:</value>
+  </data>
+  <data name="cbAmazonS3SignedPayload.Text" xml:space="preserve">
+    <value>Payload assinado</value>
+  </data>
+  <data name="lblAzureStorageCacheControl.Text" xml:space="preserve">
+    <value>Cabeçalho Cache-Control:</value>
+  </data>
+  <data name="cbOwnCloudAppendFileNameToURL.Text" xml:space="preserve">
+    <value>Append ficheiro name to URL</value>
+  </data>
+  <data name="cbSeafileCreateShareableURLRaw.Text" xml:space="preserve">
+    <value>Utilizar URL bruto</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items1" xml:space="preserve">
+    <value>horas</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items2" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items3" xml:space="preserve">
+    <value>nunca</value>
+  </data>
+  <data name="lblYouTubePermissionsTip.Text" xml:space="preserve">
+    <value>You may revoke your access at anytime using the ligação below:</value>
+  </data>
+  <data name="cbYouTubeShowDialog.Text" xml:space="preserve">
+    <value>Show video opções dialog</value>
+  </data>
+  <data name="lblPrivateBinCustomUrl.Text" xml:space="preserve">
+    <value>Personalizado URL:</value>
+  </data>
+  <data name="lblPrivateBinExpiration.Text" xml:space="preserve">
+    <value>Expiração:</value>
+  </data>
+  <data name="lblPrivateBinFormat.Text" xml:space="preserve">
+    <value>Formato:</value>
+  </data>
+  <data name="lblPrivateBinPastePassword.Text" xml:space="preserve">
+    <value>Palavra-passe da colagem:</value>
+  </data>
+  <data name="cbPrivateBinBurnAfterReading.Text" xml:space="preserve">
+    <value>Destruir após leitura</value>
   </data>
 </root>

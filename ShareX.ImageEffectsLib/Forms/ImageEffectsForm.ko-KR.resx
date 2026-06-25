@@ -162,4 +162,25 @@
   <data name="btnEffectRefresh.ToolTip" xml:space="preserve">
     <value>새로고침</value>
   </data>
+  <data name="lblPresets.Text" xml:space="preserve">
+    <value>프리셋:</value>
+  </data>
+  <data name="btnPackager.Text" xml:space="preserve">
+    <value>패키저...</value>
+  </data>
+  <data name="btnPresetNew.ToolTip" xml:space="preserve">
+    <value>새로 만들기</value>
+  </data>
+  <data name="btnPresetRemove.ToolTip" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="btnEffectClear.ToolTip" xml:space="preserve">
+    <value>지우기...</value>
+  </data>
+  <data name="btnImageEffects.Text" xml:space="preserve">
+    <value>이미지 effects...</value>
+  </data>
+  <data name="lblEffectName.Text" xml:space="preserve">
+    <value>효과 이름:</value>
+  </data>
 </root>

@@ -296,7 +296,7 @@
     <value>名稱不能為空。</value>
   </data>
   <data name="FileExistForm_txtNewName_TextChanged_Use_new_name__" xml:space="preserve">
-    <value>使用新名稱：</value>
+    <value>使用新名稱: </value>
   </data>
   <data name="UploadManager_IsUploadConfirmed_Don_t_show_this_message_again_" xml:space="preserve">
     <value>不要再顯示此訊息。</value>
@@ -639,5 +639,11 @@
   <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
     <value>下載失敗：
 {0}</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
+    <value>阿拉伯語</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>捐贈</value>
   </data>
 </root>

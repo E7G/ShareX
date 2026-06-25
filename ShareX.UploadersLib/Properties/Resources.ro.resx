@@ -262,4 +262,10 @@ Foldere create:</value>
   <data name="Error" xml:space="preserve">
     <value>Eroare</value>
   </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Deconectare</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Conectează...</value>
+  </data>
 </root>

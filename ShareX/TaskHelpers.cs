@@ -264,6 +264,9 @@ namespace ShareX
                         OpenImageViewer();
                     }
                     break;
+                case HotkeyType.ImageComparer:
+                    OpenImageComparer();
+                    break;
                 case HotkeyType.ImageCombiner:
                     OpenImageCombiner(null, safeTaskSettings);
                     break;
@@ -2165,8 +2168,9 @@ namespace ShareX
                     case HotkeyType.PinToScreenCloseAll: return Resources.pin__minus;
                     case HotkeyType.ImageEditor: return Resources.image_pencil;
                     case HotkeyType.ImageBeautifier: return Resources.picture_sunset;
-                    case HotkeyType.ImageEffects: return Resources.image_saturation;
+                    case HotkeyType.ImageEffects: return Resources.image_reflection;
                     case HotkeyType.ImageViewer: return Resources.images_flickr;
+                    case HotkeyType.ImageComparer: return Resources.image_saturation;
                     case HotkeyType.ImageCombiner: return Resources.document_break;
                     case HotkeyType.ImageSplitter: return Resources.image_split;
                     case HotkeyType.ImageThumbnailer: return Resources.image_resize_actual;

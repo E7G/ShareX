@@ -147,4 +147,10 @@
   <data name="tpResponseText.Text" xml:space="preserve">
     <value>Antworttext</value>
   </data>
+  <data name="tsbResponseTextJSONFormat.Text" xml:space="preserve">
+    <value>JSON-Format</value>
+  </data>
+  <data name="tsbResponseTextXMLFormat.Text" xml:space="preserve">
+    <value>XML-Format</value>
+  </data>
 </root>

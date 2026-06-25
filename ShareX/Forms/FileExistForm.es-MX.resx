@@ -122,13 +122,13 @@
 Elija otro nombre o acción:</value>
   </data>
   <data name="btnOverwrite.Text" xml:space="preserve">
-    <value>Sobrescribir:</value>
+    <value>Sobrescribir: </value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>No guardar</value>
   </data>
   <data name="btnUniqueName.Text" xml:space="preserve">
-    <value>Usar un nombre único:</value>
+    <value>Usar un nombre único: </value>
   </data>
   <data name="btnNewName.Text" xml:space="preserve">
     <value>Usar un nuevo nombre:</value>

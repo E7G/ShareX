@@ -659,12 +659,6 @@
   <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
     <value>自訂上傳工具設定...</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
-  <data name="tsbDiscord.Text" xml:space="preserve">
-    <value>Discord...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>新增圖片特效...</value>
   </data>
@@ -686,30 +680,6 @@
   <data name="tsmiCombineImagesVertically.Text" xml:space="preserve">
     <value>垂直合併</value>
   </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+C</value>
-  </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Shift+C</value>
-  </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
-  </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Del</value>
-  </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Del</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
-  </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>圖片美化工具...</value>
   </data>
@@ -724,18 +694,6 @@
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Enter</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Enter</value>
-  </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Enter</value>
-  </data>
-  <data name="tsmiPinSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+P</value>
   </data>
   <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
     <value>釘選至螢幕</value>
@@ -773,9 +731,6 @@
   <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
     <value>影片轉檔工具...</value>
   </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
-  </data>
   <data name="tsmiVideoConverter.Text" xml:space="preserve">
     <value>影片轉檔工具...</value>
   </data>
@@ -796,5 +751,32 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>描述</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>中繼資料...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>分析圖片...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>圖片比較器...</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>分析圖片...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>自訂上傳器設定...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>目的地設定...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>中繼資料...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>分析圖片...</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>圖片比較器...</value>
   </data>
 </root>

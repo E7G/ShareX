@@ -135,4 +135,16 @@
   <data name="lblTarget.Text" xml:space="preserve">
     <value>Doel:</value>
   </data>
+  <data name="lblFilePath.Text" xml:space="preserve">
+    <value>Bestand path:</value>
+  </data>
+  <data name="lblFilePath2.Text" xml:space="preserve">
+    <value>Bestand path:</value>
+  </data>
+  <data name="btnFilePathBrowse2.Text" xml:space="preserve">
+    <value>Bladeren...</value>
+  </data>
+  <data name="cbCompareTwoFiles.Text" xml:space="preserve">
+    <value>Compare two bestanden</value>
+  </data>
 </root>

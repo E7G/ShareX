@@ -165,9 +165,6 @@
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>Saat ShareX terbuka, tampilkan "In-App" di Steam</value>
   </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-  </data>
   <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
     <value>Aktifkan dukungan ekstensi Chrome</value>
   </data>
@@ -177,17 +174,11 @@
   <data name="gbChrome.Text" xml:space="preserve">
     <value>Ekstensi Chrome</value>
   </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Windows</value>
-  </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integrasi</value>
   </data>
   <data name="btnOpenScreenshotsFolder.Text" xml:space="preserve">
     <value>Buka...</value>
-  </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="btnBrowsePersonalFolderPath.Text" xml:space="preserve">
     <value>Jelajahi...</value>
@@ -200,9 +191,6 @@
   </data>
   <data name="btnOpenPersonalFolderPath.Text" xml:space="preserve">
     <value>Buka...</value>
-  </data>
-  <data name="lblSaveImageSubFolderPatternPreview.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="lblSaveImageSubFolderPattern.Text" xml:space="preserve">
     <value>Pola sub folder:</value>
@@ -335,5 +323,107 @@
   </data>
   <data name="lblRecentTasksMaxCount.Text" xml:space="preserve">
     <value>Jumlah maksimum tugas untuk disimpan:</value>
+  </data>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>Kanal pembaruan:</value>
+  </data>
+  <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
+    <value>Periksa pembaruan secara otomatis</value>
+  </data>
+  <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
+    <value>Gunakan ikon ShareX putih</value>
+  </data>
+  <data name="btnCheckDevBuild.Text" xml:space="preserve">
+    <value>Instal build pengembangan...</value>
+  </data>
+  <data name="btnThemeReset.Text" xml:space="preserve">
+    <value>Atur ulang...</value>
+  </data>
+  <data name="btnThemeRemove.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="btnThemeAdd.Text" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="tpTheme.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
+    <value>Pola subfolder untuk jendela:</value>
+  </data>
+  <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
+    <value>Terapkan</value>
+  </data>
+  <data name="cbAutomaticallyCleanupLogFiles.Text" xml:space="preserve">
+    <value>Bersihkan file log lama secara otomatis</value>
+  </data>
+  <data name="lblCleanupKeepFileCount.Text" xml:space="preserve">
+    <value>Jumlah file yang disimpan:</value>
+  </data>
+  <data name="cbAutomaticallyCleanupBackupFiles.Text" xml:space="preserve">
+    <value>Bersihkan file cadangan lama secara otomatis</value>
+  </data>
+  <data name="cbExportHistory.Text" xml:space="preserve">
+    <value>Riwayat</value>
+  </data>
+  <data name="cbExportSettings.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="lblExportImportNote.Text" xml:space="preserve">
+    <value>Catatan: Jangan bagikan file yang diekspor kepada siapa pun karena mungkin berisi informasi pribadi seperti detail akun dan riwayat unggahan Anda.</value>
+  </data>
+  <data name="tpSettings.Text" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="lblListViewImagePreviewLocation.Text" xml:space="preserve">
+    <value>Lokasi pratinjau gambar:</value>
+  </data>
+  <data name="lblListViewImagePreviewVisibility.Text" xml:space="preserve">
+    <value>Visibilitas pratinjau gambar:</value>
+  </data>
+  <data name="cbListViewShowColumns.Text" xml:space="preserve">
+    <value>Tampilkan kolom</value>
+  </data>
+  <data name="gbListView.Text" xml:space="preserve">
+    <value>Tampilan daftar</value>
+  </data>
+  <data name="btnThumbnailViewThumbnailSizeReset.Text" xml:space="preserve">
+    <value>Atur ulang</value>
+  </data>
+  <data name="lblThumbnailViewThumbnailClickAction.Text" xml:space="preserve">
+    <value>Tindakan klik thumbnail:</value>
+  </data>
+  <data name="lblThumbnailViewThumbnailSize.Text" xml:space="preserve">
+    <value>Ukuran thumbnail:</value>
+  </data>
+  <data name="lblThumbnailViewTitleLocation.Text" xml:space="preserve">
+    <value>Lokasi judul:</value>
+  </data>
+  <data name="cbThumbnailViewShowTitle.Text" xml:space="preserve">
+    <value>Tampilkan judul</value>
+  </data>
+  <data name="gbThumbnailView.Text" xml:space="preserve">
+    <value>Tampilan thumbnail</value>
+  </data>
+  <data name="cbMainWindowShowMenu.Text" xml:space="preserve">
+    <value>Tampilkan menu</value>
+  </data>
+  <data name="lblMainWindowTaskViewMode.Text" xml:space="preserve">
+    <value>Mode tampilan tugas:</value>
+  </data>
+  <data name="tpMainWindow.Text" xml:space="preserve">
+    <value>Jendela utama</value>
+  </data>
+  <data name="lblClipboardFormatsTip.Text" xml:space="preserve">
+    <value>Format ini akan muncul di submenu "Salin" pada menu konteks jendela utama.</value>
+  </data>
+  <data name="tpClipboardFormats.Text" xml:space="preserve">
+    <value>Format clipboard</value>
+  </data>
+  <data name="cbUseSecondaryUploaders.Text" xml:space="preserve">
+    <value>Gunakan urutan preferensi pengunggah sekunder saat mencoba ulang</value>
+  </data>
+  <data name="lblDefaultPrinterOverride.Text" xml:space="preserve">
+    <value>Penggantian printer default:</value>
   </data>
 </root>

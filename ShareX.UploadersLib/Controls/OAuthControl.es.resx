@@ -124,7 +124,7 @@
     <value>Paso 2: Autorización completa</value>
   </data>
   <data name="btnOpenAuthorizePage.Text" xml:space="preserve">
-    <value>Paso 1: Abrir la página de autorización </value>
+    <value>Paso 1: Abrir la página de autorización</value>
   </data>
   <data name="gbUserAccount.Text" xml:space="preserve">
     <value>Cuenta de usuario</value>
@@ -134,5 +134,8 @@
   </data>
   <data name="lblVerificationCode.Text" xml:space="preserve">
     <value>Código de verificación (Obtener el código de verificación de la página autorización):</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Estado:</value>
   </data>
 </root>

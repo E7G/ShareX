@@ -174,4 +174,10 @@
   <data name="tslSearch.Text" xml:space="preserve">
     <value>搜尋：</value>
   </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>匯入資料夾...</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>收藏</value>
+  </data>
 </root>

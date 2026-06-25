@@ -141,4 +141,10 @@
   <data name="lblVideoQuality.Text" xml:space="preserve">
     <value>Qualidade de vídeo:</value>
   </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Codificador de vídeo:</value>
+  </data>
+  <data name="cbVideoQualityUseBitrate.Text" xml:space="preserve">
+    <value>Usar taxa de bits</value>
+  </data>
 </root>

@@ -384,11 +384,6 @@
   <data name="ShapeManager_CreateContextMenu_RememberMenuState" xml:space="preserve">
     <value>Rețineți starea meniului</value>
   </data>
-  <data name="RectangleRegion_GetColorPickerText" xml:space="preserve">
-    <value>RGB: {0}, {1}, {2}
-Hex: {3}
-X: {4} Y: {5}</value>
-  </data>
   <data name="ShapeManager_CreateToolbar_Rotate180" xml:space="preserve">
     <value>Rotiți 180°</value>
   </data>
@@ -475,5 +470,70 @@ X: {4} Y: {5}</value>
   </data>
   <data name="ShapeManager_CreateToolbar_ZoomToFitOnOpen" xml:space="preserve">
     <value>Zoom pentru a se potrivi la deschidere</value>
+  </data>
+  <data name="CutOutEffectSize" xml:space="preserve">
+    <value>Cut out effect dimensiune:</value>
+  </data>
+  <data name="ShapeManager_CreateToolbar_Redo" xml:space="preserve">
+    <value>Refă</value>
+  </data>
+  <data name="ShapeManager_CreateToolbar_InterpolationMode" xml:space="preserve">
+    <value>Mod interpolare:</value>
+  </data>
+  <data name="Bitrate" xml:space="preserve">
+    <value>Rată de biți:</value>
+  </data>
+  <data name="Resume" xml:space="preserve">
+    <value>Reia</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pauză</value>
+  </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>Arată reticulul central</value>
+  </data>
+  <data name="CutOutEffectType" xml:space="preserve">
+    <value>Efect decupare:</value>
+  </data>
+  <data name="WouldYouLikeToResetOptions" xml:space="preserve">
+    <value>Would you like to resetează opțiuni?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmare</value>
+  </data>
+  <data name="ImageURL" xml:space="preserve">
+    <value>Imagine URL</value>
+  </data>
+  <data name="RegionCaptureForm_SaveChangesBeforeClosingEditor" xml:space="preserve">
+    <value>There are unsalveazăd changes.
+
+Would you like to salvează the changes before closing the editeazăor de imagini?</value>
+  </data>
+  <data name="CutOutBackgroundColor" xml:space="preserve">
+    <value>Cut out fundal culoare...</value>
+  </data>
+  <data name="RulerAngle" xml:space="preserve">
+    <value>Unghi</value>
+  </data>
+  <data name="RulerPerimeter" xml:space="preserve">
+    <value>Perimetru</value>
+  </data>
+  <data name="RulerArea" xml:space="preserve">
+    <value>Arie</value>
+  </data>
+  <data name="RulerWidth" xml:space="preserve">
+    <value>Lățime</value>
+  </data>
+  <data name="RulerHeight" xml:space="preserve">
+    <value>Înălțime</value>
+  </data>
+  <data name="RulerDistance" xml:space="preserve">
+    <value>Distanță</value>
+  </data>
+  <data name="RulerRight" xml:space="preserve">
+    <value>Dreapta</value>
+  </data>
+  <data name="RulerBottom" xml:space="preserve">
+    <value>Jos</value>
   </data>
 </root>

@@ -135,4 +135,10 @@
   <data name="lblThumbnailSize.Text" xml:space="preserve">
     <value>حجم الصور المصغرة:</value>
   </data>
+  <data name="cbImageOnly.Text" xml:space="preserve">
+    <value>إظهار ملفات الصور فقط</value>
+  </data>
+  <data name="cbAutoLoadMoreItems.Text" xml:space="preserve">
+    <value>تحميل المزيد من الصور تلقائيًا</value>
+  </data>
 </root>

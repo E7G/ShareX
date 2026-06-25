@@ -129,4 +129,13 @@
   <data name="btnRefresh.Text" xml:space="preserve">
     <value>Atualizar</value>
   </data>
+  <data name="cbTopMost.Text" xml:space="preserve">
+    <value>Sempre no topo</value>
+  </data>
+  <data name="lblOpacity.Text" xml:space="preserve">
+    <value>Opacidade:</value>
+  </data>
+  <data name="mbWindowList.Text" xml:space="preserve">
+    <value>Lista de janelas</value>
+  </data>
 </root>

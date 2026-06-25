@@ -129,4 +129,13 @@
   <data name="btnRefresh.Text" xml:space="preserve">
     <value>Làm mới</value>
   </data>
+  <data name="cbTopMost.Text" xml:space="preserve">
+    <value>Luôn ở trên cùng</value>
+  </data>
+  <data name="lblOpacity.Text" xml:space="preserve">
+    <value>Độ mờ:</value>
+  </data>
+  <data name="mbWindowList.Text" xml:space="preserve">
+    <value>Danh sách cửa sổ</value>
+  </data>
 </root>

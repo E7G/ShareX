@@ -642,4 +642,28 @@
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>Fechar janela após abrir link de serviço</value>
   </data>
+  <data name="cbUseCustomActionCompletedSound.Text" xml:space="preserve">
+    <value>Use personalizado action completed sound:</value>
+  </data>
+  <data name="cbPlaySoundAfterAction.Text" xml:space="preserve">
+    <value>Reproduzir som após a conclusão da ação</value>
+  </data>
+  <data name="cbUseRandomImageEffect.Text" xml:space="preserve">
+    <value>Use random imagem effect</value>
+  </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>Ocultar automaticamente os ícones da área de trabalho</value>
+  </data>
+  <data name="lblCaptureCustomWindow.Text" xml:space="preserve">
+    <value>Pre configured janela title:</value>
+  </data>
+  <data name="lblRegionCaptureBackgroundDimStrength.Text" xml:space="preserve">
+    <value>Intensidade de escurecimento do fundo:</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>Mostrar mira central</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>Usar editor de imagens legado</value>
+  </data>
 </root>

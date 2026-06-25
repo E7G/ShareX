@@ -135,4 +135,16 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Verificar Hash</value>
   </data>
+  <data name="lblFilePath.Text" xml:space="preserve">
+    <value>Ficheiro caminho:</value>
+  </data>
+  <data name="lblFilePath2.Text" xml:space="preserve">
+    <value>Ficheiro caminho:</value>
+  </data>
+  <data name="btnFilePathBrowse2.Text" xml:space="preserve">
+    <value>Procurar...</value>
+  </data>
+  <data name="cbCompareTwoFiles.Text" xml:space="preserve">
+    <value>Compare two ficheiros</value>
+  </data>
 </root>

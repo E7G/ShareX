@@ -236,9 +236,6 @@
   <data name="lblUploaders.Text" xml:space="preserve">
     <value>上傳工具：</value>
   </data>
-  <data name="mbHelp.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
   <data name="tsmiClearUploaders.Text" xml:space="preserve">
     <value>清除上傳工具...</value>
   </data>

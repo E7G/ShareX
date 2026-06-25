@@ -135,4 +135,7 @@
   <data name="lblNote.Text" xml:space="preserve">
     <value>شما میتوانید این تنظیمات را در تنظیمات برنامه -&gt; تعامل پیدا کنید.</value>
   </data>
+  <data name="cbSteamInApp.Text" xml:space="preserve">
+    <value>هنگامی که ShareX باز است، در Steam «درون‌برنامه» نمایش داده شود</value>
+  </data>
 </root>

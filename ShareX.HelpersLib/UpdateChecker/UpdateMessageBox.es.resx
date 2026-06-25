@@ -123,4 +123,7 @@
   <data name="btnYes.Text" xml:space="preserve">
     <value>Sí</value>
   </data>
+  <data name="lblViewChangelog.Text" xml:space="preserve">
+    <value>Ver registro de cambios</value>
+  </data>
 </root>

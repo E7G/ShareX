@@ -189,7 +189,55 @@
   <data name="lblResultDeletionURL.Text" xml:space="preserve">
     <value>آدرس حذف:</value>
   </data>
-  <data name="mbHelp.Text" xml:space="preserve">
-    <value>؟</value>
+  <data name="tsmiCustomUploaderGuide.Text" xml:space="preserve">
+    <value>سفارشی بارگذاریer guide...</value>
+  </data>
+  <data name="tsmiClearUploaders.Text" xml:space="preserve">
+    <value>Clear بارگذاریers...</value>
+  </data>
+  <data name="tsmiExportAll.Text" xml:space="preserve">
+    <value>صادر کردن all...</value>
+  </data>
+  <data name="lblFileUploader.Text" xml:space="preserve">
+    <value>فایل بارگذاریer:</value>
+  </data>
+  <data name="lblImageUploader.Text" xml:space="preserve">
+    <value>تصویر بارگذاریer:</value>
+  </data>
+  <data name="lblHeaders.Text" xml:space="preserve">
+    <value>سربرگ‌ها:</value>
+  </data>
+  <data name="lblRequestMethod.Text" xml:space="preserve">
+    <value>روش:</value>
+  </data>
+  <data name="lblBody.Text" xml:space="preserve">
+    <value>بدنه:</value>
+  </data>
+  <data name="lblFileFormName.Text" xml:space="preserve">
+    <value>فایل form name:</value>
+  </data>
+  <data name="btnDataBeautify.Text" xml:space="preserve">
+    <value>زیباسازی</value>
+  </data>
+  <data name="btnDataMinify.Text" xml:space="preserve">
+    <value>فشرده‌سازی</value>
+  </data>
+  <data name="lblResultErrorMessage.Text" xml:space="preserve">
+    <value>خطا message:</value>
+  </data>
+  <data name="lblResultThumbnailURL.Text" xml:space="preserve">
+    <value>بندانگشتی URL:</value>
+  </data>
+  <data name="lblDestinationType.Text" xml:space="preserve">
+    <value>نوع مقصد:</value>
+  </data>
+  <data name="mbDestinationType.ToolTip" xml:space="preserve">
+    <value>Currently destination type is used when users وارد کردن سفارشی بارگذاریer by double clicking the .sxcu فایل.</value>
+  </data>
+  <data name="lblUploaders.Text" xml:space="preserve">
+    <value>بارگذاریers:</value>
+  </data>
+  <data name="btnTestURLSyntax.Text" xml:space="preserve">
+    <value>آزمایش...</value>
   </data>
 </root>

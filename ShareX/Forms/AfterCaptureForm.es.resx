@@ -135,4 +135,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Tareas después de capturar</value>
   </data>
+  <data name="tpAfterUpload.Text" xml:space="preserve">
+    <value>After subida</value>
+  </data>
+  <data name="lblFileName.Text" xml:space="preserve">
+    <value>Archivo name:</value>
+  </data>
 </root>

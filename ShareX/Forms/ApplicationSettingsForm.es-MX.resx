@@ -165,9 +165,6 @@
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>Mientras ShareX esté abierto, mostrar "En aplicación" en el estado de Steam</value>
   </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-  </data>
   <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
     <value>Habilitar soporte para extensión de Chrome</value>
   </data>
@@ -186,17 +183,11 @@
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>Mostrar botón de "Subir con ShareX" en el menú contextual</value>
   </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Windows</value>
-  </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integración</value>
   </data>
   <data name="btnOpenScreenshotsFolder.Text" xml:space="preserve">
     <value>Abrir...</value>
-  </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="btnBrowsePersonalFolderPath.Text" xml:space="preserve">
     <value>Examinar...</value>
@@ -215,9 +206,6 @@
   </data>
   <data name="lblSaveImageSubFolderPattern.Text" xml:space="preserve">
     <value>Formato de subcarpeta:</value>
-  </data>
-  <data name="lblSaveImageSubFolderPatternPreview.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="tpPaths.Text" xml:space="preserve">
     <value>Ubicaciones</value>
@@ -434,5 +422,8 @@
   </data>
   <data name="lblDefaultPrinterOverride.Text" xml:space="preserve">
     <value>Sobrescribir impresora predeterminada:</value>
+  </data>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>Canal de actualización:</value>
   </data>
 </root>

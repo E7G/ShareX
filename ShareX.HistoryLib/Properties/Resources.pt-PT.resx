@@ -219,4 +219,22 @@
   <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
     <value>Hiperligação de imagem MarkDown</value>
   </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Filtered" xml:space="preserve">
+    <value>Filtrado</value>
+  </data>
+  <data name="HistoryForm_Search_Watermark" xml:space="preserve">
+    <value>Ficheiro name, janela title, process name, etc.</value>
+  </data>
+  <data name="PinToScreen" xml:space="preserve">
+    <value>Fixar no ecrã</value>
+  </data>
+  <data name="ProcessNames" xml:space="preserve">
+    <value>Nomes dos processos:</value>
+  </data>
+  <data name="HistoryStats" xml:space="preserve">
+    <value>Estatísticas do histórico</value>
+  </data>
 </root>

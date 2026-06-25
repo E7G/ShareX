@@ -141,4 +141,10 @@
   <data name="lblPath.Text" xml:space="preserve">
     <value>Elérési út:</value>
   </data>
+  <data name="cbHiddenWindow.Text" xml:space="preserve">
+    <value>Rejtett ablak</value>
+  </data>
+  <data name="cbDeleteInputFile.Text" xml:space="preserve">
+    <value>Bemeneti fájl törlése</value>
+  </data>
 </root>

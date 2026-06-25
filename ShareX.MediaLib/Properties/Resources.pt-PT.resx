@@ -138,4 +138,28 @@
   <data name="FFmpegError" xml:space="preserve">
     <value>Erro FFmpeg</value>
   </data>
+  <data name="AlignmentTop" xml:space="preserve">
+    <value>Superior</value>
+  </data>
+  <data name="AlignmentBottom" xml:space="preserve">
+    <value>Inferior</value>
+  </data>
+  <data name="WouldYouLikeToResetOptions" xml:space="preserve">
+    <value>Would you like to repor opções?</value>
+  </data>
+  <data name="AlignmentRight" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="AlignmentVerticalCenter" xml:space="preserve">
+    <value>Centro</value>
+  </data>
+  <data name="AlignmentLeft" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="AlignmentHorizontalCenter" xml:space="preserve">
+    <value>Centro</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
 </root>

@@ -213,4 +213,10 @@
   <data name="mbCopy.Text" xml:space="preserve">
     <value>Copiar</value>
   </data>
+  <data name="lblHex.Text" xml:space="preserve">
+    <value>Hex:</value>
+  </data>
+  <data name="btnClipboardColorPicker.ToolTip" xml:space="preserve">
+    <value>Pick cor from área de transferência</value>
+  </data>
 </root>

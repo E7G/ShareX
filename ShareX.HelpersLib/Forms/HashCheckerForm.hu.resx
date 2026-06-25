@@ -135,4 +135,16 @@
   <data name="lblTarget.Text" xml:space="preserve">
     <value>Cél:</value>
   </data>
+  <data name="lblFilePath.Text" xml:space="preserve">
+    <value>Fájl elérési út:</value>
+  </data>
+  <data name="lblFilePath2.Text" xml:space="preserve">
+    <value>Fájl elérési út:</value>
+  </data>
+  <data name="btnFilePathBrowse2.Text" xml:space="preserve">
+    <value>Tallózás...</value>
+  </data>
+  <data name="cbCompareTwoFiles.Text" xml:space="preserve">
+    <value>Compare two fájls</value>
+  </data>
 </root>

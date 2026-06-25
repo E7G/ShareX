@@ -132,4 +132,10 @@
   <data name="btnRemove.Text" xml:space="preserve">
     <value>Verwijder</value>
   </data>
+  <data name="btnHotkeysDisabled.Text" xml:space="preserve">
+    <value>Sneltoetsen zijn uitgeschakeld. Klik hier om ze in te schakelen.</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Resetten...</value>
+  </data>
 </root>

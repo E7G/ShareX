@@ -588,17 +588,11 @@
   <data name="tsbImageHistory.Text" xml:space="preserve">
     <value>היסטוריית תמונות...</value>
   </data>
-  <data name="tsbDiscord.Text" xml:space="preserve">
-    <value>דיסקורד...</value>
-  </data>
   <data name="tsbAbout.Text" xml:space="preserve">
     <value>אודות...</value>
   </data>
   <data name="tsmiStopUpload.Text" xml:space="preserve">
     <value>הפסק העלאה</value>
-  </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Enter</value>
   </data>
   <data name="tsmiOpenURL.Text" xml:space="preserve">
     <value>קישור</value>
@@ -609,15 +603,6 @@
   <data name="tsmiOpenDeletionURL.Text" xml:space="preserve">
     <value>קישור הסרה</value>
   </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Enter</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Enter</value>
-  </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
-  </data>
   <data name="tsmiCopyURL.Text" xml:space="preserve">
     <value>קישור</value>
   </data>
@@ -626,12 +611,6 @@
   </data>
   <data name="tsmiCopyDeletionURL.Text" xml:space="preserve">
     <value>קישור הסרה</value>
-  </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+C</value>
-  </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
   </data>
   <data name="tsmiCopyImage.Text" xml:space="preserve">
     <value>תמונה</value>
@@ -657,35 +636,14 @@
   <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
     <value>תמונה מקושרת ב-Markdown</value>
   </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Shift+C</value>
-  </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
-  </data>
   <data name="tsmiUploadSelectedFile.Text" xml:space="preserve">
     <value>העלה</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
   </data>
   <data name="tsmiDownloadSelectedURL.Text" xml:space="preserve">
     <value>הורד</value>
   </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
-  <data name="tsmiPinSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+P</value>
-  </data>
   <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
     <value>הצמד למסך</value>
-  </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Del</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Del</value>
   </data>
   <data name="tsmiDeleteSelectedItem.Text" xml:space="preserve">
     <value>הסר משימה מהרשימה</value>
@@ -768,9 +726,6 @@
   <data name="tsmiTrayImageHistory.Text" xml:space="preserve">
     <value>היסטוריית תמונות...</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="tsmiHashChecker.Text" xml:space="preserve">
     <value>בודק Hash...</value>
   </data>
@@ -794,5 +749,35 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>תיאור</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>משווה תמונות...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>נתח תמונה...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>מטא-נתונים...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>הגדרות יעד...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>הגדרות מעלה מותאם אישית...</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>נתח תמונה...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>משווה תמונות...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>נתח תמונה...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>מטא-נתונים...</value>
   </data>
 </root>

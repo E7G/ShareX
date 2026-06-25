@@ -143,4 +143,94 @@ El rango es exponencial, por lo que el aumento del valor CRF 6 es más o menos l
 Uso general es elegir el valor más alto de CRF que todavía proporciona una calidad aceptable.
 Si la salida se ve bien, pruebe con un valor más alto y si se ve mal elija un valor inferior.</value>
   </data>
+  <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
+    <value>For real time encoding like grabación de pantalla it is recommended to select fast as possible prestablecer.
+Otherwise it can't keep up with recording and a lot of frame drops will happen.</value>
+  </data>
+  <data name="cbx264Preset.ToolTip" xml:space="preserve">
+    <value>Faster prestablecer = Faster encoding but higher archivo tamaño.
+Slower prestablecer = Slower encoding but lower archivo tamaño.
+For real time encoding (e.g. grabación de pantalla), the prestablecer must be as fast as possible.</value>
+  </data>
+  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
+    <value>1 being highest calidad/largest archivotamaño and 31 being the lowest calidad/smallest archivotamaño.</value>
+  </data>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>Controla el índice de escala Bayer; una escala más alta mostrará más bandas. El valor predeterminado es 2.</value>
+  </data>
+  <data name="cbGIFDither.ToolTip" xml:space="preserve">
+    <value>El valor predeterminado es sierra2_4a.</value>
+  </data>
+  <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
+    <value>El valor predeterminado es full.</value>
+  </data>
+  <data name="lblHelperDevices.Text" xml:space="preserve">
+    <value>Installs "pantalla-captura-recorder" and "virtual-audio-capturar" video/audio source.</value>
+  </data>
+  <data name="btnInstallHelperDevices.Text" xml:space="preserve">
+    <value>Instalar dispositivos de grabación...</value>
+  </data>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>Añadiritional command line arguments:</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Use personalizado FFmpeg ruta:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video codificador:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Audio codificador:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
+  </data>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>Usar tasa de bits</value>
+  </data>
+  <data name="lblx264Preset.Text" xml:space="preserve">
+    <value>Prestablecer:</value>
+  </data>
+  <data name="lblVP8Bitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
+  </data>
+  <data name="lblXvidQscale.Text" xml:space="preserve">
+    <value>Tasa de bits variable:</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Ajuste:</value>
+  </data>
+  <data name="lblNVENCPreset.Text" xml:space="preserve">
+    <value>Prestablecer:</value>
+  </data>
+  <data name="lblNVENCBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
+  </data>
+  <data name="lblGIFDither.Text" xml:space="preserve">
+    <value>Modo de tramado:</value>
+  </data>
+  <data name="lblGIFStatsMode.Text" xml:space="preserve">
+    <value>Modo de paleta:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
+  </data>
+  <data name="lblAMFQuality.Text" xml:space="preserve">
+    <value>Calidad:</value>
+  </data>
+  <data name="lblAMFUsage.Text" xml:space="preserve">
+    <value>Uso:</value>
+  </data>
+  <data name="lblQSVPreset.Text" xml:space="preserve">
+    <value>Prestablecer:</value>
+  </data>
+  <data name="lblQSVBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Restablecer opciones...</value>
+  </data>
 </root>

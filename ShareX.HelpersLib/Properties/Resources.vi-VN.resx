@@ -1197,6 +1197,132 @@ Bạn có muốn tải về và cài đặt không?</value>
     <value>Mũi tên tự do</value>
   </data>
   <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value />
+    <value>Siêu dữ liệu</value>
+  </data>
+  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
+    <value>Dừng chụp tự động</value>
+  </data>
+  <data name="HotkeyType_ImageBeautifier" xml:space="preserve">
+    <value>Ảnh beautifier</value>
+  </data>
+  <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
+    <value>Làm đẹp ảnh</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Kiểm tra</value>
+  </data>
+  <data name="HotkeyType_CustomWindow" xml:space="preserve">
+    <value>Capture pre configured cửa sổ</value>
+  </data>
+  <data name="UpdateChannel_Dev" xml:space="preserve">
+    <value>Phát triển</value>
+  </data>
+  <data name="UpdateChannel_PreRelease" xml:space="preserve">
+    <value>Bản phát hành trước</value>
+  </data>
+  <data name="UpdateChannel_Release" xml:space="preserve">
+    <value>Bản phát hành</value>
+  </data>
+  <data name="DownloaderForm_FileDownloader_ProgressChanged_Progress" xml:space="preserve">
+    <value>Tiến trình</value>
+  </data>
+  <data name="DownloaderForm_FileDownloader_ProgressChanged_DownloadSpeed" xml:space="preserve">
+    <value>Tốc độ tải xuống</value>
+  </data>
+  <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
+    <value>Kích thước tệp</value>
+  </data>
+  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
+    <value>Make active cửa sổ borderless</value>
+  </data>
+  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
+    <value>Make active cửa sổ top most</value>
+  </data>
+  <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
+    <value>Pin to màn hình (Close all)</value>
+  </data>
+  <data name="ImageBeautifierBackgroundType_Color" xml:space="preserve">
+    <value>Màu</value>
+  </data>
+  <data name="ImageBeautifierBackgroundType_Desktop" xml:space="preserve">
+    <value>Màn hình nền</value>
+  </data>
+  <data name="ImageBeautifierBackgroundType_Gradient" xml:space="preserve">
+    <value>Chuyển sắc</value>
+  </data>
+  <data name="ImageBeautifierBackgroundType_Image" xml:space="preserve">
+    <value>Ảnh</value>
+  </data>
+  <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
+    <value>Trong suốt</value>
+  </data>
+  <data name="HotkeyType_StripMetadata" xml:space="preserve">
+    <value>Xóa siêu dữ liệu</value>
+  </data>
+  <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
+    <value>Mã QR (quét vùng)</value>
+  </data>
+  <data name="ScrollMethod_DownArrow" xml:space="preserve">
+    <value>Mũi tên xuống</value>
+  </data>
+  <data name="ScrollMethod_MouseWheel" xml:space="preserve">
+    <value>Con lăn chuột</value>
+  </data>
+  <data name="ScrollMethod_PageDown" xml:space="preserve">
+    <value>Page Down</value>
+  </data>
+  <data name="ScrollMethod_ScrollMessage" xml:space="preserve">
+    <value>Thông báo cuộn</value>
+  </data>
+  <data name="ToastClickAction_DeleteFile" xml:space="preserve">
+    <value>Xóa tệp cục bộ</value>
+  </data>
+  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
+    <value>Phân tích ảnh</value>
+  </data>
+  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
+    <value>Phân tích ảnh</value>
+  </data>
+  <data name="ShapeType_ToolSpotlight" xml:space="preserve">
+    <value>Tiêu điểm</value>
+  </data>
+  <data name="PrivateBinExpiration_M5" xml:space="preserve">
+    <value>5 phút</value>
+  </data>
+  <data name="PrivateBinExpiration_M10" xml:space="preserve">
+    <value>10 phút</value>
+  </data>
+  <data name="PrivateBinExpiration_H1" xml:space="preserve">
+    <value>1 giờ</value>
+  </data>
+  <data name="PrivateBinExpiration_D1" xml:space="preserve">
+    <value>1 ngày</value>
+  </data>
+  <data name="PrivateBinExpiration_W1" xml:space="preserve">
+    <value>1 tuần</value>
+  </data>
+  <data name="PrivateBinExpiration_M1" xml:space="preserve">
+    <value>1 tháng</value>
+  </data>
+  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
+    <value>1 năm</value>
+  </data>
+  <data name="PrivateBinExpiration_N" xml:space="preserve">
+    <value>Không bao giờ</value>
+  </data>
+  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
+    <value>Văn bản thuần</value>
+  </data>
+  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
+    <value>Tô sáng cú pháp</value>
+  </data>
+  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
+    <value>Markdown</value>
+  </data>
+  <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
+    <value>Sao chép thư mục path to clipboard</value>
+  </data>
+  <data name="HotkeyType_ImageComparer" xml:space="preserve">
+    <value>Trình so sánh ảnh</value>
   </data>
 </root>

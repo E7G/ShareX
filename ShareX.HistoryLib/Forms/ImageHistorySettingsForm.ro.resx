@@ -135,4 +135,10 @@
   <data name="cbRememberWindowState.Text" xml:space="preserve">
     <value>Reține starea ferestrei</value>
   </data>
+  <data name="cbImageOnly.Text" xml:space="preserve">
+    <value>Only show imagine fișiers</value>
+  </data>
+  <data name="cbAutoLoadMoreItems.Text" xml:space="preserve">
+    <value>Automatically load more imagines</value>
+  </data>
 </root>

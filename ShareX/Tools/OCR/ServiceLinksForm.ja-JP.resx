@@ -135,4 +135,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - サービスのリンク</value>
   </data>
+  <data name="lblURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
 </root>

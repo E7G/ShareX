@@ -132,4 +132,13 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - 画像履歴</value>
   </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>お気に入り</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>統計を表示...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>フォルダーをインポート...</value>
+  </data>
 </root>

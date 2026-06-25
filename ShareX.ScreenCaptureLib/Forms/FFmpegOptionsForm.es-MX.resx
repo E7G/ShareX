@@ -184,12 +184,6 @@ Un valor alto produce un archivo de mala calidad pero menor tamaño.</value>
     <value>Para la codificación en tiempo real, como la grabación de pantalla, se recomienda el preajuste más rápido.
 De lo contrario, la grabación se desfasará y se perderán fotogramas.</value>
   </data>
-  <data name="btnFFmpegBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>Calidad:</value>
   </data>
@@ -202,37 +196,37 @@ De lo contrario, la grabación se desfasará y se perderán fotogramas.</value>
   <data name="lblQSVPreset.Text" xml:space="preserve">
     <value>Preajuste:</value>
   </data>
-  <data name="tpX264.Text" xml:space="preserve">
-    <value>x264 / x265</value>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>Controla el índice de escala Bayer; una escala más alta mostrará más bandas. El valor predeterminado es 2.</value>
   </data>
-  <data name="lblVP8BitrateK.Text" xml:space="preserve">
-    <value>kbps</value>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>Argumentos adicionales de línea de comandos:</value>
   </data>
-  <data name="tpVpx.Text" xml:space="preserve">
-    <value>VP8</value>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Use personalizado FFmpeg path:</value>
   </data>
-  <data name="tpXvid.Text" xml:space="preserve">
-    <value>Xvid</value>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Codificador de video:</value>
   </data>
-  <data name="tpNVENC.Text" xml:space="preserve">
-    <value>NVENC</value>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Codificador de audio:</value>
   </data>
-  <data name="tpGIF.Text" xml:space="preserve">
-    <value>GIF</value>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
   </data>
-  <data name="tpAAC.Text" xml:space="preserve">
-    <value>AAC</value>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
   </data>
-  <data name="tpVorbis.Text" xml:space="preserve">
-    <value>Vorbis</value>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>Usar tasa de bits</value>
   </data>
-  <data name="tpMP3.Text" xml:space="preserve">
-    <value>MP3</value>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Ajuste:</value>
   </data>
-  <data name="tpOpus.Text" xml:space="preserve">
-    <value>Opus</value>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Tasa de bits:</value>
   </data>
-  <data name="lblx264CRF.Text" xml:space="preserve">
-    <value>CRF:</value>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Restablecer opciones...</value>
   </data>
 </root>

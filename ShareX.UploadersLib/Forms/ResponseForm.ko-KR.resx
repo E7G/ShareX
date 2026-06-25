@@ -123,4 +123,34 @@
   <data name="tpWebBrowser.Text" xml:space="preserve">
     <value>웹 브라우저</value>
   </data>
+  <data name="tsbResponseTextJSONFormat.Text" xml:space="preserve">
+    <value>JSON 형식</value>
+  </data>
+  <data name="tsbResponseTextXMLFormat.Text" xml:space="preserve">
+    <value>XML 형식</value>
+  </data>
+  <data name="tsbResponseTextCopy.Text" xml:space="preserve">
+    <value>복사 response</value>
+  </data>
+  <data name="tsbCopyShortenedURL.Text" xml:space="preserve">
+    <value>복사 shortened URL</value>
+  </data>
+  <data name="tsbCopyURL.Text" xml:space="preserve">
+    <value>복사 URL</value>
+  </data>
+  <data name="tsbCopyThumbnailURL.Text" xml:space="preserve">
+    <value>복사 썸네일 URL</value>
+  </data>
+  <data name="tsbCopyDeletionURL.Text" xml:space="preserve">
+    <value>복사 deletion URL</value>
+  </data>
+  <data name="tpResult.Text" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="tpResponseInfo.Text" xml:space="preserve">
+    <value>응답 정보</value>
+  </data>
+  <data name="tpResponseText.Text" xml:space="preserve">
+    <value>응답 텍스트</value>
+  </data>
 </root>

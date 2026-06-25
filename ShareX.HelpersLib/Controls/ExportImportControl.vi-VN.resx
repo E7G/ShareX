@@ -136,9 +136,9 @@
     <value>Sao chép vào vùng nhớ tạm</value>
   </data>
   <data name="btnExport.Text" xml:space="preserve">
-    <value>Xuất ra</value>
+    <value> Xuất ra</value>
   </data>
   <data name="btnImport.Text" xml:space="preserve">
-    <value>Nhập vào</value>
+    <value> Nhập vào</value>
   </data>
 </root>

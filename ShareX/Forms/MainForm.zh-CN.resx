@@ -567,15 +567,6 @@
   <data name="tsbAbout.Text" xml:space="preserve">
     <value>关于...</value>
   </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+C</value>
-  </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Shift+C</value>
-  </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
-  </data>
   <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
     <value>Markdown 图像</value>
   </data>
@@ -585,35 +576,11 @@
   <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
     <value>Markdown 链接的图像</value>
   </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Del</value>
-  </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Del</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
-  </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>图像编辑器...</value>
   </data>
   <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
     <value>生成图像缩略图...</value>
-  </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Enter</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Enter</value>
-  </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Enter</value>
   </data>
   <data name="tsmiShortenURL.Text" xml:space="preserve">
     <value>缩短网址...</value>
@@ -635,9 +602,6 @@
   </data>
   <data name="tsmiTrayUploadText.Text" xml:space="preserve">
     <value>上传文本...</value>
-  </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
   </data>
   <data name="tsmiUploadText.Text" xml:space="preserve">
     <value>上传文本...</value>
@@ -695,9 +659,6 @@
   </data>
   <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
     <value>自定上传器设置...</value>
-  </data>
-  <data name="tsbDiscord.Text" xml:space="preserve">
-    <value>Discord...</value>
   </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>添加图像特效...</value>
@@ -789,9 +750,6 @@
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>快捷键</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>目标设置...</value>
   </data>
@@ -810,13 +768,16 @@
   <data name="tsmiGoogleLens.Text" xml:space="preserve">
     <value>谷歌智慧镜头（Google Lens）...</value>
   </data>
-  <data name="tsmiPinSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+P</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>分析图片...</value>
   </data>
   <data name="tsmiTrayMetadata.Text" xml:space="preserve">
     <value>元数据...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>图片比较器...</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>图片比较器...</value>
   </data>
 </root>

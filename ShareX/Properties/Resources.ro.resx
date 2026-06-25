@@ -602,4 +602,48 @@ Clic în mijloc pentru a închide</value>
     <value>Descărcarea a eșuat:
 {0}</value>
   </data>
+  <data name="PinToScreen" xml:space="preserve">
+    <value>Fixează pe ecran</value>
+  </data>
+  <data name="ShareXIsUpToDate" xml:space="preserve">
+    <value>ShareX este actualizat!</value>
+  </data>
+  <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
+    <value>FFmpeg inclus cu ShareX acceptă doar sisteme de operare pe 64 de biți.</value>
+  </data>
+  <data name="FFmpegIsMissing" xml:space="preserve">
+    <value>FFmpeg lipsește</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_pl" xml:space="preserve">
+    <value>Poloneză</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_he-IL" xml:space="preserve">
+    <value>Ebraică</value>
+  </data>
+  <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
+    <value>Clipboardul nu conține o imagine.</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
+    <value>Arabă</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>Donează</value>
+  </data>
+  <data name="OpticalCharacterRecognitionFeatureIsOnlyAvailableWithWindowsVersion0OrNewer" xml:space="preserve">
+    <value>Funcția de recunoaștere optică a caracterelor este disponibilă doar în Windows versiunea {0} sau mai nouă.</value>
+  </data>
+  <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
+    <value>ShareX nu poate fi închis cât timp înregistrarea ecranului este activă.
+
+Vrei să anulezi înregistrarea activă a ecranului?</value>
+  </data>
+  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
+    <value>Vrei să reîncerci încărcarea din clipboard?</value>
+  </data>
+  <data name="ClipboardUpload" xml:space="preserve">
+    <value>Încărcare din clipboard</value>
+  </data>
+  <data name="FFmpegDoesNotExistAtTheFollowingPath" xml:space="preserve">
+    <value>FFmpeg nu există la următoarea cale:</value>
+  </data>
 </root>

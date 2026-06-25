@@ -135,4 +135,7 @@
   <data name="btnSaveAs.Text" xml:space="preserve">
     <value>Salvați ca și închideți această fereastră...</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - Indexator de directoare</value>
+  </data>
 </root>

@@ -1488,6 +1488,15 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Image comparer.
+        /// </summary>
+        internal static string HotkeyType_ImageComparer {
+            get {
+                return ResourceManager.GetString("HotkeyType_ImageComparer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Image editor.
         /// </summary>
         internal static string HotkeyType_ImageEditor {

@@ -126,9 +126,6 @@
   <data name="lblExtensions.Text" xml:space="preserve">
     <value>فیلتر پسوند فایل (مثلا mp4)</value>
   </data>
-  <data name="btnPathBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblOutputExtension.Text" xml:space="preserve">
     <value>پسوند فایل خروجی (خالی = از همان نام فایل استفاده کن):</value>
   </data>

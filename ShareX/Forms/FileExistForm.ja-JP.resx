@@ -127,7 +127,7 @@
     <value>新しい名前を使用:</value>
   </data>
   <data name="btnOverwrite.Text" xml:space="preserve">
-    <value>上書きする:</value>
+    <value>上書きする: </value>
   </data>
   <data name="btnUniqueName.Text" xml:space="preserve">
     <value>一意の名前を使用: </value>

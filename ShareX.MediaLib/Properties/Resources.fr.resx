@@ -159,4 +159,7 @@
   <data name="WouldYouLikeToResetOptions" xml:space="preserve">
     <value>Voulez-vous réinitialiser les options ?</value>
   </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
 </root>

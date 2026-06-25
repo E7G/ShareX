@@ -150,4 +150,34 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Histórico</value>
   </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>Pesquisar:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="tsbAdvancedSearch.Text" xml:space="preserve">
+    <value>Pesquisa avançada...</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>Mostrar estatísticas...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Importar pasta...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>Definições...</value>
+  </data>
+  <data name="btnAdvancedSearchClose.Text" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="btnAdvancedSearchReset.Text" xml:space="preserve">
+    <value>Repor</value>
+  </data>
+  <data name="gbAdvancedSearch.Text" xml:space="preserve">
+    <value>Pesquisa avançada</value>
+  </data>
 </root>

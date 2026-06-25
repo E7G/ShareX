@@ -136,9 +136,9 @@
     <value>Din URL...</value>
   </data>
   <data name="btnImport.Text" xml:space="preserve">
-    <value>Import</value>
+    <value> Import</value>
   </data>
   <data name="btnExport.Text" xml:space="preserve">
-    <value>Export</value>
+    <value> Export</value>
   </data>
 </root>

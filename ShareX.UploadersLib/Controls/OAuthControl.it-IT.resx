@@ -135,4 +135,7 @@
   <data name="btnOpenAuthorizePage.Text" xml:space="preserve">
     <value>1: Apri Pagina Autorizzazione...</value>
   </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Stato:</value>
+  </data>
 </root>

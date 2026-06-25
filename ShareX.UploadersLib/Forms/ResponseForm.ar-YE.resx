@@ -150,4 +150,7 @@
   <data name="tpResponseInfo.Text" xml:space="preserve">
     <value>معلومات استجابة HTTP</value>
   </data>
+  <data name="tsbResponseTextJSONFormat.Text" xml:space="preserve">
+    <value>تنسيق JSON</value>
+  </data>
 </root>

@@ -141,4 +141,46 @@
   <data name="mbLoadImage.Text" xml:space="preserve">
     <value>Muat gambar</value>
   </data>
+  <data name="btnUploadImage.Text" xml:space="preserve">
+    <value>Unggah gambar</value>
+  </data>
+  <data name="lblPresets.Text" xml:space="preserve">
+    <value>Preset:</value>
+  </data>
+  <data name="btnPackager.Text" xml:space="preserve">
+    <value>Pemaket...</value>
+  </data>
+  <data name="btnPresetNew.ToolTip" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="btnPresetRemove.ToolTip" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="btnPresetDuplicate.ToolTip" xml:space="preserve">
+    <value>Duplikat</value>
+  </data>
+  <data name="lblEffects.Text" xml:space="preserve">
+    <value>Efek:</value>
+  </data>
+  <data name="btnEffectAdd.ToolTip" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="btnEffectRemove.ToolTip" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="btnEffectDuplicate.ToolTip" xml:space="preserve">
+    <value>Duplikat</value>
+  </data>
+  <data name="btnEffectClear.ToolTip" xml:space="preserve">
+    <value>Bersihkan...</value>
+  </data>
+  <data name="btnEffectRefresh.ToolTip" xml:space="preserve">
+    <value>Segarkan</value>
+  </data>
+  <data name="btnImageEffects.Text" xml:space="preserve">
+    <value>Efek gambar...</value>
+  </data>
+  <data name="lblEffectName.Text" xml:space="preserve">
+    <value>Nama efek:</value>
+  </data>
 </root>

@@ -135,4 +135,10 @@
   <data name="cbRememberWindowState.Text" xml:space="preserve">
     <value>Mémoriser l'état de la fenêtre</value>
   </data>
+  <data name="cbImageOnly.Text" xml:space="preserve">
+    <value>Afficher uniquement les fichiers image</value>
+  </data>
+  <data name="cbAutoLoadMoreItems.Text" xml:space="preserve">
+    <value>Charger automatiquement plus d’images</value>
+  </data>
 </root>

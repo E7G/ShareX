@@ -126,4 +126,16 @@
   <data name="lblStatus.Text" xml:space="preserve">
     <value>وضعیت:</value>
   </data>
+  <data name="btnClearAuthorization.Text" xml:space="preserve">
+    <value>قطع اتصال</value>
+  </data>
+  <data name="btnRefreshAuthorization.Text" xml:space="preserve">
+    <value>بازخوانی مجوزدهی</value>
+  </data>
+  <data name="btnOpenAuthorizePage.Text" xml:space="preserve">
+    <value>اتصال...</value>
+  </data>
+  <data name="btnCompleteAuthorization.Text" xml:space="preserve">
+    <value>تکمیل مجوزدهی</value>
+  </data>
 </root>

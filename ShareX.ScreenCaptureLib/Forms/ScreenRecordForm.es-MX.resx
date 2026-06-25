@@ -132,4 +132,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Pantalla de grabación</value>
   </data>
+  <data name="btnPause.Text" xml:space="preserve">
+    <value>Pausar</value>
+  </data>
+  <data name="tsmiPause.Text" xml:space="preserve">
+    <value>Pausar</value>
+  </data>
 </root>

@@ -135,4 +135,16 @@
   <data name="btnCopyImage.Text" xml:space="preserve">
     <value>Bild kopieren</value>
   </data>
+  <data name="lblText.Text" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="btnScanScreen.Text" xml:space="preserve">
+    <value>Bildschirm scannen</value>
+  </data>
+  <data name="btnScanRegion.Text" xml:space="preserve">
+    <value>Bereich scannen...</value>
+  </data>
+  <data name="btnScanImageFile.Text" xml:space="preserve">
+    <value>Bilddatei scannen...</value>
+  </data>
 </root>

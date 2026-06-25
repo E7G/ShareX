@@ -183,4 +183,58 @@
   <data name="HistoryItemManager_InitializeComponent_Forum__BBCode__link" xml:space="preserve">
     <value>Fórum (BBkód) link</value>
   </data>
+  <data name="HistoryItemCounts" xml:space="preserve">
+    <value>Előzmények item counts:</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_Markdown__link" xml:space="preserve">
+    <value>Markdown hivatkozás</value>
+  </data>
+  <data name="ErrorOccuredWhileReadingHistoryFile" xml:space="preserve">
+    <value>Hiba occurred while reading előzmények fájl:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Összesen</value>
+  </data>
+  <data name="Filtered" xml:space="preserve">
+    <value>Szűrt</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_Markdown__image" xml:space="preserve">
+    <value>Markdown kép</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_UploadFile" xml:space="preserve">
+    <value>Feltöltés fájl</value>
+  </data>
+  <data name="HistoryForm_Search_Watermark" xml:space="preserve">
+    <value>Fájlnév, ablak title, folyamat név, etc.</value>
+  </data>
+  <data name="HistoryStats_Hosts" xml:space="preserve">
+    <value>Kiszolgálók:</value>
+  </data>
+  <data name="PinToScreen" xml:space="preserve">
+    <value>Pin to képernyő</value>
+  </data>
+  <data name="HistoryStats_YearlyUsages" xml:space="preserve">
+    <value>Éves használatok:</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_EditImage" xml:space="preserve">
+    <value>Szerkesztés kép...</value>
+  </data>
+  <data name="HistoryManager_GetHistoryItems_Error" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+  <data name="ProcessNames" xml:space="preserve">
+    <value>Folyamatnevek:</value>
+  </data>
+  <data name="HistoryStats" xml:space="preserve">
+    <value>Előzmények statisztikák</value>
+  </data>
+  <data name="HistoryStats_FileExtensions" xml:space="preserve">
+    <value>Fájl kiterjesztéss:</value>
+  </data>
+  <data name="HistoryStats_Total" xml:space="preserve">
+    <value>Összesen:</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
+    <value>Markdown hivatkozásed kép</value>
+  </data>
 </root>

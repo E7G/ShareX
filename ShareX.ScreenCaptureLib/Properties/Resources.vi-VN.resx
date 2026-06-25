@@ -489,4 +489,51 @@
   <data name="ShapeManager_CreateToolbar_ZoomToFitOnOpen" xml:space="preserve">
     <value>Thu phóng để vừa mở</value>
   </data>
+  <data name="ShapeManager_CreateToolbar_Redo" xml:space="preserve">
+    <value>Làm lại</value>
+  </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>Hiển thị tâm ngắm ở giữa</value>
+  </data>
+  <data name="WouldYouLikeToResetOptions" xml:space="preserve">
+    <value>Bạn có muốn đặt lại các tùy chọn không?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Xác nhận</value>
+  </data>
+  <data name="ImageURL" xml:space="preserve">
+    <value>URL ảnh</value>
+  </data>
+  <data name="RegionCaptureForm_SaveChangesBeforeClosingEditor" xml:space="preserve">
+    <value>Có thay đổi chưa được lưu.
+
+Bạn có muốn lưu thay đổi trước khi đóng trình chỉnh sửa ảnh không?</value>
+  </data>
+  <data name="CutOutBackgroundColor" xml:space="preserve">
+    <value>Cut out background màu...</value>
+  </data>
+  <data name="RulerAngle" xml:space="preserve">
+    <value>Góc</value>
+  </data>
+  <data name="RulerPerimeter" xml:space="preserve">
+    <value>Chu vi</value>
+  </data>
+  <data name="RulerArea" xml:space="preserve">
+    <value>Diện tích</value>
+  </data>
+  <data name="RulerWidth" xml:space="preserve">
+    <value>Chiều rộng</value>
+  </data>
+  <data name="RulerHeight" xml:space="preserve">
+    <value>Chiều cao</value>
+  </data>
+  <data name="RulerDistance" xml:space="preserve">
+    <value>Khoảng cách</value>
+  </data>
+  <data name="RulerRight" xml:space="preserve">
+    <value>Phải</value>
+  </data>
+  <data name="RulerBottom" xml:space="preserve">
+    <value>Dưới</value>
+  </data>
 </root>

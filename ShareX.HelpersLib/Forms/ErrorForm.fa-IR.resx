@@ -135,4 +135,8 @@
   <data name="btnOK.Text" xml:space="preserve">
     <value>تایید</value>
   </data>
+  <data name="lblErrorMessage.Text" xml:space="preserve">
+    <value>خطا
+خطا 2</value>
+  </data>
 </root>

@@ -168,4 +168,7 @@
   <data name="rbShapes.Text" xml:space="preserve">
     <value>Vorm:</value>
   </data>
+  <data name="btnScreenTearingTest.Text" xml:space="preserve">
+    <value>Starten test animation</value>
+  </data>
 </root>

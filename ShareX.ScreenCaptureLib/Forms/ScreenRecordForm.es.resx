@@ -123,4 +123,19 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Pantalla ventana región</value>
   </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="btnPause.Text" xml:space="preserve">
+    <value>Pausar</value>
+  </data>
+  <data name="tsmiStart.Text" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="tsmiPause.Text" xml:space="preserve">
+    <value>Pausar</value>
+  </data>
+  <data name="tsmiAbort.Text" xml:space="preserve">
+    <value>Abortar</value>
+  </data>
 </root>

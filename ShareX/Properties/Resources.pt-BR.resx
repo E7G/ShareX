@@ -613,4 +613,36 @@ Clique do meio para fechar</value>
     <value>Falha no download:
 {0}</value>
   </data>
+  <data name="ShareXIsUpToDate" xml:space="preserve">
+    <value>O ShareX está atualizado!</value>
+  </data>
+  <data name="InspectWindow_ClassName" xml:space="preserve">
+    <value>Nome da classe</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_he-IL" xml:space="preserve">
+    <value>Hebraico</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
+    <value>Árabe</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>Doar</value>
+  </data>
+  <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
+    <value>O ShareX não pode ser fechado enquanto a gravação de tela está ativa.
+
+Deseja interromper a gravação de tela ativa?</value>
+  </data>
+  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
+    <value>Would you like to retry clipboard envio?</value>
+  </data>
+  <data name="InspectWindow_WindowHandle" xml:space="preserve">
+    <value>Janela handle</value>
+  </data>
+  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
+    <value>Retângulo do cliente</value>
+  </data>
+  <data name="ClipboardUpload" xml:space="preserve">
+    <value>Clipboard envio</value>
+  </data>
 </root>

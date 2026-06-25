@@ -132,4 +132,10 @@
   <data name="btnDuplicate.Text" xml:space="preserve">
     <value>Duplica</value>
   </data>
+  <data name="btnHotkeysDisabled.Text" xml:space="preserve">
+    <value>I tasti di scelta rapida sono disabilitati. Fai clic qui per abilitarli.</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reimposta...</value>
+  </data>
 </root>

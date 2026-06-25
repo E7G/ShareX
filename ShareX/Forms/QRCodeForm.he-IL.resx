@@ -120,9 +120,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - קוד QR</value>
   </data>
-  <data name="lblQRCodeSizeHint.Text" xml:space="preserve">
-    <value>px</value>
-  </data>
   <data name="lblQRCodeSize.Text" xml:space="preserve">
     <value>גודל קוד QR:</value>
   </data>
@@ -140,5 +137,14 @@
   </data>
   <data name="btnUploadImage.Text" xml:space="preserve">
     <value>העלה תמונה</value>
+  </data>
+  <data name="btnScanScreen.Text" xml:space="preserve">
+    <value>סרוק מסך</value>
+  </data>
+  <data name="btnScanRegion.Text" xml:space="preserve">
+    <value>סרוק אזור...</value>
+  </data>
+  <data name="btnScanImageFile.Text" xml:space="preserve">
+    <value>סרוק קובץ תמונה...</value>
   </data>
 </root>

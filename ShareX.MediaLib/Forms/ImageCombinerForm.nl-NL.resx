@@ -147,4 +147,22 @@
   <data name="lblSpacePixel.Text" xml:space="preserve">
     <value>pixels</value>
   </data>
+  <data name="lblImageAlignment.Text" xml:space="preserve">
+    <value>Afbeelding alignment:</value>
+  </data>
+  <data name="rbOrientationHorizontal.Text" xml:space="preserve">
+    <value>Horizontaal</value>
+  </data>
+  <data name="rbOrientationVertical.Text" xml:space="preserve">
+    <value>Verticaal</value>
+  </data>
+  <data name="cbAutoFillBackground.Text" xml:space="preserve">
+    <value>Auto fill achtergrond</value>
+  </data>
+  <data name="lblWrapAfter.Text" xml:space="preserve">
+    <value>Wrap after:</value>
+  </data>
+  <data name="lblWrapAfterImages.Text" xml:space="preserve">
+    <value>afbeeldingen</value>
+  </data>
 </root>

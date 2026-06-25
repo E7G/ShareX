@@ -312,9 +312,6 @@
   <data name="tsmiStopUpload.Text" xml:space="preserve">
     <value>Berhenti unggah</value>
   </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Enter</value>
-  </data>
   <data name="tsmiOpenURL.Text" xml:space="preserve">
     <value>URL</value>
   </data>
@@ -327,14 +324,8 @@
   <data name="tsmiOpenDeletionURL.Text" xml:space="preserve">
     <value>URL Penghapusan</value>
   </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Enter</value>
-  </data>
   <data name="tsmiOpenFile.Text" xml:space="preserve">
     <value>File</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Enter</value>
   </data>
   <data name="tsmiOpenFolder.Text" xml:space="preserve">
     <value>Folder</value>
@@ -344,9 +335,6 @@
   </data>
   <data name="tsmiOpen.Text" xml:space="preserve">
     <value>Buka</value>
-  </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
   </data>
   <data name="tsmiCopyURL.Text" xml:space="preserve">
     <value>URL</value>
@@ -360,14 +348,8 @@
   <data name="tsmiCopyDeletionURL.Text" xml:space="preserve">
     <value>URL Penghapusan</value>
   </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+C</value>
-  </data>
   <data name="tsmiCopyFile.Text" xml:space="preserve">
     <value>File</value>
-  </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
   </data>
   <data name="tsmiCopyImage.Text" xml:space="preserve">
     <value>Gambar</value>
@@ -408,9 +390,6 @@
   <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
     <value>Tautan Gambar Markdown</value>
   </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Shift+C</value>
-  </data>
   <data name="tsmiCopyFilePath.Text" xml:space="preserve">
     <value>Jalur file</value>
   </data>
@@ -426,32 +405,17 @@
   <data name="tsmiCopy.Text" xml:space="preserve">
     <value>Salin</value>
   </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
-  </data>
   <data name="tsmiUploadSelectedFile.Text" xml:space="preserve">
     <value>Unggah</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
   </data>
   <data name="tsmiDownloadSelectedURL.Text" xml:space="preserve">
     <value>Unduh</value>
   </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
   <data name="tsmiEditSelectedFile.Text" xml:space="preserve">
     <value>Edit gambar...</value>
   </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Del</value>
-  </data>
   <data name="tsmiDeleteSelectedItem.Text" xml:space="preserve">
     <value>Buang tugas dari daftar</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Del</value>
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Hapus file secara lokal...</value>
@@ -636,13 +600,184 @@
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Keluar</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
     <value>Alihkan bilah alat tindakan</value>
   </data>
   <data name="tsmiURLShorteners.Text" xml:space="preserve">
     <value>Penyingkat URL</value>
+  </data>
+  <data name="tsmiScreenshotDelay0.Text" xml:space="preserve">
+    <value>Tanpa jeda</value>
+  </data>
+  <data name="tsmiScreenshotDelay1.Text" xml:space="preserve">
+    <value>1 detik</value>
+  </data>
+  <data name="tsmiScreenshotDelay2.Text" xml:space="preserve">
+    <value>2 detik</value>
+  </data>
+  <data name="tsmiScreenshotDelay3.Text" xml:space="preserve">
+    <value>3 detik</value>
+  </data>
+  <data name="tsmiScreenshotDelay4.Text" xml:space="preserve">
+    <value>4 detik</value>
+  </data>
+  <data name="tsmiScreenshotDelay5.Text" xml:space="preserve">
+    <value>5 detik</value>
+  </data>
+  <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
+    <value>Jeda tangkapan layar</value>
+  </data>
+  <data name="tsmiPinToScreen.Text" xml:space="preserve">
+    <value>Sematkan ke layar...</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>Pembanding gambar...</value>
+  </data>
+  <data name="tsmiImageBeautifier.Text" xml:space="preserve">
+    <value>Pemercantik gambar...</value>
+  </data>
+  <data name="tsmiImageViewer.Text" xml:space="preserve">
+    <value>Penampil gambar...</value>
+  </data>
+  <data name="tsmiImageSplitter.Text" xml:space="preserve">
+    <value>Pemecah gambar...</value>
+  </data>
+  <data name="tsmiVideoConverter.Text" xml:space="preserve">
+    <value>Pengonversi video...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>Analisis gambar...</value>
+  </data>
+  <data name="tsmiOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiHashChecker.Text" xml:space="preserve">
+    <value>Pemeriksa hash...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>Metadata...</value>
+  </data>
+  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
+    <value>Penampil clipboard...</value>
+  </data>
+  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
+    <value>Jendela tanpa bingkai...</value>
+  </data>
+  <data name="tsmiInspectWindow.Text" xml:space="preserve">
+    <value>Periksa jendela...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>Pengaturan tujuan...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>Pengaturan pengunggah kustom...</value>
+  </data>
+  <data name="tsbX.Text" xml:space="preserve">
+    <value>Ikuti @ShareX...</value>
+  </data>
+  <data name="tsmiCopyImageDimensions.Text" xml:space="preserve">
+    <value>Dimensi gambar</value>
+  </data>
+  <data name="tsmiBeautifyImage.Text" xml:space="preserve">
+    <value>Percantik gambar...</value>
+  </data>
+  <data name="tsmiAddImageEffects.Text" xml:space="preserve">
+    <value>Tambahkan efek gambar...</value>
+  </data>
+  <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
+    <value>Sematkan ke layar</value>
+  </data>
+  <data name="tsmiRunAction.Text" xml:space="preserve">
+    <value>Jalankan tindakan</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>Analisis gambar...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
+    <value>Pencarian visual Bing...</value>
+  </data>
+  <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
+    <value>Gabungkan secara horizontal</value>
+  </data>
+  <data name="tsmiCombineImagesVertically.Text" xml:space="preserve">
+    <value>Gabungkan secara vertikal</value>
+  </data>
+  <data name="tsmiSwitchTaskViewMode.Text" xml:space="preserve">
+    <value>Beralih ke tampilan thumbnail</value>
+  </data>
+  <data name="tsmiTrayScreenshotDelay0.Text" xml:space="preserve">
+    <value>Tanpa jeda</value>
+  </data>
+  <data name="tsmiTrayScreenshotDelay1.Text" xml:space="preserve">
+    <value>1 detik</value>
+  </data>
+  <data name="tsmiTrayScreenshotDelay2.Text" xml:space="preserve">
+    <value>2 detik</value>
+  </data>
+  <data name="tsmiTrayScreenshotDelay3.Text" xml:space="preserve">
+    <value>3 detik</value>
+  </data>
+  <data name="tsmiTrayScreenshotDelay4.Text" xml:space="preserve">
+    <value>4 detik</value>
+  </data>
+  <data name="tsmiTrayScreenshotDelay5.Text" xml:space="preserve">
+    <value>5 detik</value>
+  </data>
+  <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
+    <value>Jeda tangkapan layar</value>
+  </data>
+  <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
+    <value>Sematkan ke layar...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>Pembanding gambar...</value>
+  </data>
+  <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
+    <value>Pemercantik gambar...</value>
+  </data>
+  <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
+    <value>Penampil gambar...</value>
+  </data>
+  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
+    <value>Pemecah gambar...</value>
+  </data>
+  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
+    <value>Pengonversi video...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>Analisis gambar...</value>
+  </data>
+  <data name="tsmiTrayOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
+    <value>Pemeriksa hash...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>Metadata...</value>
+  </data>
+  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
+    <value>Penampil clipboard...</value>
+  </data>
+  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
+    <value>Jendela tanpa bingkai...</value>
+  </data>
+  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
+    <value>Periksa jendela...</value>
+  </data>
+  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
+    <value>Pengaturan pengunggah kustom...</value>
+  </data>
+  <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
+    <value>Mulai ulang ShareX sebagai admin</value>
+  </data>
+  <data name="cHotkey.HeaderText" xml:space="preserve">
+    <value>Tombol pintas</value>
+  </data>
+  <data name="cDescription.HeaderText" xml:space="preserve">
+    <value>Deskripsi</value>
   </data>
 </root>

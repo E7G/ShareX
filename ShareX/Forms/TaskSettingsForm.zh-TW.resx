@@ -509,21 +509,6 @@
   <data name="btnActions.Text" xml:space="preserve">
     <value>動作...</value>
   </data>
-  <data name="btnCustomCaptureSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnCustomErrorSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnCustomTaskCompletedSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnRegionCaptureSnapSizesAdd.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="btnRegionCaptureSnapSizesRemove.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
   <data name="btnScreenshotsFolderBrowse.Text" xml:space="preserve">
     <value>瀏覽...</value>
   </data>
@@ -599,15 +584,6 @@
   <data name="gbToastWindow.Text" xml:space="preserve">
     <value>彈出通知</value>
   </data>
-  <data name="lblCaptureCustomRegionX.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="lblCaptureCustomRegionY.Text" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="lblImageJPEGQualityHint.Text" xml:space="preserve">
-    <value>0 - 100</value>
-  </data>
   <data name="lblImageSizeLimitHint.Text" xml:space="preserve">
     <value>kB</value>
   </data>
@@ -644,9 +620,6 @@
   <data name="lblToastWindowSize.Text" xml:space="preserve">
     <value>大小：</value>
   </data>
-  <data name="lblToastWindowSizeX.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>螢幕檢色器格式 (Ctrl + 單擊)：</value>
   </data>
@@ -665,9 +638,6 @@
   <data name="tpOCR.Text" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="btnCustomActionCompletedSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="cbUseCustomActionCompletedSound.Text" xml:space="preserve">
     <value>使用自訂的動作完成音效：</value>
   </data>
@@ -680,13 +650,19 @@
   <data name="lblCaptureCustomWindow.Text" xml:space="preserve">
     <value>預設的視窗標題：</value>
   </data>
-  <data name="lblRegionCaptureBackgroundDimStrengthHint.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
   <data name="lblRegionCaptureBackgroundDimStrength.Text" xml:space="preserve">
     <value>背景調暗強度：</value>
   </data>
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>開啟服務連結後關閉 OCR 視窗</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>顯示中心十字線</value>
+  </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>自動隱藏桌面圖示</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>使用舊版圖片編輯器</value>
   </data>
 </root>

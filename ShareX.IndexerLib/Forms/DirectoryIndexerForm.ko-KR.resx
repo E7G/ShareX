@@ -135,4 +135,7 @@
   <data name="btnUpload.Text" xml:space="preserve">
     <value>업로드 후 창닫기</value>
   </data>
+  <data name="btnSaveAs.Text" xml:space="preserve">
+    <value>저장 as and close this 창...</value>
+  </data>
 </root>

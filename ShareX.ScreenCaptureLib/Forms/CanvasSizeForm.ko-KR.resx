@@ -138,4 +138,7 @@
   <data name="lblBottom.Text" xml:space="preserve">
     <value>하단:</value>
   </data>
+  <data name="cbtnCanvasColor.Text" xml:space="preserve">
+    <value>Canvas 색상...</value>
+  </data>
 </root>

@@ -342,20 +342,8 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Theme</value>
   </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-  </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Windows</value>
-  </data>
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>Áp dụng</value>
-  </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="lblSaveImageSubFolderPatternPreview.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="lblExportImportNote.Text" xml:space="preserve">
     <value>Lưu ý: Việc này sẽ xuất ra tất cả các tệp tin cài đặt và lịch sử</value>
@@ -431,5 +419,11 @@
   </data>
   <data name="tpSettings.Text" xml:space="preserve">
     <value>Cài đặt</value>
+  </data>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>Kênh cập nhật:</value>
+  </data>
+  <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
+    <value>Tự động kiểm tra bản cập nhật</value>
   </data>
 </root>

@@ -138,12 +138,6 @@
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>کیفیت:</value>
   </data>
-  <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
-    <value>؟</value>
-  </data>
-  <data name="btnFFmpegBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblAMFUsage.Text" xml:space="preserve">
     <value>استفاده:</value>
   </data>
@@ -156,7 +150,83 @@
   <data name="lblAudioSource.Text" xml:space="preserve">
     <value>منبع صدا:</value>
   </data>
-  <data name="tpGIF.Text" xml:space="preserve">
-    <value>گیف</value>
+  <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
+    <value>For real time encoding like ضبط صفحه it is recommended to select fast as possible pبازنشانی.
+Otherwise it can't keep up with recording and a lot of frame drops will happen.</value>
+  </data>
+  <data name="cbx264Preset.ToolTip" xml:space="preserve">
+    <value>Faster pبازنشانی = Faster encoding but higher فایل size.
+Slower pبازنشانی = Slower encoding but lower فایل size.
+For real time encoding (e.g. ضبط صفحه), the pبازنشانی must be as fast as possible.</value>
+  </data>
+  <data name="nudx264CRF.ToolTip" xml:space="preserve">
+    <value>Constant Rate Factor (CRF): The value can be between 0-51, where 0 is lossless, 30 is default, and 51 is the worst possible.
+A higher value means bad quality, but a low فایل size.</value>
+  </data>
+  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
+    <value>1 being highest quality/largest فایلsize and 31 being the lowest quality/smallest فایلsize.</value>
+  </data>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>شاخص مقیاس Bayer را کنترل می‌کند؛ مقیاس بالاتر نواربندی بیشتری نشان می‌دهد. مقدار پیش‌فرض ۲ است.</value>
+  </data>
+  <data name="cbGIFDither.ToolTip" xml:space="preserve">
+    <value>پیش‌فرض sierra2_4a است.</value>
+  </data>
+  <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
+    <value>پیش‌فرض full است.</value>
+  </data>
+  <data name="cbCustomCommands.Text" xml:space="preserve">
+    <value>Use سفارشی commands:</value>
+  </data>
+  <data name="lblHelperDevices.Text" xml:space="preserve">
+    <value>Installs "صفحه-ضبط-recorder" and "virtual-audio-ضبطr" video/audio source.</value>
+  </data>
+  <data name="btnInstallHelperDevices.Text" xml:space="preserve">
+    <value>نصب دستگاه‌های ضبط...</value>
+  </data>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>افزودنitional command line arguments:</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Use سفارشی FFmpeg مسیر:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>کدگذار ویدئو:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>کدگذار صدا:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>نرخ بیت:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>نرخ بیت:</value>
+  </data>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>استفاده از نرخ بیت</value>
+  </data>
+  <data name="lblx264Preset.Text" xml:space="preserve">
+    <value>Pبازنشانی:</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>تنظیم دقیق:</value>
+  </data>
+  <data name="lblNVENCPreset.Text" xml:space="preserve">
+    <value>Pبازنشانی:</value>
+  </data>
+  <data name="lblGIFDither.Text" xml:space="preserve">
+    <value>حالت دیترینگ:</value>
+  </data>
+  <data name="lblGIFStatsMode.Text" xml:space="preserve">
+    <value>حالت پالت:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>نرخ بیت:</value>
+  </data>
+  <data name="lblQSVPreset.Text" xml:space="preserve">
+    <value>Pبازنشانی:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>بازنشانی options...</value>
   </data>
 </root>

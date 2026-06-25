@@ -138,4 +138,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Pantau folder</value>
   </data>
+  <data name="cbMoveToScreenshotsFolder.Text" xml:space="preserve">
+    <value>Pindahkan file ke folder tangkapan layar</value>
+  </data>
 </root>

@@ -129,4 +129,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Epingler à l'écran</value>
   </data>
+  <data name="tsbOptions.Text" xml:space="preserve">
+    <value>Options...</value>
+  </data>
 </root>

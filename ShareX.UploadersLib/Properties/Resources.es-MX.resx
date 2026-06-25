@@ -220,4 +220,52 @@ Carpetas creadas:</value>
   <data name="DuplicateNameNotAllowed" xml:space="preserve">
     <value>No se permiten nombres duplicados.</value>
   </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>Mi unidad</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Error al exportar.</value>
+  </data>
+  <data name="LoggedInAs0" xml:space="preserve">
+    <value>Sesión iniciada como {0}.</value>
+  </data>
+  <data name="FormattingFailed_JSON" xml:space="preserve">
+    <value>Error al formatear.</value>
+  </data>
+  <data name="FormattingFailed_XML" xml:space="preserve">
+    <value>Error al formatear.</value>
+  </data>
+  <data name="ShortenedURL" xml:space="preserve">
+    <value>URL acortada</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ThumbnailURL" xml:space="preserve">
+    <value>URL de miniatura</value>
+  </data>
+  <data name="DeletionURL" xml:space="preserve">
+    <value>URL de eliminación</value>
+  </data>
+  <data name="StatusCode" xml:space="preserve">
+    <value>Código de estado</value>
+  </data>
+  <data name="ResponseURL" xml:space="preserve">
+    <value>URL de respuesta</value>
+  </data>
+  <data name="ResponseText" xml:space="preserve">
+    <value>Texto de respuesta</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Encabezados</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Conectar...</value>
+  </data>
 </root>

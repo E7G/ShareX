@@ -654,4 +654,16 @@
   <data name="cbPlaySoundAfterAction.Text" xml:space="preserve">
     <value>إشعار بالصوت بعد انتهاء إجراء</value>
   </data>
+  <data name="lblImageSizeLimitHint.Text" xml:space="preserve">
+    <value>kB</value>
+  </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>إخفاء أيقونات سطح المكتب تلقائيًا</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>إظهار علامة التصويب المركزية</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>استخدام محرر الصور القديم</value>
+  </data>
 </root>

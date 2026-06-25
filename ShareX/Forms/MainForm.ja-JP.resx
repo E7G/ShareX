@@ -741,4 +741,43 @@
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>画像装飾...</value>
   </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>画像比較...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>画像を解析...</value>
+  </data>
+  <data name="tsmiOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>メタデータ...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>Destination 設定...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>カスタム アップロードer 設定...</value>
+  </data>
+  <data name="tsmiBeautifyImage.Text" xml:space="preserve">
+    <value>画像を整える...</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>画像を解析...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>画像比較...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>画像を解析...</value>
+  </data>
+  <data name="tsmiTrayOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>メタデータ...</value>
+  </data>
 </root>

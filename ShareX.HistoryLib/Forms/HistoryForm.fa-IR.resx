@@ -150,4 +150,34 @@
   <data name="cbDateFilter.Text" xml:space="preserve">
     <value>تاریخ:</value>
   </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>جستجو:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="tsbAdvancedSearch.Text" xml:space="preserve">
+    <value>جستجوی پیشرفته...</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>موارد دلخواه</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>نمایش آمار...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>وارد کردن پوشه...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>تنظیمات...</value>
+  </data>
+  <data name="btnAdvancedSearchClose.Text" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="btnAdvancedSearchReset.Text" xml:space="preserve">
+    <value>بازنشانی</value>
+  </data>
+  <data name="gbAdvancedSearch.Text" xml:space="preserve">
+    <value>جستجوی پیشرفته</value>
+  </data>
 </root>

@@ -351,17 +351,8 @@
   <data name="btnAfterCapture.Text" xml:space="preserve">
     <value>Sau khi chụp...</value>
   </data>
-  <data name="btnRegionCaptureSnapSizesRemove.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="btnRegionCaptureSnapSizesAdd.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
   <data name="lblAutoIncrementNumber.Text" xml:space="preserve">
     <value>Số tăng tự động:</value>
-  </data>
-  <data name="lblImageJPEGQualityHint.Text" xml:space="preserve">
-    <value>0 - 100</value>
   </data>
   <data name="btnRegionCaptureSnapSizesDialogAdd.Text" xml:space="preserve">
     <value>Thêm</value>
@@ -401,12 +392,6 @@
   </data>
   <data name="cbRegionCaptureIsFixedSize.Text" xml:space="preserve">
     <value>Chế độ vùng cố định kích thước:</value>
-  </data>
-  <data name="lblCaptureCustomRegionY.Text" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="lblCaptureCustomRegionX.Text" xml:space="preserve">
-    <value>X</value>
   </data>
   <data name="lblRegionCaptureFixedSizeWidth.Text" xml:space="preserve">
     <value>Rộng:</value>
@@ -653,5 +638,32 @@
   </data>
   <data name="tpNotifications.Text" xml:space="preserve">
     <value>Thông báo</value>
+  </data>
+  <data name="cbUseCustomActionCompletedSound.Text" xml:space="preserve">
+    <value>Use tùy chỉnh action completed sound:</value>
+  </data>
+  <data name="cbPlaySoundAfterAction.Text" xml:space="preserve">
+    <value>Phát âm thanh sau khi hành động hoàn tất</value>
+  </data>
+  <data name="cbUseRandomImageEffect.Text" xml:space="preserve">
+    <value>Use random ảnh effect</value>
+  </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>Tự động ẩn biểu tượng màn hình nền</value>
+  </data>
+  <data name="lblCaptureCustomWindow.Text" xml:space="preserve">
+    <value>Pre configured cửa sổ title:</value>
+  </data>
+  <data name="lblRegionCaptureBackgroundDimStrength.Text" xml:space="preserve">
+    <value>Mức làm tối nền:</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>Hiển thị tâm ngắm ở giữa</value>
+  </data>
+  <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
+    <value>Close OCR cửa sổ after opening service link</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>Dùng trình chỉnh sửa ảnh cũ</value>
   </data>
 </root>

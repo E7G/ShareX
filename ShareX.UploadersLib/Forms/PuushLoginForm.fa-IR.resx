@@ -123,4 +123,13 @@
   <data name="lblEmail.Text" xml:space="preserve">
     <value>ایمیل:</value>
   </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>ورود</value>
+  </data>
+  <data name="llForgottenPassword.Text" xml:space="preserve">
+    <value>رمز عبور را فراموش کرده‌اید؟</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - ورود به puush</value>
+  </data>
 </root>

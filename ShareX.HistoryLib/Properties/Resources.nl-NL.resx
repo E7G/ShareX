@@ -186,4 +186,55 @@
   <data name="HistoryItemManager_InitializeComponent_Forum__BBCode__link" xml:space="preserve">
     <value>BBCode voor forum van link</value>
   </data>
+  <data name="HistoryItemCounts" xml:space="preserve">
+    <value>Geschiedenis item counts:</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_Markdown__link" xml:space="preserve">
+    <value>Markdown-link</value>
+  </data>
+  <data name="ErrorOccuredWhileReadingHistoryFile" xml:space="preserve">
+    <value>Fout occurred while reading geschiedenis bestand:</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totaal</value>
+  </data>
+  <data name="Filtered" xml:space="preserve">
+    <value>Gefilterd</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_Markdown__image" xml:space="preserve">
+    <value>Markdown afbeelding</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_UploadFile" xml:space="preserve">
+    <value>Uploaden bestand</value>
+  </data>
+  <data name="HistoryForm_Search_Watermark" xml:space="preserve">
+    <value>Bestand name, venster titel, process name, etc.</value>
+  </data>
+  <data name="HistoryStats_Hosts" xml:space="preserve">
+    <value>Hosts:</value>
+  </data>
+  <data name="PinToScreen" xml:space="preserve">
+    <value>Pin to scherm</value>
+  </data>
+  <data name="HistoryStats_YearlyUsages" xml:space="preserve">
+    <value>Jaarlijks gebruik:</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_EditImage" xml:space="preserve">
+    <value>Bewerken afbeelding...</value>
+  </data>
+  <data name="ProcessNames" xml:space="preserve">
+    <value>Procesnamen:</value>
+  </data>
+  <data name="HistoryStats" xml:space="preserve">
+    <value>Geschiedenis stats</value>
+  </data>
+  <data name="HistoryStats_FileExtensions" xml:space="preserve">
+    <value>Bestand extensions:</value>
+  </data>
+  <data name="HistoryStats_Total" xml:space="preserve">
+    <value>Totaal:</value>
+  </data>
+  <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
+    <value>Markdown linked afbeelding</value>
+  </data>
 </root>

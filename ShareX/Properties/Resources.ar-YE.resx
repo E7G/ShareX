@@ -640,4 +640,10 @@
     <value>فشل التنزيل:
 {0}</value>
   </data>
+  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
+    <value>X: {0}, Y: {1}, العرض: {2}, الارتفاع: {3}</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>تبرع</value>
+  </data>
 </root>

@@ -975,4 +975,34 @@ Używanie zaszyfrowanej biblioteki wyłącza udostępnianie.</value>
   <data name="cbOneDriveUseDirectLink.Text" xml:space="preserve">
     <value>Użyj bezpośredniego linku</value>
   </data>
+  <data name="lblPrivateBinPassword.Text" xml:space="preserve">
+    <value>Hasło:</value>
+  </data>
+  <data name="lblPrivateBinUsername.Text" xml:space="preserve">
+    <value>Nazwa użytkownika:</value>
+  </data>
+  <data name="gbPrivateBinCredentials.Text" xml:space="preserve">
+    <value>Poświadczenia</value>
+  </data>
+  <data name="gbPrivateBinCredentials.ToolTip" xml:space="preserve">
+    <value>Niektóre serwery mogą wymagać dodatkowej autoryzacji</value>
+  </data>
+  <data name="cbAmazonS3SignedPayload.Text" xml:space="preserve">
+    <value>Podpisana treść</value>
+  </data>
+  <data name="lblPrivateBinCustomUrl.Text" xml:space="preserve">
+    <value>Własny URL:</value>
+  </data>
+  <data name="lblPrivateBinExpiration.Text" xml:space="preserve">
+    <value>Wygaśnięcie:</value>
+  </data>
+  <data name="lblPrivateBinFormat.Text" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="lblPrivateBinPastePassword.Text" xml:space="preserve">
+    <value>Hasło wklejania:</value>
+  </data>
+  <data name="cbPrivateBinBurnAfterReading.Text" xml:space="preserve">
+    <value>Usuń po przeczytaniu</value>
+  </data>
 </root>

@@ -135,4 +135,10 @@
   <data name="tpBeforeUpload.Text" xml:space="preserve">
     <value>Feltöltés előtt</value>
   </data>
+  <data name="tpAfterUpload.Text" xml:space="preserve">
+    <value>Feltöltés után</value>
+  </data>
+  <data name="lblFileName.Text" xml:space="preserve">
+    <value>Fájlnév:</value>
+  </data>
 </root>

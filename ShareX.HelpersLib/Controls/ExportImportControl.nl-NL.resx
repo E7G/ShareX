@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnExport.Text" xml:space="preserve">
-    <value>Exporteer</value>
+    <value> Exporteer</value>
   </data>
   <data name="btnImport.Text" xml:space="preserve">
-    <value>Importeer</value>
+    <value> Importeer</value>
   </data>
   <data name="tsmiExportClipboard.Text" xml:space="preserve">
     <value>Kopieer naar klembord</value>

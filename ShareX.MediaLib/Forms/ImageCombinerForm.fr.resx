@@ -156,4 +156,13 @@
   <data name="lblWrapAfter.Text" xml:space="preserve">
     <value>Retour à la ligne après :</value>
   </data>
+  <data name="rbOrientationHorizontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="rbOrientationVertical.Text" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="lblWrapAfterImages.Text" xml:space="preserve">
+    <value>images</value>
+  </data>
 </root>

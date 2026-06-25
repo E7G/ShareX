@@ -117,12 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnInputFilePathBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="lblVideoQualityValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="cbUseCustomArguments.Text" xml:space="preserve">
     <value>Utiliser des arguments personnalisés :</value>
   </data>
@@ -131,9 +125,6 @@
   </data>
   <data name="cbAutoOpenFolder.Text" xml:space="preserve">
     <value>Ouvrir le dossier après l'encodage</value>
-  </data>
-  <data name="btnOutputFolderBrowse.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="btnEncode.Text" xml:space="preserve">
     <value>Démarrer l'encodage</value>

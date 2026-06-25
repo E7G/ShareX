@@ -147,4 +147,22 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Juntar imagens</value>
   </data>
+  <data name="lblSpacePixel.Text" xml:space="preserve">
+    <value>píxeis</value>
+  </data>
+  <data name="rbOrientationHorizontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="rbOrientationVertical.Text" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="cbAutoFillBackground.Text" xml:space="preserve">
+    <value>Auto fill fundo</value>
+  </data>
+  <data name="lblWrapAfter.Text" xml:space="preserve">
+    <value>Quebrar após:</value>
+  </data>
+  <data name="lblWrapAfterImages.Text" xml:space="preserve">
+    <value>imagems</value>
+  </data>
 </root>

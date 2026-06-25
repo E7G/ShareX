@@ -160,12 +160,6 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>انصراف</value>
   </data>
-  <data name="txtY.Text" xml:space="preserve">
-    <value>۰</value>
-  </data>
-  <data name="txtX.Text" xml:space="preserve">
-    <value>۰</value>
-  </data>
   <data name="rbBlue.Text" xml:space="preserve">
     <value>آبی:</value>
   </data>
@@ -177,5 +171,65 @@
   </data>
   <data name="rbRed.Text" xml:space="preserve">
     <value>قرمز:</value>
+  </data>
+  <data name="lblOld.Text" xml:space="preserve">
+    <value>قدیمی:</value>
+  </data>
+  <data name="lblHex.Text" xml:space="preserve">
+    <value>هگز:</value>
+  </data>
+  <data name="lblKey.Text" xml:space="preserve">
+    <value>کلید:</value>
+  </data>
+  <data name="lblMagenta.Text" xml:space="preserve">
+    <value>سرخابی:</value>
+  </data>
+  <data name="lblCyan.Text" xml:space="preserve">
+    <value>فیروزه‌ای:</value>
+  </data>
+  <data name="rbSaturation.Text" xml:space="preserve">
+    <value>اشباع:</value>
+  </data>
+  <data name="rbHue.Text" xml:space="preserve">
+    <value>فام:</value>
+  </data>
+  <data name="lblDecimal.Text" xml:space="preserve">
+    <value>ده‌دهی:</value>
+  </data>
+  <data name="lblAlpha.Text" xml:space="preserve">
+    <value>آلفا:</value>
+  </data>
+  <data name="btnScreenColorPicker.ToolTip" xml:space="preserve">
+    <value>Pick رنگ from صفحه</value>
+  </data>
+  <data name="btnClipboardColorPicker.ToolTip" xml:space="preserve">
+    <value>Pick رنگ from کلیپ‌بورد</value>
+  </data>
+  <data name="tsmiCopyAll.Text" xml:space="preserve">
+    <value>کپی همه</value>
+  </data>
+  <data name="tsmiCopyRGB.Text" xml:space="preserve">
+    <value>کپی RGB</value>
+  </data>
+  <data name="tsmiCopyHexadecimal.Text" xml:space="preserve">
+    <value>کپی hexadecimal</value>
+  </data>
+  <data name="tsmiCopyCMYK.Text" xml:space="preserve">
+    <value>کپی CMYK</value>
+  </data>
+  <data name="tsmiCopyHSB.Text" xml:space="preserve">
+    <value>کپی HSB</value>
+  </data>
+  <data name="tsmiCopyDecimal.Text" xml:space="preserve">
+    <value>کپی decimal</value>
+  </data>
+  <data name="tsmiCopyPosition.Text" xml:space="preserve">
+    <value>کپی position</value>
+  </data>
+  <data name="lblCursorPosition.Text" xml:space="preserve">
+    <value>موقعیت نشانگر:</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>نام:</value>
   </data>
 </root>

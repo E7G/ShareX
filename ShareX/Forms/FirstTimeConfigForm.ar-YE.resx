@@ -129,9 +129,6 @@
   <data name="cbRunStartup.Text" xml:space="preserve">
     <value>تشغيل ShareX عند بدء نظام Windows</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="lblTitle.Text" xml:space="preserve">
     <value>الإعداد الأولي لـ ShareX</value>
   </data>

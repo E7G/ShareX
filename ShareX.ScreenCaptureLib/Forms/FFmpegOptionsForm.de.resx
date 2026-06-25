@@ -218,4 +218,19 @@ Ansonsten kann es zu vielen Framedrops kommen.</value>
   <data name="btnResetOptions.Text" xml:space="preserve">
     <value>Optionen zurücksetzen...</value>
   </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblNVENCBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblQSVBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
 </root>

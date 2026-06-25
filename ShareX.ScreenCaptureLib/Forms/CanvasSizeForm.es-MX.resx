@@ -138,4 +138,7 @@
   <data name="lblTop.Text" xml:space="preserve">
     <value>Superior:</value>
   </data>
+  <data name="cbtnCanvasColor.Text" xml:space="preserve">
+    <value>Color del lienzo...</value>
+  </data>
 </root>

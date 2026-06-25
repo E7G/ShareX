@@ -120,4 +120,19 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opțiuni video YouTube</value>
   </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Titlu:</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Descriere:</value>
+  </data>
+  <data name="lblVisibility.Text" xml:space="preserve">
+    <value>Vizibilitate:</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
 </root>

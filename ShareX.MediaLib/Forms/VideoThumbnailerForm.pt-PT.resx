@@ -120,9 +120,6 @@
   <data name="btnStart.Text" xml:space="preserve">
     <value>Tirar capturas de ecrã</value>
   </data>
-  <data name="btnBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Miniatura de vídeo</value>
   </data>

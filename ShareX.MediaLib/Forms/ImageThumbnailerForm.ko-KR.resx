@@ -135,16 +135,13 @@
   <data name="lblOutputFilename.Text" xml:space="preserve">
     <value>출력 파일명:</value>
   </data>
-  <data name="txtOutputFilename.Text" xml:space="preserve">
-    <value>$filename_th</value>
-  </data>
   <data name="btnGenerate.Text" xml:space="preserve">
     <value>섬네일 생성하기</value>
   </data>
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>출력 폴더:</value>
   </data>
-  <data name="btnOutputFolder.Text" xml:space="preserve">
-    <value>...</value>
+  <data name="lblQuality.Text" xml:space="preserve">
+    <value>품질:</value>
   </data>
 </root>

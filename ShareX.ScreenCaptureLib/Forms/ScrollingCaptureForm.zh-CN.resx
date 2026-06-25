@@ -132,7 +132,4 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - 滚动截取</value>
   </data>
-  <data name="btnHelp.Text" xml:space="preserve">
-    <value>？</value>
-  </data>
 </root>

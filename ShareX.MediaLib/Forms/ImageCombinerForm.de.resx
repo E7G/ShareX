@@ -162,4 +162,7 @@
   <data name="lblWrapAfterImages.Text" xml:space="preserve">
     <value>Bilder</value>
   </data>
+  <data name="rbOrientationHorizontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
 </root>

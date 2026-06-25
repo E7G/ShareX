@@ -153,4 +153,7 @@
   <data name="cbKeepCenterLocation.Text" xml:space="preserve">
     <value>بقاء في المركز عند التكبير/التصغير</value>
   </data>
+  <data name="lblScaleStep.Text" xml:space="preserve">
+    <value>خطوة المقياس:</value>
+  </data>
 </root>

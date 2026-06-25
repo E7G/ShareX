@@ -147,9 +147,6 @@
   <data name="chURL.Text" xml:space="preserve">
     <value>URL</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="tsmiQRCode.Text" xml:space="preserve">
     <value>Cod QR...</value>
   </data>
@@ -213,9 +210,6 @@
   <data name="tsddbAfterUploadTasks.Text" xml:space="preserve">
     <value>Sarcini după încărcare</value>
   </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
-  </data>
   <data name="tsbApplicationSettings.Text" xml:space="preserve">
     <value>Setările aplicației...</value>
   </data>
@@ -270,24 +264,6 @@
   <data name="tsmiCopy.Text" xml:space="preserve">
     <value>Copiați</value>
   </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
-  </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Enter</value>
-  </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Shift+C</value>
-  </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
-  </data>
   <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
     <value>Setări destinație personalizată...</value>
   </data>
@@ -296,9 +272,6 @@
   </data>
   <data name="tsmiShowDebugLog.Text" xml:space="preserve">
     <value>Jurnal depanare...</value>
-  </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Del</value>
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Ștergeți fișierul local...</value>
@@ -324,9 +297,6 @@
   <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
     <value>Indexator de foldere...</value>
   </data>
-  <data name="tsbDiscord.Text" xml:space="preserve">
-    <value>Discord...</value>
-  </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Donați...</value>
   </data>
@@ -341,9 +311,6 @@
   </data>
   <data name="tsmiEditSelectedFile.Text" xml:space="preserve">
     <value>Editați imaginea...</value>
-  </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Enter</value>
   </data>
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Ieșire</value>
@@ -594,15 +561,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Distribuire URL</value>
   </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+C</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Del</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Enter</value>
-  </data>
   <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
     <value>Scurtare URL...</value>
   </data>
@@ -758,5 +716,68 @@
   </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>Fereastră</value>
+  </data>
+  <data name="tsmiPinToScreen.Text" xml:space="preserve">
+    <value>Fixează pe ecran...</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>Comparator de imagini...</value>
+  </data>
+  <data name="tsmiImageBeautifier.Text" xml:space="preserve">
+    <value>Îmbunătățitor de imagini...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>Analizează imaginea...</value>
+  </data>
+  <data name="tsmiHashChecker.Text" xml:space="preserve">
+    <value>Verificator de hash...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>Metadate...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>Setări destinație...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>Setări încărcător personalizat...</value>
+  </data>
+  <data name="tsbX.Text" xml:space="preserve">
+    <value>Urmărește @ShareX...</value>
+  </data>
+  <data name="tsmiBeautifyImage.Text" xml:space="preserve">
+    <value>Îmbunătățește imaginea...</value>
+  </data>
+  <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
+    <value>Fixează pe ecran</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>Analizează imaginea...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
+    <value>Fixează pe ecran...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>Comparator de imagini...</value>
+  </data>
+  <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
+    <value>Îmbunătățitor de imagini...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>Analizează imaginea...</value>
+  </data>
+  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
+    <value>Verificator de hash...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>Metadate...</value>
+  </data>
+  <data name="cHotkey.HeaderText" xml:space="preserve">
+    <value>Tastă rapidă</value>
+  </data>
+  <data name="cDescription.HeaderText" xml:space="preserve">
+    <value>Descriere</value>
   </data>
 </root>

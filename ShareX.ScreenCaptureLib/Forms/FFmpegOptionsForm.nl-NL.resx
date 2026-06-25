@@ -191,4 +191,55 @@ Gelijkaardig kan er voor een constante kwaliteitsencoding een tragere preset gek
     <value>Voor realtime encoding (zoals schermopname) is het aangeraden om een zo snel mogelijke preset te kiezen.
 Anders kan het niet bijhouden met de opname en zullen er framedrops volgen.</value>
   </data>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>Besturingselements the Bayer Scale index, a higher scale will display more banding. Standaard is 2.</value>
+  </data>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>Toevoegenitional command line arguments:</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Use aangepast FFmpeg path:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video encoder:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Audio encoder:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>Use bitrate</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Tune:</value>
+  </data>
+  <data name="lblNVENCPreset.Text" xml:space="preserve">
+    <value>Presetten:</value>
+  </data>
+  <data name="lblNVENCBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblAMFQuality.Text" xml:space="preserve">
+    <value>Kwaliteit:</value>
+  </data>
+  <data name="lblAMFUsage.Text" xml:space="preserve">
+    <value>Usage:</value>
+  </data>
+  <data name="lblQSVPreset.Text" xml:space="preserve">
+    <value>Presetten:</value>
+  </data>
+  <data name="lblQSVBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Resetten options...</value>
+  </data>
 </root>

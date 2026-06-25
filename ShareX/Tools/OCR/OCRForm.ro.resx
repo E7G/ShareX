@@ -132,4 +132,16 @@
   <data name="lblScaleFactor.Text" xml:space="preserve">
     <value>Factor de scară:</value>
   </data>
+  <data name="btnOpenServiceLink.Text" xml:space="preserve">
+    <value>Deschide linkul serviciului...</value>
+  </data>
+  <data name="lblService.Text" xml:space="preserve">
+    <value>Serviciu:</value>
+  </data>
+  <data name="cbSingleLine.Text" xml:space="preserve">
+    <value>O singură linie</value>
+  </data>
+  <data name="btnCopyAll.Text" xml:space="preserve">
+    <value>Copiază tot</value>
+  </data>
 </root>

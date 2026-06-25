@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnOverwrite.Text" xml:space="preserve">
-    <value>Timpa:</value>
+    <value>Timpa: </value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>Jangan simpan</value>
   </data>
   <data name="btnUniqueName.Text" xml:space="preserve">
-    <value>Gunakan nama unik:</value>
+    <value>Gunakan nama unik: </value>
   </data>
   <data name="btnNewName.Text" xml:space="preserve">
     <value>Gunakan nama baru:</value>

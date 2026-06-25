@@ -120,4 +120,25 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Kép előzmények</value>
   </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>Keresés:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="tsbSearch.ToolTipText" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Kedvencek</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>Statisztikák megjelenítése...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Importálás mappa...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>Beállítások...</value>
+  </data>
 </root>

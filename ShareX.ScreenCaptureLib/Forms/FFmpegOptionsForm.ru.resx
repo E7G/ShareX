@@ -230,7 +230,7 @@
   <data name="lblVideoEncoder.Text" xml:space="preserve">
     <value>Энкодер видео:</value>
   </data>
-  <data name="lblVP8BitrateK.Text" xml:space="preserve">
-    <value>кбит/с</value>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Настройка:</value>
   </data>
 </root>

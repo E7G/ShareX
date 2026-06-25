@@ -222,9 +222,6 @@
   <data name="btnDataBeautify.Text" xml:space="preserve">
     <value>美化</value>
   </data>
-  <data name="mbHelp.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
   <data name="lblResultErrorMessage.Text" xml:space="preserve">
     <value>错误消息:</value>
   </data>

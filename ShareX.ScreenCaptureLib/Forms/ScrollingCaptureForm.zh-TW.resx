@@ -126,9 +126,6 @@
   <data name="btnUpload.Text" xml:space="preserve">
     <value>上傳 / 儲存</value>
   </data>
-  <data name="btnHelp.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
   <data name="btnCopy.Text" xml:space="preserve">
     <value>複製</value>
   </data>

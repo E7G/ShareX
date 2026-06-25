@@ -129,4 +129,7 @@
   <data name="lblQuestion.Text" xml:space="preserve">
     <value>A sua área de transferência contém o seguinte:</value>
   </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
 </root>

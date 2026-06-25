@@ -117,24 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblx264CRF.Text" xml:space="preserve">
-    <value>CRF:</value>
-  </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Factor de rată constantă (CRF): Valoarea poate fi cuprinsă între 0-51, unde 0 este fără pierderi, 30 este valoarea implicită, iar 51 este cea mai proastă valoare posibilă.
 O valoare mai mare înseamnă o calitate proastă, dar o dimensiune redusă a fișierului.</value>
   </data>
   <data name="nudXvidQscale.ToolTip" xml:space="preserve">
     <value>1 fiind cea mai bună calitate/cea mai mare dimensiune a fișierului și 31 fiind cea mai mică calitate/cea mai mică dimensiune a fișierului.</value>
-  </data>
-  <data name="btnFFmpegBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
-  <data name="tpAAC.Text" xml:space="preserve">
-    <value>AAC</value>
   </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>Argumente suplimentare pentru linia de comandă:</value>
@@ -172,35 +160,11 @@ Pentru codificarea în timp real (de exemplu, înregistrarea ecranului), preseta
     <value>Pentru codificarea în timp real, cum ar fi înregistrarea ecranului, se recomandă selectarea unei presetări rapide.
 În caz contrar, nu poate ține pasul cu înregistrarea și se vor produce multe scăderi de cadre.</value>
   </data>
-  <data name="tpGIF.Text" xml:space="preserve">
-    <value>GIF</value>
-  </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
     <value>Instalare dispozitive de înregistrare</value>
   </data>
   <data name="lblHelperDevices.Text" xml:space="preserve">
     <value>Instalează sursa video/audio "screen-capture-recorder" și "virtual-audio-capturer".</value>
-  </data>
-  <data name="lblQSVBitrateK.Text" xml:space="preserve">
-    <value>kbps</value>
-  </data>
-  <data name="lblNVENCBitrateK.Text" xml:space="preserve">
-    <value>kbps</value>
-  </data>
-  <data name="lblVP8BitrateK.Text" xml:space="preserve">
-    <value>kbps</value>
-  </data>
-  <data name="lblx264BitrateK.Text" xml:space="preserve">
-    <value>kbps</value>
-  </data>
-  <data name="tpMP3.Text" xml:space="preserve">
-    <value>MP3</value>
-  </data>
-  <data name="tpNVENC.Text" xml:space="preserve">
-    <value>NVENC</value>
-  </data>
-  <data name="tpOpus.Text" xml:space="preserve">
-    <value>Opus</value>
   </data>
   <data name="lblGIFStatsMode.Text" xml:space="preserve">
     <value>Mod paletă:</value>
@@ -241,16 +205,28 @@ Pentru codificarea în timp real (de exemplu, înregistrarea ecranului), preseta
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>Sursă video:</value>
   </data>
-  <data name="tpVorbis.Text" xml:space="preserve">
-    <value>Vorbis</value>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Use personalizat FFmpeg cale:</value>
   </data>
-  <data name="tpVpx.Text" xml:space="preserve">
-    <value>VP8</value>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video codificator:</value>
   </data>
-  <data name="tpX264.Text" xml:space="preserve">
-    <value>x264 / x265</value>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Audio codificator:</value>
   </data>
-  <data name="tpXvid.Text" xml:space="preserve">
-    <value>Xvid</value>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Rată de biți:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Rată de biți:</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Ajustare:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Rată de biți:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Resetează opțiuni...</value>
   </data>
 </root>

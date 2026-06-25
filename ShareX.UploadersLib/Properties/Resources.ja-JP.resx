@@ -265,4 +265,7 @@
   <data name="Connect" xml:space="preserve">
     <value>接続...</value>
   </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
 </root>

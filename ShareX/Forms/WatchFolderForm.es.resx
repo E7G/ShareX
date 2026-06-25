@@ -138,4 +138,7 @@
   <data name="lblFolderPath.Text" xml:space="preserve">
     <value>Ruta de la carpeta:</value>
   </data>
+  <data name="cbMoveToScreenshotsFolder.Text" xml:space="preserve">
+    <value>Mover archivo a la carpeta de capturas de pantalla</value>
+  </data>
 </root>

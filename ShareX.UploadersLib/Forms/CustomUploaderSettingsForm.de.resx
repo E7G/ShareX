@@ -195,4 +195,49 @@
   <data name="lblURLSharingService.Text" xml:space="preserve">
     <value>URL-Freigabedienst:</value>
   </data>
+  <data name="btnTextUploaderTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnURLShortenerTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnImageUploaderTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="btnFileUploaderTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="cHeadersName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cParametersName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="cParametersValue.HeaderText" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="lblHeaders.Text" xml:space="preserve">
+    <value>Header:</value>
+  </data>
+  <data name="lblBody.Text" xml:space="preserve">
+    <value>Body:</value>
+  </data>
+  <data name="cArgumentsName.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblResultURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="btnURLSharingServiceTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="lblUploaders.Text" xml:space="preserve">
+    <value>Uploader:</value>
+  </data>
+  <data name="btnTestURLSyntax.Text" xml:space="preserve">
+    <value>Testen...</value>
+  </data>
 </root>

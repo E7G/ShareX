@@ -204,4 +204,19 @@
   <data name="tsmiCopyRGB.Text" xml:space="preserve">
     <value>RGB 복사</value>
   </data>
+  <data name="btnScreenColorPicker.ToolTip" xml:space="preserve">
+    <value>Pick 색상 from 화면</value>
+  </data>
+  <data name="btnClipboardColorPicker.ToolTip" xml:space="preserve">
+    <value>Pick 색상 from 클립보드</value>
+  </data>
+  <data name="rbRecentColors.Text" xml:space="preserve">
+    <value>Recent 색상s</value>
+  </data>
+  <data name="rbStandardColors.Text" xml:space="preserve">
+    <value>Standard 색상s</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>이름:</value>
+  </data>
 </root>

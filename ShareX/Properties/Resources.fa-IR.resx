@@ -198,7 +198,7 @@
     <value>اشتراک گذاری آدرس ({0})</value>
   </data>
   <data name="ApplicationSettingsForm_cbSteamShowInApp_CheckedChanged_For_settings_to_take_effect_ShareX_needs_to_be_reopened_from_Steam_" xml:space="preserve">
-    <value>برای اعمال تنظیمات نرم افزار باید بسته و سپس باز شود. </value>
+    <value>برای اعمال تنظیمات نرم افزار باید بسته و سپس باز شود.</value>
   </data>
   <data name="UploadManager_UploadURL_URL_to_download_from_and_upload" xml:space="preserve">
     <value>آدرس برای دانلود و آپلود</value>
@@ -226,7 +226,7 @@
     <value>نام نمی تواند خالی باشد</value>
   </data>
   <data name="FileExistForm_txtNewName_TextChanged_Use_new_name__" xml:space="preserve">
-    <value>از نام جدید استفاده کن:</value>
+    <value>از نام جدید استفاده کن: </value>
   </data>
   <data name="UploadManager_IsUploadConfirmed_Don_t_show_this_message_again_" xml:space="preserve">
     <value>دیگر این پیام را نمایش نده</value>
@@ -241,7 +241,7 @@
     <value>آپلود فولدر</value>
   </data>
   <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>کوتاه کردن آدرس {{0}}</value>
+    <value>کوتاه کردن آدرس ({0})</value>
   </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>جداکننده</value>
@@ -433,5 +433,217 @@
   <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
     <value>دانلود با مشکل مواجه شد:
 {0}</value>
+  </data>
+  <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
+    <value>ShareX در سینی سیستم کمینه شده است.</value>
+  </data>
+  <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
+    <value>متغیرهای پشتیبانی‌شده: {0} و متغیرهای دیگر مانند {1} و غیره.</value>
+  </data>
+  <data name="PinToScreen" xml:space="preserve">
+    <value>سنجاق به صفحه</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_pt_PT" xml:space="preserve">
+    <value>پرتغالی</value>
+  </data>
+  <data name="InspectWindow_ProcessName" xml:space="preserve">
+    <value>نام فرایند</value>
+  </data>
+  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
+    <value>First time بارگذاری warning</value>
+  </data>
+  <data name="SwitchToThumbnailView" xml:space="preserve">
+    <value>Switch to بندانگشتی view</value>
+  </data>
+  <data name="ActionsToolbar_StayTopMost" xml:space="preserve">
+    <value>Stay بالا most</value>
+  </data>
+  <data name="ShareXIsUpToDate" xml:space="preserve">
+    <value>ShareX به‌روز است!</value>
+  </data>
+  <data name="MainForm_UploadDebugLogWarning" xml:space="preserve">
+    <value>گزارش اشکال‌زدایی می‌تواند شامل اطلاعات حساس باشد. آیا مطمئنید می‌خواهید ادامه دهید؟</value>
+  </data>
+  <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
+    <value>Crویرایشs</value>
+  </data>
+  <data name="InspectWindow_ClassName" xml:space="preserve">
+    <value>نام کلاس</value>
+  </data>
+  <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__" xml:space="preserve">
+    <value>کلیپ‌بورد content: فایل (Count: {0})</value>
+  </data>
+  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
+    <value>Are you sure you want to بارگذاری this اسکرین‌شات?
+Press 'No' to cancel the current بارگذاری and disable اسکرین‌شات auto بارگذاریing.</value>
+  </data>
+  <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
+    <value>FFmpeg همراه ShareX فقط از سیستم‌عامل‌های ۶۴ بیتی پشتیبانی می‌کند.</value>
+  </data>
+  <data name="ActionsToolbar__LockPosition" xml:space="preserve">
+    <value>قفل کردن موقعیت</value>
+  </data>
+  <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
+    <value>کلیپ‌بورد content: Text (Length: {0})</value>
+  </data>
+  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
+    <value>شناسه فرایند</value>
+  </data>
+  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
+    <value>Process فایل name</value>
+  </data>
+  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
+    <value>X: {0}, Y: {1}, عرض: {2}, ارتفاع: {3}</value>
+  </data>
+  <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
+    <value>{0} is about to be بارگذاریed to {1}. You may choose a different destination.</value>
+  </data>
+  <data name="FFmpegIsMissing" xml:space="preserve">
+    <value>FFmpeg موجود نیست</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_pl" xml:space="preserve">
+    <value>لهستانی</value>
+  </data>
+  <data name="AboutForm_AboutForm_Privacy_policy" xml:space="preserve">
+    <value>سیاست حفظ حریم خصوصی</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ro" xml:space="preserve">
+    <value>رومانیایی</value>
+  </data>
+  <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
+    <value>{0} configuration is invalid or missing. Please check "Destination تنظیمات" پنجره to configure it.</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_he-IL" xml:space="preserve">
+    <value>عبری</value>
+  </data>
+  <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
+    <value>This feature will not work when "Disableبارگذاری" option is enabled!</value>
+  </data>
+  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
+    <value>پنجره rectangle</value>
+  </data>
+  <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
+    <value>Would you like to enable تصویر effects?
+
+You can later disable it from "After ضبط tasks" منو.</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_fa_IR" xml:space="preserve">
+    <value>فارسی</value>
+  </data>
+  <data name="ApplicationSettingsForm_btnBrowseCustomScreenshotsPath_Click_Choose_screenshots_folder_path" xml:space="preserve">
+    <value>Choose اسکرین‌شاتs پوشه مسیر</value>
+  </data>
+  <data name="AboutForm_AboutForm_Links" xml:space="preserve">
+    <value>پیوندها</value>
+  </data>
+  <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
+    <value>کلیپ‌بورد does not contain an تصویر.</value>
+  </data>
+  <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
+    <value>Your anti-virus software or the controlled پوشه access feature in پنجرهs could be blocking ShareX.</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
+    <value>عربی</value>
+  </data>
+  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
+    <value>پشتیبانی Chrome فعال شد.</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ja_JP" xml:space="preserve">
+    <value>ژاپنی</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>کمک مالی</value>
+  </data>
+  <data name="FFmpeg_FFmpeg_error" xml:space="preserve">
+    <value>FFmpeg خطا</value>
+  </data>
+  <data name="WouldYouLikeToResetThemes" xml:space="preserve">
+    <value>Would you like to بازنشانی themes?</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطا</value>
+  </data>
+  <data name="ScreenColorPicker" xml:space="preserve">
+    <value>صفحه رنگ picker</value>
+  </data>
+  <data name="InspectWindow_WindowStyles" xml:space="preserve">
+    <value>پنجره styles</value>
+  </data>
+  <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
+    <value>You can افزودن workflows from hotkey تنظیمات...</value>
+  </data>
+  <data name="OpticalCharacterRecognitionFeatureIsOnlyAvailableWithWindowsVersion0OrNewer" xml:space="preserve">
+    <value>Optical character recognition feature is only available with پنجرهs version {0} or newer.</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>تأیید</value>
+  </data>
+  <data name="InspectWindow_WindowTitle" xml:space="preserve">
+    <value>پنجره title</value>
+  </data>
+  <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
+    <value>کلیپ‌بورد content: تصویر (Size: {0}x{1})</value>
+  </data>
+  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
+    <value>Extended پنجره styles</value>
+  </data>
+  <data name="FFmpeg_FFmpeg_video_and_audio_source_both_can_t_be__None__" xml:space="preserve">
+    <value>منبع ویدئو و صدای FFmpeg نمی‌توانند هر دو «هیچ‌کدام» باشند.</value>
+  </data>
+  <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
+    <value>ShareX cannot be closed while ضبط صفحه is active.
+
+Do you want to abort the active ضبط صفحه?</value>
+  </data>
+  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
+    <value>Would you like to retry کلیپ‌بورد بارگذاری?</value>
+  </data>
+  <data name="UnableToFindAWindowWithSpecifiedWindowTitle" xml:space="preserve">
+    <value>Unable to find a پنجره with specified پنجره title.</value>
+  </data>
+  <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
+    <value>شروعup has been disabled by your organization</value>
+  </data>
+  <data name="InspectWindow_WindowHandle" xml:space="preserve">
+    <value>پنجره handle</value>
+  </data>
+  <data name="FailedToSaveSettings" xml:space="preserve">
+    <value>Failed to ذخیره تنظیمات</value>
+  </data>
+  <data name="HotkeyManager_ShowFailedHotkeys_Unable_to_register_hotkey" xml:space="preserve">
+    <value>Unable to register {0}:
+
+{1}
+
+Please select a different hotkey or quit the conflicting application and reباز کردن ShareX.</value>
+  </data>
+  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
+    <value>مستطیل کلاینت</value>
+  </data>
+  <data name="AboutForm_AboutForm_Team" xml:space="preserve">
+    <value>تیم</value>
+  </data>
+  <data name="ClipboardUpload" xml:space="preserve">
+    <value>کلیپ‌بورد بارگذاری</value>
+  </data>
+  <data name="FFmpegDoesNotExistAtTheFollowingPath" xml:space="preserve">
+    <value>FFmpeg does not exist at the following مسیر:</value>
+  </data>
+  <data name="ImageData_Write_Error_Message" xml:space="preserve">
+    <value>Could not write تصویر to مسیر:</value>
+  </data>
+  <data name="ActionsToolbar_Tip" xml:space="preserve">
+    <value>Hold چپ down to drag
+راست click to باز کردن منو
+Middle click to close</value>
+  </data>
+  <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_is_empty_or_contains_unknown_data_" xml:space="preserve">
+    <value>کلیپ‌بورد is empty or contains unknown data.</value>
+  </data>
+  <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
+    <value>Your system admin disabled the بارگذاری feature.</value>
+  </data>
+  <data name="ApplicationSettingsForm_cbStartWithWindows_EnabledByPolicy_Text" xml:space="preserve">
+    <value>شروعup has been enabled by your organization</value>
   </data>
 </root>

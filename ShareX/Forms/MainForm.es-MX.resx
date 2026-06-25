@@ -315,9 +315,6 @@
   <data name="tsmiStopUpload.Text" xml:space="preserve">
     <value>Detener subida</value>
   </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Intro</value>
-  </data>
   <data name="tsmiOpenURL.Text" xml:space="preserve">
     <value>Enlace</value>
   </data>
@@ -330,14 +327,8 @@
   <data name="tsmiOpenDeletionURL.Text" xml:space="preserve">
     <value>Enlace de borrado</value>
   </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Intro</value>
-  </data>
   <data name="tsmiOpenFile.Text" xml:space="preserve">
     <value>Archivo</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Mayús+Intro</value>
   </data>
   <data name="tsmiOpenFolder.Text" xml:space="preserve">
     <value>Carpeta</value>
@@ -347,9 +338,6 @@
   </data>
   <data name="tsmiOpen.Text" xml:space="preserve">
     <value>Abrir</value>
-  </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
   </data>
   <data name="tsmiCopyURL.Text" xml:space="preserve">
     <value>Enlace</value>
@@ -363,14 +351,8 @@
   <data name="tsmiCopyDeletionURL.Text" xml:space="preserve">
     <value>Enlace de borrado</value>
   </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Mayús+C</value>
-  </data>
   <data name="tsmiCopyFile.Text" xml:space="preserve">
     <value>Archivo</value>
-  </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
   </data>
   <data name="tsmiCopyImage.Text" xml:space="preserve">
     <value>Imagen</value>
@@ -411,9 +393,6 @@
   <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
     <value>Enlace de imagen Markdown</value>
   </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Mayús+C</value>
-  </data>
   <data name="tsmiCopyFilePath.Text" xml:space="preserve">
     <value>Ubicación del archivo</value>
   </data>
@@ -429,32 +408,17 @@
   <data name="tsmiCopy.Text" xml:space="preserve">
     <value>Copiar</value>
   </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
-  </data>
   <data name="tsmiUploadSelectedFile.Text" xml:space="preserve">
     <value>Subir</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
   </data>
   <data name="tsmiDownloadSelectedURL.Text" xml:space="preserve">
     <value>Descargar</value>
   </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
   <data name="tsmiEditSelectedFile.Text" xml:space="preserve">
     <value>Modificar imagen...</value>
   </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Supr</value>
-  </data>
   <data name="tsmiDeleteSelectedItem.Text" xml:space="preserve">
     <value>Eliminar tarea de la lista</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Mayús+Supr</value>
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Eliminar archivo local...</value>
@@ -642,9 +606,6 @@
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Salir</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="tsmiScreenshotDelay0.Text" xml:space="preserve">
     <value>Sin retraso</value>
   </data>
@@ -704,9 +665,6 @@
   </data>
   <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
     <value>Configuración de servidor personalizado...</value>
-  </data>
-  <data name="tsbDiscord.Text" xml:space="preserve">
-    <value>Discord</value>
   </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Embellecedor de imágenes...</value>
@@ -779,5 +737,47 @@
   </data>
   <data name="tsmiPinToScreen.Text" xml:space="preserve">
     <value>Fijar a pantalla...</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>Comparador de imágenes...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>Analizar imagen...</value>
+  </data>
+  <data name="tsmiHashChecker.Text" xml:space="preserve">
+    <value>Verificador de hash...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>Metadatos...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>Configuración de destino...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>Configuración del cargador personalizado...</value>
+  </data>
+  <data name="tsbX.Text" xml:space="preserve">
+    <value>Seguir a @ShareX...</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>Analizar imagen...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>Comparador de imágenes...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>Analizar imagen...</value>
+  </data>
+  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
+    <value>Verificador de hash...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>Metadatos...</value>
+  </data>
+  <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
+    <value>Reiniciar ShareX como administrador</value>
   </data>
 </root>

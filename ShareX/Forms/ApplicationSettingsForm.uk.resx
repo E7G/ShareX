@@ -201,9 +201,6 @@
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>Показувати кнопку „Вивантажити із ShareX“ у контекстному меню Провідника Windows</value>
   </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Вікна</value>
-  </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Інтеграція</value>
   </data>

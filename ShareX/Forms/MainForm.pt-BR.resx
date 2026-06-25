@@ -624,9 +624,6 @@
   <data name="tsmiTrayScreenshotDelay5.Text" xml:space="preserve">
     <value>5 segundos</value>
   </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
-  </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Combinar horizontalmente</value>
   </data>
@@ -636,38 +633,8 @@
   <data name="tsmiCombineImagesVertically.Text" xml:space="preserve">
     <value>Combinar verticalmente</value>
   </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
-  </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Enter</value>
-  </data>
-  <data name="tsmiPinSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+P</value>
-  </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Shift+C</value>
-  </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
-  </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Del</value>
-  </data>
-  <data name="tsbDiscord.Text" xml:space="preserve">
-    <value>Discord...</value>
-  </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Doar...</value>
-  </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Enter</value>
   </data>
   <data name="tsmiCopyImageDimensions.Text" xml:space="preserve">
     <value>Dimensões da imagem</value>
@@ -729,15 +696,6 @@
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>Executar ação</value>
   </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+C</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Del</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Shift+Enter</value>
-  </data>
   <data name="tsmiShortenURL.Text" xml:space="preserve">
     <value>Encurtar URL...</value>
   </data>
@@ -759,7 +717,67 @@
   <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
     <value>Conversor de vídeo...</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>Comparador de imagens...</value>
+  </data>
+  <data name="tsmiImageBeautifier.Text" xml:space="preserve">
+    <value>Imagem beautifier...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>Analisar imagem...</value>
+  </data>
+  <data name="tsmiHashChecker.Text" xml:space="preserve">
+    <value>Verificador de hash...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>Metadados...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>Configurações de destino...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>Configurações do uploader personalizado...</value>
+  </data>
+  <data name="tsbX.Text" xml:space="preserve">
+    <value>Seguir @ShareX...</value>
+  </data>
+  <data name="tsmiCopyMarkdownLink.Text" xml:space="preserve">
+    <value>Link Markdown</value>
+  </data>
+  <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
+    <value>Markdown imagem</value>
+  </data>
+  <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
+    <value>Markdown linked imagem</value>
+  </data>
+  <data name="tsmiBeautifyImage.Text" xml:space="preserve">
+    <value>Embelezar imagem...</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>Analisar imagem...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>Comparador de imagens...</value>
+  </data>
+  <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
+    <value>Imagem beautifier...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>Analisar imagem...</value>
+  </data>
+  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
+    <value>Verificador de hash...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>Metadados...</value>
+  </data>
+  <data name="cHotkey.HeaderText" xml:space="preserve">
+    <value>Tecla de atalho</value>
+  </data>
+  <data name="cDescription.HeaderText" xml:space="preserve">
+    <value>Descrição</value>
   </data>
 </root>

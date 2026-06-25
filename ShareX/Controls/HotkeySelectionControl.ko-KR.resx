@@ -120,4 +120,7 @@
   <data name="btnHotkey.Text" xml:space="preserve">
     <value>단축키</value>
   </data>
+  <data name="btnTask.Text" xml:space="preserve">
+    <value>작업...</value>
+  </data>
 </root>

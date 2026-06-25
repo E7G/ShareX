@@ -123,17 +123,11 @@
   <data name="btnGenerate.Text" xml:space="preserve">
     <value>Hasilkan thumbnail</value>
   </data>
-  <data name="btnOutputFolder.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Pemotret Gambar</value>
   </data>
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>Folder output</value>
-  </data>
-  <data name="txtOutputFilename.Text" xml:space="preserve">
-    <value>$filename_th</value>
   </data>
   <data name="lblOutputFilename.Text" xml:space="preserve">
     <value>Nama file ouput:</value>
@@ -146,5 +140,8 @@
   </data>
   <data name="btnAdd.Text" xml:space="preserve">
     <value>Tambah...</value>
+  </data>
+  <data name="lblQuality.Text" xml:space="preserve">
+    <value>Kualitas:</value>
   </data>
 </root>

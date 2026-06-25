@@ -132,4 +132,13 @@
   <data name="tsbSettings.Text" xml:space="preserve">
     <value>Einstellungen...</value>
   </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Favoriten</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>Statistiken anzeigen...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Ordner importieren...</value>
+  </data>
 </root>

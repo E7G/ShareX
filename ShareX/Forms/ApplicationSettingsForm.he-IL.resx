@@ -423,4 +423,7 @@
   <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
     <value>בדוק עדכונים אוטומטית</value>
   </data>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>ערוץ עדכון:</value>
+  </data>
 </root>

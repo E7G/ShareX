@@ -549,42 +549,6 @@
   <data name="tsmiDownloadSelectedURL.Text" xml:space="preserve">
     <value>Télécharger</value>
   </data>
-  <data name="tsmiOpenURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Entrée</value>
-  </data>
-  <data name="tsmiOpenFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Entrée</value>
-  </data>
-  <data name="tsmiOpenFolder.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Maj+Entrée</value>
-  </data>
-  <data name="tsmiCopyURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+C</value>
-  </data>
-  <data name="tsmiCopyFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Maj+C</value>
-  </data>
-  <data name="tsmiCopyImage.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Alt+C</value>
-  </data>
-  <data name="tsmiCopyFilePath.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+Maj+C</value>
-  </data>
-  <data name="tsmiUploadSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+U</value>
-  </data>
-  <data name="tsmiDownloadSelectedURL.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+D</value>
-  </data>
-  <data name="tsmiEditSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl+E</value>
-  </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Suppr</value>
-  </data>
-  <data name="tsmiDeleteSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Maj+Suppr</value>
-  </data>
   <data name="tsmiCombineImages.Text" xml:space="preserve">
     <value>Combiner des images...</value>
   </data>
@@ -684,9 +648,6 @@
   <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
     <value>Paramètres de service de mise en ligne personnalisé...</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="tsmiSwitchTaskViewMode.Text" xml:space="preserve">
     <value>Basculer vers la vue miniatures</value>
   </data>
@@ -695,9 +656,6 @@
   </data>
   <data name="tsmiTrayScreenshotDelay0.Text" xml:space="preserve">
     <value>Aucun délai</value>
-  </data>
-  <data name="tsbDiscord.Text" xml:space="preserve">
-    <value>Discord...</value>
   </data>
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>Exécuter action</value>
@@ -759,9 +717,6 @@
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>Embellir l'image...</value>
   </data>
-  <data name="tsmiPinSelectedFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>Ctrl + P</value>
-  </data>
   <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
     <value>Epingler à l'écran</value>
   </data>
@@ -788,5 +743,41 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Description</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>Comparateur d’images...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>Analyser l’image...</value>
+  </data>
+  <data name="tsmiOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>Métadonnées...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>Paramètres de destination...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>Paramètres de l’uploader personnalisé...</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>Analyser l’image...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>Comparateur d’images...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>Analyser l’image...</value>
+  </data>
+  <data name="tsmiTrayOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>Métadonnées...</value>
   </data>
 </root>

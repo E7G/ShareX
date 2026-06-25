@@ -138,9 +138,6 @@
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>Caminho de destino:</value>
   </data>
-  <data name="btnOutputFolder.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblQuality.Text" xml:space="preserve">
     <value>Qualidade:</value>
   </data>

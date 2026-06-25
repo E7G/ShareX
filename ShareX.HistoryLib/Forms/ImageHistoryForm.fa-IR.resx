@@ -132,4 +132,13 @@
   <data name="tsbSearch.Text" xml:space="preserve">
     <value>جست و جو:</value>
   </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>موارد دلخواه</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>نمایش آمار...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>وارد کردن پوشه...</value>
+  </data>
 </root>

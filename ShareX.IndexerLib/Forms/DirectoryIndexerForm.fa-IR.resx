@@ -132,4 +132,10 @@
   <data name="btnBrowseFolder.Text" xml:space="preserve">
     <value>انتخاب پوشه ...</value>
   </data>
+  <data name="btnIndexFolder.Text" xml:space="preserve">
+    <value>Index selected پوشه</value>
+  </data>
+  <data name="btnSaveAs.Text" xml:space="preserve">
+    <value>ذخیره as and close this پنجره...</value>
+  </data>
 </root>

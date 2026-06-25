@@ -141,4 +141,10 @@
   <data name="lblOutputExtension.Text" xml:space="preserve">
     <value>Extensión de nombre de archivo de salida: (Vacío = Usar el mismo nombre)</value>
   </data>
+  <data name="cbHiddenWindow.Text" xml:space="preserve">
+    <value>Ventana oculta</value>
+  </data>
+  <data name="cbDeleteInputFile.Text" xml:space="preserve">
+    <value>Eliminar archivo de entrada</value>
+  </data>
 </root>

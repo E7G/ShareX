@@ -648,4 +648,22 @@
   <data name="lblCaptureShadowOffset.Text" xml:space="preserve">
     <value>היסט צל:</value>
   </data>
+  <data name="cbUseCustomActionCompletedSound.Text" xml:space="preserve">
+    <value>השתמש בצליל מותאם אישית לסיום פעולה:</value>
+  </data>
+  <data name="cbPlaySoundAfterAction.Text" xml:space="preserve">
+    <value>השמע צליל לאחר השלמת הפעולה</value>
+  </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>הסתר סמלי שולחן עבודה באופן אוטומטי</value>
+  </data>
+  <data name="lblRegionCaptureBackgroundDimStrength.Text" xml:space="preserve">
+    <value>עוצמת עמעום הרקע:</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>הצג צלב מרכזי</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>השתמש בעורך התמונות הישן</value>
+  </data>
 </root>

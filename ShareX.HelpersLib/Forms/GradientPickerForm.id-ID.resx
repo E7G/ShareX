@@ -147,4 +147,16 @@
   <data name="chLocation.Text" xml:space="preserve">
     <value>Lokasi</value>
   </data>
+  <data name="btnReverse.Text" xml:space="preserve">
+    <value>Balik</value>
+  </data>
+  <data name="lblPresets.Text" xml:space="preserve">
+    <value>Preset:</value>
+  </data>
+  <data name="chGradient.Text" xml:space="preserve">
+    <value>Gradien</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Bersihkan</value>
+  </data>
 </root>

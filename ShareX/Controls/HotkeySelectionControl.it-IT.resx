@@ -120,4 +120,7 @@
   <data name="btnHotkey.Text" xml:space="preserve">
     <value>Tasto di Scelta Rapida</value>
   </data>
+  <data name="btnTask.Text" xml:space="preserve">
+    <value>Attività...</value>
+  </data>
 </root>

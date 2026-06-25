@@ -132,4 +132,29 @@
   <data name="ImageEffectsForm_UpdatePreview_Image_effects___Width___0___Height___1___Render_time___2__ms" xml:space="preserve">
     <value>Afbeeldingseffecten - Breedte: {0}, Hoogte: {1}, Rendertijd: {2} ms</value>
   </data>
+  <data name="ImageEffectsForm_EditorMode_Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
+    <value>Assets map must be inside ShareX afbeelding effects map.</value>
+  </data>
+  <data name="InvalidAssetsFolderPath" xml:space="preserve">
+    <value>Invalid assets mappad</value>
+  </data>
+  <data name="PackageWithThisFileNameAlreadyExistsRNWouldYouLikeToOverwriteIt" xml:space="preserve">
+    <value>Package with this bestandsnaam already exists.
+Would you like to overwrite it?</value>
+  </data>
+  <data name="WouldYouLikeToClearEffects" xml:space="preserve">
+    <value>Would you like to clear effects?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Bevestiging</value>
+  </data>
+  <data name="PresetNameCannotBeEmpty" xml:space="preserve">
+    <value>Presetten name cannot be empty.</value>
+  </data>
+  <data name="MissingPresetName" xml:space="preserve">
+    <value>Missing presetten name</value>
+  </data>
 </root>

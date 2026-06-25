@@ -135,4 +135,26 @@
   <data name="ImageEffectsForm_UpdatePreview_Image_effects___Width___0___Height___1___Render_time___2__ms" xml:space="preserve">
     <value>Efek gambar - Lebar: {0}, Tinggi: {1}, Waktu render: {2} md</value>
   </data>
+  <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
+    <value>Folder aset harus berada di dalam folder efek gambar ShareX.</value>
+  </data>
+  <data name="InvalidAssetsFolderPath" xml:space="preserve">
+    <value>Jalur folder aset tidak valid</value>
+  </data>
+  <data name="PackageWithThisFileNameAlreadyExistsRNWouldYouLikeToOverwriteIt" xml:space="preserve">
+    <value>Paket dengan nama file ini sudah ada.
+Apakah Anda ingin menimpanya?</value>
+  </data>
+  <data name="WouldYouLikeToClearEffects" xml:space="preserve">
+    <value>Apakah Anda ingin menghapus efek?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Konfirmasi</value>
+  </data>
+  <data name="PresetNameCannotBeEmpty" xml:space="preserve">
+    <value>Nama preset tidak boleh kosong.</value>
+  </data>
+  <data name="MissingPresetName" xml:space="preserve">
+    <value>Nama preset hilang</value>
+  </data>
 </root>

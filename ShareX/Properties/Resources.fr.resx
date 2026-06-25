@@ -624,4 +624,25 @@ Clique de la molette pour fermer</value>
     <value>Échec du téléchargement :
 {0}</value>
   </data>
+  <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
+    <value>Crédits</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ro" xml:space="preserve">
+    <value>Roumain</value>
+  </data>
+  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
+    <value>Rectangle de la fenêtre</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>Faire un don</value>
+  </data>
+  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
+    <value>Styles de fenêtre étendus</value>
+  </data>
+  <data name="FFmpeg_FFmpeg_video_and_audio_source_both_can_t_be__None__" xml:space="preserve">
+    <value>La source vidéo et la source audio FFmpeg ne peuvent pas toutes deux être « None ».</value>
+  </data>
+  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
+    <value>Rectangle client</value>
+  </data>
 </root>

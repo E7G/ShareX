@@ -533,4 +533,7 @@
   <data name="ShapeManager_CreateToolbar_Rotate90CounterClockwise" xml:space="preserve">
     <value>Повернути на 90° проти годинникової стрілки</value>
   </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>Показувати центральний приціл</value>
+  </data>
 </root>

@@ -134,10 +134,16 @@
   <data name="lblQRCodeSize.Text" xml:space="preserve">
     <value>二維碼大小：</value>
   </data>
-  <data name="lblQRCodeSizeHint.Text" xml:space="preserve">
-    <value>px</value>
-  </data>
   <data name="lblText.Text" xml:space="preserve">
     <value>文字：</value>
+  </data>
+  <data name="btnScanImageFile.Text" xml:space="preserve">
+    <value>掃描圖片檔案...</value>
+  </data>
+  <data name="btnScanRegion.Text" xml:space="preserve">
+    <value>掃描區域...</value>
+  </data>
+  <data name="btnScanScreen.Text" xml:space="preserve">
+    <value>掃描螢幕</value>
   </data>
 </root>

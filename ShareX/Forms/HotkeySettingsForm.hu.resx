@@ -132,4 +132,10 @@
   <data name="btnRemove.Text" xml:space="preserve">
     <value>Eltávolítás</value>
   </data>
+  <data name="btnHotkeysDisabled.Text" xml:space="preserve">
+    <value>A gyorsbillentyűk le vannak tiltva. Kattintson ide az engedélyezésükhöz.</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Visszaállítás...</value>
+  </data>
 </root>

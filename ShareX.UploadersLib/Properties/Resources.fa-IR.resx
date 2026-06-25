@@ -205,4 +205,67 @@
   <data name="DuplicateNameNotAllowed" xml:space="preserve">
     <value>نام تکراری مجاز نیست.</value>
   </data>
+  <data name="UploadersConfigForm_LoadSettings_Parent_album_path_e_g_" xml:space="preserve">
+    <value>Parent album مسیر, for example:</value>
+  </data>
+  <data name="KeyFileNameEditor_EditValue_Browse_for_a_key_file___" xml:space="preserve">
+    <value>Browse for a key فایل...</value>
+  </data>
+  <data name="UploadersConfigForm_FTPOpenClient_Unable_to_find_valid_FTP_account_" xml:space="preserve">
+    <value>حساب FTP معتبر یافت نشد.</value>
+  </data>
+  <data name="UploadersConfigForm_BoxListFolders_Box_refresh_folders_list_failed" xml:space="preserve">
+    <value>Box refresh پوشهs list failed</value>
+  </data>
+  <data name="txtB2BucketWatermark" xml:space="preserve">
+    <value>(اختیاری) فقط زمانی استفاده می‌شود که هنگام ساخت کلید، باکت تنظیم نکرده باشید</value>
+  </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>درایو من</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>صادر کردن failed.</value>
+  </data>
+  <data name="LoggedInAs0" xml:space="preserve">
+    <value>با عنوان {0} وارد شده‌اید.</value>
+  </data>
+  <data name="FormattingFailed_JSON" xml:space="preserve">
+    <value>قالب‌بندی ناموفق بود.</value>
+  </data>
+  <data name="FormattingFailed_XML" xml:space="preserve">
+    <value>قالب‌بندی ناموفق بود.</value>
+  </data>
+  <data name="ShortenedURL" xml:space="preserve">
+    <value>URL کوتاه‌شده</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ThumbnailURL" xml:space="preserve">
+    <value>بندانگشتی URL</value>
+  </data>
+  <data name="DeletionURL" xml:space="preserve">
+    <value>URL حذف</value>
+  </data>
+  <data name="StatusCode" xml:space="preserve">
+    <value>وضعیت code</value>
+  </data>
+  <data name="ResponseURL" xml:space="preserve">
+    <value>URL پاسخ</value>
+  </data>
+  <data name="ResponseText" xml:space="preserve">
+    <value>متن پاسخ</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>سربرگ‌ها</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطا</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>قطع اتصال</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>اتصال...</value>
+  </data>
 </root>

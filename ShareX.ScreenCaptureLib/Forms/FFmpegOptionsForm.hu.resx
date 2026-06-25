@@ -140,4 +140,94 @@
 0 a legjobb, 23 az alapértelmezett, 51 pedig a legrosszabb minőség.
 Növeld a fájlméretet a minőség növeléséhez.</value>
   </data>
+  <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
+    <value>For real time encoding like képernyőfelvétel it is recommended to select fast as possible pvisszaállítás.
+Otherwise it can't keep up with felvétel and a lot of frame drops will happen.</value>
+  </data>
+  <data name="cbx264Preset.ToolTip" xml:space="preserve">
+    <value>Faster pvisszaállítás = Faster encoding but higher fájl méret.
+Slower pvisszaállítás = Slower encoding but lower fájl méret.
+For real time encoding (e.g. képernyőfelvétel), the pvisszaállítás must be as fast as possible.</value>
+  </data>
+  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
+    <value>1 being highest minőség/largest fájlméret and 31 being the lowest minőség/smallest fájlméret.</value>
+  </data>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>Controls the Bayer Scale index, a higher scale will display more banding. Alapértelmezett is 2.</value>
+  </data>
+  <data name="cbGIFDither.ToolTip" xml:space="preserve">
+    <value>Alapértelmezett is sierra2_4a.</value>
+  </data>
+  <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
+    <value>Alapértelmezett is full.</value>
+  </data>
+  <data name="lblHelperDevices.Text" xml:space="preserve">
+    <value>Installs "képernyő-rögzítés-recorder" and "virtual-hang-rögzítésr" videó/hang forrás.</value>
+  </data>
+  <data name="btnInstallHelperDevices.Text" xml:space="preserve">
+    <value>Rögzítőeszközök telepítése...</value>
+  </data>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>Hozzáadásitional parancs line argumentums:</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Egyéni FFmpeg elérési út használata:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Videókódoló:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Hangkódoló:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Bitráta:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Bitráta:</value>
+  </data>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>Bitráta használata</value>
+  </data>
+  <data name="lblx264Preset.Text" xml:space="preserve">
+    <value>Pvisszaállítás:</value>
+  </data>
+  <data name="lblVP8Bitrate.Text" xml:space="preserve">
+    <value>Bitráta:</value>
+  </data>
+  <data name="lblXvidQscale.Text" xml:space="preserve">
+    <value>Változó bitráta:</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Hangolás:</value>
+  </data>
+  <data name="lblNVENCPreset.Text" xml:space="preserve">
+    <value>Pvisszaállítás:</value>
+  </data>
+  <data name="lblNVENCBitrate.Text" xml:space="preserve">
+    <value>Bitráta:</value>
+  </data>
+  <data name="lblGIFDither.Text" xml:space="preserve">
+    <value>Dithering mód:</value>
+  </data>
+  <data name="lblGIFStatsMode.Text" xml:space="preserve">
+    <value>Paletta mód:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Bitráta:</value>
+  </data>
+  <data name="lblAMFQuality.Text" xml:space="preserve">
+    <value>Minőség:</value>
+  </data>
+  <data name="lblAMFUsage.Text" xml:space="preserve">
+    <value>Használat:</value>
+  </data>
+  <data name="lblQSVPreset.Text" xml:space="preserve">
+    <value>Pvisszaállítás:</value>
+  </data>
+  <data name="lblQSVBitrate.Text" xml:space="preserve">
+    <value>Bitráta:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Visszaállítás beállítások...</value>
+  </data>
 </root>

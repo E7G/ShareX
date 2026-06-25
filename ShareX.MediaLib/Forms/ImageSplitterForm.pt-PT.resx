@@ -129,12 +129,6 @@
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>Pasta de destino:</value>
   </data>
-  <data name="btnImageFilePathBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnOutputFolderBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="btnSplitImage.Text" xml:space="preserve">
     <value>Dividir imagem</value>
   </data>

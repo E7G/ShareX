@@ -292,7 +292,7 @@ Bạn có muốn tiếp tục?</value>
     <value>Tên không thể để trống</value>
   </data>
   <data name="FileExistForm_txtNewName_TextChanged_Use_new_name__" xml:space="preserve">
-    <value>Dùng tên mới:</value>
+    <value>Dùng tên mới: </value>
   </data>
   <data name="UploadManager_IsUploadConfirmed_Don_t_show_this_message_again_" xml:space="preserve">
     <value>Không hiện thông báo này nữa.</value>
@@ -621,5 +621,28 @@ Nhấn chuột giữa để đóng</value>
   <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
     <value>Tải về thất bại:
 {0}</value>
+  </data>
+  <data name="ShareXIsUpToDate" xml:space="preserve">
+    <value>ShareX đã được cập nhật!</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_he-IL" xml:space="preserve">
+    <value>Tiếng Do Thái</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
+    <value>Tiếng Ả Rập</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>Quyên góp</value>
+  </data>
+  <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
+    <value>Không thể đóng ShareX khi đang quay màn hình.
+
+Bạn có muốn hủy phiên quay màn hình đang hoạt động không?</value>
+  </data>
+  <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
+    <value>Would you like to retry clipboard tải lên?</value>
+  </data>
+  <data name="ClipboardUpload" xml:space="preserve">
+    <value>Clipboard tải lên</value>
   </data>
 </root>

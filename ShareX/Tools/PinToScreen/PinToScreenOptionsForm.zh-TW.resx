@@ -147,13 +147,13 @@
   <data name="lblMinimizeSize.Text" xml:space="preserve">
     <value>最小化大小：</value>
   </data>
-  <data name="lblMinimizeSizeX.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
   <data name="lblPlacement.Text" xml:space="preserve">
     <value>位置：</value>
   </data>
   <data name="lblPlacementOffset.Text" xml:space="preserve">
     <value>位置偏移量：</value>
+  </data>
+  <data name="lblScaleStep.Text" xml:space="preserve">
+    <value>縮放步階：</value>
   </data>
 </root>

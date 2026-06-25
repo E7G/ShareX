@@ -132,4 +132,29 @@
   <data name="ImageEffectsForm_UpdatePreview_Image_effects___Width___0___Height___1___Render_time___2__ms" xml:space="preserve">
     <value>Effetti Immagine - Larghezza: {0}, Altezza: {1}, Tempo Rendering: {2} ms</value>
   </data>
+  <data name="ImageEffectsForm_EditorMode_Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
+    <value>Assets cartella must be inside ShareX immagine effects cartella.</value>
+  </data>
+  <data name="InvalidAssetsFolderPath" xml:space="preserve">
+    <value>Invalid assets cartella percorso</value>
+  </data>
+  <data name="PackageWithThisFileNameAlreadyExistsRNWouldYouLikeToOverwriteIt" xml:space="preserve">
+    <value>Esiste già un pacchetto con questo nome file.
+Vuoi sovrascriverlo?</value>
+  </data>
+  <data name="WouldYouLikeToClearEffects" xml:space="preserve">
+    <value>Vuoi cancellare gli effetti?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Conferma</value>
+  </data>
+  <data name="PresetNameCannotBeEmpty" xml:space="preserve">
+    <value>Preimposta name cannot be empty.</value>
+  </data>
+  <data name="MissingPresetName" xml:space="preserve">
+    <value>Missing preimposta name</value>
+  </data>
 </root>

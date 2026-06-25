@@ -174,4 +174,10 @@
   <data name="tsbShowStats.Text" xml:space="preserve">
     <value>عرض الإحصائيات...</value>
   </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>المفضلة</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>استيراد مجلد...</value>
+  </data>
 </root>

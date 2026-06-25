@@ -147,4 +147,16 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Option de la capture par défilement</value>
   </data>
+  <data name="lblStartDelayHint.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblScrollDelayHint.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="lblScrollMethod.Text" xml:space="preserve">
+    <value>Méthode de défilement :</value>
+  </data>
 </root>

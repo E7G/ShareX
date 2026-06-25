@@ -150,4 +150,13 @@
   <data name="lblScrollAmountHint.Text" xml:space="preserve">
     <value>مرّات</value>
   </data>
+  <data name="lblStartDelayHint.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblScrollDelayHint.Text" xml:space="preserve">
+    <value>ms</value>
+  </data>
+  <data name="lblScrollMethod.Text" xml:space="preserve">
+    <value>طريقة التمرير:</value>
+  </data>
 </root>

@@ -141,4 +141,43 @@
   <data name="lblFilterTo.Text" xml:space="preserve">
     <value>Tot:</value>
   </data>
+  <data name="chURL.Text" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>Zoeken:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="tsbAdvancedSearch.Text" xml:space="preserve">
+    <value>Geavanceerd zoeken...</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Favorieten</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>Weergeven stats...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Importeren map...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>Instellingen...</value>
+  </data>
+  <data name="btnAdvancedSearchClose.Text" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="btnAdvancedSearchReset.Text" xml:space="preserve">
+    <value>Resetten</value>
+  </data>
+  <data name="lblURLFilter.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblFilenameFilter.Text" xml:space="preserve">
+    <value>Bestandname:</value>
+  </data>
+  <data name="gbAdvancedSearch.Text" xml:space="preserve">
+    <value>Advanced search</value>
+  </data>
 </root>

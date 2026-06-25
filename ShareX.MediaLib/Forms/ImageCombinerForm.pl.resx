@@ -162,4 +162,7 @@
   <data name="lblWrapAfterImages.Text" xml:space="preserve">
     <value>obrazy</value>
   </data>
+  <data name="lblWrapAfter.Text" xml:space="preserve">
+    <value>Zawijaj po:</value>
+  </data>
 </root>

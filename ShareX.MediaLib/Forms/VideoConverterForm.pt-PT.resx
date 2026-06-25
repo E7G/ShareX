@@ -120,14 +120,8 @@
   <data name="lblInputFilePath.Text" xml:space="preserve">
     <value>Caminho de ficheiro:</value>
   </data>
-  <data name="btnInputFilePathBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>Pasta de destino:</value>
-  </data>
-  <data name="btnOutputFolderBrowse.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="lblOutputFileName.Text" xml:space="preserve">
     <value>Nome do ficheiro de destino:</value>
@@ -146,5 +140,11 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Conversor de vídeo</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video codificador:</value>
+  </data>
+  <data name="cbVideoQualityUseBitrate.Text" xml:space="preserve">
+    <value>Utilizar taxa de bits</value>
   </data>
 </root>

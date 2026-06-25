@@ -262,4 +262,10 @@ Các thư mục đã tạo:</value>
   <data name="Error" xml:space="preserve">
     <value>Lỗi</value>
   </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Ngắt kết nối</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Kết nối...</value>
+  </data>
 </root>

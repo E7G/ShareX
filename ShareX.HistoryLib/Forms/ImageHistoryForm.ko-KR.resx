@@ -120,4 +120,25 @@
   <data name="$this.Text" xml:space="preserve">
     <value>이미지 히스토리</value>
   </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>검색:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="tsbSearch.ToolTipText" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>즐겨찾기</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>통계 표시...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>가져오기 폴더...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>설정...</value>
+  </data>
 </root>

@@ -132,4 +132,31 @@
   <data name="btnAdd.Text" xml:space="preserve">
     <value>اضافه کردن</value>
   </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>موقعیت:</value>
+  </data>
+  <data name="lblGradientType.Text" xml:space="preserve">
+    <value>نوع گرادیان:</value>
+  </data>
+  <data name="btnReverse.Text" xml:space="preserve">
+    <value>معکوس</value>
+  </data>
+  <data name="lblPresets.Text" xml:space="preserve">
+    <value>Pبازنشانیs:</value>
+  </data>
+  <data name="chGradient.Text" xml:space="preserve">
+    <value>گرادیان</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>پاک کردن</value>
+  </data>
+  <data name="cbtnCurrentColor.Text" xml:space="preserve">
+    <value>رنگ</value>
+  </data>
+  <data name="chLocation.Text" xml:space="preserve">
+    <value>موقعیت</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - انتخابگر گرادیان</value>
+  </data>
 </root>

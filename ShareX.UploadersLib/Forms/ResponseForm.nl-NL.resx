@@ -123,4 +123,34 @@
   <data name="tpWebBrowser.Text" xml:space="preserve">
     <value>Webbrowser</value>
   </data>
+  <data name="tsbResponseTextJSONFormat.Text" xml:space="preserve">
+    <value>JSON indeling</value>
+  </data>
+  <data name="tsbResponseTextXMLFormat.Text" xml:space="preserve">
+    <value>XML indeling</value>
+  </data>
+  <data name="tsbResponseTextCopy.Text" xml:space="preserve">
+    <value>Kopiëren response</value>
+  </data>
+  <data name="tsbCopyShortenedURL.Text" xml:space="preserve">
+    <value>Kopiëren shortened URL</value>
+  </data>
+  <data name="tsbCopyURL.Text" xml:space="preserve">
+    <value>Kopiëren URL</value>
+  </data>
+  <data name="tsbCopyThumbnailURL.Text" xml:space="preserve">
+    <value>Kopiëren miniatuur URL</value>
+  </data>
+  <data name="tsbCopyDeletionURL.Text" xml:space="preserve">
+    <value>Kopiëren deletion URL</value>
+  </data>
+  <data name="tpResult.Text" xml:space="preserve">
+    <value>Resultaat</value>
+  </data>
+  <data name="tpResponseInfo.Text" xml:space="preserve">
+    <value>Response info</value>
+  </data>
+  <data name="tpResponseText.Text" xml:space="preserve">
+    <value>Response text</value>
+  </data>
 </root>

@@ -123,4 +123,34 @@
   <data name="tpWebBrowser.Text" xml:space="preserve">
     <value>Webböngésző</value>
   </data>
+  <data name="tsbResponseTextJSONFormat.Text" xml:space="preserve">
+    <value>JSON formátum</value>
+  </data>
+  <data name="tsbResponseTextXMLFormat.Text" xml:space="preserve">
+    <value>XML formátum</value>
+  </data>
+  <data name="tsbResponseTextCopy.Text" xml:space="preserve">
+    <value>Másolás response</value>
+  </data>
+  <data name="tsbCopyShortenedURL.Text" xml:space="preserve">
+    <value>Másolás shortened URL</value>
+  </data>
+  <data name="tsbCopyURL.Text" xml:space="preserve">
+    <value>Másolás URL</value>
+  </data>
+  <data name="tsbCopyThumbnailURL.Text" xml:space="preserve">
+    <value>Másolás miniatűr URL</value>
+  </data>
+  <data name="tsbCopyDeletionURL.Text" xml:space="preserve">
+    <value>Másolás deletion URL</value>
+  </data>
+  <data name="tpResult.Text" xml:space="preserve">
+    <value>Eredmény</value>
+  </data>
+  <data name="tpResponseInfo.Text" xml:space="preserve">
+    <value>Válaszinformáció</value>
+  </data>
+  <data name="tpResponseText.Text" xml:space="preserve">
+    <value>Response szöveg</value>
+  </data>
 </root>

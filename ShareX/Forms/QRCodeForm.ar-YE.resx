@@ -126,9 +126,6 @@
   <data name="lblQRCode.Text" xml:space="preserve">
     <value>رمز QR:</value>
   </data>
-  <data name="lblQRCodeSizeHint.Text" xml:space="preserve">
-    <value>px</value>
-  </data>
   <data name="btnSaveImage.Text" xml:space="preserve">
     <value>حفظ الصورة...</value>
   </data>
@@ -140,5 +137,14 @@
   </data>
   <data name="btnUploadImage.Text" xml:space="preserve">
     <value>رفع الصورة</value>
+  </data>
+  <data name="btnScanScreen.Text" xml:space="preserve">
+    <value>مسح الشاشة</value>
+  </data>
+  <data name="btnScanRegion.Text" xml:space="preserve">
+    <value>مسح منطقة...</value>
+  </data>
+  <data name="btnScanImageFile.Text" xml:space="preserve">
+    <value>مسح ملف صورة...</value>
   </data>
 </root>

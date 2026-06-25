@@ -174,4 +174,10 @@
   <data name="btnAdvancedSearchReset.Text" xml:space="preserve">
     <value>Réinitialiser</value>
   </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Favoris</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Importer un dossier...</value>
+  </data>
 </root>

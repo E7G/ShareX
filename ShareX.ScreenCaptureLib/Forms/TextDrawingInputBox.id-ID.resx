@@ -150,4 +150,46 @@
   <data name="lblFont.Text" xml:space="preserve">
     <value>Huruf:</value>
   </data>
+  <data name="btnTextColor.ToolTip" xml:space="preserve">
+    <value>Warna teks</value>
+  </data>
+  <data name="btnGradient.ToolTip" xml:space="preserve">
+    <value>Gradien</value>
+  </data>
+  <data name="cbBold.ToolTip" xml:space="preserve">
+    <value>Tebal</value>
+  </data>
+  <data name="cbItalic.ToolTip" xml:space="preserve">
+    <value>Miring</value>
+  </data>
+  <data name="cbUnderline.ToolTip" xml:space="preserve">
+    <value>Garis bawah</value>
+  </data>
+  <data name="btnAlignmentHorizontal.ToolTip" xml:space="preserve">
+    <value>Perataan horizontal</value>
+  </data>
+  <data name="btnAlignmentVertical.ToolTip" xml:space="preserve">
+    <value>Perataan vertikal</value>
+  </data>
+  <data name="tsmiEnableGradient.Text" xml:space="preserve">
+    <value>Aktifkan gradien</value>
+  </data>
+  <data name="tsmiSecondColor.Text" xml:space="preserve">
+    <value>Warna teks kedua...</value>
+  </data>
+  <data name="tsrbmiGradientHorizontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="tsrbmiGradientVertical.Text" xml:space="preserve">
+    <value>Vertikal</value>
+  </data>
+  <data name="tsrbmiGradientForwardDiagonal.Text" xml:space="preserve">
+    <value>Diagonal maju</value>
+  </data>
+  <data name="tsrbmiGradientBackwardDiagonal.Text" xml:space="preserve">
+    <value>Diagonal mundur</value>
+  </data>
+  <data name="tsmiGradientMode.Text" xml:space="preserve">
+    <value>Mode gradien</value>
+  </data>
 </root>

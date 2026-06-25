@@ -129,9 +129,6 @@
   <data name="lblNew.Text" xml:space="preserve">
     <value>Nuevo:</value>
   </data>
-  <data name="txtHex.Text" xml:space="preserve">
-    <value>FF00FF00</value>
-  </data>
   <data name="lblHex.Text" xml:space="preserve">
     <value>Hexadecimal:</value>
   </data>
@@ -146,15 +143,6 @@
   </data>
   <data name="lblCyan.Text" xml:space="preserve">
     <value>Cian:</value>
-  </data>
-  <data name="lblHue.Text" xml:space="preserve">
-    <value>°</value>
-  </data>
-  <data name="lblBrightnessPerc.Text" xml:space="preserve">
-    <value> %</value>
-  </data>
-  <data name="lblSaturationPerc.Text" xml:space="preserve">
-    <value> %</value>
   </data>
   <data name="rbBlue.Text" xml:space="preserve">
     <value>Azul:</value>
@@ -176,21 +164,6 @@
   </data>
   <data name="lblDecimal.Text" xml:space="preserve">
     <value>Decimal:</value>
-  </data>
-  <data name="txtDecimal.Text" xml:space="preserve">
-    <value>12345678</value>
-  </data>
-  <data name="lblCyanPerc.Text" xml:space="preserve">
-    <value> %</value>
-  </data>
-  <data name="lblMagentaPerc.Text" xml:space="preserve">
-    <value> %</value>
-  </data>
-  <data name="lblYellowPerc.Text" xml:space="preserve">
-    <value> %</value>
-  </data>
-  <data name="lblKeyPerc.Text" xml:space="preserve">
-    <value> %</value>
   </data>
   <data name="lblAlpha.Text" xml:space="preserve">
     <value>Alfa:</value>
@@ -215,18 +188,6 @@
   </data>
   <data name="tsmiCopyPosition.Text" xml:space="preserve">
     <value>Copiar posición</value>
-  </data>
-  <data name="txtY.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtX.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblY.Text" xml:space="preserve">
-    <value>Y:</value>
-  </data>
-  <data name="lblX.Text" xml:space="preserve">
-    <value>X:</value>
   </data>
   <data name="lblCursorPosition.Text" xml:space="preserve">
     <value>Posición del puntero:</value>

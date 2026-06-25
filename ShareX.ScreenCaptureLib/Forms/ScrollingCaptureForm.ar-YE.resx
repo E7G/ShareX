@@ -126,9 +126,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - لقطة شاشة مع التمرير</value>
   </data>
-  <data name="btnHelp.Text" xml:space="preserve">
-    <value>؟</value>
-  </data>
   <data name="btnCapture.Text" xml:space="preserve">
     <value>التقاط...</value>
   </data>

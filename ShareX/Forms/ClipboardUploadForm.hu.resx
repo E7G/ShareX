@@ -129,4 +129,7 @@
   <data name="lblQuestion.Text" xml:space="preserve">
     <value>A vágólapod a következőt tartalmazza:</value>
   </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>Feltöltés</value>
+  </data>
 </root>

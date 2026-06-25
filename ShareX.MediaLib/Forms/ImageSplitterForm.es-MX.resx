@@ -120,12 +120,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Share X - Separador de imágenes</value>
   </data>
-  <data name="btnImageFilePathBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnOutputFolderBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="btnSplitImage.Text" xml:space="preserve">
     <value>Separar imagen</value>
   </data>

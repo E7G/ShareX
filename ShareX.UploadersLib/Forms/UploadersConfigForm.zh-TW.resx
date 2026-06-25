@@ -933,50 +933,8 @@
   <data name="rbFTPTransferModePassive.Text" xml:space="preserve">
     <value>被動</value>
   </data>
-  <data name="tpAzureStorage.Text" xml:space="preserve">
-    <value>Azure 儲存服務</value>
-  </data>
-  <data name="tpFirebaseDynamicLinks.Text" xml:space="preserve">
-    <value>Firebase 動態連結</value>
-  </data>
-  <data name="tpGoogleCloudStorage.Text" xml:space="preserve">
-    <value>Google 雲端儲存服務</value>
-  </data>
-  <data name="tpGoogleDrive.Text" xml:space="preserve">
-    <value>Google 雲端硬碟</value>
-  </data>
   <data name="cbOneDriveUseDirectLink.Text" xml:space="preserve">
     <value>使用直連連結</value>
-  </data>
-  <data name="btnAmazonS3AccessKeyOpen.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnAmazonS3BucketNameOpen.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnAmazonS3StorageClassHelp.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
-  <data name="btnAzureStoragePortal.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnFTPSCertificateLocationBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnSFTPKeyLocationBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items" xml:space="preserve">
-    <value>blob.core.windows.net</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items1" xml:space="preserve">
-    <value>blob.core.usgovcloudapi.net</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items2" xml:space="preserve">
-    <value>blob.core.chinacloudapi.cn</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items3" xml:space="preserve">
-    <value>blob.core.cloudapi.de</value>
   </data>
   <data name="cbOwnCloudAppendFileNameToURL.Text" xml:space="preserve">
     <value>附加檔案名稱至網址</value>
@@ -993,12 +951,6 @@
   <data name="cbPlikTTLUnit.Items3" xml:space="preserve">
     <value>從不</value>
   </data>
-  <data name="cbSeafileAPIURL.Items" xml:space="preserve">
-    <value>https://seacloud.cc/api2/</value>
-  </data>
-  <data name="cbSeafileAPIURL.Items1" xml:space="preserve">
-    <value>https://cloud.mein-seafile.de/api2/</value>
-  </data>
   <data name="cbSeafileCreateShareableURLRaw.Text" xml:space="preserve">
     <value>使用原始網址</value>
   </data>
@@ -1007,12 +959,6 @@
   </data>
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
-  </data>
-  <data name="gbFTPS.Text" xml:space="preserve">
-    <value>FTPS</value>
-  </data>
-  <data name="gbSFTP.Text" xml:space="preserve">
-    <value>SFTP</value>
   </data>
   <data name="lblAzureStorageCacheControl.Text" xml:space="preserve">
     <value>Cache-Control 標頭：</value>
@@ -1032,133 +978,31 @@
   <data name="lblZWSURL.Text" xml:space="preserve">
     <value>網址：</value>
   </data>
-  <data name="llYouTubePermissionsLink.Text" xml:space="preserve">
-    <value>https://myaccount.google.com/permissions</value>
+  <data name="lblPrivateBinFormat.Text" xml:space="preserve">
+    <value>格式：</value>
   </data>
-  <data name="rbFTPProtocolFTP.Text" xml:space="preserve">
-    <value>FTP</value>
+  <data name="lblPrivateBinExpiration.Text" xml:space="preserve">
+    <value>有效期限：</value>
   </data>
-  <data name="rbFTPProtocolFTPS.Text" xml:space="preserve">
-    <value>FTPS</value>
+  <data name="lblPrivateBinCustomUrl.Text" xml:space="preserve">
+    <value>自訂 URL：</value>
   </data>
-  <data name="rbFTPProtocolSFTP.Text" xml:space="preserve">
-    <value>SFTP</value>
+  <data name="gbPrivateBinCredentials.ToolTip" xml:space="preserve">
+    <value>某些伺服器可能需要額外授權</value>
   </data>
-  <data name="tpAmazonS3.Text" xml:space="preserve">
-    <value>Amazon S3</value>
+  <data name="gbPrivateBinCredentials.Text" xml:space="preserve">
+    <value>認證資料</value>
   </data>
-  <data name="tpBackblazeB2.Text" xml:space="preserve">
-    <value>Backblaze B2</value>
+  <data name="lblPrivateBinUsername.Text" xml:space="preserve">
+    <value>使用者名稱：</value>
   </data>
-  <data name="tpBitly.Text" xml:space="preserve">
-    <value>bit.ly</value>
+  <data name="lblPrivateBinPassword.Text" xml:space="preserve">
+    <value>密碼：</value>
   </data>
-  <data name="tpBox.Text" xml:space="preserve">
-    <value>Box</value>
+  <data name="lblPrivateBinPastePassword.Text" xml:space="preserve">
+    <value>貼上密碼：</value>
   </data>
-  <data name="tpChevereto.Text" xml:space="preserve">
-    <value>Chevereto</value>
-  </data>
-  <data name="tpDropbox.Text" xml:space="preserve">
-    <value>Dropbox</value>
-  </data>
-  <data name="tpFlickr.Text" xml:space="preserve">
-    <value>Flickr</value>
-  </data>
-  <data name="tpFTP.Text" xml:space="preserve">
-    <value>FTP / FTPS / SFTP</value>
-  </data>
-  <data name="tpGist.Text" xml:space="preserve">
-    <value>GitHub Gist</value>
-  </data>
-  <data name="tpHastebin.Text" xml:space="preserve">
-    <value>Hastebin</value>
-  </data>
-  <data name="tpHostr.Text" xml:space="preserve">
-    <value>Hostr</value>
-  </data>
-  <data name="tpImageShack.Text" xml:space="preserve">
-    <value>ImageShack</value>
-  </data>
-  <data name="tpImgur.Text" xml:space="preserve">
-    <value>Imgur</value>
-  </data>
-  <data name="tpKutt.Text" xml:space="preserve">
-    <value>Kutt</value>
-  </data>
-  <data name="tpLambda.Text" xml:space="preserve">
-    <value>Lambda</value>
-  </data>
-  <data name="tpLithiio.Text" xml:space="preserve">
-    <value>LobFile</value>
-  </data>
-  <data name="tpMediaFire.Text" xml:space="preserve">
-    <value>MediaFire</value>
-  </data>
-  <data name="tpOneDrive.Text" xml:space="preserve">
-    <value>OneDrive</value>
-  </data>
-  <data name="tpOneTimeSecret.Text" xml:space="preserve">
-    <value>OneTimeSecret</value>
-  </data>
-  <data name="tpOwnCloud.Text" xml:space="preserve">
-    <value>ownCloud / Nextcloud</value>
-  </data>
-  <data name="tpPaste_ee.Text" xml:space="preserve">
-    <value>Paste.ee</value>
-  </data>
-  <data name="tpPastebin.Text" xml:space="preserve">
-    <value>Pastebin</value>
-  </data>
-  <data name="tpPastie.Text" xml:space="preserve">
-    <value>Pastie</value>
-  </data>
-  <data name="tpPhotobucket.Text" xml:space="preserve">
-    <value>Photobucket</value>
-  </data>
-  <data name="tpPlik.Text" xml:space="preserve">
-    <value>Plik</value>
-  </data>
-  <data name="tpPolr.Text" xml:space="preserve">
-    <value>Polr</value>
-  </data>
-  <data name="tpPomf.Text" xml:space="preserve">
-    <value>Pomf</value>
-  </data>
-  <data name="tpPushbullet.Text" xml:space="preserve">
-    <value>Pushbullet</value>
-  </data>
-  <data name="tpPuush.Text" xml:space="preserve">
-    <value>puush</value>
-  </data>
-  <data name="tpSeafile.Text" xml:space="preserve">
-    <value>Seafile</value>
-  </data>
-  <data name="tpSendSpace.Text" xml:space="preserve">
-    <value>SendSpace</value>
-  </data>
-  <data name="tpStreamable.Text" xml:space="preserve">
-    <value>Streamable</value>
-  </data>
-  <data name="tpSul.Text" xml:space="preserve">
-    <value>s-ul</value>
-  </data>
-  <data name="tpUpaste.Text" xml:space="preserve">
-    <value>uPaste</value>
-  </data>
-  <data name="tpVgyme.Text" xml:space="preserve">
-    <value>vgy.me</value>
-  </data>
-  <data name="tpYourls.Text" xml:space="preserve">
-    <value>YOURLS</value>
-  </data>
-  <data name="tpYouTube.Text" xml:space="preserve">
-    <value>YouTube</value>
-  </data>
-  <data name="tpZeroWidthShortener.Text" xml:space="preserve">
-    <value>Zero Width Shortener</value>
-  </data>
-  <data name="btnGoogleDriveFolderIDHelp.Text" xml:space="preserve">
-    <value>?</value>
+  <data name="cbPrivateBinBurnAfterReading.Text" xml:space="preserve">
+    <value>閱後即焚</value>
   </data>
 </root>

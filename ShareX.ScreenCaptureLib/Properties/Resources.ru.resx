@@ -533,4 +533,7 @@
   <data name="RulerRight" xml:space="preserve">
     <value>Право</value>
   </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>Показывать центральный прицел</value>
+  </data>
 </root>

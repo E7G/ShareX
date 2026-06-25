@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblx264CRF.Text" xml:space="preserve">
-    <value>CRF:</value>
-  </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Factor de taxa constante (CRF): O valor pode ser entre 0-51, em que 0 é sem perdas, 30 é padrão, e 51 é pior qualidade possível.
 
@@ -149,17 +146,8 @@ Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas fa
   <data name="lblXvidQscale.Text" xml:space="preserve">
     <value>Taxa de bitrate variável:</value>
   </data>
-  <data name="btnFFmpegBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Utilizador comandos personalizados</value>
-  </data>
-  <data name="tpX264.Text" xml:space="preserve">
-    <value>x264 / x265</value>
-  </data>
-  <data name="lblVP8BitrateK.Text" xml:space="preserve">
-    <value>kbps</value>
   </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Taxa de bitrate variável:</value>
@@ -190,5 +178,56 @@ Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas fa
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Opções de gravação do ecrã</value>
+  </data>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>Controla o índice de escala Bayer; uma escala superior mostrará mais bandas. A predefinição é 2.</value>
+  </data>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>Adicionaritional command line arguments:</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Use personalizado FFmpeg caminho:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video codificador:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Audio codificador:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Taxa de bits:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Taxa de bits:</value>
+  </data>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>Utilizar taxa de bits</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Ajuste:</value>
+  </data>
+  <data name="lblNVENCPreset.Text" xml:space="preserve">
+    <value>Prepor:</value>
+  </data>
+  <data name="lblNVENCBitrate.Text" xml:space="preserve">
+    <value>Taxa de bits:</value>
+  </data>
+  <data name="lblGIFDither.Text" xml:space="preserve">
+    <value>Modo de dithering:</value>
+  </data>
+  <data name="lblGIFStatsMode.Text" xml:space="preserve">
+    <value>Modo de paleta:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Taxa de bits:</value>
+  </data>
+  <data name="lblQSVPreset.Text" xml:space="preserve">
+    <value>Prepor:</value>
+  </data>
+  <data name="lblQSVBitrate.Text" xml:space="preserve">
+    <value>Taxa de bits:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Repor opções...</value>
   </data>
 </root>

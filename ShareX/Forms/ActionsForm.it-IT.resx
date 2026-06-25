@@ -144,4 +144,7 @@
   <data name="lblOutputExtension.Text" xml:space="preserve">
     <value>Estensione del File in Uscita: (Vuoto = Usa lo stesso nomedel file)</value>
   </data>
+  <data name="cbDeleteInputFile.Text" xml:space="preserve">
+    <value>Elimina file di input</value>
+  </data>
 </root>

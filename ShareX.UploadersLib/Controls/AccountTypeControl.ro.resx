@@ -120,4 +120,10 @@
   <data name="lblAccountType.Text" xml:space="preserve">
     <value>Tip de cont:</value>
   </data>
+  <data name="cbAccountType.Items" xml:space="preserve">
+    <value>Anonim</value>
+  </data>
+  <data name="cbAccountType.Items1" xml:space="preserve">
+    <value>Utilizator</value>
+  </data>
 </root>

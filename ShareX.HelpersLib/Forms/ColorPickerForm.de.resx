@@ -216,4 +216,7 @@
   <data name="btnClipboardColorPicker.ToolTip" xml:space="preserve">
     <value>Farbe von der Zwischenablage auswählen</value>
   </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
 </root>

@@ -123,9 +123,6 @@
   <data name="btnAbort.Text" xml:space="preserve">
     <value>انصراف</value>
   </data>
-  <data name="lblTimer.Text" xml:space="preserve">
-    <value>۰۰:۰۰:۰۰</value>
-  </data>
   <data name="tsmiAbort.Text" xml:space="preserve">
     <value>انصراف</value>
   </data>
@@ -134,5 +131,11 @@
   </data>
   <data name="tsmiStart.Text" xml:space="preserve">
     <value>شروع</value>
+  </data>
+  <data name="btnPause.Text" xml:space="preserve">
+    <value>مکث</value>
+  </data>
+  <data name="tsmiPause.Text" xml:space="preserve">
+    <value>مکث</value>
   </data>
 </root>

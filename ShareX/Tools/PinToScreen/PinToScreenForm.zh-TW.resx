@@ -129,9 +129,6 @@
   <data name="tsbOptions.Text" xml:space="preserve">
     <value>選項...</value>
   </data>
-  <data name="tslScale.Text" xml:space="preserve">
-    <value>100%</value>
-  </data>
   <data name="tslScale.ToolTipText" xml:space="preserve">
     <value>縮放</value>
   </data>

@@ -214,4 +214,58 @@ Folder yang dibuat:</value>
   <data name="OAuthControl_Status_LoginFailed" xml:space="preserve">
     <value>Login gagal.</value>
   </data>
+  <data name="txtB2BucketWatermark" xml:space="preserve">
+    <value>(Opsional) Hanya digunakan jika Anda tidak menetapkan bucket saat membuat kunci</value>
+  </data>
+  <data name="DuplicateNameNotAllowed" xml:space="preserve">
+    <value>Nama duplikat tidak diizinkan.</value>
+  </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>Drive saya</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Ekspor gagal.</value>
+  </data>
+  <data name="LoggedInAs0" xml:space="preserve">
+    <value>Masuk sebagai {0}.</value>
+  </data>
+  <data name="FormattingFailed_JSON" xml:space="preserve">
+    <value>Pemformatan gagal.</value>
+  </data>
+  <data name="FormattingFailed_XML" xml:space="preserve">
+    <value>Pemformatan gagal.</value>
+  </data>
+  <data name="ShortenedURL" xml:space="preserve">
+    <value>URL yang dipersingkat</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ThumbnailURL" xml:space="preserve">
+    <value>URL thumbnail</value>
+  </data>
+  <data name="DeletionURL" xml:space="preserve">
+    <value>URL penghapusan</value>
+  </data>
+  <data name="StatusCode" xml:space="preserve">
+    <value>Kode status</value>
+  </data>
+  <data name="ResponseURL" xml:space="preserve">
+    <value>URL respons</value>
+  </data>
+  <data name="ResponseText" xml:space="preserve">
+    <value>Teks respons</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Kesalahan</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Putuskan sambungan</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Hubungkan...</value>
+  </data>
 </root>

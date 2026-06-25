@@ -234,4 +234,7 @@
   <data name="HistoryItemManager_InitializeComponent_Markdown__linked_image" xml:space="preserve">
     <value>Ảnh liên kết Markdown</value>
   </data>
+  <data name="PinToScreen" xml:space="preserve">
+    <value>Pin to màn hình</value>
+  </data>
 </root>

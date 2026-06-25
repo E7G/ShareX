@@ -315,9 +315,6 @@
   <data name="lblImageGIFQuality.Text" xml:space="preserve">
     <value>GIF Qualität:</value>
   </data>
-  <data name="lblImageJPEGQualityHint.Text" xml:space="preserve">
-    <value>0 - 100</value>
-  </data>
   <data name="lblImageFileExist.Text" xml:space="preserve">
     <value>Wenn Datei existiert:</value>
   </data>
@@ -653,5 +650,20 @@
   </data>
   <data name="lblCaptureCustomWindow.Text" xml:space="preserve">
     <value>Vorkonfigurierter Fenstertitel:</value>
+  </data>
+  <data name="cbUseCustomActionCompletedSound.Text" xml:space="preserve">
+    <value>Benutzerdefinierten Ton bei abgeschlossener Aktion verwenden:</value>
+  </data>
+  <data name="cbPlaySoundAfterAction.Text" xml:space="preserve">
+    <value>Ton abspielen, nachdem die Aktion abgeschlossen ist</value>
+  </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>Desktopsymbole automatisch ausblenden</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>Mittiges Fadenkreuz anzeigen</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>Alten Bildeditor verwenden</value>
   </data>
 </root>

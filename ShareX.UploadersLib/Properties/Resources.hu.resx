@@ -175,4 +175,97 @@ Létrehozott mappák:</value>
   <data name="OneDrive_RootFolder_Root_folder" xml:space="preserve">
     <value>Gyökér könyvtár</value>
   </data>
+  <data name="UploadersConfigForm_FTPOpenClient_Unable_to_find_valid_FTP_account_" xml:space="preserve">
+    <value>Unable to find valid FTP fiók.</value>
+  </data>
+  <data name="UploadersConfigForm_Remove_all_custom_uploaders_Confirmation" xml:space="preserve">
+    <value>Eltávolítás all egyéni feltöltős?</value>
+  </data>
+  <data name="OAuthControl_OAuthControl_PasteVerificationCodeHere" xml:space="preserve">
+    <value>Illessze be ide az ellenőrző kódot</value>
+  </data>
+  <data name="UploadersConfigForm_ConnectSFTPAccount_Key_file_not_found" xml:space="preserve">
+    <value>Kulcs fájl does not exist.</value>
+  </data>
+  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_RequestURLMustBeConfigured" xml:space="preserve">
+    <value>A "Kérés URL-je" beállítása kötelező.</value>
+  </data>
+  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_DestinationTypeMustBeConfigured" xml:space="preserve">
+    <value>"Cél type" must be configured.</value>
+  </data>
+  <data name="CustomUploaderItem_GetRequestURL_RequestURLMustBeConfigured" xml:space="preserve">
+    <value>A "Kérés URL-je" beállítása kötelező.</value>
+  </data>
+  <data name="CustomUploaderItem_GetFileFormName_FileFormNameMustBeConfigured" xml:space="preserve">
+    <value>"Fájl form név" must be configured.</value>
+  </data>
+  <data name="UploadersConfigForm_UpdatePastebinStatus_NotLoggedIn" xml:space="preserve">
+    <value>Nincs bejelentkezve.</value>
+  </data>
+  <data name="UploadersConfigForm_UpdatePastebinStatus_LoggedIn" xml:space="preserve">
+    <value>Bejelentkezve.</value>
+  </data>
+  <data name="OAuthControl_Status_NotLoggedIn" xml:space="preserve">
+    <value>Nincs bejelentkezve.</value>
+  </data>
+  <data name="OAuthControl_Status_LoggedIn" xml:space="preserve">
+    <value>Bejelentkezve.</value>
+  </data>
+  <data name="OAuthControl_Status_LoginFailed" xml:space="preserve">
+    <value>Sikertelen bejelentkezés.</value>
+  </data>
+  <data name="txtB2BucketWatermark" xml:space="preserve">
+    <value>(Optional) Only used if you didn't set a bucket when you made the kulcs</value>
+  </data>
+  <data name="DuplicateNameNotAllowed" xml:space="preserve">
+    <value>Duplicate név not allowed.</value>
+  </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>Saját meghajtó</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Exportálás failed.</value>
+  </data>
+  <data name="LoggedInAs0" xml:space="preserve">
+    <value>Bejelentkezve mint {0}.</value>
+  </data>
+  <data name="FormattingFailed_JSON" xml:space="preserve">
+    <value>Formátumting failed.</value>
+  </data>
+  <data name="FormattingFailed_XML" xml:space="preserve">
+    <value>Formátumting failed.</value>
+  </data>
+  <data name="ShortenedURL" xml:space="preserve">
+    <value>Rövidített URL</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ThumbnailURL" xml:space="preserve">
+    <value>Miniatűr URL</value>
+  </data>
+  <data name="DeletionURL" xml:space="preserve">
+    <value>Törlési URL</value>
+  </data>
+  <data name="StatusCode" xml:space="preserve">
+    <value>Állapot code</value>
+  </data>
+  <data name="ResponseURL" xml:space="preserve">
+    <value>Válasz URL</value>
+  </data>
+  <data name="ResponseText" xml:space="preserve">
+    <value>Response szöveg</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Fejlécek</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Kapcsolat bontása</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Kapcsolódás...</value>
+  </data>
 </root>

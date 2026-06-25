@@ -150,4 +150,10 @@
   <data name="lblMinimizeSize.Text" xml:space="preserve">
     <value>最小の大きさ:</value>
   </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="lblScaleStep.Text" xml:space="preserve">
+    <value>拡大縮小ステップ:</value>
+  </data>
 </root>

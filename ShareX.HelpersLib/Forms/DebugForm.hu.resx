@@ -126,4 +126,13 @@
   <data name="btnLoadedAssemblies.Text" xml:space="preserve">
     <value>Betöltött assembly-k</value>
   </data>
+  <data name="btnOpenLogFile.Text" xml:space="preserve">
+    <value>Megnyitás log fájl...</value>
+  </data>
+  <data name="lblRunningFrom.Text" xml:space="preserve">
+    <value>Indításup elérési út:</value>
+  </data>
+  <data name="btnUploadLog.Text" xml:space="preserve">
+    <value>Feltöltés log...</value>
+  </data>
 </root>

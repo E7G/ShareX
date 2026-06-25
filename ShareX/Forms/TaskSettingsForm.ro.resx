@@ -225,15 +225,6 @@
   <data name="cbShowToastNotificationAfterTaskCompleted.Text" xml:space="preserve">
     <value>Afișați o notificare de toast după ce sarcina este finalizată</value>
   </data>
-  <data name="btnCustomErrorSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnCustomTaskCompletedSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnCustomCaptureSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="cbUseCustomErrorSound.Text" xml:space="preserve">
     <value>Utilizați sunet de eroare personalizat:</value>
   </data>
@@ -254,9 +245,6 @@
   </data>
   <data name="lblToastWindowDurationSeconds.Text" xml:space="preserve">
     <value>secunde</value>
-  </data>
-  <data name="lblToastWindowSizeX.Text" xml:space="preserve">
-    <value>x</value>
   </data>
   <data name="lblToastWindowMiddleClickAction.Text" xml:space="preserve">
     <value>Acțiunea clicului din mijloc:</value>
@@ -305,9 +293,6 @@
   </data>
   <data name="lblImageSizeLimitHint.Text" xml:space="preserve">
     <value>kB</value>
-  </data>
-  <data name="lblImageJPEGQualityHint.Text" xml:space="preserve">
-    <value>0 - 100</value>
   </data>
   <data name="lblImageGIFQuality.Text" xml:space="preserve">
     <value>Calitatea GIF:</value>
@@ -365,12 +350,6 @@
   </data>
   <data name="lblCaptureCustomRegionHeight.Text" xml:space="preserve">
     <value>Înălțime</value>
-  </data>
-  <data name="lblCaptureCustomRegionY.Text" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="lblCaptureCustomRegionX.Text" xml:space="preserve">
-    <value>X</value>
   </data>
   <data name="cbShowCursor.Text" xml:space="preserve">
     <value>Afișați cursorul în capturi de ecran</value>
@@ -431,12 +410,6 @@
   </data>
   <data name="cbRegionCaptureShowInfo.Text" xml:space="preserve">
     <value>Afișați informații despre poziție și dimensiune</value>
-  </data>
-  <data name="btnRegionCaptureSnapSizesRemove.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="btnRegionCaptureSnapSizesAdd.Text" xml:space="preserve">
-    <value>+</value>
   </data>
   <data name="lblRegionCaptureSnapSizes.Text" xml:space="preserve">
     <value>Dimensiunile regiunii vor fi fixate atunci când țineți apăsată tasta "Alt":</value>
@@ -665,5 +638,32 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Setări pentru sarcini</value>
+  </data>
+  <data name="cbUseCustomActionCompletedSound.Text" xml:space="preserve">
+    <value>Folosește sunet personalizat pentru acțiune finalizată:</value>
+  </data>
+  <data name="cbPlaySoundAfterAction.Text" xml:space="preserve">
+    <value>Redă sunet după finalizarea acțiunii</value>
+  </data>
+  <data name="cbUseRandomImageEffect.Text" xml:space="preserve">
+    <value>Folosește efect de imagine aleatoriu</value>
+  </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>Ascunde automat pictogramele de pe desktop</value>
+  </data>
+  <data name="lblCaptureCustomWindow.Text" xml:space="preserve">
+    <value>Titlu de fereastră preconfigurat:</value>
+  </data>
+  <data name="lblRegionCaptureBackgroundDimStrength.Text" xml:space="preserve">
+    <value>Intensitate estompare fundal:</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>Arată reticulul central</value>
+  </data>
+  <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
+    <value>Închide fereastra OCR după deschiderea linkului serviciului</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>Folosește editorul de imagini vechi</value>
   </data>
 </root>

@@ -135,4 +135,10 @@
   <data name="cbRememberWindowState.Text" xml:space="preserve">
     <value>ウィンドウのサイズ・位置を記憶</value>
   </data>
+  <data name="cbImageOnly.Text" xml:space="preserve">
+    <value>画像ファイルのみ表示</value>
+  </data>
+  <data name="cbAutoLoadMoreItems.Text" xml:space="preserve">
+    <value>画像をさらに自動読み込み</value>
+  </data>
 </root>

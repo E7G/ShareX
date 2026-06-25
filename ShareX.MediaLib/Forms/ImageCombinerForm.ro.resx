@@ -159,4 +159,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Combinător de imagini</value>
   </data>
+  <data name="lblWrapAfter.Text" xml:space="preserve">
+    <value>Încadrare după:</value>
+  </data>
+  <data name="lblWrapAfterImages.Text" xml:space="preserve">
+    <value>imagines</value>
+  </data>
 </root>

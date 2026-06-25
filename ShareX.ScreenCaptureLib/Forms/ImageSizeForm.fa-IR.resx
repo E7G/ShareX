@@ -135,4 +135,13 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>انصراف</value>
   </data>
+  <data name="lblHeight.Text" xml:space="preserve">
+    <value>ارتفاع:</value>
+  </data>
+  <data name="cbAspectRatio.Text" xml:space="preserve">
+    <value>حفظ نسبت ابعاد</value>
+  </data>
+  <data name="lblResampling.Text" xml:space="preserve">
+    <value>نمونه‌برداری مجدد:</value>
+  </data>
 </root>

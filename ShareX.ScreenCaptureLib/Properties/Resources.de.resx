@@ -491,4 +491,49 @@ Möchten Sie die Änderungen speichern, bevor Sie den Bildeditor schließen?</va
   <data name="CutOutBackgroundColor" xml:space="preserve">
     <value>Hintergrundfarbe ausschneiden...</value>
   </data>
+  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="Bitrate" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="ScreenRecordForm_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>Mittiges Fadenkreuz anzeigen</value>
+  </data>
+  <data name="FPSLimit" xml:space="preserve">
+    <value>FPS-Limit:</value>
+  </data>
+  <data name="ScreenRecordForm_Stop" xml:space="preserve">
+    <value>Stopp</value>
+  </data>
+  <data name="RulerAngle" xml:space="preserve">
+    <value>Winkel</value>
+  </data>
+  <data name="RulerPerimeter" xml:space="preserve">
+    <value>Umfang</value>
+  </data>
+  <data name="RulerArea" xml:space="preserve">
+    <value>Fläche</value>
+  </data>
+  <data name="RulerWidth" xml:space="preserve">
+    <value>Breite</value>
+  </data>
+  <data name="RulerHeight" xml:space="preserve">
+    <value>Höhe</value>
+  </data>
+  <data name="RulerDistance" xml:space="preserve">
+    <value>Abstand</value>
+  </data>
+  <data name="RulerRight" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="RulerBottom" xml:space="preserve">
+    <value>Unten</value>
+  </data>
 </root>

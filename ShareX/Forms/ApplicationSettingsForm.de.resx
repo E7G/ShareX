@@ -333,12 +333,6 @@
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>Übernehmen</value>
   </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-  </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Windows</value>
-  </data>
   <data name="btnThemeReset.Text" xml:space="preserve">
     <value>Zurücksetzen...</value>
   </data>

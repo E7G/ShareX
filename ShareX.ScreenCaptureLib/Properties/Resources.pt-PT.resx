@@ -393,4 +393,147 @@
   <data name="ShapeManager_FreehandCurveInterpolation" xml:space="preserve">
     <value>Interpolação de curva</value>
   </data>
+  <data name="CutOutEffectSize" xml:space="preserve">
+    <value>Cut out effect tamanho:</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="ImageSaved" xml:space="preserve">
+    <value>Imagem guardard</value>
+  </data>
+  <data name="ShapeManager_CreateToolbar_Redo" xml:space="preserve">
+    <value>Refazer</value>
+  </data>
+  <data name="NewLineCtrlEnterOKEnter" xml:space="preserve">
+    <value>Nova linha: Ctrl + Enter, OK: Enter</value>
+  </data>
+  <data name="ScreenRecordForm_StartRecording_Click_tray_icon_to_stop_recording_" xml:space="preserve">
+    <value>Click to parar recording.</value>
+  </data>
+  <data name="ShapeManager_BorderStyle" xml:space="preserve">
+    <value>Margem style:</value>
+  </data>
+  <data name="ScreenRecordForm_ConfirmCancel" xml:space="preserve">
+    <value>Tem a certeza de que pretende cancelar esta gravação?</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>A processar...</value>
+  </data>
+  <data name="ScreenRecordForm_StartRecording_Waiting___" xml:space="preserve">
+    <value>A aguardar...</value>
+  </data>
+  <data name="Highlight" xml:space="preserve">
+    <value>Realçar</value>
+  </data>
+  <data name="Bitrate" xml:space="preserve">
+    <value>Taxa de bits:</value>
+  </data>
+  <data name="NewLineEnterOKCtrlEnter" xml:space="preserve">
+    <value>Nova linha: Enter, OK: Ctrl + Enter</value>
+  </data>
+  <data name="Resume" xml:space="preserve">
+    <value>Retomar</value>
+  </data>
+  <data name="ImageSavedAs" xml:space="preserve">
+    <value>Imagem guardard</value>
+  </data>
+  <data name="ShapeManager_ArrowHeadDirection" xml:space="preserve">
+    <value>Direção da ponta da seta:</value>
+  </data>
+  <data name="Blur" xml:space="preserve">
+    <value>Desfocar</value>
+  </data>
+  <data name="ScreenRecordForm_StartRecording_Encoding___" xml:space="preserve">
+    <value>A codificar...</value>
+  </data>
+  <data name="ImageUploading" xml:space="preserve">
+    <value>Imagem carregamentoing</value>
+  </data>
+  <data name="ImageCopied" xml:space="preserve">
+    <value>Imagem copied</value>
+  </data>
+  <data name="MenuIconSize" xml:space="preserve">
+    <value>Menu icon tamanho:</value>
+  </data>
+  <data name="Pixelate" xml:space="preserve">
+    <value>Pixelizar</value>
+  </data>
+  <data name="LockMenu" xml:space="preserve">
+    <value>Bloquear menu</value>
+  </data>
+  <data name="AutoCopyImageToClipboard" xml:space="preserve">
+    <value>Auto copiar imagem to área de transferência</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="ScreenRecordForm_Start" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="ShapeManager_CreateToolbar_StepType" xml:space="preserve">
+    <value>Tipo de passo:</value>
+  </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>Mostrar mira central</value>
+  </data>
+  <data name="FPSLimit" xml:space="preserve">
+    <value>Limite de FPS:</value>
+  </data>
+  <data name="ShapeManager_CreateToolbar_ZoomToFitOnOpen" xml:space="preserve">
+    <value>Zoom to fit on abrir</value>
+  </data>
+  <data name="CutOutEffectType" xml:space="preserve">
+    <value>Efeito de recorte:</value>
+  </data>
+  <data name="ShapeManager_CreateToolbar_ToolOptions" xml:space="preserve">
+    <value>Tool opções</value>
+  </data>
+  <data name="ScreenRecordForm_Stop" xml:space="preserve">
+    <value>Parar</value>
+  </data>
+  <data name="ScreenRecordForm_StartRecording_Click_tray_icon_to_start_recording_" xml:space="preserve">
+    <value>Click to iniciar recording.</value>
+  </data>
+  <data name="WouldYouLikeToResetOptions" xml:space="preserve">
+    <value>Would you like to repor opções?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="ImageURL" xml:space="preserve">
+    <value>Imagem URL</value>
+  </data>
+  <data name="RegionCaptureForm_SaveChangesBeforeClosingEditor" xml:space="preserve">
+    <value>There are unguardard changes.
+
+Would you like to guardar the changes before closing the editaror de imagemns?</value>
+  </data>
+  <data name="CutOutBackgroundColor" xml:space="preserve">
+    <value>Cut out fundo cor...</value>
+  </data>
+  <data name="RulerAngle" xml:space="preserve">
+    <value>Ângulo</value>
+  </data>
+  <data name="RulerPerimeter" xml:space="preserve">
+    <value>Perímetro</value>
+  </data>
+  <data name="RulerArea" xml:space="preserve">
+    <value>Área</value>
+  </data>
+  <data name="RulerWidth" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="RulerHeight" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="RulerDistance" xml:space="preserve">
+    <value>Distância</value>
+  </data>
+  <data name="RulerRight" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="RulerBottom" xml:space="preserve">
+    <value>Inferior</value>
+  </data>
 </root>

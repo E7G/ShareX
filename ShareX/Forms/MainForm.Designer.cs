@@ -81,10 +81,10 @@
             tsmiPinToScreen = new System.Windows.Forms.ToolStripMenuItem();
             tssTools1 = new System.Windows.Forms.ToolStripSeparator();
             tsmiImageEditor = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiImageComparer = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageBeautifier = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageEffects = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageViewer = new System.Windows.Forms.ToolStripMenuItem();
+            tsmiImageComparer = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageCombiner = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageSplitter = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
@@ -238,10 +238,10 @@
             tsmiTrayPinToScreen = new System.Windows.Forms.ToolStripMenuItem();
             tssTrayTools1 = new System.Windows.Forms.ToolStripSeparator();
             tsmiTrayImageEditor = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayImageComparer = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageBeautifier = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageEffects = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageViewer = new System.Windows.Forms.ToolStripMenuItem();
+            tsmiTrayImageComparer = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageCombiner = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageSplitter = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
@@ -600,7 +600,7 @@
             // 
             // tsddbTools
             // 
-            tsddbTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiColorPicker, tsmiScreenColorPicker, tsmiRuler, tsmiPinToScreen, tssTools1, tsmiImageEditor, tsmiImageComparer, tsmiImageBeautifier, tsmiImageEffects, tsmiImageViewer, tsmiImageCombiner, tsmiImageSplitter, tsmiImageThumbnailer, tssTools2, tsmiVideoConverter, tsmiVideoThumbnailer, tssTools3, tsmiAI, tsmiOCR, tsmiQRCode, tsmiHashChecker, tsmiMetadata, tsmiIndexFolder, tssTools4, tsmiClipboardViewer, tsmiBorderlessWindow, tsmiInspectWindow, tsmiMonitorTest });
+            tsddbTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiColorPicker, tsmiScreenColorPicker, tsmiRuler, tsmiPinToScreen, tssTools1, tsmiImageEditor, tsmiImageBeautifier, tsmiImageEffects, tsmiImageViewer, tsmiImageComparer, tsmiImageCombiner, tsmiImageSplitter, tsmiImageThumbnailer, tssTools2, tsmiVideoConverter, tsmiVideoThumbnailer, tssTools3, tsmiAI, tsmiOCR, tsmiQRCode, tsmiHashChecker, tsmiMetadata, tsmiIndexFolder, tssTools4, tsmiClipboardViewer, tsmiBorderlessWindow, tsmiInspectWindow, tsmiMonitorTest });
             tsddbTools.Image = Properties.Resources.toolbox;
             resources.ApplyResources(tsddbTools, "tsddbTools");
             tsddbTools.Name = "tsddbTools";
@@ -645,13 +645,6 @@
             resources.ApplyResources(tsmiImageEditor, "tsmiImageEditor");
             tsmiImageEditor.Click += tsmiImageEditor_Click;
             // 
-            // tsmiImageComparer
-            // 
-            tsmiImageComparer.Image = Properties.Resources.images_flickr;
-            tsmiImageComparer.Name = "tsmiImageComparer";
-            resources.ApplyResources(tsmiImageComparer, "tsmiImageComparer");
-            tsmiImageComparer.Click += tsmiImageComparer_Click;
-            // 
             // tsmiImageBeautifier
             // 
             tsmiImageBeautifier.Image = Properties.Resources.picture_sunset;
@@ -661,7 +654,7 @@
             // 
             // tsmiImageEffects
             // 
-            tsmiImageEffects.Image = Properties.Resources.image_saturation;
+            tsmiImageEffects.Image = Properties.Resources.image_reflection;
             tsmiImageEffects.Name = "tsmiImageEffects";
             resources.ApplyResources(tsmiImageEffects, "tsmiImageEffects");
             tsmiImageEffects.Click += tsmiImageEffects_Click;
@@ -672,6 +665,13 @@
             tsmiImageViewer.Name = "tsmiImageViewer";
             resources.ApplyResources(tsmiImageViewer, "tsmiImageViewer");
             tsmiImageViewer.Click += tsmiImageViewer_Click;
+            // 
+            // tsmiImageComparer
+            // 
+            tsmiImageComparer.Image = Properties.Resources.image_saturation;
+            tsmiImageComparer.Name = "tsmiImageComparer";
+            resources.ApplyResources(tsmiImageComparer, "tsmiImageComparer");
+            tsmiImageComparer.Click += tsmiImageComparer_Click;
             // 
             // tsmiImageCombiner
             // 
@@ -1624,7 +1624,7 @@
             // 
             // tsmiTrayTools
             // 
-            tsmiTrayTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiTrayColorPicker, tsmiTrayScreenColorPicker, tsmiTrayRuler, tsmiTrayPinToScreen, tssTrayTools1, tsmiTrayImageEditor, tsmiTrayImageComparer, tsmiTrayImageBeautifier, tsmiTrayImageEffects, tsmiTrayImageViewer, tsmiTrayImageCombiner, tsmiTrayImageSplitter, tsmiTrayImageThumbnailer, tssTrayTools2, tsmiTrayVideoConverter, tsmiTrayVideoThumbnailer, tssTrayTools3, tsmiTrayAI, tsmiTrayOCR, tsmiTrayQRCode, tsmiTrayHashChecker, tsmiTrayMetadata, tsmiTrayIndexFolder, tssTrayTools4, tsmiTrayClipboardViewer, tsmiTrayBorderlessWindow, tsmiTrayInspectWindow, tsmiTrayMonitorTest });
+            tsmiTrayTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiTrayColorPicker, tsmiTrayScreenColorPicker, tsmiTrayRuler, tsmiTrayPinToScreen, tssTrayTools1, tsmiTrayImageEditor, tsmiTrayImageBeautifier, tsmiTrayImageEffects, tsmiTrayImageViewer, tsmiTrayImageComparer, tsmiTrayImageCombiner, tsmiTrayImageSplitter, tsmiTrayImageThumbnailer, tssTrayTools2, tsmiTrayVideoConverter, tsmiTrayVideoThumbnailer, tssTrayTools3, tsmiTrayAI, tsmiTrayOCR, tsmiTrayQRCode, tsmiTrayHashChecker, tsmiTrayMetadata, tsmiTrayIndexFolder, tssTrayTools4, tsmiTrayClipboardViewer, tsmiTrayBorderlessWindow, tsmiTrayInspectWindow, tsmiTrayMonitorTest });
             tsmiTrayTools.Image = Properties.Resources.toolbox;
             tsmiTrayTools.Name = "tsmiTrayTools";
             resources.ApplyResources(tsmiTrayTools, "tsmiTrayTools");
@@ -1669,13 +1669,6 @@
             resources.ApplyResources(tsmiTrayImageEditor, "tsmiTrayImageEditor");
             tsmiTrayImageEditor.Click += tsmiImageEditor_Click;
             // 
-            // tsmiTrayImageComparer
-            // 
-            tsmiTrayImageComparer.Image = Properties.Resources.images_flickr;
-            tsmiTrayImageComparer.Name = "tsmiTrayImageComparer";
-            resources.ApplyResources(tsmiTrayImageComparer, "tsmiTrayImageComparer");
-            tsmiTrayImageComparer.Click += tsmiImageComparer_Click;
-            // 
             // tsmiTrayImageBeautifier
             // 
             tsmiTrayImageBeautifier.Image = Properties.Resources.picture_sunset;
@@ -1685,7 +1678,7 @@
             // 
             // tsmiTrayImageEffects
             // 
-            tsmiTrayImageEffects.Image = Properties.Resources.image_saturation;
+            tsmiTrayImageEffects.Image = Properties.Resources.image_reflection;
             tsmiTrayImageEffects.Name = "tsmiTrayImageEffects";
             resources.ApplyResources(tsmiTrayImageEffects, "tsmiTrayImageEffects");
             tsmiTrayImageEffects.Click += tsmiImageEffects_Click;
@@ -1696,6 +1689,13 @@
             tsmiTrayImageViewer.Name = "tsmiTrayImageViewer";
             resources.ApplyResources(tsmiTrayImageViewer, "tsmiTrayImageViewer");
             tsmiTrayImageViewer.Click += tsmiImageViewer_Click;
+            // 
+            // tsmiTrayImageComparer
+            // 
+            tsmiTrayImageComparer.Image = Properties.Resources.image_saturation;
+            tsmiTrayImageComparer.Name = "tsmiTrayImageComparer";
+            resources.ApplyResources(tsmiTrayImageComparer, "tsmiTrayImageComparer");
+            tsmiTrayImageComparer.Click += tsmiImageComparer_Click;
             // 
             // tsmiTrayImageCombiner
             // 

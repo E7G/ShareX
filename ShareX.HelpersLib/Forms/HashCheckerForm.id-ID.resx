@@ -135,4 +135,16 @@
   <data name="btnFilePathBrowse.Text" xml:space="preserve">
     <value>Jelajahi...</value>
   </data>
+  <data name="lblFilePath.Text" xml:space="preserve">
+    <value>Jalur file:</value>
+  </data>
+  <data name="lblFilePath2.Text" xml:space="preserve">
+    <value>Jalur file:</value>
+  </data>
+  <data name="btnFilePathBrowse2.Text" xml:space="preserve">
+    <value>Telusuri...</value>
+  </data>
+  <data name="cbCompareTwoFiles.Text" xml:space="preserve">
+    <value>Bandingkan dua file</value>
+  </data>
 </root>

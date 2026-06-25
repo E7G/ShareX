@@ -129,4 +129,10 @@
   <data name="btnOpenLogFile.Text" xml:space="preserve">
     <value>Open log bestand...</value>
   </data>
+  <data name="lblRunningFrom.Text" xml:space="preserve">
+    <value>Startenup path:</value>
+  </data>
+  <data name="btnUploadLog.Text" xml:space="preserve">
+    <value>Uploaden log...</value>
+  </data>
 </root>

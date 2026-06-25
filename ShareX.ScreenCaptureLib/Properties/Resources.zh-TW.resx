@@ -508,4 +508,31 @@
 
 是否要在關閉圖片編輯器前儲存變更？</value>
   </data>
+  <data name="RulerBottom" xml:space="preserve">
+    <value>底部</value>
+  </data>
+  <data name="RulerDistance" xml:space="preserve">
+    <value>距離</value>
+  </data>
+  <data name="RulerHeight" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="RulerWidth" xml:space="preserve">
+    <value>寬度</value>
+  </data>
+  <data name="RulerArea" xml:space="preserve">
+    <value>面積</value>
+  </data>
+  <data name="RulerPerimeter" xml:space="preserve">
+    <value>周長</value>
+  </data>
+  <data name="RulerAngle" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>顯示中心十字線</value>
+  </data>
+  <data name="RulerRight" xml:space="preserve">
+    <value>右</value>
+  </data>
 </root>

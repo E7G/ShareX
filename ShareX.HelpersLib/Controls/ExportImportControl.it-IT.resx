@@ -136,9 +136,9 @@
     <value>Da URL ...</value>
   </data>
   <data name="btnImport.Text" xml:space="preserve">
-    <value>Importa</value>
+    <value> Importa</value>
   </data>
   <data name="btnExport.Text" xml:space="preserve">
-    <value>Esporta</value>
+    <value> Esporta</value>
   </data>
 </root>

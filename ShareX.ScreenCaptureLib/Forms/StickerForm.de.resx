@@ -129,4 +129,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Sticker Picker</value>
   </data>
+  <data name="tslStickers.Text" xml:space="preserve">
+    <value>Sticker:</value>
+  </data>
 </root>

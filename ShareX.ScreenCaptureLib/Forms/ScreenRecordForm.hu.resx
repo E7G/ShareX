@@ -123,4 +123,19 @@
   <data name="btnAbort.Text" xml:space="preserve">
     <value>Megszakítás</value>
   </data>
+  <data name="btnStart.Text" xml:space="preserve">
+    <value>Indítás</value>
+  </data>
+  <data name="btnPause.Text" xml:space="preserve">
+    <value>Szünet</value>
+  </data>
+  <data name="tsmiStart.Text" xml:space="preserve">
+    <value>Indítás</value>
+  </data>
+  <data name="tsmiPause.Text" xml:space="preserve">
+    <value>Szünet</value>
+  </data>
+  <data name="tsmiAbort.Text" xml:space="preserve">
+    <value>Megszakítás</value>
+  </data>
 </root>

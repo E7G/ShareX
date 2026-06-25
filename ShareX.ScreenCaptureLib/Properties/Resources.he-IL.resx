@@ -506,4 +506,34 @@
   <data name="WouldYouLikeToResetOptions" xml:space="preserve">
     <value>האם ברצונך לאפס את האפשרויות?</value>
   </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>הצג צלב מרכזי</value>
+  </data>
+  <data name="CutOutBackgroundColor" xml:space="preserve">
+    <value>גזור צבע רקע...</value>
+  </data>
+  <data name="RulerAngle" xml:space="preserve">
+    <value>זווית</value>
+  </data>
+  <data name="RulerPerimeter" xml:space="preserve">
+    <value>היקף</value>
+  </data>
+  <data name="RulerArea" xml:space="preserve">
+    <value>שטח</value>
+  </data>
+  <data name="RulerWidth" xml:space="preserve">
+    <value>רוחב</value>
+  </data>
+  <data name="RulerHeight" xml:space="preserve">
+    <value>גובה</value>
+  </data>
+  <data name="RulerDistance" xml:space="preserve">
+    <value>מרחק</value>
+  </data>
+  <data name="RulerRight" xml:space="preserve">
+    <value>ימין</value>
+  </data>
+  <data name="RulerBottom" xml:space="preserve">
+    <value>תחתון</value>
+  </data>
 </root>

@@ -147,22 +147,4 @@
   <data name="cbVideoQualityUseBitrate.Text" xml:space="preserve">
     <value>使用比特率</value>
   </data>
-  <data name="btnInputFilePathBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnOutputFolderBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="lblVideoQualityHigher.Text" xml:space="preserve">
-    <value>xxxxxxxxxxxxxxxxxxxxxxxxxxxx -&gt;   99</value>
-  </data>
-  <data name="lblVideoQualityLower.Text" xml:space="preserve">
-    <value>99   &lt;- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</value>
-  </data>
-  <data name="lblVideoQualityBitrateHint.Text" xml:space="preserve">
-    <value>kbps</value>
-  </data>
-  <data name="lblVideoQualityValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
 </root>

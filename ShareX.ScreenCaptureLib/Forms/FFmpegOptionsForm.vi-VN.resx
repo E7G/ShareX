@@ -181,56 +181,20 @@ Khi nén ở thời gian thực (vd: Ghi lại màn hình), bộ thiết lập c
     <value>Khuyến nghị chọn bộ thiết lập nhanh nhất có thể khi nén theo thời gian thực như ghi lại màn hình.
 Nếu không bộ thiết lập không thể theo kịp đoạn ghi hình và tình trạng rớt khung hình sẽ xảy ra nhiều.</value>
   </data>
-  <data name="lblVP8BitrateK.Text" xml:space="preserve">
-    <value>kbit/giây</value>
-  </data>
   <data name="lblNVENCPreset.Text" xml:space="preserve">
     <value>Bộ thiết lập:</value>
-  </data>
-  <data name="lblx264CRF.Text" xml:space="preserve">
-    <value>CRF:</value>
-  </data>
-  <data name="btnFFmpegBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="tpX264.Text" xml:space="preserve">
-    <value>x264 / x265</value>
-  </data>
-  <data name="tpVpx.Text" xml:space="preserve">
-    <value>VP8</value>
-  </data>
-  <data name="tpGIF.Text" xml:space="preserve">
-    <value>GIF</value>
-  </data>
-  <data name="tpNVENC.Text" xml:space="preserve">
-    <value>NVENC</value>
-  </data>
-  <data name="tpXvid.Text" xml:space="preserve">
-    <value>Xvid</value>
   </data>
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>Chất lượng:</value>
   </data>
-  <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
-    <value>?</value>
-  </data>
-  <data name="tpAAC.Text" xml:space="preserve">
-    <value>AAC</value>
-  </data>
   <data name="lblQSVBitrate.Text" xml:space="preserve">
     <value>Bitrate:</value>
-  </data>
-  <data name="tpMP3.Text" xml:space="preserve">
-    <value>MP3</value>
   </data>
   <data name="lblQSVPreset.Text" xml:space="preserve">
     <value>Bộ thiết lập:</value>
   </data>
   <data name="lblAMFUsage.Text" xml:space="preserve">
     <value>Sử dụng:</value>
-  </data>
-  <data name="tpVorbis.Text" xml:space="preserve">
-    <value>Vorbis</value>
   </data>
   <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
     <value>Sử dụng đường dẫn FFmpeg tùy chỉnh:</value>
@@ -244,13 +208,25 @@ Nếu không bộ thiết lập không thể theo kịp đoạn ghi hình và t�
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>Kiểm soát chỉ số Thang đo Bayer, thang đo cao hơn sẽ hiển thị nhiều dải hơn. Mặc định là 2.</value>
   </data>
-  <data name="lblNVENCBitrateK.Text" xml:space="preserve">
-    <value>kbit/giây</value>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Bộ mã hóa video:</value>
   </data>
-  <data name="lblQSVBitrateK.Text" xml:space="preserve">
-    <value>kbit/giây</value>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Bộ mã hóa âm thanh:</value>
   </data>
-  <data name="lblx264BitrateK.Text" xml:space="preserve">
-    <value>kbit/giây</value>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Tốc độ bit:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Tốc độ bit:</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Tinh chỉnh:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Tốc độ bit:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Đặt lại tùy chọn...</value>
   </data>
 </root>

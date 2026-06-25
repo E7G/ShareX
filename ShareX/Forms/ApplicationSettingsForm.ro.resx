@@ -183,9 +183,6 @@
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>În timp ce ShareX este deschis, arată "În aplicație" pe Steam</value>
   </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-  </data>
   <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
     <value>Activați suportul pentru extensia Chrome</value>
   </data>
@@ -204,9 +201,6 @@
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>Afișați butonul "Încărcare cu ShareX" în meniul contextual din Windows Explorer</value>
   </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Windows</value>
-  </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integrare</value>
   </data>
@@ -218,9 +212,6 @@
   </data>
   <data name="btnOpenScreenshotsFolder.Text" xml:space="preserve">
     <value>Deschideți...</value>
-  </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="btnBrowsePersonalFolderPath.Text" xml:space="preserve">
     <value>Răsfoiți...</value>
@@ -239,9 +230,6 @@
   </data>
   <data name="lblSaveImageSubFolderPattern.Text" xml:space="preserve">
     <value>Model de subdosar:</value>
-  </data>
-  <data name="lblSaveImageSubFolderPatternPreview.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="tpPaths.Text" xml:space="preserve">
     <value>Căi</value>
@@ -290,9 +278,6 @@
   </data>
   <data name="btnThumbnailViewThumbnailSizeReset.Text" xml:space="preserve">
     <value>Resetare</value>
-  </data>
-  <data name="lblThumbnailViewThumbnailSizeX.Text" xml:space="preserve">
-    <value>x</value>
   </data>
   <data name="lblThumbnailViewThumbnailClickAction.Text" xml:space="preserve">
     <value>Acțiune de clic pe miniatură:</value>
@@ -434,5 +419,11 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Setări ale aplicației</value>
+  </data>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>Canal de actualizare:</value>
+  </data>
+  <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
+    <value>Verifică automat actualizările</value>
   </data>
 </root>

@@ -117,26 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnAmazonS3BucketNameOpen.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnFTPSCertificateLocationBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnAzureStoragePortal.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnAmazonS3AccessKeyOpen.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnSFTPKeyLocationBrowse.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblFirebaseDomain.Text" xml:space="preserve">
     <value>.app.goo.gl</value>
-  </data>
-  <data name="btnAmazonS3StorageClassHelp.Text" xml:space="preserve">
-    <value>?</value>
   </data>
   <data name="lblAzureStorageAccessKey.Text" xml:space="preserve">
     <value>Kunci akses:</value>
@@ -177,15 +159,6 @@
   <data name="lblFTPUsername.Text" xml:space="preserve">
     <value>Nama pengguna:</value>
   </data>
-  <data name="tpYouTube.Text" xml:space="preserve">
-    <value>YouTube</value>
-  </data>
-  <data name="tpYourls.Text" xml:space="preserve">
-    <value>YOURLS</value>
-  </data>
-  <data name="tpVgyme.Text" xml:space="preserve">
-    <value>vgy.me</value>
-  </data>
   <data name="lblOwnCloudHost.Text" xml:space="preserve">
     <value>URL:</value>
   </data>
@@ -216,14 +189,8 @@
   <data name="btnFTPAdd.Text" xml:space="preserve">
     <value>Tambah</value>
   </data>
-  <data name="tpBitly.Text" xml:space="preserve">
-    <value>bit.ly</value>
-  </data>
   <data name="chGoogleDriveDescription.Text" xml:space="preserve">
     <value>Deskripsi</value>
-  </data>
-  <data name="tpDropbox.Text" xml:space="preserve">
-    <value>Dropbox</value>
   </data>
   <data name="chImgurDescription.Text" xml:space="preserve">
     <value>Deskripsi</value>
@@ -270,9 +237,6 @@
   <data name="tpURLShorteners.Text" xml:space="preserve">
     <value>Penyingkat URL</value>
   </data>
-  <data name="tpUpaste.Text" xml:space="preserve">
-    <value>uPaste</value>
-  </data>
   <data name="chImgurTitle.Text" xml:space="preserve">
     <value>Judul</value>
   </data>
@@ -305,12 +269,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Pengaturan Tujuan</value>
-  </data>
-  <data name="rbFTPProtocolSFTP.Text" xml:space="preserve">
-    <value>SFTP</value>
-  </data>
-  <data name="gbSFTP.Text" xml:space="preserve">
-    <value>SFTP</value>
   </data>
   <data name="btnFTPRemove.Text" xml:space="preserve">
     <value>Buang</value>
@@ -390,15 +348,6 @@
   <data name="lblFTPHost.Text" xml:space="preserve">
     <value>Host:</value>
   </data>
-  <data name="rbFTPProtocolFTPS.Text" xml:space="preserve">
-    <value>FTPS</value>
-  </data>
-  <data name="gbFTPS.Text" xml:space="preserve">
-    <value>FTPS</value>
-  </data>
-  <data name="rbFTPProtocolFTP.Text" xml:space="preserve">
-    <value>FTP</value>
-  </data>
   <data name="lblBitlyDomain.Text" xml:space="preserve">
     <value>Domain:</value>
   </data>
@@ -410,111 +359,6 @@
   </data>
   <data name="gbAmazonS3Advanced.Text" xml:space="preserve">
     <value>Lanjutan</value>
-  </data>
-  <data name="tpFlickr.Text" xml:space="preserve">
-    <value>Flickr</value>
-  </data>
-  <data name="tpGist.Text" xml:space="preserve">
-    <value>GitHub Gist</value>
-  </data>
-  <data name="tpGoogleDrive.Text" xml:space="preserve">
-    <value>Google Drive</value>
-  </data>
-  <data name="tpHastebin.Text" xml:space="preserve">
-    <value>Hastebin</value>
-  </data>
-  <data name="tpHostr.Text" xml:space="preserve">
-    <value>Hostr</value>
-  </data>
-  <data name="tpImageShack.Text" xml:space="preserve">
-    <value>ImageShack</value>
-  </data>
-  <data name="tpImgur.Text" xml:space="preserve">
-    <value>Imgur</value>
-  </data>
-  <data name="tpAmazonS3.Text" xml:space="preserve">
-    <value>Amazon S3</value>
-  </data>
-  <data name="tpAzureStorage.Text" xml:space="preserve">
-    <value>Azure Storage</value>
-  </data>
-  <data name="tpChevereto.Text" xml:space="preserve">
-    <value>Chevereto</value>
-  </data>
-  <data name="tpLambda.Text" xml:space="preserve">
-    <value>Lambda</value>
-  </data>
-  <data name="tpLithiio.Text" xml:space="preserve">
-    <value>Lithiio</value>
-  </data>
-  <data name="tpMediaFire.Text" xml:space="preserve">
-    <value>MediaFire</value>
-  </data>
-  <data name="tpOneDrive.Text" xml:space="preserve">
-    <value>OneDrive</value>
-  </data>
-  <data name="tpOneTimeSecret.Text" xml:space="preserve">
-    <value>OneTimeSecret</value>
-  </data>
-  <data name="tpPaste_ee.Text" xml:space="preserve">
-    <value>Paste.ee</value>
-  </data>
-  <data name="tpPastebin.Text" xml:space="preserve">
-    <value>Pastebin</value>
-  </data>
-  <data name="tpPastie.Text" xml:space="preserve">
-    <value>Pastie</value>
-  </data>
-  <data name="tpPhotobucket.Text" xml:space="preserve">
-    <value>Photobucket</value>
-  </data>
-  <data name="tpPlik.Text" xml:space="preserve">
-    <value>Plik</value>
-  </data>
-  <data name="tpPolr.Text" xml:space="preserve">
-    <value>Polr</value>
-  </data>
-  <data name="tpPomf.Text" xml:space="preserve">
-    <value>Pomf</value>
-  </data>
-  <data name="tpOwnCloud.Text" xml:space="preserve">
-    <value>ownCloud / Nextcloud</value>
-  </data>
-  <data name="tpPushbullet.Text" xml:space="preserve">
-    <value>Pushbullet</value>
-  </data>
-  <data name="tpPuush.Text" xml:space="preserve">
-    <value>puush</value>
-  </data>
-  <data name="tpSeafile.Text" xml:space="preserve">
-    <value>Seafile</value>
-  </data>
-  <data name="tpSendSpace.Text" xml:space="preserve">
-    <value>SendSpace</value>
-  </data>
-  <data name="tpSul.Text" xml:space="preserve">
-    <value>s-ul</value>
-  </data>
-  <data name="tpStreamable.Text" xml:space="preserve">
-    <value>Streamable</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items" xml:space="preserve">
-    <value>blob.core.windows.net</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items1" xml:space="preserve">
-    <value>blob.core.usgovcloudapi.net</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items2" xml:space="preserve">
-    <value>blob.core.chinacloudapi.cn</value>
-  </data>
-  <data name="cbAzureStorageEnvironment.Items3" xml:space="preserve">
-    <value>blob.core.cloudapi.de</value>
-  </data>
-  <data name="cbSeafileAPIURL.Items1" xml:space="preserve">
-    <value>https://cloud.mein-seafile.de/api2/</value>
-  </data>
-  <data name="cbSeafileAPIURL.Items" xml:space="preserve">
-    <value>https://seacloud.cc/api2/</value>
   </data>
   <data name="chImgurID.Text" xml:space="preserve">
     <value>ID</value>
@@ -708,9 +552,6 @@
   <data name="lblAmazonS3BucketName.Text" xml:space="preserve">
     <value>Nama buket:</value>
   </data>
-  <data name="tpBox.Text" xml:space="preserve">
-    <value>Kotak</value>
-  </data>
   <data name="lblSeafileAuthToken.Text" xml:space="preserve">
     <value>Token otentikasi:</value>
   </data>
@@ -785,9 +626,6 @@
   </data>
   <data name="lblPlikTTL.Text" xml:space="preserve">
     <value>File akan dibuang secara otomatis</value>
-  </data>
-  <data name="tpFirebaseDynamicLinks.Text" xml:space="preserve">
-    <value>Tautan Dinamis Firebase</value>
   </data>
   <data name="llPuushForgottenPassword.Text" xml:space="preserve">
     <value>Lupa sandi?</value>
@@ -997,10 +835,172 @@ Menggunakan pustaka terenkripsi menonaktifkan berbagi.</value>
   <data name="cbPlikRemovable.Text" xml:space="preserve">
     <value>Bisa dibuang</value>
   </data>
-  <data name="tpFTP.Text" xml:space="preserve">
-    <value>FTP / FTPS / SFTP</value>
-  </data>
   <data name="cbOneDriveUseDirectLink.Text" xml:space="preserve">
     <value>Gunakan tautan langsung</value>
+  </data>
+  <data name="lblPrivateBinPassword.Text" xml:space="preserve">
+    <value>Kata sandi:</value>
+  </data>
+  <data name="lblPrivateBinUsername.Text" xml:space="preserve">
+    <value>Nama pengguna:</value>
+  </data>
+  <data name="gbPrivateBinCredentials.Text" xml:space="preserve">
+    <value>Kredensial</value>
+  </data>
+  <data name="gbPrivateBinCredentials.ToolTip" xml:space="preserve">
+    <value>Beberapa server mungkin memerlukan otorisasi tambahan</value>
+  </data>
+  <data name="cbB2CustomUrl.Text" xml:space="preserve">
+    <value>Gunakan URL kustom:</value>
+  </data>
+  <data name="lblFirebaseDomainExample.Text" xml:space="preserve">
+    <value>Contoh: google.page.link</value>
+  </data>
+  <data name="lblKuttDomain.Text" xml:space="preserve">
+    <value>Domain:</value>
+  </data>
+  <data name="lblKuttPassword.Text" xml:space="preserve">
+    <value>Kata sandi:</value>
+  </data>
+  <data name="cbKuttReuse.Text" xml:space="preserve">
+    <value>Jika URL dengan target yang ditentukan ada, kembalikan URL tersebut</value>
+  </data>
+  <data name="lblKuttAPIKey.Text" xml:space="preserve">
+    <value>Kunci API:</value>
+  </data>
+  <data name="lblKuttHost.Text" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="lblZWSToken.Text" xml:space="preserve">
+    <value>Token:</value>
+  </data>
+  <data name="lblZWSURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblBoxShareAccessLevel.Text" xml:space="preserve">
+    <value>Tingkat akses tautan bersama:</value>
+  </data>
+  <data name="cbAmazonS3SignedPayload.Text" xml:space="preserve">
+    <value>Payload bertanda tangan</value>
+  </data>
+  <data name="lblGoogleCloudStorageStripExtension.Text" xml:space="preserve">
+    <value>Hapus ekstensi file pada:</value>
+  </data>
+  <data name="cbGoogleCloudStorageStripExtensionText.Text" xml:space="preserve">
+    <value>Teks</value>
+  </data>
+  <data name="cbGoogleCloudStorageStripExtensionVideo.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="cbGoogleCloudStorageSetPublicACL.Text" xml:space="preserve">
+    <value>Atur ACL public-read pada file</value>
+  </data>
+  <data name="cbGoogleCloudStorageStripExtensionImage.Text" xml:space="preserve">
+    <value>Gambar</value>
+  </data>
+  <data name="gbGoogleCloudStorageAdvanced.Text" xml:space="preserve">
+    <value>Lanjutan</value>
+  </data>
+  <data name="lblGoogleCloudStoragePathPreview.Text" xml:space="preserve">
+    <value>Pratinjau</value>
+  </data>
+  <data name="lblGoogleCloudStoragePathPreviewLabel.Text" xml:space="preserve">
+    <value>Pratinjau URL:</value>
+  </data>
+  <data name="lblGoogleCloudStorageObjectPrefix.Text" xml:space="preserve">
+    <value>Jalur unggahan:</value>
+  </data>
+  <data name="lblGoogleCloudStorageDomain.Text" xml:space="preserve">
+    <value>Domain kustom:</value>
+  </data>
+  <data name="lblGoogleCloudStorageBucket.Text" xml:space="preserve">
+    <value>Nama bucket:</value>
+  </data>
+  <data name="lblAzureStorageCacheControl.Text" xml:space="preserve">
+    <value>Header Cache-Control:</value>
+  </data>
+  <data name="lblAzureStorageURLPreview.Text" xml:space="preserve">
+    <value>Pratinjau</value>
+  </data>
+  <data name="lblAzureStorageURLPreviewLabel.Text" xml:space="preserve">
+    <value>Pratinjau URL:</value>
+  </data>
+  <data name="lblAzureStorageUploadPath.Text" xml:space="preserve">
+    <value>Jalur unggahan:</value>
+  </data>
+  <data name="lblB2UrlPreview.Text" xml:space="preserve">
+    <value>Pratinjau</value>
+  </data>
+  <data name="lblB2ManageLink.Text" xml:space="preserve">
+    <value>Klik di sini untuk membuat Application Key atau mengelola bucket Anda.</value>
+  </data>
+  <data name="lblB2UrlPreviewLabel.Text" xml:space="preserve">
+    <value>Pratinjau URL:</value>
+  </data>
+  <data name="lblB2Bucket.Text" xml:space="preserve">
+    <value>Nama bucket:</value>
+  </data>
+  <data name="lblB2UploadPath.Text" xml:space="preserve">
+    <value>Jalur unggahan:</value>
+  </data>
+  <data name="lblB2ApplicationKey.Text" xml:space="preserve">
+    <value>Kunci aplikasi (rahasia):</value>
+  </data>
+  <data name="lblB2ApplicationKeyId.Text" xml:space="preserve">
+    <value>ID Kunci Aplikasi:</value>
+  </data>
+  <data name="cbOwnCloudAppendFileNameToURL.Text" xml:space="preserve">
+    <value>Tambahkan nama file ke URL</value>
+  </data>
+  <data name="cbOwnCloudAutoExpire.Text" xml:space="preserve">
+    <value>Kedaluwarsakan tautan bersama otomatis</value>
+  </data>
+  <data name="lblOwnCloudExpiryTime.Text" xml:space="preserve">
+    <value>Waktu kedaluwarsa (hari):</value>
+  </data>
+  <data name="cbSeafileCreateShareableURLRaw.Text" xml:space="preserve">
+    <value>Gunakan URL mentah</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items" xml:space="preserve">
+    <value>hari</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items1" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items2" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="cbPlikTTLUnit.Items3" xml:space="preserve">
+    <value>tidak pernah</value>
+  </data>
+  <data name="lblYouTubePermissionsTip.Text" xml:space="preserve">
+    <value>Anda dapat mencabut akses kapan saja menggunakan tautan di bawah:</value>
+  </data>
+  <data name="cbYouTubeShowDialog.Text" xml:space="preserve">
+    <value>Tampilkan dialog opsi video</value>
+  </data>
+  <data name="btnSharedFolderDuplicate.Text" xml:space="preserve">
+    <value>Duplikat</value>
+  </data>
+  <data name="btnSharedFolderRemove.Text" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="btnSharedFolderAdd.Text" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="lblPrivateBinCustomUrl.Text" xml:space="preserve">
+    <value>URL kustom:</value>
+  </data>
+  <data name="lblPrivateBinExpiration.Text" xml:space="preserve">
+    <value>Kedaluwarsa:</value>
+  </data>
+  <data name="lblPrivateBinFormat.Text" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="lblPrivateBinPastePassword.Text" xml:space="preserve">
+    <value>Kata sandi tempel:</value>
+  </data>
+  <data name="cbPrivateBinBurnAfterReading.Text" xml:space="preserve">
+    <value>Hapus setelah dibaca</value>
   </data>
 </root>

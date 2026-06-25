@@ -159,29 +159,8 @@
   <data name="lblMargin.Text" xml:space="preserve">
     <value>外距：</value>
   </data>
-  <data name="lblMarginValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="lblPadding.Text" xml:space="preserve">
     <value>內距：</value>
-  </data>
-  <data name="lblPaddingValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblRoundedCornerValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblShadowAngleValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblShadowDistanceValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblShadowOpacityValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblShadowRadiusValue.Text" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="lblShadowAngle.Text" xml:space="preserve">
     <value>角度：</value>

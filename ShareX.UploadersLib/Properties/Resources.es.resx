@@ -175,4 +175,97 @@ Creado carpetas:</value>
   <data name="OneDrive_RootFolder_Root_folder" xml:space="preserve">
     <value>Carpeta raíz</value>
   </data>
+  <data name="UploadersConfigForm_FTPOpenClient_Unable_to_find_valid_FTP_account_" xml:space="preserve">
+    <value>No se pudo encontrar una cuenta FTP válida.</value>
+  </data>
+  <data name="UploadersConfigForm_Remove_all_custom_uploaders_Confirmation" xml:space="preserve">
+    <value>Quitar all personalizado subidaers?</value>
+  </data>
+  <data name="OAuthControl_OAuthControl_PasteVerificationCodeHere" xml:space="preserve">
+    <value>Pegue aquí el código de verificación</value>
+  </data>
+  <data name="UploadersConfigForm_ConnectSFTPAccount_Key_file_not_found" xml:space="preserve">
+    <value>Key archivo does not exist.</value>
+  </data>
+  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_RequestURLMustBeConfigured" xml:space="preserve">
+    <value>Debe configurarse "URL de solicitud".</value>
+  </data>
+  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_DestinationTypeMustBeConfigured" xml:space="preserve">
+    <value>Debe configurarse "Tipo de destino".</value>
+  </data>
+  <data name="CustomUploaderItem_GetRequestURL_RequestURLMustBeConfigured" xml:space="preserve">
+    <value>Debe configurarse "URL de solicitud".</value>
+  </data>
+  <data name="CustomUploaderItem_GetFileFormName_FileFormNameMustBeConfigured" xml:space="preserve">
+    <value>"Archivo form name" must be configured.</value>
+  </data>
+  <data name="UploadersConfigForm_UpdatePastebinStatus_NotLoggedIn" xml:space="preserve">
+    <value>No ha iniciado sesión.</value>
+  </data>
+  <data name="UploadersConfigForm_UpdatePastebinStatus_LoggedIn" xml:space="preserve">
+    <value>Sesión iniciada.</value>
+  </data>
+  <data name="OAuthControl_Status_NotLoggedIn" xml:space="preserve">
+    <value>No ha iniciado sesión.</value>
+  </data>
+  <data name="OAuthControl_Status_LoggedIn" xml:space="preserve">
+    <value>Sesión iniciada.</value>
+  </data>
+  <data name="OAuthControl_Status_LoginFailed" xml:space="preserve">
+    <value>Error de inicio de sesión.</value>
+  </data>
+  <data name="txtB2BucketWatermark" xml:space="preserve">
+    <value>(Opcional) Solo se usa si no configuró un bucket al crear la clave</value>
+  </data>
+  <data name="DuplicateNameNotAllowed" xml:space="preserve">
+    <value>No se permite un nombre duplicado.</value>
+  </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>Mi unidad</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Exportar failed.</value>
+  </data>
+  <data name="LoggedInAs0" xml:space="preserve">
+    <value>Sesión iniciada como {0}.</value>
+  </data>
+  <data name="FormattingFailed_JSON" xml:space="preserve">
+    <value>Error de formato.</value>
+  </data>
+  <data name="FormattingFailed_XML" xml:space="preserve">
+    <value>Error de formato.</value>
+  </data>
+  <data name="ShortenedURL" xml:space="preserve">
+    <value>URL acortada</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ThumbnailURL" xml:space="preserve">
+    <value>Miniatura URL</value>
+  </data>
+  <data name="DeletionURL" xml:space="preserve">
+    <value>URL de eliminación</value>
+  </data>
+  <data name="StatusCode" xml:space="preserve">
+    <value>Estado code</value>
+  </data>
+  <data name="ResponseURL" xml:space="preserve">
+    <value>URL de respuesta</value>
+  </data>
+  <data name="ResponseText" xml:space="preserve">
+    <value>Texto de respuesta</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Encabezados</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Conectar...</value>
+  </data>
 </root>

@@ -1737,11 +1737,6 @@ namespace ShareX
             TaskHelpers.OpenImageEditor();
         }
 
-        private void tsmiImageComparer_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenImageComparer();
-        }
-
         private void tsmiImageBeautifier_Click(object sender, EventArgs e)
         {
             TaskHelpers.OpenImageBeautifier();
@@ -1755,6 +1750,11 @@ namespace ShareX
         private void tsmiImageViewer_Click(object sender, EventArgs e)
         {
             TaskHelpers.OpenImageViewer();
+        }
+
+        private void tsmiImageComparer_Click(object sender, EventArgs e)
+        {
+            TaskHelpers.OpenImageComparer();
         }
 
         private void tsmiImageCombiner_Click(object sender, EventArgs e)

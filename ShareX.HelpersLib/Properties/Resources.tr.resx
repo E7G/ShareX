@@ -1322,4 +1322,7 @@
   <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
     <value>Klasör yolunu panoya kopyala</value>
   </data>
+  <data name="HotkeyType_ImageComparer" xml:space="preserve">
+    <value>Görsel karşılaştırıcı</value>
+  </data>
 </root>

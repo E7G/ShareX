@@ -135,4 +135,10 @@
   <data name="cbRememberWindowState.Text" xml:space="preserve">
     <value>Fensterstatus merken</value>
   </data>
+  <data name="cbImageOnly.Text" xml:space="preserve">
+    <value>Nur Bilddateien anzeigen</value>
+  </data>
+  <data name="cbAutoLoadMoreItems.Text" xml:space="preserve">
+    <value>Automatisch weitere Bilder laden</value>
+  </data>
 </root>

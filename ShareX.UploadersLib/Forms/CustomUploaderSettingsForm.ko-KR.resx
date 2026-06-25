@@ -153,4 +153,91 @@
   <data name="cParametersName.HeaderText" xml:space="preserve">
     <value>이름</value>
   </data>
+  <data name="btnTextUploaderTest.Text" xml:space="preserve">
+    <value>테스트</value>
+  </data>
+  <data name="lblURLShortener.Text" xml:space="preserve">
+    <value>URL 단축기:</value>
+  </data>
+  <data name="btnURLShortenerTest.Text" xml:space="preserve">
+    <value>테스트</value>
+  </data>
+  <data name="lblTextUploader.Text" xml:space="preserve">
+    <value>Text 업로드er:</value>
+  </data>
+  <data name="tsmiCustomUploaderGuide.Text" xml:space="preserve">
+    <value>사용자 지정 업로드er guide...</value>
+  </data>
+  <data name="tsmiClearUploaders.Text" xml:space="preserve">
+    <value>Clear 업로드ers...</value>
+  </data>
+  <data name="tsmiExportAll.Text" xml:space="preserve">
+    <value>내보내기 all...</value>
+  </data>
+  <data name="tsmiUpdateFolder.Text" xml:space="preserve">
+    <value>Update 폴더...</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>새로 만들기</value>
+  </data>
+  <data name="btnDuplicate.Text" xml:space="preserve">
+    <value>복제</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="btnImageUploaderTest.Text" xml:space="preserve">
+    <value>테스트</value>
+  </data>
+  <data name="lblFileUploader.Text" xml:space="preserve">
+    <value>파일 업로드er:</value>
+  </data>
+  <data name="btnFileUploaderTest.Text" xml:space="preserve">
+    <value>테스트</value>
+  </data>
+  <data name="lblImageUploader.Text" xml:space="preserve">
+    <value>이미지 업로드er:</value>
+  </data>
+  <data name="cHeadersName.HeaderText" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="cHeadersValue.HeaderText" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="cParametersValue.HeaderText" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="lblRequestURL.Text" xml:space="preserve">
+    <value>요청 URL:</value>
+  </data>
+  <data name="lblBody.Text" xml:space="preserve">
+    <value>본문:</value>
+  </data>
+  <data name="lblFileFormName.Text" xml:space="preserve">
+    <value>파일 form name:</value>
+  </data>
+  <data name="btnDataBeautify.Text" xml:space="preserve">
+    <value>보기 좋게</value>
+  </data>
+  <data name="btnDataMinify.Text" xml:space="preserve">
+    <value>Minify</value>
+  </data>
+  <data name="lblResultErrorMessage.Text" xml:space="preserve">
+    <value>오류 message:</value>
+  </data>
+  <data name="lblResultDeletionURL.Text" xml:space="preserve">
+    <value>삭제 URL:</value>
+  </data>
+  <data name="lblResultURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="mbDestinationType.ToolTip" xml:space="preserve">
+    <value>Currently destination type is used when users 가져오기 사용자 지정 업로드er by double clicking the .sxcu 파일.</value>
+  </data>
+  <data name="lblUploaders.Text" xml:space="preserve">
+    <value>업로드ers:</value>
+  </data>
+  <data name="btnTestURLSyntax.Text" xml:space="preserve">
+    <value>테스트...</value>
+  </data>
 </root>

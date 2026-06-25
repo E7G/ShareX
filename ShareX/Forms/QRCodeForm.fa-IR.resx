@@ -120,4 +120,31 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - کد QR</value>
   </data>
+  <data name="lblQRCodeSize.Text" xml:space="preserve">
+    <value>اندازه کد QR:</value>
+  </data>
+  <data name="lblQRCode.Text" xml:space="preserve">
+    <value>کد QR:</value>
+  </data>
+  <data name="lblText.Text" xml:space="preserve">
+    <value>متن:</value>
+  </data>
+  <data name="btnCopyImage.Text" xml:space="preserve">
+    <value>کپی تصویر</value>
+  </data>
+  <data name="btnSaveImage.Text" xml:space="preserve">
+    <value>ذخیره تصویر...</value>
+  </data>
+  <data name="btnUploadImage.Text" xml:space="preserve">
+    <value>بارگذاری تصویر</value>
+  </data>
+  <data name="btnScanScreen.Text" xml:space="preserve">
+    <value>اسکن صفحه</value>
+  </data>
+  <data name="btnScanRegion.Text" xml:space="preserve">
+    <value>اسکن ناحیه...</value>
+  </data>
+  <data name="btnScanImageFile.Text" xml:space="preserve">
+    <value>اسکن فایل تصویر...</value>
+  </data>
 </root>

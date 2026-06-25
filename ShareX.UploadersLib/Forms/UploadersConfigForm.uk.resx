@@ -978,4 +978,31 @@
   <data name="lblLambdaInfo.Text" xml:space="preserve">
     <value>Щоб отримати ключ API, увійдіть до Lambda за адресою https://lambda.sx/, натисніть на своє ім'я користувача, а потім натисніть "Керувати обліковим записом".</value>
   </data>
+  <data name="lblPrivateBinPassword.Text" xml:space="preserve">
+    <value>Пароль:</value>
+  </data>
+  <data name="lblPrivateBinUsername.Text" xml:space="preserve">
+    <value>Ім'я користувача:</value>
+  </data>
+  <data name="gbPrivateBinCredentials.Text" xml:space="preserve">
+    <value>Облікові дані</value>
+  </data>
+  <data name="gbPrivateBinCredentials.ToolTip" xml:space="preserve">
+    <value>Деякі сервери можуть вимагати додаткової авторизації</value>
+  </data>
+  <data name="lblPrivateBinCustomUrl.Text" xml:space="preserve">
+    <value>Власна URL-адреса:</value>
+  </data>
+  <data name="lblPrivateBinExpiration.Text" xml:space="preserve">
+    <value>Закінчення терміну:</value>
+  </data>
+  <data name="lblPrivateBinFormat.Text" xml:space="preserve">
+    <value>Формат:</value>
+  </data>
+  <data name="lblPrivateBinPastePassword.Text" xml:space="preserve">
+    <value>Пароль вставки:</value>
+  </data>
+  <data name="cbPrivateBinBurnAfterReading.Text" xml:space="preserve">
+    <value>Знищити після прочитання</value>
+  </data>
 </root>

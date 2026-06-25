@@ -135,4 +135,16 @@
   <data name="lblTarget.Text" xml:space="preserve">
     <value>타겟:</value>
   </data>
+  <data name="lblFilePath.Text" xml:space="preserve">
+    <value>파일 경로:</value>
+  </data>
+  <data name="lblFilePath2.Text" xml:space="preserve">
+    <value>파일 경로:</value>
+  </data>
+  <data name="btnFilePathBrowse2.Text" xml:space="preserve">
+    <value>찾아보기...</value>
+  </data>
+  <data name="cbCompareTwoFiles.Text" xml:space="preserve">
+    <value>Compare two 파일s</value>
+  </data>
 </root>

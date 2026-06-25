@@ -651,4 +651,19 @@
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>サービスのリンクを開いた後、OCRのウィンドウを閉じる</value>
   </data>
+  <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
+    <value>デスクトップアイコンを自動的に非表示</value>
+  </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>中央の十字線を表示</value>
+  </data>
+  <data name="lblGIFFPS.Text" xml:space="preserve">
+    <value>GIF FPS:</value>
+  </data>
+  <data name="tpOCR.Text" xml:space="preserve">
+    <value>OCR</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>レガシー画像エディターを使用</value>
+  </data>
 </root>

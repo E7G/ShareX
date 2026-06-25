@@ -138,4 +138,13 @@
   <data name="lblText.Text" xml:space="preserve">
     <value>Texte :</value>
   </data>
+  <data name="btnScanScreen.Text" xml:space="preserve">
+    <value>Scanner l’écran</value>
+  </data>
+  <data name="btnScanRegion.Text" xml:space="preserve">
+    <value>Scanner une région...</value>
+  </data>
+  <data name="btnScanImageFile.Text" xml:space="preserve">
+    <value>Scanner un fichier image...</value>
+  </data>
 </root>

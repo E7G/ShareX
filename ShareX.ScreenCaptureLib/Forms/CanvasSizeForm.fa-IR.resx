@@ -132,4 +132,13 @@
   <data name="lblBottom.Text" xml:space="preserve">
     <value>زیر:</value>
   </data>
+  <data name="lblLeft.Text" xml:space="preserve">
+    <value>چپ:</value>
+  </data>
+  <data name="cbtnCanvasColor.Text" xml:space="preserve">
+    <value>Canvas رنگ...</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - اندازه بوم</value>
+  </data>
 </root>

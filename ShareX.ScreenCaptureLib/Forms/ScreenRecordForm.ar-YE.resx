@@ -123,9 +123,6 @@
   <data name="btnPause.Text" xml:space="preserve">
     <value>إيقاف مؤقت</value>
   </data>
-  <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - تسجيل الشاشة</value>
   </data>

@@ -157,4 +157,22 @@
   <data name="chFilepath.Text" xml:space="preserve">
     <value>مسیر فایل عکس</value>
   </data>
+  <data name="lblImageAlignment.Text" xml:space="preserve">
+    <value>تصویر alignment:</value>
+  </data>
+  <data name="rbOrientationHorizontal.Text" xml:space="preserve">
+    <value>افقی</value>
+  </data>
+  <data name="rbOrientationVertical.Text" xml:space="preserve">
+    <value>عمودی</value>
+  </data>
+  <data name="cbAutoFillBackground.Text" xml:space="preserve">
+    <value>Auto fill پس‌زمینه</value>
+  </data>
+  <data name="lblWrapAfter.Text" xml:space="preserve">
+    <value>شکستن خط پس از:</value>
+  </data>
+  <data name="lblWrapAfterImages.Text" xml:space="preserve">
+    <value>تصویرs</value>
+  </data>
 </root>

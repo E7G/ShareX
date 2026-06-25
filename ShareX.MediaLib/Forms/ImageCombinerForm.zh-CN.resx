@@ -165,7 +165,4 @@
   <data name="lblWrapAfter.Text" xml:space="preserve">
     <value>换行后：</value>
   </data>
-  <data name="lblImageCount.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
 </root>

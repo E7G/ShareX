@@ -228,4 +228,16 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Definições personalizadas de envio</value>
   </data>
+  <data name="tsmiClearUploaders.Text" xml:space="preserve">
+    <value>Clear carregamentoers...</value>
+  </data>
+  <data name="lblResultErrorMessage.Text" xml:space="preserve">
+    <value>Erro message:</value>
+  </data>
+  <data name="lblUploaders.Text" xml:space="preserve">
+    <value>Carregarers:</value>
+  </data>
+  <data name="btnTestURLSyntax.Text" xml:space="preserve">
+    <value>Testar...</value>
+  </data>
 </root>

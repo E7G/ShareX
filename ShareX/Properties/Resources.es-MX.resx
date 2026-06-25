@@ -294,7 +294,7 @@ Elija "No" para cancelar y deshabilitar la subida automática.</value>
     <value>El nombre no puede estar vacío.</value>
   </data>
   <data name="FileExistForm_txtNewName_TextChanged_Use_new_name__" xml:space="preserve">
-    <value>Usar nuevo nombre:</value>
+    <value>Usar nuevo nombre: </value>
   </data>
   <data name="UploadManager_IsUploadConfirmed_Don_t_show_this_message_again_" xml:space="preserve">
     <value>No volver a mostrar este mensaje.</value>
@@ -636,5 +636,11 @@ Clic medio para cerrar</value>
   </data>
   <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
     <value>La descarga falló: {0}</value>
+  </data>
+  <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
+    <value>Árabe</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>Donar</value>
   </data>
 </root>

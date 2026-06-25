@@ -123,4 +123,34 @@
   <data name="tpWebBrowser.Text" xml:space="preserve">
     <value>مرورگر وب</value>
   </data>
+  <data name="tsbResponseTextJSONFormat.Text" xml:space="preserve">
+    <value>قالب JSON</value>
+  </data>
+  <data name="tsbResponseTextXMLFormat.Text" xml:space="preserve">
+    <value>قالب XML</value>
+  </data>
+  <data name="tsbResponseTextCopy.Text" xml:space="preserve">
+    <value>کپی response</value>
+  </data>
+  <data name="tsbCopyShortenedURL.Text" xml:space="preserve">
+    <value>کپی shortened URL</value>
+  </data>
+  <data name="tsbCopyURL.Text" xml:space="preserve">
+    <value>کپی URL</value>
+  </data>
+  <data name="tsbCopyThumbnailURL.Text" xml:space="preserve">
+    <value>کپی بندانگشتی URL</value>
+  </data>
+  <data name="tsbCopyDeletionURL.Text" xml:space="preserve">
+    <value>کپی deletion URL</value>
+  </data>
+  <data name="tpResult.Text" xml:space="preserve">
+    <value>نتیجه</value>
+  </data>
+  <data name="tpResponseInfo.Text" xml:space="preserve">
+    <value>اطلاعات پاسخ</value>
+  </data>
+  <data name="tpResponseText.Text" xml:space="preserve">
+    <value>متن پاسخ</value>
+  </data>
 </root>

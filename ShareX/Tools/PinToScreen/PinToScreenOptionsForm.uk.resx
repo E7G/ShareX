@@ -153,4 +153,7 @@
   <data name="lblPlacementOffset.Text" xml:space="preserve">
     <value>Відступ розміщення:</value>
   </data>
+  <data name="lblScaleStep.Text" xml:space="preserve">
+    <value>Крок масштабу:</value>
+  </data>
 </root>

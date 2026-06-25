@@ -214,4 +214,19 @@ Wyższa wartość oznacza złą jakość, ale niski rozmiar pliku.</value>
   <data name="lblVideoEncoder.Text" xml:space="preserve">
     <value>Enkoder wideo:</value>
   </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Szybkość transmisji:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Szybkość transmisji:</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Dostrajanie:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Szybkość transmisji:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Resetuj opcje...</value>
+  </data>
 </root>

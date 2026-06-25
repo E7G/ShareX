@@ -180,4 +180,7 @@
   <data name="mbLoadImage.Text" xml:space="preserve">
     <value>Încărcați imaginea</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - Imagine effects</value>
+  </data>
 </root>

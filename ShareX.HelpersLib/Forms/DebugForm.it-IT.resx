@@ -132,4 +132,7 @@
   <data name="btnLoadedAssemblies.Text" xml:space="preserve">
     <value>Assemblati Caricati</value>
   </data>
+  <data name="btnUploadLog.Text" xml:space="preserve">
+    <value>Carica log...</value>
+  </data>
 </root>

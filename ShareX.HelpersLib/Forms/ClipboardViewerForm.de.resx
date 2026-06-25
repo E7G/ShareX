@@ -126,4 +126,7 @@
   <data name="btnClearClipboard.Text" xml:space="preserve">
     <value>Leeren</value>
   </data>
+  <data name="chFormat.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
 </root>

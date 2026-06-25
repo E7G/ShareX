@@ -132,4 +132,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Pengaturan tombol cepat</value>
   </data>
+  <data name="btnHotkeysDisabled.Text" xml:space="preserve">
+    <value>Tombol pintas dinonaktifkan. Anda dapat mengeklik di sini untuk mengaktifkannya.</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Atur ulang...</value>
+  </data>
 </root>

@@ -177,4 +177,19 @@
   <data name="tsrbmiGradientHorizontal.Text" xml:space="preserve">
     <value>افقی</value>
   </data>
+  <data name="btnGradient.ToolTip" xml:space="preserve">
+    <value>گرادیان</value>
+  </data>
+  <data name="tsmiEnableGradient.Text" xml:space="preserve">
+    <value>فعال‌سازی گرادیان</value>
+  </data>
+  <data name="tsrbmiGradientForwardDiagonal.Text" xml:space="preserve">
+    <value>مورب رو به جلو</value>
+  </data>
+  <data name="tsrbmiGradientBackwardDiagonal.Text" xml:space="preserve">
+    <value>مورب رو به عقب</value>
+  </data>
+  <data name="tsmiGradientMode.Text" xml:space="preserve">
+    <value>حالت گرادیان</value>
+  </data>
 </root>

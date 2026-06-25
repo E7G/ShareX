@@ -135,4 +135,7 @@
   <data name="lblVerificationCode.Text" xml:space="preserve">
     <value>Ellenőrző kód (a felhatalmazó oldalról szerezheted meg):</value>
   </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Állapot:</value>
+  </data>
 </root>

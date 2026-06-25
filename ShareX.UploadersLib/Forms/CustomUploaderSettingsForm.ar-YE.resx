@@ -240,7 +240,4 @@
   <data name="tsmiClearUploaders.Text" xml:space="preserve">
     <value>مسح الرافعين...</value>
   </data>
-  <data name="mbHelp.Text" xml:space="preserve">
-    <value>؟</value>
-  </data>
 </root>

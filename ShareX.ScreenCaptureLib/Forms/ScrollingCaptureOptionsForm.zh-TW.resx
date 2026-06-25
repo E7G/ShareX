@@ -156,4 +156,7 @@
   <data name="lblScrollAmount.Text" xml:space="preserve">
     <value>捲動次數：</value>
   </data>
+  <data name="lblScrollMethod.Text" xml:space="preserve">
+    <value>捲動方式：</value>
+  </data>
 </root>

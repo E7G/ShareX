@@ -150,4 +150,10 @@
   <data name="cbTopMost.Text" xml:space="preserve">
     <value>Vordergrund</value>
   </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="lblScaleStep.Text" xml:space="preserve">
+    <value>Skalierungsschritt:</value>
+  </data>
 </root>

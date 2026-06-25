@@ -262,4 +262,10 @@ Hergestellte Ordner:</value>
   <data name="Connect" xml:space="preserve">
     <value>Verbinden...</value>
   </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Header</value>
+  </data>
 </root>

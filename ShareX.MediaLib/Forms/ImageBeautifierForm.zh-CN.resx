@@ -174,25 +174,4 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - 图片美化工具</value>
   </data>
-  <data name="lblShadowRadiusValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblShadowAngleValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblShadowDistanceValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblShadowOpacityValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblRoundedCornerValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblPaddingValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblMarginValue.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
 </root>

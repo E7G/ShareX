@@ -154,21 +154,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - تست صفحه نمایش</value>
   </data>
-  <data name="lblBlackWhiteValue.Text" xml:space="preserve">
-    <value>۰</value>
-  </data>
-  <data name="lblRedValue.Text" xml:space="preserve">
-    <value>۰</value>
-  </data>
-  <data name="lblBlueValue.Text" xml:space="preserve">
-    <value>۰</value>
-  </data>
-  <data name="lblGreenValue.Text" xml:space="preserve">
-    <value>۰</value>
-  </data>
-  <data name="lblShapeSizeValue.Text" xml:space="preserve">
-    <value>۱</value>
-  </data>
   <data name="btnColorDialog.Text" xml:space="preserve">
     <value>پنجره رنگ ...</value>
   </data>
@@ -177,5 +162,26 @@
   </data>
   <data name="lblTip.Text" xml:space="preserve">
     <value>راهنما: برای مخفی کردن/نمایش این پنجره، خارج این پنجره کلیک کنید.</value>
+  </data>
+  <data name="btnGradientColor1.Text" xml:space="preserve">
+    <value>رنگ 1</value>
+  </data>
+  <data name="rbGradient.Text" xml:space="preserve">
+    <value>گرادیان:</value>
+  </data>
+  <data name="cbShapes.Items" xml:space="preserve">
+    <value>افقی lines</value>
+  </data>
+  <data name="cbShapes.Items2" xml:space="preserve">
+    <value>شطرنجی</value>
+  </data>
+  <data name="lblBlue.Text" xml:space="preserve">
+    <value>B:</value>
+  </data>
+  <data name="lblGreen.Text" xml:space="preserve">
+    <value>G:</value>
+  </data>
+  <data name="lblRed.Text" xml:space="preserve">
+    <value>R:</value>
   </data>
 </root>

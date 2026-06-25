@@ -262,4 +262,10 @@ Pastas criadas:</value>
   <data name="Error" xml:space="preserve">
     <value>Erro</value>
   </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Conectar...</value>
+  </data>
 </root>

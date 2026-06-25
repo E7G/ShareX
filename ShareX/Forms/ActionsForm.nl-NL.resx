@@ -144,4 +144,7 @@
   <data name="cbHiddenWindow.Text" xml:space="preserve">
     <value>Verborgen scherm</value>
   </data>
+  <data name="cbDeleteInputFile.Text" xml:space="preserve">
+    <value>Invoerbestand verwijderen</value>
+  </data>
 </root>

@@ -135,4 +135,16 @@
   <data name="lblTarget.Text" xml:space="preserve">
     <value>Destino:</value>
   </data>
+  <data name="lblFilePath.Text" xml:space="preserve">
+    <value>Archivo ruta:</value>
+  </data>
+  <data name="lblFilePath2.Text" xml:space="preserve">
+    <value>Archivo ruta:</value>
+  </data>
+  <data name="btnFilePathBrowse2.Text" xml:space="preserve">
+    <value>Examinar...</value>
+  </data>
+  <data name="cbCompareTwoFiles.Text" xml:space="preserve">
+    <value>Compare two archivos</value>
+  </data>
 </root>

@@ -127,12 +127,9 @@
     <value>크기:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 스티커 </value>
+    <value>ShareX - 스티커</value>
   </data>
   <data name="tsbEditStickers.Text" xml:space="preserve">
     <value>스티커 팩 편집</value>
-  </data>
-  <data name="tsnudSize.Text" xml:space="preserve">
-    <value>64</value>
   </data>
 </root>

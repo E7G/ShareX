@@ -150,4 +150,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Ajustes de fijar a pantalla</value>
   </data>
+  <data name="cbTopMost.Text" xml:space="preserve">
+    <value>Siempre encima</value>
+  </data>
+  <data name="lblScaleStep.Text" xml:space="preserve">
+    <value>Paso de escala:</value>
+  </data>
 </root>

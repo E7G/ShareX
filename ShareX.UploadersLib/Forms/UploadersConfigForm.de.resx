@@ -633,9 +633,6 @@ Das Benutzen einer verschlüsselten Bibliothek deaktiviert das Teilen.</value>
   <data name="lblFirebaseWebAPIKey.Text" xml:space="preserve">
     <value>Web API Schlüssel:</value>
   </data>
-  <data name="tpFirebaseDynamicLinks.Text" xml:space="preserve">
-    <value>Firebase dynamische Links</value>
-  </data>
   <data name="lblKuttPassword.Text" xml:space="preserve">
     <value>Passwort:</value>
   </data>
@@ -899,5 +896,113 @@ Das Benutzen einer verschlüsselten Bibliothek deaktiviert das Teilen.</value>
   </data>
   <data name="lvlVgymeUserKey.Text" xml:space="preserve">
     <value>Benutzerschlüssel:</value>
+  </data>
+  <data name="lblPrivateBinPassword.Text" xml:space="preserve">
+    <value>Passwort:</value>
+  </data>
+  <data name="lblPrivateBinUsername.Text" xml:space="preserve">
+    <value>Benutzername:</value>
+  </data>
+  <data name="gbPrivateBinCredentials.Text" xml:space="preserve">
+    <value>Anmeldedaten</value>
+  </data>
+  <data name="gbPrivateBinCredentials.ToolTip" xml:space="preserve">
+    <value>Einige Server erfordern möglicherweise eine zusätzliche Autorisierung</value>
+  </data>
+  <data name="lblYourlsAPIURL.Text" xml:space="preserve">
+    <value>API-URL:</value>
+  </data>
+  <data name="lblFirebaseDomain.Text" xml:space="preserve">
+    <value>Domain:</value>
+  </data>
+  <data name="lblKuttDomain.Text" xml:space="preserve">
+    <value>Domain:</value>
+  </data>
+  <data name="lblKuttHost.Text" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="lblZWSToken.Text" xml:space="preserve">
+    <value>Token:</value>
+  </data>
+  <data name="lblZWSURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblFTPName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblFTPHost.Text" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="lblFTPPort.Text" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="btnFTPTest.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="lblFTPText.Text" xml:space="preserve">
+    <value>Text:</value>
+  </data>
+  <data name="btnPuushLogin.Text" xml:space="preserve">
+    <value>Anmelden</value>
+  </data>
+  <data name="lblPuushEmail.Text" xml:space="preserve">
+    <value>E-Mail:</value>
+  </data>
+  <data name="cbAmazonS3SignedPayload.Text" xml:space="preserve">
+    <value>Signierte Nutzlast</value>
+  </data>
+  <data name="cbAmazonS3StripExtensionText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="cbAmazonS3StripExtensionVideo.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="lblAmazonS3StorageClass.Text" xml:space="preserve">
+    <value>Speicherklasse:</value>
+  </data>
+  <data name="lblAmazonS3Region.Text" xml:space="preserve">
+    <value>Region:</value>
+  </data>
+  <data name="cbGoogleCloudStorageStripExtensionText.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="cbGoogleCloudStorageStripExtensionVideo.Text" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="lblAzureStorageCacheControl.Text" xml:space="preserve">
+    <value>Cache-Control-Header:</value>
+  </data>
+  <data name="lblAzureStorageEnvironment.Text" xml:space="preserve">
+    <value>Umgebung:</value>
+  </data>
+  <data name="lblAzureStorageContainer.Text" xml:space="preserve">
+    <value>Container:</value>
+  </data>
+  <data name="lblSeafileAPIURL.Text" xml:space="preserve">
+    <value>API-URL:</value>
+  </data>
+  <data name="lblLithiioEmail.Text" xml:space="preserve">
+    <value>E-Mail:</value>
+  </data>
+  <data name="lblPlikURL.Text" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="lblPrivateBinCustomUrl.Text" xml:space="preserve">
+    <value>Benutzerdefinierte URL:</value>
+  </data>
+  <data name="lblPrivateBinExpiration.Text" xml:space="preserve">
+    <value>Ablauf:</value>
+  </data>
+  <data name="lblPrivateBinFormat.Text" xml:space="preserve">
+    <value>Format:</value>
+  </data>
+  <data name="lblPrivateBinPastePassword.Text" xml:space="preserve">
+    <value>Einfügepasswort:</value>
+  </data>
+  <data name="cbPrivateBinBurnAfterReading.Text" xml:space="preserve">
+    <value>Nach dem Lesen vernichten</value>
+  </data>
+  <data name="chImgurID.Text" xml:space="preserve">
+    <value>ID</value>
   </data>
 </root>

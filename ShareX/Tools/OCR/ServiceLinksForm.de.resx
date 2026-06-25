@@ -132,4 +132,10 @@
   <data name="btnReset.Text" xml:space="preserve">
     <value>Zurücksetzen</value>
   </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
 </root>

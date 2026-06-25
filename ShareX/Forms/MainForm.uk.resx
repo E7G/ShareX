@@ -762,4 +762,22 @@
   <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
     <value>Налаштування власних вивантажувачів...</value>
   </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>Порівняння зображень...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>Аналізувати зображення...</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>Аналізувати зображення...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>Порівняння зображень...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>Аналізувати зображення...</value>
+  </data>
 </root>

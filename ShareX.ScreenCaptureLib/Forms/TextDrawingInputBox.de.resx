@@ -189,4 +189,7 @@
   <data name="tsmiGradientMode.Text" xml:space="preserve">
     <value>Verlaufsmodus</value>
   </data>
+  <data name="tsrbmiGradientHorizontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
 </root>

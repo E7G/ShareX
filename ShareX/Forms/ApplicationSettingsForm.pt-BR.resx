@@ -420,4 +420,10 @@
   <data name="gbThumbnailView.Text" xml:space="preserve">
     <value>Exibição em miniatura</value>
   </data>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>Canal de atualização:</value>
+  </data>
+  <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
+    <value>Verificar atualizações automaticamente</value>
+  </data>
 </root>

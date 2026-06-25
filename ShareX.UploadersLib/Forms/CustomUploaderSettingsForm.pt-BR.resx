@@ -234,4 +234,10 @@
   <data name="lblBody.Text" xml:space="preserve">
     <value>Corpo:</value>
   </data>
+  <data name="btnDataBeautify.Text" xml:space="preserve">
+    <value>Embelezar</value>
+  </data>
+  <data name="btnDataMinify.Text" xml:space="preserve">
+    <value>Minificar</value>
+  </data>
 </root>

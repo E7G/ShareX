@@ -141,4 +141,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Convertor video</value>
   </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Video codificator:</value>
+  </data>
+  <data name="cbVideoQualityUseBitrate.Text" xml:space="preserve">
+    <value>Folosește rata de biți</value>
+  </data>
 </root>

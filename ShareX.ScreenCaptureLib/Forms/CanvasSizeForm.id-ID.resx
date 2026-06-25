@@ -138,4 +138,7 @@
   <data name="lblLeft.Text" xml:space="preserve">
     <value>Kiri:</value>
   </data>
+  <data name="cbtnCanvasColor.Text" xml:space="preserve">
+    <value>Warna kanvas...</value>
+  </data>
 </root>

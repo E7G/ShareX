@@ -132,4 +132,10 @@
   <data name="tsmiStart.Text" xml:space="preserve">
     <value>Iniciar</value>
   </data>
+  <data name="btnPause.Text" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="tsmiPause.Text" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
 </root>

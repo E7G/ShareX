@@ -200,4 +200,73 @@ Cartelle create:</value>
   <data name="CustomUploaderItem_GetFileFormName_FileFormNameMustBeConfigured" xml:space="preserve">
     <value>"Nome Modulo File" deve essere configurato.</value>
   </data>
+  <data name="UploadersConfigForm_UpdatePastebinStatus_NotLoggedIn" xml:space="preserve">
+    <value>Accesso non effettuato.</value>
+  </data>
+  <data name="UploadersConfigForm_UpdatePastebinStatus_LoggedIn" xml:space="preserve">
+    <value>Accesso effettuato.</value>
+  </data>
+  <data name="OAuthControl_Status_NotLoggedIn" xml:space="preserve">
+    <value>Accesso non effettuato.</value>
+  </data>
+  <data name="OAuthControl_Status_LoggedIn" xml:space="preserve">
+    <value>Accesso effettuato.</value>
+  </data>
+  <data name="OAuthControl_Status_LoginFailed" xml:space="preserve">
+    <value>Accesso non riuscito.</value>
+  </data>
+  <data name="txtB2BucketWatermark" xml:space="preserve">
+    <value>(Opzionale) Usato solo se non hai impostato un bucket quando hai creato la chiave</value>
+  </data>
+  <data name="DuplicateNameNotAllowed" xml:space="preserve">
+    <value>Nome duplicato non consentito.</value>
+  </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>Il mio Drive</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Esporta failed.</value>
+  </data>
+  <data name="LoggedInAs0" xml:space="preserve">
+    <value>Accesso effettuato come {0}.</value>
+  </data>
+  <data name="FormattingFailed_JSON" xml:space="preserve">
+    <value>Formattazione non riuscita.</value>
+  </data>
+  <data name="FormattingFailed_XML" xml:space="preserve">
+    <value>Formattazione non riuscita.</value>
+  </data>
+  <data name="ShortenedURL" xml:space="preserve">
+    <value>URL abbreviato</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ThumbnailURL" xml:space="preserve">
+    <value>Miniatura URL</value>
+  </data>
+  <data name="DeletionURL" xml:space="preserve">
+    <value>URL eliminazione</value>
+  </data>
+  <data name="StatusCode" xml:space="preserve">
+    <value>Stato code</value>
+  </data>
+  <data name="ResponseURL" xml:space="preserve">
+    <value>URL risposta</value>
+  </data>
+  <data name="ResponseText" xml:space="preserve">
+    <value>Testo risposta</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Intestazioni</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Disconnetti</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Connetti...</value>
+  </data>
 </root>

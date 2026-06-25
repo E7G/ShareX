@@ -142,4 +142,19 @@
   <data name="lblResult.Text" xml:space="preserve">
     <value>نتایج:</value>
   </data>
+  <data name="lblTarget.Text" xml:space="preserve">
+    <value>هدف:</value>
+  </data>
+  <data name="lblFilePath.Text" xml:space="preserve">
+    <value>فایل مسیر:</value>
+  </data>
+  <data name="lblFilePath2.Text" xml:space="preserve">
+    <value>فایل مسیر:</value>
+  </data>
+  <data name="btnFilePathBrowse2.Text" xml:space="preserve">
+    <value>مرور...</value>
+  </data>
+  <data name="cbCompareTwoFiles.Text" xml:space="preserve">
+    <value>Compare two فایلs</value>
+  </data>
 </root>

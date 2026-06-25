@@ -141,4 +141,43 @@
   <data name="chFilename.Text" xml:space="preserve">
     <value>파일 이름</value>
   </data>
+  <data name="chURL.Text" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>검색:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="tsbAdvancedSearch.Text" xml:space="preserve">
+    <value>고급 검색...</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>즐겨찾기</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>통계 표시...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>가져오기 폴더...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>설정...</value>
+  </data>
+  <data name="btnAdvancedSearchClose.Text" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="btnAdvancedSearchReset.Text" xml:space="preserve">
+    <value>재설정</value>
+  </data>
+  <data name="lblURLFilter.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblFilenameFilter.Text" xml:space="preserve">
+    <value>파일name:</value>
+  </data>
+  <data name="gbAdvancedSearch.Text" xml:space="preserve">
+    <value>고급 검색</value>
+  </data>
 </root>

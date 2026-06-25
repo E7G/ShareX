@@ -120,4 +120,7 @@
   <data name="btnHotkey.Text" xml:space="preserve">
     <value>Tasta rapidă</value>
   </data>
+  <data name="btnTask.Text" xml:space="preserve">
+    <value>Sarcină...</value>
+  </data>
 </root>

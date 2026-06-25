@@ -120,4 +120,124 @@
   <data name="lblBody.Text" xml:space="preserve">
     <value>Corp:</value>
   </data>
+  <data name="btnTextUploaderTest.Text" xml:space="preserve">
+    <value>Testează</value>
+  </data>
+  <data name="lblURLShortener.Text" xml:space="preserve">
+    <value>Scurtător URL:</value>
+  </data>
+  <data name="btnURLShortenerTest.Text" xml:space="preserve">
+    <value>Testează</value>
+  </data>
+  <data name="lblTextUploader.Text" xml:space="preserve">
+    <value>Text încărcareer:</value>
+  </data>
+  <data name="tsmiCustomUploaderGuide.Text" xml:space="preserve">
+    <value>Personalizat încărcareer guide...</value>
+  </data>
+  <data name="tsmiClearUploaders.Text" xml:space="preserve">
+    <value>Clear încărcareers...</value>
+  </data>
+  <data name="tsmiExportAll.Text" xml:space="preserve">
+    <value>Exportă all...</value>
+  </data>
+  <data name="tsmiUpdateFolder.Text" xml:space="preserve">
+    <value>Actualizează folderul...</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>Nou</value>
+  </data>
+  <data name="btnDuplicate.Text" xml:space="preserve">
+    <value>Duplică</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>Elimină</value>
+  </data>
+  <data name="btnImageUploaderTest.Text" xml:space="preserve">
+    <value>Testează</value>
+  </data>
+  <data name="lblFileUploader.Text" xml:space="preserve">
+    <value>Fișier încărcareer:</value>
+  </data>
+  <data name="btnFileUploaderTest.Text" xml:space="preserve">
+    <value>Testează</value>
+  </data>
+  <data name="lblImageUploader.Text" xml:space="preserve">
+    <value>Imagine încărcareer:</value>
+  </data>
+  <data name="cHeadersName.HeaderText" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="cHeadersValue.HeaderText" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
+  <data name="cParametersName.HeaderText" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="cParametersValue.HeaderText" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
+  <data name="lblHeaders.Text" xml:space="preserve">
+    <value>Antete:</value>
+  </data>
+  <data name="lblParameters.Text" xml:space="preserve">
+    <value>Parametri URL:</value>
+  </data>
+  <data name="lblRequestURL.Text" xml:space="preserve">
+    <value>URL cerere:</value>
+  </data>
+  <data name="lblRequestMethod.Text" xml:space="preserve">
+    <value>Metodă:</value>
+  </data>
+  <data name="cArgumentsName.HeaderText" xml:space="preserve">
+    <value>Nume</value>
+  </data>
+  <data name="cArgumentsValue.HeaderText" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
+  <data name="lblFileFormName.Text" xml:space="preserve">
+    <value>Fișier form name:</value>
+  </data>
+  <data name="btnDataBeautify.Text" xml:space="preserve">
+    <value>Înfrumusețează</value>
+  </data>
+  <data name="btnDataMinify.Text" xml:space="preserve">
+    <value>Minifică</value>
+  </data>
+  <data name="lblResultErrorMessage.Text" xml:space="preserve">
+    <value>Eroare message:</value>
+  </data>
+  <data name="lblResultDeletionURL.Text" xml:space="preserve">
+    <value>URL ștergere:</value>
+  </data>
+  <data name="lblResultThumbnailURL.Text" xml:space="preserve">
+    <value>Miniatură URL:</value>
+  </data>
+  <data name="lblResultURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblDestinationType.Text" xml:space="preserve">
+    <value>Tip destinație:</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Nume:</value>
+  </data>
+  <data name="mbDestinationType.ToolTip" xml:space="preserve">
+    <value>Currently destination type is used when users importă personalizat încărcareer by double clicking the .sxcu fișier.</value>
+  </data>
+  <data name="lblURLSharingService.Text" xml:space="preserve">
+    <value>URL sharing serviciu:</value>
+  </data>
+  <data name="btnURLSharingServiceTest.Text" xml:space="preserve">
+    <value>Testează</value>
+  </data>
+  <data name="lblUploaders.Text" xml:space="preserve">
+    <value>Încarcăers:</value>
+  </data>
+  <data name="btnTestURLSyntax.Text" xml:space="preserve">
+    <value>Testează...</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - Personalizat încărcareer setări</value>
+  </data>
 </root>

@@ -132,4 +132,10 @@
   <data name="btnRemove.Text" xml:space="preserve">
     <value>제거</value>
   </data>
+  <data name="btnHotkeysDisabled.Text" xml:space="preserve">
+    <value>단축키가 비활성화되어 있습니다. 여기를 클릭하여 활성화할 수 있습니다.</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>재설정...</value>
+  </data>
 </root>

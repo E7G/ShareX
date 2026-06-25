@@ -123,4 +123,34 @@
   <data name="tpWebBrowser.Text" xml:space="preserve">
     <value>Penjelajah web</value>
   </data>
+  <data name="tsbResponseTextJSONFormat.Text" xml:space="preserve">
+    <value>Format JSON</value>
+  </data>
+  <data name="tsbResponseTextXMLFormat.Text" xml:space="preserve">
+    <value>Format XML</value>
+  </data>
+  <data name="tsbResponseTextCopy.Text" xml:space="preserve">
+    <value>Salin respons</value>
+  </data>
+  <data name="tsbCopyShortenedURL.Text" xml:space="preserve">
+    <value>Salin URL pendek</value>
+  </data>
+  <data name="tsbCopyURL.Text" xml:space="preserve">
+    <value>Salin URL</value>
+  </data>
+  <data name="tsbCopyThumbnailURL.Text" xml:space="preserve">
+    <value>Salin URL thumbnail</value>
+  </data>
+  <data name="tsbCopyDeletionURL.Text" xml:space="preserve">
+    <value>Salin URL penghapusan</value>
+  </data>
+  <data name="tpResult.Text" xml:space="preserve">
+    <value>Hasil</value>
+  </data>
+  <data name="tpResponseInfo.Text" xml:space="preserve">
+    <value>Info respons</value>
+  </data>
+  <data name="tpResponseText.Text" xml:space="preserve">
+    <value>Teks respons</value>
+  </data>
 </root>

@@ -156,4 +156,10 @@
   <data name="AlignmentRight" xml:space="preserve">
     <value>Direita</value>
   </data>
+  <data name="WouldYouLikeToResetOptions" xml:space="preserve">
+    <value>Deseja redefinir as opções?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
 </root>

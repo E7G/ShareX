@@ -234,4 +234,10 @@
   <data name="btnDataBeautify.Text" xml:space="preserve">
     <value>装飾</value>
   </data>
+  <data name="lblBody.Text" xml:space="preserve">
+    <value>本文:</value>
+  </data>
+  <data name="lblResultURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
 </root>

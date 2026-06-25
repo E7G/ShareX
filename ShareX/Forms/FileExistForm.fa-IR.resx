@@ -122,7 +122,7 @@
 لطفا فایل یا عمل جدیدی را انتخاب کنید:</value>
   </data>
   <data name="btnUniqueName.Text" xml:space="preserve">
-    <value>از یک نام غیرتکراری استفاده کن:</value>
+    <value>از یک نام غیرتکراری استفاده کن: </value>
   </data>
   <data name="btnNewName.Text" xml:space="preserve">
     <value>از نام جدید استفاده کن:</value>
@@ -134,6 +134,6 @@
     <value>ShareX - چگونه ذخیره کنم؟</value>
   </data>
   <data name="btnOverwrite.Text" xml:space="preserve">
-    <value>بازنویسی:</value>
+    <value>بازنویسی: </value>
   </data>
 </root>

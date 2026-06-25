@@ -184,4 +184,49 @@ Nilai lebih tinggi berarti kualitas buruk, tetapi ukuran file kecil.</value>
 Pra-atur lambat = Enkode lebih lambat tetapi ukuran file kecil.
 Untuk enkode waktu nyata (mis. perekaman layar), pra-atur harus secepat mungkin.</value>
   </data>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>Mengontrol indeks Skala Bayer; skala yang lebih tinggi akan menampilkan lebih banyak banding. Default adalah 2.</value>
+  </data>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>Argumen baris perintah tambahan:</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Gunakan jalur FFmpeg kustom:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Encoder video:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Encoder audio:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>Gunakan bitrate</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Tune:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblAMFQuality.Text" xml:space="preserve">
+    <value>Kualitas:</value>
+  </data>
+  <data name="lblAMFUsage.Text" xml:space="preserve">
+    <value>Penggunaan:</value>
+  </data>
+  <data name="lblQSVPreset.Text" xml:space="preserve">
+    <value>Preset:</value>
+  </data>
+  <data name="lblQSVBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Atur ulang opsi...</value>
+  </data>
 </root>

@@ -132,4 +132,29 @@
   <data name="ImageEffectsForm_UpdatePreview_Image_effects___Width___0___Height___1___Render_time___2__ms" xml:space="preserve">
     <value>Kép effektek - Szélesség: {0}, Magasság: {1}, Renderelési idő: {2} ms</value>
   </data>
+  <data name="ImageEffectsForm_EditorMode_Cancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
+    <value>Assets mappa must be inside ShareX képeffektusok mappa.</value>
+  </data>
+  <data name="InvalidAssetsFolderPath" xml:space="preserve">
+    <value>Invalid assets mappa elérési útja</value>
+  </data>
+  <data name="PackageWithThisFileNameAlreadyExistsRNWouldYouLikeToOverwriteIt" xml:space="preserve">
+    <value>Package with this fájlnév already exists.
+Would you like to overwrite it?</value>
+  </data>
+  <data name="WouldYouLikeToClearEffects" xml:space="preserve">
+    <value>Törölni szeretné az effektusokat?</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Megerősítés</value>
+  </data>
+  <data name="PresetNameCannotBeEmpty" xml:space="preserve">
+    <value>Pvisszaállítás név cannot be empty.</value>
+  </data>
+  <data name="MissingPresetName" xml:space="preserve">
+    <value>Missing pvisszaállítás név</value>
+  </data>
 </root>

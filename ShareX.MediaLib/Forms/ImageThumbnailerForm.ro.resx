@@ -141,4 +141,7 @@
   <data name="lblQuality.Text" xml:space="preserve">
     <value>Calitate:</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - Imagine miniaturăer</value>
+  </data>
 </root>

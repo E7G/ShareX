@@ -129,4 +129,13 @@
   <data name="btnInspectControl.Text" xml:space="preserve">
     <value>Control inspectare...</value>
   </data>
+  <data name="cbTopMost.Text" xml:space="preserve">
+    <value>Mereu deasupra</value>
+  </data>
+  <data name="lblOpacity.Text" xml:space="preserve">
+    <value>Opacitate:</value>
+  </data>
+  <data name="mbWindowList.Text" xml:space="preserve">
+    <value>Listă de ferestre</value>
+  </data>
 </root>

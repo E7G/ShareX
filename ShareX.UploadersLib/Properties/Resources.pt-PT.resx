@@ -220,4 +220,52 @@ Pastas criadas:</value>
   <data name="DuplicateNameNotAllowed" xml:space="preserve">
     <value>Nomes duplicados não permitidos.</value>
   </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>A minha unidade</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Exportar failed.</value>
+  </data>
+  <data name="LoggedInAs0" xml:space="preserve">
+    <value>Sessão iniciada como {0}.</value>
+  </data>
+  <data name="FormattingFailed_JSON" xml:space="preserve">
+    <value>A formatação falhou.</value>
+  </data>
+  <data name="FormattingFailed_XML" xml:space="preserve">
+    <value>A formatação falhou.</value>
+  </data>
+  <data name="ShortenedURL" xml:space="preserve">
+    <value>URL encurtado</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ThumbnailURL" xml:space="preserve">
+    <value>Miniatura URL</value>
+  </data>
+  <data name="DeletionURL" xml:space="preserve">
+    <value>URL de eliminação</value>
+  </data>
+  <data name="StatusCode" xml:space="preserve">
+    <value>Estado code</value>
+  </data>
+  <data name="ResponseURL" xml:space="preserve">
+    <value>URL da resposta</value>
+  </data>
+  <data name="ResponseText" xml:space="preserve">
+    <value>Texto da resposta</value>
+  </data>
+  <data name="Headers" xml:space="preserve">
+    <value>Cabeçalhos</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="Disconnect" xml:space="preserve">
+    <value>Desligar</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Ligar...</value>
+  </data>
 </root>

@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnExport.Text" xml:space="preserve">
-    <value>خروجی گرفتن</value>
+    <value> خروجی گرفتن</value>
   </data>
   <data name="btnImport.Text" xml:space="preserve">
-    <value>وارد کردن</value>
+    <value> وارد کردن</value>
   </data>
   <data name="tsmiExportClipboard.Text" xml:space="preserve">
     <value>کپی به کلیپ بورد</value>

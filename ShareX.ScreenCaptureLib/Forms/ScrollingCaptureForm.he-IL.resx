@@ -123,4 +123,13 @@
   <data name="btnCapture.Text" xml:space="preserve">
     <value>התחל צילום נגלל</value>
   </data>
+  <data name="btnOptions.Text" xml:space="preserve">
+    <value>אפשרויות...</value>
+  </data>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>העלה / שמור</value>
+  </data>
+  <data name="btnCopy.Text" xml:space="preserve">
+    <value>העתק</value>
+  </data>
 </root>

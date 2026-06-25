@@ -120,4 +120,25 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Afbeeldingsgeschiedenis</value>
   </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>Zoeken:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="tsbSearch.ToolTipText" xml:space="preserve">
+    <value>Zoeken</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Favorieten</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>Weergeven stats...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Importeren map...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>Instellingen...</value>
+  </data>
 </root>

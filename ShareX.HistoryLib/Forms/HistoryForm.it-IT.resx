@@ -141,4 +141,43 @@
   <data name="chFilename.Text" xml:space="preserve">
     <value>Nome File</value>
   </data>
+  <data name="chURL.Text" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="tslSearch.Text" xml:space="preserve">
+    <value>Cerca:</value>
+  </data>
+  <data name="tsbSearch.Text" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="tsbAdvancedSearch.Text" xml:space="preserve">
+    <value>Ricerca avanzata...</value>
+  </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Preferiti</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>Mostra statistiche...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Importa cartella...</value>
+  </data>
+  <data name="tsbSettings.Text" xml:space="preserve">
+    <value>Impostazioni...</value>
+  </data>
+  <data name="btnAdvancedSearchClose.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="btnAdvancedSearchReset.Text" xml:space="preserve">
+    <value>Reimposta</value>
+  </data>
+  <data name="lblURLFilter.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lblFilenameFilter.Text" xml:space="preserve">
+    <value>Nome file:</value>
+  </data>
+  <data name="gbAdvancedSearch.Text" xml:space="preserve">
+    <value>Ricerca avanzata</value>
+  </data>
 </root>

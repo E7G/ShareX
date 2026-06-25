@@ -147,4 +147,16 @@
   <data name="lblPreview.Text" xml:space="preserve">
     <value>Voorbeeld:</value>
   </data>
+  <data name="btnReverse.Text" xml:space="preserve">
+    <value>Omkeren</value>
+  </data>
+  <data name="lblPresets.Text" xml:space="preserve">
+    <value>Presettens:</value>
+  </data>
+  <data name="chGradient.Text" xml:space="preserve">
+    <value>Verloop</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Wissen</value>
+  </data>
 </root>

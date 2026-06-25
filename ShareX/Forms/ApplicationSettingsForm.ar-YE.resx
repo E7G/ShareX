@@ -162,12 +162,6 @@
   <data name="chDescription.Text" xml:space="preserve">
     <value>الوصف</value>
   </data>
-  <data name="lblSaveImageSubFolderPatternPreview.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblUploadLimitHint.Text" xml:space="preserve">
     <value>0 - 25 (0 معطلة)</value>
   </data>
@@ -384,9 +378,6 @@
   <data name="lblUploadLimit.Text" xml:space="preserve">
     <value>عدد المرفوعات في الوقت نفسه:</value>
   </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-  </data>
   <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
     <value>نمط المجلدات الفرعية للنافذة:</value>
   </data>
@@ -431,9 +422,6 @@
   </data>
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>عندما يكون ShareX قيد التشغيل، قم بعرضه من خلال "In-App" في Steam</value>
-  </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>نظام التشغيل Windows</value>
   </data>
   <data name="lblUpdateChannel.Text" xml:space="preserve">
     <value>قناة التحديثات:</value>

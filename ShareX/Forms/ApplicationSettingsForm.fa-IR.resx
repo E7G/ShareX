@@ -256,9 +256,6 @@
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>شیرایکس را در راست کلیک پنجره ویندوز اکسپلورر اضافه کن</value>
   </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>ویندوز</value>
-  </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>تعامل</value>
   </data>
@@ -466,7 +463,88 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - تنظیمات برنامه</value>
   </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>کانال به‌روزرسانی:</value>
+  </data>
+  <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
+    <value>بررسی خودکار به‌روزرسانی‌ها</value>
+  </data>
+  <data name="cbSteamShowInApp.Text" xml:space="preserve">
+    <value>هنگامی که ShareX باز است، در Steam «درون‌برنامه» نمایش داده شود</value>
+  </data>
+  <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
+    <value>الگوی زیرپوشه برای پنجره:</value>
+  </data>
+  <data name="cbAutomaticallyCleanupLogFiles.Text" xml:space="preserve">
+    <value>پاک‌سازی خودکار فایل‌های گزارش قدیمی</value>
+  </data>
+  <data name="lblCleanupKeepFileCount.Text" xml:space="preserve">
+    <value>تعداد فایل‌ها برای نگه‌داری:</value>
+  </data>
+  <data name="cbAutomaticallyCleanupBackupFiles.Text" xml:space="preserve">
+    <value>پاک‌سازی خودکار فایل‌های پشتیبان قدیمی</value>
+  </data>
+  <data name="cbExportHistory.Text" xml:space="preserve">
+    <value>تاریخچه</value>
+  </data>
+  <data name="cbExportSettings.Text" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="lblExportImportNote.Text" xml:space="preserve">
+    <value>توجه: فایل صادرشده را با کسی به اشتراک نگذارید، زیرا ممکن است شامل اطلاعات خصوصی مانند جزئیات حساب و تاریخچه بارگذاری شما باشد.</value>
+  </data>
+  <data name="tpSettings.Text" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="lblListViewImagePreviewLocation.Text" xml:space="preserve">
+    <value>محل پیش‌نمایش تصویر:</value>
+  </data>
+  <data name="lblListViewImagePreviewVisibility.Text" xml:space="preserve">
+    <value>نمایانی پیش‌نمایش تصویر:</value>
+  </data>
+  <data name="cbListViewShowColumns.Text" xml:space="preserve">
+    <value>نمایش ستون‌ها</value>
+  </data>
+  <data name="gbListView.Text" xml:space="preserve">
+    <value>نمای فهرست</value>
+  </data>
+  <data name="btnThumbnailViewThumbnailSizeReset.Text" xml:space="preserve">
+    <value>بازنشانی</value>
+  </data>
+  <data name="lblThumbnailViewThumbnailClickAction.Text" xml:space="preserve">
+    <value>عمل کلیک روی بندانگشتی:</value>
+  </data>
+  <data name="lblThumbnailViewThumbnailSize.Text" xml:space="preserve">
+    <value>اندازه بندانگشتی:</value>
+  </data>
+  <data name="lblThumbnailViewTitleLocation.Text" xml:space="preserve">
+    <value>محل عنوان:</value>
+  </data>
+  <data name="cbThumbnailViewShowTitle.Text" xml:space="preserve">
+    <value>نمایش عنوان</value>
+  </data>
+  <data name="gbThumbnailView.Text" xml:space="preserve">
+    <value>نمای بندانگشتی</value>
+  </data>
+  <data name="cbMainWindowShowMenu.Text" xml:space="preserve">
+    <value>نمایش منو</value>
+  </data>
+  <data name="lblMainWindowTaskViewMode.Text" xml:space="preserve">
+    <value>حالت نمای وظیفه:</value>
+  </data>
+  <data name="tpMainWindow.Text" xml:space="preserve">
+    <value>پنجره اصلی</value>
+  </data>
+  <data name="lblClipboardFormatsTip.Text" xml:space="preserve">
+    <value>این قالب‌ها در زیرمنوی «کپی» در منوی زمینه پنجره اصلی نمایش داده می‌شوند.</value>
+  </data>
+  <data name="tpClipboardFormats.Text" xml:space="preserve">
+    <value>قالب‌های کلیپ‌بورد</value>
+  </data>
+  <data name="cbUseSecondaryUploaders.Text" xml:space="preserve">
+    <value>هنگام تلاش دوباره از ترتیب اولویت بارگذارهای ثانویه استفاده شود</value>
+  </data>
+  <data name="lblDefaultPrinterOverride.Text" xml:space="preserve">
+    <value>جایگزینی چاپگر پیش‌فرض:</value>
   </data>
 </root>

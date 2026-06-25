@@ -642,4 +642,7 @@ ShareX を再起動しますか？</value>
     <value>ダウンロード失敗:
 {0}</value>
   </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>寄付</value>
+  </data>
 </root>

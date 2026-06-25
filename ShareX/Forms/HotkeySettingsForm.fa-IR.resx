@@ -132,4 +132,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - تنظیمات کلید میانبر</value>
   </data>
+  <data name="btnHotkeysDisabled.Text" xml:space="preserve">
+    <value>کلیدهای میانبر غیرفعال هستند. برای فعال‌سازی می‌توانید اینجا کلیک کنید.</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>بازنشانی...</value>
+  </data>
 </root>

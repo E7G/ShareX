@@ -554,9 +554,6 @@
   <data name="tsmiShowDebugLog.Text" xml:space="preserve">
     <value>خطایابی ...</value>
   </data>
-  <data name="tsmiDeleteSelectedItem.ShortcutKeyDisplayString" xml:space="preserve">
-    <value>کلید Delete</value>
-  </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>حذف فایل بصورت محلی ...</value>
   </data>
@@ -582,7 +579,7 @@
     <value>فایل</value>
   </data>
   <data name="tsmiCopyFile.Text" xml:space="preserve">
-    <value>فایل </value>
+    <value>فایل</value>
   </data>
   <data name="tsmiCopyFileName.Text" xml:space="preserve">
     <value>نام فایل</value>
@@ -727,5 +724,152 @@
   </data>
   <data name="tsmiCopyThumbnailImage.Text" xml:space="preserve">
     <value>عکس کوچک</value>
+  </data>
+  <data name="tsmiPinToScreen.Text" xml:space="preserve">
+    <value>سنجاق به صفحه...</value>
+  </data>
+  <data name="tsmiImageComparer.Text" xml:space="preserve">
+    <value>مقایسه‌گر تصویر...</value>
+  </data>
+  <data name="tsmiImageBeautifier.Text" xml:space="preserve">
+    <value>زیباساز تصویر...</value>
+  </data>
+  <data name="tsmiImageViewer.Text" xml:space="preserve">
+    <value>نمایشگر تصویر...</value>
+  </data>
+  <data name="tsmiImageSplitter.Text" xml:space="preserve">
+    <value>تقسیم‌کننده تصویر...</value>
+  </data>
+  <data name="tsmiVideoConverter.Text" xml:space="preserve">
+    <value>مبدل ویدئو...</value>
+  </data>
+  <data name="tsmiAI.Text" xml:space="preserve">
+    <value>تحلیل تصویر...</value>
+  </data>
+  <data name="tsmiOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiHashChecker.Text" xml:space="preserve">
+    <value>بررسی‌کننده هش...</value>
+  </data>
+  <data name="tsmiMetadata.Text" xml:space="preserve">
+    <value>فراداده...</value>
+  </data>
+  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
+    <value>نمایشگر کلیپ‌بورد...</value>
+  </data>
+  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
+    <value>پنجره بدون حاشیه...</value>
+  </data>
+  <data name="tsmiInspectWindow.Text" xml:space="preserve">
+    <value>بازرسی پنجره...</value>
+  </data>
+  <data name="tsbDestinationSettings.Text" xml:space="preserve">
+    <value>تنظیمات مقصد...</value>
+  </data>
+  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
+    <value>تنظیمات بارگذار سفارشی...</value>
+  </data>
+  <data name="tsbX.Text" xml:space="preserve">
+    <value>دنبال کردن @ShareX...</value>
+  </data>
+  <data name="tsmiCopyHTMLLinkedImage.Text" xml:space="preserve">
+    <value>تصویر پیوندشده HTML</value>
+  </data>
+  <data name="tsmiCopyForumLink.Text" xml:space="preserve">
+    <value>پیوند انجمن (BBCode)</value>
+  </data>
+  <data name="tsmiCopyForumImage.Text" xml:space="preserve">
+    <value>تصویر انجمن (BBCode)</value>
+  </data>
+  <data name="tsmiCopyForumLinkedImage.Text" xml:space="preserve">
+    <value>تصویر پیوندشده انجمن (BBCode)</value>
+  </data>
+  <data name="tsmiCopyMarkdownLink.Text" xml:space="preserve">
+    <value>پیوند Markdown</value>
+  </data>
+  <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
+    <value>تصویر Markdown</value>
+  </data>
+  <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
+    <value>تصویر پیوندشده Markdown</value>
+  </data>
+  <data name="tsmiBeautifyImage.Text" xml:space="preserve">
+    <value>زیباسازی تصویر...</value>
+  </data>
+  <data name="tsmiAddImageEffects.Text" xml:space="preserve">
+    <value>افزودن جلوه‌های تصویر...</value>
+  </data>
+  <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
+    <value>سنجاق به صفحه</value>
+  </data>
+  <data name="tsmiRunAction.Text" xml:space="preserve">
+    <value>اجرای عمل</value>
+  </data>
+  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
+    <value>تحلیل تصویر...</value>
+  </data>
+  <data name="tsmiGoogleLens.Text" xml:space="preserve">
+    <value>Google Lens...</value>
+  </data>
+  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
+    <value>جستجوی تصویری Bing...</value>
+  </data>
+  <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
+    <value>ترکیب افقی</value>
+  </data>
+  <data name="tsmiCombineImagesVertically.Text" xml:space="preserve">
+    <value>ترکیب عمودی</value>
+  </data>
+  <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
+    <value>سنجاق به صفحه...</value>
+  </data>
+  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
+    <value>مقایسه‌گر تصویر...</value>
+  </data>
+  <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
+    <value>زیباساز تصویر...</value>
+  </data>
+  <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
+    <value>نمایشگر تصویر...</value>
+  </data>
+  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
+    <value>تقسیم‌کننده تصویر...</value>
+  </data>
+  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
+    <value>مبدل ویدئو...</value>
+  </data>
+  <data name="tsmiTrayAI.Text" xml:space="preserve">
+    <value>تحلیل تصویر...</value>
+  </data>
+  <data name="tsmiTrayOCR.Text" xml:space="preserve">
+    <value>OCR...</value>
+  </data>
+  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
+    <value>بررسی‌کننده هش...</value>
+  </data>
+  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
+    <value>فراداده...</value>
+  </data>
+  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
+    <value>نمایشگر کلیپ‌بورد...</value>
+  </data>
+  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
+    <value>پنجره بدون حاشیه...</value>
+  </data>
+  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
+    <value>بازرسی پنجره...</value>
+  </data>
+  <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
+    <value>راه‌اندازی دوباره ShareX به‌عنوان مدیر</value>
+  </data>
+  <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
+    <value>تغییر وضعیت نوار ابزار اعمال</value>
+  </data>
+  <data name="cHotkey.HeaderText" xml:space="preserve">
+    <value>کلید میانبر</value>
+  </data>
+  <data name="cDescription.HeaderText" xml:space="preserve">
+    <value>توضیح</value>
   </data>
 </root>

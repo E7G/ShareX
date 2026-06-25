@@ -339,25 +339,91 @@
   <data name="cbExportHistory.Text" xml:space="preserve">
     <value>기록</value>
   </data>
-  <data name="lblSaveImageSubFolderPatternPreview.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>적용</value>
-  </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Windows</value>
-  </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
   </data>
   <data name="tpTheme.Text" xml:space="preserve">
     <value>테마</value>
   </data>
   <data name="btnThemeAdd.Text" xml:space="preserve">
     <value>추가</value>
+  </data>
+  <data name="lblUpdateChannel.Text" xml:space="preserve">
+    <value>업데이트 채널:</value>
+  </data>
+  <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
+    <value>업데이트 자동 확인</value>
+  </data>
+  <data name="btnThemeReset.Text" xml:space="preserve">
+    <value>재설정...</value>
+  </data>
+  <data name="btnThemeRemove.Text" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
+    <value>창용 하위 폴더 패턴:</value>
+  </data>
+  <data name="cbAutomaticallyCleanupLogFiles.Text" xml:space="preserve">
+    <value>오래된 로그 파일 자동 정리</value>
+  </data>
+  <data name="lblCleanupKeepFileCount.Text" xml:space="preserve">
+    <value>보관할 파일 수:</value>
+  </data>
+  <data name="cbAutomaticallyCleanupBackupFiles.Text" xml:space="preserve">
+    <value>오래된 백업 파일 자동 정리</value>
+  </data>
+  <data name="tpSettings.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="lblListViewImagePreviewLocation.Text" xml:space="preserve">
+    <value>이미지 미리보기 위치:</value>
+  </data>
+  <data name="lblListViewImagePreviewVisibility.Text" xml:space="preserve">
+    <value>이미지 미리보기 표시 여부:</value>
+  </data>
+  <data name="cbListViewShowColumns.Text" xml:space="preserve">
+    <value>열 표시</value>
+  </data>
+  <data name="gbListView.Text" xml:space="preserve">
+    <value>목록 보기</value>
+  </data>
+  <data name="btnThumbnailViewThumbnailSizeReset.Text" xml:space="preserve">
+    <value>재설정</value>
+  </data>
+  <data name="lblThumbnailViewThumbnailClickAction.Text" xml:space="preserve">
+    <value>썸네일 클릭 동작:</value>
+  </data>
+  <data name="lblThumbnailViewThumbnailSize.Text" xml:space="preserve">
+    <value>썸네일 크기:</value>
+  </data>
+  <data name="lblThumbnailViewTitleLocation.Text" xml:space="preserve">
+    <value>제목 위치:</value>
+  </data>
+  <data name="cbThumbnailViewShowTitle.Text" xml:space="preserve">
+    <value>제목 표시</value>
+  </data>
+  <data name="gbThumbnailView.Text" xml:space="preserve">
+    <value>썸네일 보기</value>
+  </data>
+  <data name="cbMainWindowShowMenu.Text" xml:space="preserve">
+    <value>메뉴 표시</value>
+  </data>
+  <data name="lblMainWindowTaskViewMode.Text" xml:space="preserve">
+    <value>작업 보기 모드:</value>
+  </data>
+  <data name="tpMainWindow.Text" xml:space="preserve">
+    <value>메인 창</value>
+  </data>
+  <data name="lblClipboardFormatsTip.Text" xml:space="preserve">
+    <value>이 형식들은 메인 창 컨텍스트 메뉴의 "복사" 하위 메뉴에 표시됩니다.</value>
+  </data>
+  <data name="tpClipboardFormats.Text" xml:space="preserve">
+    <value>클립보드 형식</value>
+  </data>
+  <data name="cbUseSecondaryUploaders.Text" xml:space="preserve">
+    <value>재시도 시 보조 업로더 우선순위 사용</value>
+  </data>
+  <data name="lblDefaultPrinterOverride.Text" xml:space="preserve">
+    <value>기본 프린터 재정의:</value>
   </data>
 </root>

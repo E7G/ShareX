@@ -177,17 +177,8 @@
   <data name="btnResetOptions.Text" xml:space="preserve">
     <value>إعادة تعيين الخيارات...</value>
   </data>
-  <data name="tpOpus.Text" xml:space="preserve">
-    <value>Opus</value>
-  </data>
-  <data name="tpQSV.Text" xml:space="preserve">
-    <value>QuickSync</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - إعدادات تسجيل الشاشة</value>
-  </data>
-  <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
-    <value>؟</value>
   </data>
   <data name="lblNVENCTune.Text" xml:space="preserve">
     <value>النغمة:</value>

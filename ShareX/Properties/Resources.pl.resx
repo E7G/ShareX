@@ -640,4 +640,10 @@ Kliknij prawym przyciskiem myszy, aby otworzyć menu
     <value>Pobieranie nie powiodło się:
 {0}</value>
   </data>
+  <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
+    <value>Arabski</value>
+  </data>
+  <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
+    <value>Przekaż darowiznę</value>
+  </data>
 </root>

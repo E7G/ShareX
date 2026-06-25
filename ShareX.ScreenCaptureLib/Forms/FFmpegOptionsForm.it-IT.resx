@@ -192,4 +192,49 @@ Per la codifica in tempo reale (es. registra schermo), il preset deve essere il 
   <data name="lblGIFDither.Text" xml:space="preserve">
     <value>Modalità Dithering:</value>
   </data>
+  <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
+    <value>Controlla l'indice Scala Bayer; una scala più alta mostrerà più bande. Il valore predefinito è 2.</value>
+  </data>
+  <data name="lblCommandLineArgs.Text" xml:space="preserve">
+    <value>Aggiungiitional command line arguments:</value>
+  </data>
+  <data name="cbUseCustomFFmpegPath.Text" xml:space="preserve">
+    <value>Use personalizzato FFmpeg percorso:</value>
+  </data>
+  <data name="lblVideoEncoder.Text" xml:space="preserve">
+    <value>Codificatore video:</value>
+  </data>
+  <data name="lblAudioEncoder.Text" xml:space="preserve">
+    <value>Codificatore audio:</value>
+  </data>
+  <data name="lblAACBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblOpusBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="cbx264UseBitrate.Text" xml:space="preserve">
+    <value>Usa bitrate</value>
+  </data>
+  <data name="lblNVENCTune.Text" xml:space="preserve">
+    <value>Ottimizza:</value>
+  </data>
+  <data name="lblAMFBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="lblAMFQuality.Text" xml:space="preserve">
+    <value>Qualità:</value>
+  </data>
+  <data name="lblAMFUsage.Text" xml:space="preserve">
+    <value>Utilizzo:</value>
+  </data>
+  <data name="lblQSVPreset.Text" xml:space="preserve">
+    <value>Preimposta:</value>
+  </data>
+  <data name="lblQSVBitrate.Text" xml:space="preserve">
+    <value>Bitrate:</value>
+  </data>
+  <data name="btnResetOptions.Text" xml:space="preserve">
+    <value>Reimposta options...</value>
+  </data>
 </root>

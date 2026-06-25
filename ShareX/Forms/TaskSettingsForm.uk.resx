@@ -660,4 +660,10 @@
   <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
     <value>Автоматично приховувати піктограми на робочому столі</value>
   </data>
+  <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
+    <value>Показувати центральний приціл</value>
+  </data>
+  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
+    <value>Використовувати застарілий редактор зображень</value>
+  </data>
 </root>

@@ -141,4 +141,46 @@
   <data name="lblPresetName.Text" xml:space="preserve">
     <value>Nome:</value>
   </data>
+  <data name="btnUploadImage.Text" xml:space="preserve">
+    <value>Carica immagine</value>
+  </data>
+  <data name="lblPresets.Text" xml:space="preserve">
+    <value>Preset:</value>
+  </data>
+  <data name="btnPackager.Text" xml:space="preserve">
+    <value>Creazione pacchetto...</value>
+  </data>
+  <data name="btnPresetNew.ToolTip" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="btnPresetRemove.ToolTip" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="btnPresetDuplicate.ToolTip" xml:space="preserve">
+    <value>Duplica</value>
+  </data>
+  <data name="lblEffects.Text" xml:space="preserve">
+    <value>Effetti:</value>
+  </data>
+  <data name="btnEffectAdd.ToolTip" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="btnEffectRemove.ToolTip" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="btnEffectDuplicate.ToolTip" xml:space="preserve">
+    <value>Duplica</value>
+  </data>
+  <data name="btnEffectClear.ToolTip" xml:space="preserve">
+    <value>Cancella...</value>
+  </data>
+  <data name="btnEffectRefresh.ToolTip" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="btnImageEffects.Text" xml:space="preserve">
+    <value>Immagine effects...</value>
+  </data>
+  <data name="lblEffectName.Text" xml:space="preserve">
+    <value>Nome effetto:</value>
+  </data>
 </root>

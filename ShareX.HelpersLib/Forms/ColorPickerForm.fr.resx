@@ -177,45 +177,6 @@
   <data name="lblCursorPosition.Text" xml:space="preserve">
     <value>Position du curseur :</value>
   </data>
-  <data name="lblCyanPerc.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="lblMagentaPerc.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="lblBrightnessPerc.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="lblSaturationPerc.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="lblYellowPerc.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="lblKeyPerc.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="txtY.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="txtX.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblY.Text" xml:space="preserve">
-    <value>Y :</value>
-  </data>
-  <data name="lblX.Text" xml:space="preserve">
-    <value>X :</value>
-  </data>
-  <data name="txtHex.Text" xml:space="preserve">
-    <value>FF00FF00</value>
-  </data>
-  <data name="lblHue.Text" xml:space="preserve">
-    <value>°</value>
-  </data>
-  <data name="txtDecimal.Text" xml:space="preserve">
-    <value>12345678</value>
-  </data>
   <data name="tsmiCopyHSB.Text" xml:space="preserve">
     <value>Copier TSV</value>
   </data>

@@ -141,4 +141,46 @@
   <data name="btnClose.Text" xml:space="preserve">
     <value>Sluiten</value>
   </data>
+  <data name="btnUploadImage.Text" xml:space="preserve">
+    <value>Uploaden afbeelding</value>
+  </data>
+  <data name="lblPresets.Text" xml:space="preserve">
+    <value>Presettens:</value>
+  </data>
+  <data name="btnPackager.Text" xml:space="preserve">
+    <value>Pakketmaker...</value>
+  </data>
+  <data name="btnPresetNew.ToolTip" xml:space="preserve">
+    <value>Nieuw</value>
+  </data>
+  <data name="btnPresetRemove.ToolTip" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="btnPresetDuplicate.ToolTip" xml:space="preserve">
+    <value>Dupliceren</value>
+  </data>
+  <data name="lblEffects.Text" xml:space="preserve">
+    <value>Effects:</value>
+  </data>
+  <data name="btnEffectAdd.ToolTip" xml:space="preserve">
+    <value>Toevoegen</value>
+  </data>
+  <data name="btnEffectRemove.ToolTip" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="btnEffectDuplicate.ToolTip" xml:space="preserve">
+    <value>Dupliceren</value>
+  </data>
+  <data name="btnEffectClear.ToolTip" xml:space="preserve">
+    <value>Wissen...</value>
+  </data>
+  <data name="btnEffectRefresh.ToolTip" xml:space="preserve">
+    <value>Vernieuwen</value>
+  </data>
+  <data name="btnImageEffects.Text" xml:space="preserve">
+    <value>Afbeelding effects...</value>
+  </data>
+  <data name="lblEffectName.Text" xml:space="preserve">
+    <value>Effect name:</value>
+  </data>
 </root>

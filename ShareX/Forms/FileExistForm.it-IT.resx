@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnOverwrite.Text" xml:space="preserve">
-    <value>Sovrascrivi:</value>
+    <value>Sovrascrivi: </value>
   </data>
   <data name="btnCancel.Text" xml:space="preserve">
     <value>Non Salvare</value>
   </data>
   <data name="btnUniqueName.Text" xml:space="preserve">
-    <value>Usa un Nome Unico:</value>
+    <value>Usa un Nome Unico: </value>
   </data>
   <data name="btnNewName.Text" xml:space="preserve">
     <value>Usa un Nuovo Nome:</value>

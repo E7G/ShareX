@@ -138,4 +138,7 @@
   <data name="cbImageOnly.Text" xml:space="preserve">
     <value>Показывать только файлы изображений</value>
   </data>
+  <data name="cbAutoLoadMoreItems.Text" xml:space="preserve">
+    <value>Automatically load more изображениеs</value>
+  </data>
 </root>

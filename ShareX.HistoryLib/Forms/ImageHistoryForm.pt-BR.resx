@@ -132,4 +132,13 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - Histórico de imagens</value>
   </data>
+  <data name="tsbFavorites.Text" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="tsbShowStats.Text" xml:space="preserve">
+    <value>Mostrar estatísticas...</value>
+  </data>
+  <data name="tsbImportFolder.Text" xml:space="preserve">
+    <value>Importar pasta...</value>
+  </data>
 </root>

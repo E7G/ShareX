@@ -533,4 +533,7 @@
   <data name="RulerDistance" xml:space="preserve">
     <value>距離</value>
   </data>
+  <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
+    <value>中央の十字線を表示</value>
+  </data>
 </root>

@@ -262,4 +262,10 @@
   <data name="Connect" xml:space="preserve">
     <value>اتصال...</value>
   </data>
+  <data name="UploadersConfigForm_PhotobucketCreateAlbum__0__successfully_created_" xml:space="preserve">
+    <value>تم إنشاء {0} بنجاح.</value>
+  </data>
+  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
+    <value>قرصي</value>
+  </data>
 </root>

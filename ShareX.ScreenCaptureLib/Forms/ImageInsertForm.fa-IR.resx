@@ -120,4 +120,13 @@
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - ورود عکس</value>
   </data>
+  <data name="btnCenter.Text" xml:space="preserve">
+    <value>Insert تصویر in the center</value>
+  </data>
+  <data name="btnCanvasExpandDown.Text" xml:space="preserve">
+    <value>Insert تصویر below (expanding canvas)</value>
+  </data>
+  <data name="btnCanvasExpandRight.Text" xml:space="preserve">
+    <value>Insert تصویر on راست side (expanding canvas)</value>
+  </data>
 </root>

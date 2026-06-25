@@ -129,9 +129,6 @@
   <data name="btnAdd.Text" xml:space="preserve">
     <value>اضافه کردن ...</value>
   </data>
-  <data name="btnOutputFolder.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblHeight.Text" xml:space="preserve">
     <value>ارتفاع:</value>
   </data>
@@ -140,5 +137,11 @@
   </data>
   <data name="lblOutputFolder.Text" xml:space="preserve">
     <value>پوشه خروجی:</value>
+  </data>
+  <data name="btnGenerate.Text" xml:space="preserve">
+    <value>Generate بندانگشتیs</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - تصویر بندانگشتیer</value>
   </data>
 </root>

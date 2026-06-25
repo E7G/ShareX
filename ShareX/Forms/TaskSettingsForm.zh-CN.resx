@@ -468,12 +468,6 @@
   <data name="lblImagePNGBitDepth.Text" xml:space="preserve">
     <value>PNG 位深:</value>
   </data>
-  <data name="btnRegionCaptureSnapSizesAdd.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="btnRegionCaptureSnapSizesRemove.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
   <data name="btnWatchFolderEdit.Text" xml:space="preserve">
     <value>编辑...</value>
   </data>
@@ -482,15 +476,6 @@
   </data>
   <data name="lblAutoIncrementNumber.Text" xml:space="preserve">
     <value>自动递增编号：</value>
-  </data>
-  <data name="lblCaptureCustomRegionX.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="lblCaptureCustomRegionY.Text" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="lblImageJPEGQualityHint.Text" xml:space="preserve">
-    <value>0 - 100</value>
   </data>
   <data name="lblImageSizeLimitHint.Text" xml:space="preserve">
     <value>kB</value>
@@ -557,15 +542,6 @@
   </data>
   <data name="btnActions.Text" xml:space="preserve">
     <value>动作...</value>
-  </data>
-  <data name="btnCustomCaptureSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnCustomErrorSoundPath.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="btnCustomTaskCompletedSoundPath.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="cbDisableNotificationsOnFullscreen.Text" xml:space="preserve">
     <value>全屏时禁用通知</value>
@@ -660,9 +636,6 @@
   <data name="lblToastWindowLeftClickAction.Text" xml:space="preserve">
     <value>左击动作：</value>
   </data>
-  <data name="lblToastWindowSizeX.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
   <data name="cbImageAutoJPEGQuality.Text" xml:space="preserve">
     <value>自动调整 JPEG 品质以使图像大小更接近指定大小</value>
   </data>
@@ -690,13 +663,7 @@
   <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
     <value>自动隐藏桌面图标</value>
   </data>
-  <data name="lblRegionCaptureBackgroundDimStrengthHint.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
   <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
     <value>显示中心十字线</value>
-  </data>
-  <data name="btnCustomActionCompletedSoundPath.Text" xml:space="preserve">
-    <value>...</value>
   </data>
 </root>

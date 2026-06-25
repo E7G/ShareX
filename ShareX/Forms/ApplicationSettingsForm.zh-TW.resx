@@ -377,14 +377,8 @@
   <data name="gbListView.Text" xml:space="preserve">
     <value>清單模式</value>
   </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-  </data>
   <data name="gbThumbnailView.Text" xml:space="preserve">
     <value>縮圖模式</value>
-  </data>
-  <data name="gbWindows.Text" xml:space="preserve">
-    <value>Windows</value>
   </data>
   <data name="lblCleanupKeepFileCount.Text" xml:space="preserve">
     <value>保留檔案數量：</value>
@@ -401,23 +395,14 @@
   <data name="lblThumbnailViewTitleLocation.Text" xml:space="preserve">
     <value>標題位置：</value>
   </data>
-  <data name="lblThumbnailViewThumbnailSizeX.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
   <data name="lblThumbnailViewThumbnailSize.Text" xml:space="preserve">
     <value>縮圖大小：</value>
   </data>
   <data name="lblThumbnailViewThumbnailClickAction.Text" xml:space="preserve">
     <value>點擊縮圖的操作：</value>
   </data>
-  <data name="lblSaveImageSubFolderPatternPreview.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
     <value>視窗的子資料夾格式：</value>
-  </data>
-  <data name="lblPreviewPersonalFolderPath.Text" xml:space="preserve">
-    <value>...</value>
   </data>
   <data name="lblMainWindowTaskViewMode.Text" xml:space="preserve">
     <value>排程檢視模式：</value>

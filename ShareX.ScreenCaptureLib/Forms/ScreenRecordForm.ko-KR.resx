@@ -132,4 +132,10 @@
   <data name="btnStart.Text" xml:space="preserve">
     <value>시작</value>
   </data>
+  <data name="btnPause.Text" xml:space="preserve">
+    <value>일시 중지</value>
+  </data>
+  <data name="tsmiPause.Text" xml:space="preserve">
+    <value>일시 중지</value>
+  </data>
 </root>

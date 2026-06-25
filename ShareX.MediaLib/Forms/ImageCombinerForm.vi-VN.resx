@@ -153,9 +153,6 @@
   <data name="lblImageAlignment.Text" xml:space="preserve">
     <value>Căn chỉnh hình ảnh:</value>
   </data>
-  <data name="lblImageCount.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="lblWrapAfter.Text" xml:space="preserve">
     <value>Kết thúc sau:</value>
   </data>
