@@ -1,0 +1,137 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:ShareX.ImageEditor.Presentation.ViewModels"
+        xmlns:theming="using:ShareX.ImageEditor.Presentation.Theming"
+        mc:Ignorable="d" d:DesignWidth="1080" d:DesignHeight="720"
+        x:Class="ShareX.ImageEditor.Presentation.Views.BackgroundRemoverWindow"
+        x:DataType="vm:BackgroundRemoverViewModel"
+        Title="ShareX - Background Remover"
+        Width="1080"
+        Height="720"
+        MinWidth="760"
+        MinHeight="520"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Styles>
+        <StyleInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorStyles.axaml"/>
+        <Style Selector="Border.remover-panel">
+            <Setter Property="Background" Value="{DynamicResource ShareX.Brush.Background.Panel}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource ShareX.Brush.Border}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="4"/>
+        </Style>
+        <Style Selector="TextBlock.path-text">
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+            <Setter Property="Foreground" Value="{DynamicResource ShareX.Brush.Text.Secondary}"/>
+        </Style>
+        <Style Selector="Image.preview-image">
+            <Setter Property="Stretch" Value="Uniform"/>
+        </Style>
+    </Window.Styles>
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorTheme.axaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <ThemeVariantScope RequestedThemeVariant="{x:Static theming:ThemeManager.ShareXDark}">
+        <Grid Background="{DynamicResource ShareX.Brush.Background.Main}">
+            <Grid RowDefinitions="Auto,*" Margin="16" RowSpacing="12">
+                <Border Grid.Row="0" Classes="remover-panel" Padding="12">
+                    <Grid RowDefinitions="Auto,Auto" RowSpacing="8">
+                        <Grid Grid.Row="0"
+                              ColumnDefinitions="Auto,*,Auto"
+                              ColumnSpacing="12">
+                            <TextBlock Grid.Column="0"
+                                       Text="Image"
+                                       VerticalAlignment="Center"/>
+                            <TextBlock Grid.Column="1"
+                                       Classes="path-text"
+                                       Text="{Binding ImagePath, TargetNullValue='No image selected'}"
+                                       VerticalAlignment="Center"/>
+                            <Button Grid.Column="2"
+                                    Classes="editor-button"
+                                    Content="Browse..."
+                                    Command="{Binding BrowseImageCommand}"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1"
+                              ColumnDefinitions="Auto,*,Auto"
+                              ColumnSpacing="12">
+                            <TextBlock Grid.Column="0"
+                                       Text="Models"
+                                       VerticalAlignment="Center"/>
+                            <Grid Grid.Column="1"
+                                  ColumnDefinitions="*,Auto,Auto"
+                                  ColumnSpacing="4">
+                                <ComboBox Grid.Column="0"
+                                          ItemsSource="{Binding AvailableModels}"
+                                          SelectedItem="{Binding SelectedModel, Mode=TwoWay}"
+                                          IsEnabled="{Binding !IsProcessing}"
+                                          HorizontalAlignment="Stretch"
+                                          VerticalAlignment="Center"
+                                          ToolTip.Tip="Background removal model"/>
+                                <Button Grid.Column="1"
+                                        Classes="editor-button"
+                                        MinWidth="0"
+                                        Width="{Binding Bounds.Height, RelativeSource={RelativeSource Self}}"
+                                        Padding="0"
+                                        Command="{Binding RefreshModelsCommand}"
+                                        ToolTip.Tip="Refresh models">
+                                    <TextBlock Text="{x:Static theming:LucideIcons.refresh_cw}"
+                                               FontFamily="{DynamicResource ShareX.FontFamily.Icon}"
+                                               FontWeight="Normal"
+                                               HorizontalAlignment="Center"
+                                               VerticalAlignment="Center"/>
+                                </Button>
+                                <Button Grid.Column="2"
+                                        Classes="editor-button"
+                                        MinWidth="0"
+                                        Width="{Binding Bounds.Height, RelativeSource={RelativeSource Self}}"
+                                        Padding="0"
+                                        Command="{Binding OpenModelsFolderCommand}"
+                                        ToolTip.Tip="Open models folder">
+                                    <TextBlock Text="{x:Static theming:LucideIcons.folder_open}"
+                                               FontFamily="{DynamicResource ShareX.FontFamily.Icon}"
+                                               FontWeight="Normal"
+                                               HorizontalAlignment="Center"
+                                               VerticalAlignment="Center"/>
+                                </Button>
+                            </Grid>
+                            <Button Grid.Column="2"
+                                    Classes="editor-button"
+                                    Content="Remove Background"
+                                    Command="{Binding RemoveBackgroundCommand}"/>
+                        </Grid>
+                    </Grid>
+                </Border>
+
+                <Border Grid.Row="1" Classes="remover-panel" ClipToBounds="True">
+                    <Grid Background="{DynamicResource ShareX.Brush.Background.Panel}">
+                        <TextBlock Text="Select an image to preview it here."
+                                   IsVisible="{Binding !HasImage}"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontSize="16"
+                                   FontWeight="Normal"/>
+
+                        <Viewbox Stretch="Uniform"
+                                 IsVisible="{Binding HasImage}"
+                                 Margin="12">
+                            <Border Background="{DynamicResource ShareX.Brush.Checkered}">
+                                <Image Stretch="None"
+                                       Source="{Binding PreviewImage}"/>
+                            </Border>
+                        </Viewbox>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </ThemeVariantScope>
+</Window>

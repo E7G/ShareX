@@ -517,6 +517,12 @@
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Image viewer...</value>
   </data>
+  <data name="tsmiBackgroundRemover.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>Background remover...</value>
+  </data>
   <data name="tsmiImageComparer.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
   </data>
@@ -1593,6 +1599,12 @@
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Image viewer...</value>
   </data>
+  <data name="tsmiTrayBackgroundRemover.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>Background remover...</value>
+  </data>
   <data name="tsmiTrayImageComparer.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
   </data>
@@ -2334,6 +2346,12 @@
     <value>tsmiImageViewer</value>
   </data>
   <data name="&gt;&gt;tsmiImageViewer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiBackgroundRemover.Name" xml:space="preserve">
+    <value>tsmiBackgroundRemover</value>
+  </data>
+  <data name="&gt;&gt;tsmiBackgroundRemover.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiImageComparer.Name" xml:space="preserve">
@@ -3264,6 +3282,12 @@
     <value>tsmiTrayImageViewer</value>
   </data>
   <data name="&gt;&gt;tsmiTrayImageViewer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmiTrayBackgroundRemover.Name" xml:space="preserve">
+    <value>tsmiTrayBackgroundRemover</value>
+  </data>
+  <data name="&gt;&gt;tsmiTrayBackgroundRemover.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTrayImageComparer.Name" xml:space="preserve">
