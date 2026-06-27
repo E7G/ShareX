@@ -75,4 +75,20 @@ public partial class BackgroundRemoverWindow : Window
 
         return files.Count > 0 ? files[0].Path.LocalPath : null;
     }
+
+    private void OnNotificationPointerPressed(object? sender, PointerPressedEventArgs e)
+    {
+        _viewModel.DismissNotification();
+        e.Handled = true;
+    }
+
+    private void OnNotificationPointerEntered(object? sender, PointerEventArgs e)
+    {
+        _viewModel.SetNotificationHoverState(true);
+    }
+
+    private void OnNotificationPointerExited(object? sender, PointerEventArgs e)
+    {
+        _viewModel.SetNotificationHoverState(false);
+    }
 }

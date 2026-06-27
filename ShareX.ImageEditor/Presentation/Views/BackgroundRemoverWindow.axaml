@@ -68,7 +68,7 @@
                                        Text="Models"
                                        VerticalAlignment="Center"/>
                             <Grid Grid.Column="1"
-                                  ColumnDefinitions="*,Auto,Auto"
+                                  ColumnDefinitions="*,Auto,Auto,Auto,Auto"
                                   ColumnSpacing="4">
                                 <ComboBox Grid.Column="0"
                                           ItemsSource="{Binding AvailableModels}"
@@ -103,6 +103,17 @@
                                                HorizontalAlignment="Center"
                                                VerticalAlignment="Center"/>
                                 </Button>
+                                <TextBlock Grid.Column="3"
+                                           Text="Device"
+                                           Margin="8,0,8,0"
+                                           VerticalAlignment="Center"/>
+                                <ComboBox Grid.Column="4"
+                                          ItemsSource="{Binding AvailableDevices}"
+                                          SelectedItem="{Binding SelectedDevice, Mode=TwoWay}"
+                                          IsEnabled="{Binding !IsProcessing}"
+                                          MinWidth="88"
+                                          VerticalAlignment="Center"
+                                          ToolTip.Tip="Processing device"/>
                             </Grid>
                             <Button Grid.Column="2"
                                     Classes="editor-button"
@@ -132,6 +143,34 @@
                     </Grid>
                 </Border>
             </Grid>
+
+            <Border Classes="popup-surface zoom-upward editor-toast"
+                    Classes.open="{Binding IsNotificationOpen}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Margin="16"
+                    MaxWidth="640"
+                    IsVisible="{Binding IsNotificationVisible}"
+                    Cursor="Hand"
+                    PointerEntered="OnNotificationPointerEntered"
+                    PointerExited="OnNotificationPointerExited"
+                    PointerPressed="OnNotificationPointerPressed"
+                    ZIndex="28">
+                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="10">
+                    <TextBlock Grid.Column="0"
+                               Text="{Binding NotificationIcon}"
+                               FontFamily="{DynamicResource ShareX.FontFamily.Icon}"
+                               FontWeight="Normal"
+                               FontSize="18"
+                               VerticalAlignment="Center"
+                               IsVisible="{Binding HasNotificationIcon}"/>
+                    <TextBlock Grid.Column="1"
+                               Text="{Binding NotificationMessage}"
+                               TextWrapping="Wrap"
+                               VerticalAlignment="Center"
+                               Foreground="{DynamicResource ShareX.Brush.Text}"/>
+                </Grid>
+            </Border>
         </Grid>
     </ThemeVariantScope>
 </Window>

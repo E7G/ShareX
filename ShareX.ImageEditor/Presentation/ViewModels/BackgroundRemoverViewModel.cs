@@ -29,6 +29,7 @@ using CommunityToolkit.Mvvm.Input;
 using ShareX.ImageEditor.Core.BackgroundRemoval;
 using ShareX.ImageEditor.Hosting;
 using ShareX.ImageEditor.Presentation.Rendering;
+using ShareX.ImageEditor.Presentation.Theming;
 using SkiaSharp;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
@@ -48,7 +49,12 @@ public sealed partial class BackgroundRemoverViewModel : ViewModelBase, IDisposa
 
     public ObservableCollection<BackgroundRemovalModel> AvailableModels { get; } = [];
 
+    public IReadOnlyList<BackgroundRemovalDevice> AvailableDevices { get; } = Enum.GetValues<BackgroundRemovalDevice>();
+
     public string? ModelsFolder { get; }
+
+    [ObservableProperty]
+    private BackgroundRemovalDevice _selectedDevice = BackgroundRemovalDevice.Auto;
 
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(HasSelectedModel))]
@@ -192,6 +198,8 @@ public sealed partial class BackgroundRemoverViewModel : ViewModelBase, IDisposa
         {
             IsProcessing = true;
             BackgroundRemovalModel selectedModel = SelectedModel!;
+            BackgroundRemovalDevice selectedDevice = SelectedDevice;
+            Stopwatch stopwatch = Stopwatch.StartNew();
 
             SKBitmap? sourceBitmap = SKBitmap.Decode(ImagePath);
             if (sourceBitmap == null)
@@ -199,15 +207,25 @@ public sealed partial class BackgroundRemoverViewModel : ViewModelBase, IDisposa
                 return;
             }
 
-            SKBitmap result = await Task.Run(() =>
+            SetSourceImage(sourceBitmap.Copy(), ImagePath);
+
+            BackgroundRemovalResult result = await Task.Run(() =>
             {
                 using (sourceBitmap)
                 {
-                    return _backgroundRemovalService.RemoveBackground(sourceBitmap, selectedModel);
+                    return _backgroundRemovalService.RemoveBackground(sourceBitmap, selectedModel, selectedDevice);
                 }
             });
 
-            SetSourceImage(result, ImagePath);
+            SetSourceImage(result.Image, ImagePath);
+            stopwatch.Stop();
+            ShowNotification($"Background removed in {stopwatch.ElapsedMilliseconds} ms.", EditorIcons.ToolSmartEraser);
+            string cacheStatus = result.IsSessionCached ? "cached" : "not cached";
+            Debug.WriteLine(
+                $"Background removal (device={selectedDevice}, execution={result.ExecutionDevice}, model={selectedModel.FileName}, {cacheStatus}): " +
+                $"total={stopwatch.ElapsedMilliseconds} ms, session={result.SessionSetupMilliseconds} ms, " +
+                $"preprocess={result.PreprocessingMilliseconds} ms, inference={result.InferenceMilliseconds} ms, " +
+                $"postprocess={result.PostprocessingMilliseconds} ms");
         }
         catch (Exception ex)
         {
@@ -248,6 +266,8 @@ public sealed partial class BackgroundRemoverViewModel : ViewModelBase, IDisposa
 
     public void Dispose()
     {
+        DismissNotification();
+        _backgroundRemovalService.Dispose();
         _sourceBitmap?.Dispose();
         PreviewImage?.Dispose();
     }

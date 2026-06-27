@@ -26,6 +26,8 @@
 using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
 using SkiaSharp;
+using System.Diagnostics;
+using Vortice.DXGI;
 
 namespace ShareX.ImageEditor.Core.BackgroundRemoval;
 
@@ -55,12 +57,34 @@ public sealed class BackgroundRemovalModel
     }
 }
 
-public sealed class BackgroundRemovalService
+public enum BackgroundRemovalDevice
+{
+    Auto,
+    GPU,
+    CPU
+}
+
+public sealed record BackgroundRemovalResult(
+    SKBitmap Image,
+    bool IsSessionCached,
+    string ExecutionDevice,
+    long SessionSetupMilliseconds,
+    long PreprocessingMilliseconds,
+    long InferenceMilliseconds,
+    long PostprocessingMilliseconds);
+
+public sealed class BackgroundRemovalService : IDisposable
 {
     private static readonly float[] Mean = [0.485f, 0.456f, 0.406f];
     private static readonly float[] StandardDeviation = [0.229f, 0.224f, 0.225f];
+    private static readonly Lazy<DirectMLAdapter> PreferredDirectMLAdapter = new(FindPreferredDirectMLAdapter);
+    private readonly Lock _sessionLock = new();
+    private SessionCacheKey? _sessionKey;
+    private InferenceSession? _session;
+    private string? _executionDevice;
+    private bool _isDisposed;
 
-    public SKBitmap RemoveBackground(SKBitmap source, BackgroundRemovalModel model)
+    public BackgroundRemovalResult RemoveBackground(SKBitmap source, BackgroundRemovalModel model, BackgroundRemovalDevice device)
     {
         ArgumentNullException.ThrowIfNull(source);
         ArgumentNullException.ThrowIfNull(model);
@@ -76,7 +100,73 @@ public sealed class BackgroundRemovalService
             throw new FileNotFoundException("The background removal model file is missing.", modelPath);
         }
 
-        using InferenceSession session = new(modelPath);
+        lock (_sessionLock)
+        {
+            ObjectDisposedException.ThrowIf(_isDisposed, this);
+            Stopwatch sessionStopwatch = Stopwatch.StartNew();
+            SessionLookupResult sessionResult = GetOrCreateSession(modelPath, device);
+            sessionStopwatch.Stop();
+            return RunModel(source, sessionResult, sessionStopwatch.ElapsedMilliseconds);
+        }
+    }
+
+    private SessionLookupResult GetOrCreateSession(string modelPath, BackgroundRemovalDevice device)
+    {
+        FileInfo modelFile = new(modelPath);
+        SessionCacheKey cacheKey = new(modelFile.FullName, modelFile.Length, modelFile.LastWriteTimeUtc.Ticks, device);
+
+        if (_sessionKey == cacheKey && _session != null && _executionDevice != null)
+        {
+            return new SessionLookupResult(_session, true, _executionDevice);
+        }
+
+        _session?.Dispose();
+        SessionCreationResult creationResult = CreateSession(modelPath, device);
+        _session = creationResult.Session;
+        _executionDevice = creationResult.ExecutionDevice;
+        _sessionKey = cacheKey;
+        return new SessionLookupResult(_session, false, _executionDevice);
+    }
+
+    private static SessionCreationResult CreateSession(string modelPath, BackgroundRemovalDevice device)
+    {
+        if (device == BackgroundRemovalDevice.CPU)
+        {
+            return new SessionCreationResult(new InferenceSession(modelPath), "CPU");
+        }
+
+        if (device == BackgroundRemovalDevice.GPU)
+        {
+            return CreateDirectMLSession(modelPath);
+        }
+
+        try
+        {
+            return CreateDirectMLSession(modelPath);
+        }
+        catch (Exception ex) when (ex is OnnxRuntimeException or DllNotFoundException or EntryPointNotFoundException or NotSupportedException)
+        {
+            return new SessionCreationResult(new InferenceSession(modelPath), "CPU (GPU unavailable)");
+        }
+    }
+
+    private static SessionCreationResult CreateDirectMLSession(string modelPath)
+    {
+        DirectMLAdapter adapter = PreferredDirectMLAdapter.Value;
+        using SessionOptions sessionOptions = new()
+        {
+            EnableMemoryPattern = false,
+            ExecutionMode = ExecutionMode.ORT_SEQUENTIAL,
+            GraphOptimizationLevel = GraphOptimizationLevel.ORT_ENABLE_ALL
+        };
+
+        sessionOptions.AppendExecutionProvider_DML(adapter.DeviceId);
+        return new SessionCreationResult(new InferenceSession(modelPath, sessionOptions), adapter.Name);
+    }
+
+    private static BackgroundRemovalResult RunModel(SKBitmap source, SessionLookupResult sessionResult, long sessionSetupMilliseconds)
+    {
+        InferenceSession session = sessionResult.Session;
         string inputName = session.InputMetadata.Keys.FirstOrDefault()
             ?? throw new InvalidOperationException("The ONNX model does not expose an input tensor.");
 
@@ -85,9 +175,13 @@ public sealed class BackgroundRemovalService
         bool channelsLast;
         ResolveInputShape(session.InputMetadata[inputName].Dimensions, out inputWidth, out inputHeight, out channelsLast);
 
+        Stopwatch phaseStopwatch = Stopwatch.StartNew();
         using SKBitmap inputBitmap = ResizeBitmap(source, inputWidth, inputHeight);
         DenseTensor<float> inputTensor = CreateInputTensor(inputBitmap, channelsLast);
+        phaseStopwatch.Stop();
+        long preprocessingMilliseconds = phaseStopwatch.ElapsedMilliseconds;
 
+        phaseStopwatch.Restart();
         using IDisposableReadOnlyCollection<DisposableNamedOnnxValue> outputs = session.Run(
         [
             NamedOnnxValue.CreateFromTensor(inputName, inputTensor)
@@ -95,11 +189,93 @@ public sealed class BackgroundRemovalService
 
         Tensor<float> outputTensor = outputs.FirstOrDefault()?.AsTensor<float>()
             ?? throw new InvalidOperationException("The ONNX model did not return a usable output tensor.");
+        phaseStopwatch.Stop();
+        long inferenceMilliseconds = phaseStopwatch.ElapsedMilliseconds;
 
+        phaseStopwatch.Restart();
         using SKBitmap modelMask = CreateMaskBitmap(outputTensor);
         using SKBitmap resizedMask = ResizeBitmap(modelMask, source.Width, source.Height);
-        return ApplyAlphaMask(source, resizedMask);
+        SKBitmap result = ApplyAlphaMask(source, resizedMask);
+        phaseStopwatch.Stop();
+
+        return new BackgroundRemovalResult(
+            result,
+            sessionResult.IsCached,
+            sessionResult.ExecutionDevice,
+            sessionSetupMilliseconds,
+            preprocessingMilliseconds,
+            inferenceMilliseconds,
+            phaseStopwatch.ElapsedMilliseconds);
     }
+
+    private static DirectMLAdapter FindPreferredDirectMLAdapter()
+    {
+        try
+        {
+            using IDXGIFactory1 factory = Vortice.DXGI.DXGI.CreateDXGIFactory1<IDXGIFactory1>();
+            DirectMLAdapter? preferredAdapter = null;
+            ulong largestDedicatedMemory = 0;
+
+            for (uint index = 0; ; index++)
+            {
+                if (factory.EnumAdapters1(index, out IDXGIAdapter1 adapter).Failure)
+                {
+                    break;
+                }
+
+                using (adapter)
+                {
+                    AdapterDescription1 description = adapter.Description1;
+                    if ((description.Flags & AdapterFlags.Software) != 0)
+                    {
+                        continue;
+                    }
+
+                    ulong dedicatedMemory = description.DedicatedVideoMemory;
+                    if (preferredAdapter == null || dedicatedMemory > largestDedicatedMemory)
+                    {
+                        preferredAdapter = new DirectMLAdapter((int)index, description.Description);
+                        largestDedicatedMemory = dedicatedMemory;
+                    }
+                }
+            }
+
+            return preferredAdapter ?? new DirectMLAdapter(0, "GPU 0");
+        }
+        catch
+        {
+            return new DirectMLAdapter(0, "GPU 0");
+        }
+    }
+
+    public void Dispose()
+    {
+        lock (_sessionLock)
+        {
+            if (_isDisposed)
+            {
+                return;
+            }
+
+            _session?.Dispose();
+            _session = null;
+            _sessionKey = null;
+            _executionDevice = null;
+            _isDisposed = true;
+        }
+    }
+
+    private readonly record struct SessionLookupResult(InferenceSession Session, bool IsCached, string ExecutionDevice);
+
+    private readonly record struct SessionCreationResult(InferenceSession Session, string ExecutionDevice);
+
+    private readonly record struct DirectMLAdapter(int DeviceId, string Name);
+
+    private readonly record struct SessionCacheKey(
+        string ModelPath,
+        long FileSize,
+        long LastWriteTimeUtcTicks,
+        BackgroundRemovalDevice Device);
 
     private static void ResolveInputShape(IReadOnlyList<int> dimensions, out int width, out int height, out bool channelsLast)
     {
@@ -129,32 +305,40 @@ public sealed class BackgroundRemovalService
         }
     }
 
-    private static DenseTensor<float> CreateInputTensor(SKBitmap bitmap, bool channelsLast)
+    private static unsafe DenseTensor<float> CreateInputTensor(SKBitmap bitmap, bool channelsLast)
     {
         DenseTensor<float> tensor = channelsLast
             ? new DenseTensor<float>([1, bitmap.Height, bitmap.Width, 3])
             : new DenseTensor<float>([1, 3, bitmap.Height, bitmap.Width]);
+        Span<float> tensorValues = tensor.Buffer.Span;
+        int pixelCount = bitmap.Width * bitmap.Height;
+        byte* pixels = (byte*)bitmap.GetPixels();
 
         for (int y = 0; y < bitmap.Height; y++)
         {
+            byte* row = pixels + (y * bitmap.RowBytes);
+
             for (int x = 0; x < bitmap.Width; x++)
             {
-                SKColor color = bitmap.GetPixel(x, y);
-                float r = ((color.Red / 255f) - Mean[0]) / StandardDeviation[0];
-                float g = ((color.Green / 255f) - Mean[1]) / StandardDeviation[1];
-                float b = ((color.Blue / 255f) - Mean[2]) / StandardDeviation[2];
+                byte* pixel = row + (x * 4);
+                float alphaScale = pixel[3] is > 0 and < 255 ? 255f / pixel[3] : 1f;
+                float r = ((Math.Min(255f, pixel[2] * alphaScale) / 255f) - Mean[0]) / StandardDeviation[0];
+                float g = ((Math.Min(255f, pixel[1] * alphaScale) / 255f) - Mean[1]) / StandardDeviation[1];
+                float b = ((Math.Min(255f, pixel[0] * alphaScale) / 255f) - Mean[2]) / StandardDeviation[2];
+                int pixelIndex = (y * bitmap.Width) + x;
 
                 if (channelsLast)
                 {
-                    tensor[0, y, x, 0] = r;
-                    tensor[0, y, x, 1] = g;
-                    tensor[0, y, x, 2] = b;
+                    int tensorIndex = pixelIndex * 3;
+                    tensorValues[tensorIndex] = r;
+                    tensorValues[tensorIndex + 1] = g;
+                    tensorValues[tensorIndex + 2] = b;
                 }
                 else
                 {
-                    tensor[0, 0, y, x] = r;
-                    tensor[0, 1, y, x] = g;
-                    tensor[0, 2, y, x] = b;
+                    tensorValues[pixelIndex] = r;
+                    tensorValues[pixelCount + pixelIndex] = g;
+                    tensorValues[(pixelCount * 2) + pixelIndex] = b;
                 }
             }
         }
@@ -162,7 +346,7 @@ public sealed class BackgroundRemovalService
         return tensor;
     }
 
-    private static SKBitmap CreateMaskBitmap(Tensor<float> outputTensor)
+    private static unsafe SKBitmap CreateMaskBitmap(Tensor<float> outputTensor)
     {
         ResolveOutputShape(outputTensor.Dimensions, out int width, out int height);
 
@@ -205,15 +389,22 @@ public sealed class BackgroundRemovalService
 
         float range = Math.Max(0.000001f, max - min);
         SKBitmap mask = new(new SKImageInfo(width, height, SKColorType.Bgra8888, SKAlphaType.Premul));
+        byte* maskPixels = (byte*)mask.GetPixels();
 
         for (int y = 0; y < height; y++)
         {
+            byte* row = maskPixels + (y * mask.RowBytes);
+
             for (int x = 0; x < width; x++)
             {
                 int index = (y * width) + x;
                 float normalized = Math.Clamp((values[index] - min) / range, 0f, 1f);
                 byte alpha = (byte)MathF.Round(normalized * 255f);
-                mask.SetPixel(x, y, new SKColor(alpha, alpha, alpha, alpha));
+                byte* pixel = row + (x * 4);
+                pixel[0] = 0;
+                pixel[1] = 0;
+                pixel[2] = 0;
+                pixel[3] = alpha;
             }
         }
 
@@ -242,24 +433,22 @@ public sealed class BackgroundRemovalService
     {
         SKBitmap output = new(new SKImageInfo(source.Width, source.Height, SKColorType.Bgra8888, SKAlphaType.Premul));
 
-        for (int y = 0; y < source.Height; y++)
-        {
-            for (int x = 0; x < source.Width; x++)
-            {
-                SKColor sourceColor = source.GetPixel(x, y);
-                byte maskAlpha = mask.GetPixel(x, y).Alpha;
-                byte outputAlpha = (byte)Math.Clamp((int)MathF.Round(sourceColor.Alpha * (maskAlpha / 255f)), 0, 255);
-
-                output.SetPixel(x, y, new SKColor(sourceColor.Red, sourceColor.Green, sourceColor.Blue, outputAlpha));
-            }
-        }
+        using SKCanvas canvas = new(output);
+        using SKImage sourceImage = SKImage.FromBitmap(source);
+        using SKImage maskImage = SKImage.FromBitmap(mask);
+        using SKPaint maskPaint = new() { BlendMode = SKBlendMode.DstIn };
+        canvas.Clear(SKColors.Transparent);
+        canvas.DrawImage(sourceImage, 0, 0);
+        canvas.DrawImage(maskImage, 0, 0, maskPaint);
 
         return output;
     }
 
     private static SKBitmap ResizeBitmap(SKBitmap source, int width, int height)
     {
-        if (source.Width == width && source.Height == height)
+        if (source.Width == width && source.Height == height &&
+            source.ColorType == SKColorType.Bgra8888 &&
+            source.AlphaType is SKAlphaType.Premul or SKAlphaType.Opaque)
         {
             return source.Copy();
         }
