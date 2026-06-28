@@ -49,12 +49,12 @@ public class ImageComparisonSlider : Control
     private static readonly IPen SliderPen = new Pen(SliderBrush, 2);
     private static readonly IBrush HandleBrush = new SolidColorBrush(Color.FromArgb(230, 35, 35, 35));
     private static readonly IPen HandlePen = new Pen(SliderBrush, 2);
+    private readonly Cursor _sliderCursor = new(StandardCursorType.SizeWestEast);
     private bool _isDragging;
 
     public ImageComparisonSlider()
     {
         ClipToBounds = true;
-        Cursor = new Cursor(StandardCursorType.SizeWestEast);
     }
 
     public Bitmap? LeftImage
@@ -83,6 +83,7 @@ public class ImageComparisonSlider : Control
             change.Property == RightImageProperty ||
             change.Property == SliderPositionProperty)
         {
+            Cursor = LeftImage != null && RightImage != null ? _sliderCursor : null;
             InvalidateVisual();
         }
     }
@@ -104,19 +105,19 @@ public class ImageComparisonSlider : Control
         Rect imageBounds = GetImageBounds(bounds, leftImage, rightImage);
         DrawTransparencyBackground(context, imageBounds);
 
-        if (rightImage != null)
+        if (leftImage == null || rightImage == null)
         {
-            DrawBitmap(context, rightImage, imageBounds);
+            DrawBitmap(context, leftImage ?? rightImage!, imageBounds);
+            return;
         }
 
-        if (leftImage != null)
+        DrawBitmap(context, rightImage, imageBounds);
+
+        double sliderX = GetSliderX(imageBounds);
+        using (context.PushClip(new Rect(imageBounds.Left, imageBounds.Top, Math.Max(0, sliderX - imageBounds.Left), imageBounds.Height)))
         {
-            double sliderX = GetSliderX(imageBounds);
-            using (context.PushClip(new Rect(imageBounds.Left, imageBounds.Top, Math.Max(0, sliderX - imageBounds.Left), imageBounds.Height)))
-            {
-                DrawTransparencyBackground(context, imageBounds);
-                DrawBitmap(context, leftImage, imageBounds);
-            }
+            DrawTransparencyBackground(context, imageBounds);
+            DrawBitmap(context, leftImage, imageBounds);
         }
 
         DrawSlider(context, imageBounds);
@@ -126,7 +127,7 @@ public class ImageComparisonSlider : Control
     {
         base.OnPointerPressed(e);
 
-        if (e.GetCurrentPoint(this).Properties.IsLeftButtonPressed)
+        if (LeftImage != null && RightImage != null && e.GetCurrentPoint(this).Properties.IsLeftButtonPressed)
         {
             _isDragging = true;
             e.Pointer.Capture(this);

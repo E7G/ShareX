@@ -29,6 +29,7 @@ using Avalonia.Markup.Xaml;
 using Avalonia.Platform.Storage;
 using ShareX.ImageEditor.Presentation.Theming;
 using ShareX.ImageEditor.Presentation.ViewModels;
+using SkiaSharp;
 
 namespace ShareX.ImageEditor.Presentation.Views;
 
@@ -49,6 +50,11 @@ public partial class BackgroundRemoverWindow : Window
         InitializeComponent();
         RequestedThemeVariant = ThemeManager.GetCurrentTheme();
         _viewModel.SelectImageFileRequested = SelectImageFileAsync;
+        _viewModel.SaveImageRequested = SaveImageAsync;
+        _viewModel.SaveImageAsRequested = SaveImageAsAsync;
+        DragDrop.SetAllowDrop(this, true);
+        AddHandler(DragDrop.DragOverEvent, OnDragOver);
+        AddHandler(DragDrop.DropEvent, OnDrop);
         _viewModel.PropertyChanged += (_, e) =>
         {
             if (e.PropertyName == nameof(BackgroundRemoverViewModel.IsProcessing))
@@ -74,6 +80,93 @@ public partial class BackgroundRemoverWindow : Window
         });
 
         return files.Count > 0 ? files[0].Path.LocalPath : null;
+    }
+
+    private Task<string?> SaveImageAsync(SKBitmap image, string? sourcePath)
+    {
+        string extension = Path.GetExtension(sourcePath)?.ToLowerInvariant() ?? string.Empty;
+        if (!string.IsNullOrWhiteSpace(sourcePath) && extension is ".png" or ".webp")
+        {
+            SaveImageToFile(image, sourcePath);
+            return Task.FromResult<string?>(sourcePath);
+        }
+
+        return SaveImageAsAsync(image, sourcePath);
+    }
+
+    private async Task<string?> SaveImageAsAsync(SKBitmap image, string? sourcePath)
+    {
+        string suggestedFileName = string.IsNullOrWhiteSpace(sourcePath)
+            ? "image-output.png"
+            : $"{Path.GetFileNameWithoutExtension(sourcePath)}-output.png";
+
+        IStorageFile? file = await StorageProvider.SaveFilePickerAsync(new FilePickerSaveOptions
+        {
+            Title = "Save image as",
+            SuggestedFileName = suggestedFileName,
+            DefaultExtension = "png",
+            FileTypeChoices =
+            [
+                new FilePickerFileType("PNG") { Patterns = ["*.png"] },
+                new FilePickerFileType("WebP") { Patterns = ["*.webp"] }
+            ]
+        });
+
+        if (file == null)
+        {
+            return null;
+        }
+
+        string filePath = file.Path.LocalPath;
+        SaveImageToFile(image, filePath);
+        return filePath;
+    }
+
+    private static void SaveImageToFile(SKBitmap image, string filePath)
+    {
+        SKEncodedImageFormat format = Path.GetExtension(filePath).Equals(".webp", StringComparison.OrdinalIgnoreCase)
+            ? SKEncodedImageFormat.Webp
+            : SKEncodedImageFormat.Png;
+
+        using SKImage skImage = SKImage.FromBitmap(image);
+        using SKData data = skImage.Encode(format, 100);
+        using FileStream stream = File.Create(filePath);
+        data.SaveTo(stream);
+    }
+
+    private void OnDragOver(object? sender, DragEventArgs e)
+    {
+        e.DragEffects = !_viewModel.IsProcessing && e.DataTransfer.Formats.Contains(DataFormat.File)
+            ? DragDropEffects.Copy
+            : DragDropEffects.None;
+    }
+
+    private void OnDrop(object? sender, DragEventArgs e)
+    {
+        if (_viewModel.IsProcessing)
+        {
+            return;
+        }
+
+        List<IStorageItem> droppedItems = e.DataTransfer.TryGetFiles()?.ToList() ?? [];
+
+        if (droppedItems.Count == 0)
+        {
+            foreach (IDataTransferItem item in e.DataTransfer.Items)
+            {
+                if (item.TryGetRaw(DataFormat.File) is IStorageItem storageItem)
+                {
+                    droppedItems.Add(storageItem);
+                }
+            }
+        }
+
+        IStorageFile? file = droppedItems.OfType<IStorageFile>().FirstOrDefault();
+        if (file != null)
+        {
+            _viewModel.LoadImage(file.Path.LocalPath);
+            e.Handled = true;
+        }
     }
 
     private void OnNotificationPointerPressed(object? sender, PointerPressedEventArgs e)
