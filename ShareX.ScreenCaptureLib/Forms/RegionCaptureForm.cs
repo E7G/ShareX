@@ -322,12 +322,10 @@ namespace ShareX.ScreenCaptureLib
 
                 Task.Run(() =>
                 {
-                    WindowsRectangleList wla = new WindowsRectangleList()
-                    {
-                        IgnoreHandle = handle,
-                        IncludeChildWindows = ShapeManager.IncludeControls,
-                        Timeout = 5000
-                    };
+                    WindowsRectangleList wla = new WindowsRectangleList();
+                    wla.IgnoreHandleList.Add(handle);
+                    wla.IncludeChildWindows = ShapeManager.IncludeControls;
+                    wla.Timeout = 5000;
 
                     ShapeManager.Windows = wla.GetWindowInfoList();
                 });

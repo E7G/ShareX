@@ -27,13 +27,18 @@ using ShareX.HelpersLib;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using System.Threading;
 
 namespace ShareX.ScreenCaptureLib
 {
     public class WindowsRectangleList
     {
-        public IntPtr IgnoreHandle { get; set; }
+        public List<IntPtr> IgnoreHandleList { get; set; } = new List<IntPtr>();
+        public List<string> IgnoreClassNameList { get; set; } = new List<string>()
+        {
+            "CEF-OSC-WIDGET" // NVIDIA GeForce Overlay DT
+        };
         public bool IncludeChildWindows { get; set; }
         public int Timeout { get; set; }
 
@@ -98,48 +103,67 @@ namespace ShareX.ScreenCaptureLib
 
         private bool CheckHandle(IntPtr handle, Rectangle? clipRect)
         {
-            bool isWindow = clipRect == null;
-
             if (cts != null && cts.IsCancellationRequested)
             {
                 return false;
             }
 
-            if (handle == IgnoreHandle || !NativeMethods.IsWindowVisible(handle) || (isWindow && NativeMethods.IsWindowCloaked(handle)))
+            if (IgnoreHandleList.Contains(handle))
             {
                 return true;
             }
 
-            // Skip non-activatable tool windows (tiling manager overlays, system
-            // auxiliaries, etc.).  These are never the "real" application the user
-            // intends to capture, and including them causes screenshot metadata
-            // (filename, window title) to reflect the overlay instead of the app
-            // underneath.
+            WindowInfo windowInfo = new WindowInfo(handle);
+
+            if (!windowInfo.IsVisible)
+            {
+                return true;
+            }
+
+            bool isWindow = clipRect == null;
+
             if (isWindow)
             {
-                const long WS_EX_TOOLWINDOW = 0x00000080L;
-                const long WS_EX_NOACTIVATE = 0x08000000L;
-                long exStyle = (long)NativeMethods.GetWindowLong(handle, NativeConstants.GWL_EXSTYLE);
-                if ((exStyle & WS_EX_TOOLWINDOW) != 0 && (exStyle & WS_EX_NOACTIVATE) != 0)
+                if (windowInfo.IsCloaked)
+                {
+                    return true;
+                }
+
+                string className = windowInfo.ClassName;
+
+                if (!string.IsNullOrEmpty(className) &&
+                    IgnoreClassNameList.Any(ignore => className.Equals(ignore, StringComparison.OrdinalIgnoreCase)))
+                {
+                    return true;
+                }
+
+                WindowStyles exStyle = windowInfo.ExStyle;
+
+                // Skip non-activatable tool windows (tiling manager overlays, system
+                // auxiliaries, etc.). These are never the "real" application the user
+                // intends to capture, and including them causes screenshot metadata
+                // (filename, window title) to reflect the overlay instead of the app
+                // underneath.
+                if (exStyle.HasFlag(WindowStyles.WS_EX_TOOLWINDOW, WindowStyles.WS_EX_NOACTIVATE))
                 {
                     return true;
                 }
             }
 
-            SimpleWindowInfo windowInfo = new SimpleWindowInfo(handle);
+            SimpleWindowInfo simpleWindowInfo = new SimpleWindowInfo(handle);
 
             if (isWindow)
             {
-                windowInfo.IsWindow = true;
-                windowInfo.Rectangle = CaptureHelpers.GetWindowRectangle(handle);
+                simpleWindowInfo.IsWindow = true;
+                simpleWindowInfo.Rectangle = CaptureHelpers.GetWindowRectangle(handle);
             }
             else
             {
                 Rectangle rect = NativeMethods.GetWindowRect(handle);
-                windowInfo.Rectangle = Rectangle.Intersect(rect, clipRect.Value);
+                simpleWindowInfo.Rectangle = Rectangle.Intersect(rect, clipRect.Value);
             }
 
-            if (!windowInfo.Rectangle.IsValid())
+            if (!simpleWindowInfo.Rectangle.IsValid())
             {
                 return true;
             }
@@ -150,7 +174,7 @@ namespace ShareX.ScreenCaptureLib
 
                 bool EvalControl(IntPtr hWnd, IntPtr _)
                 {
-                    return CheckHandle(hWnd, windowInfo.Rectangle);
+                    return CheckHandle(hWnd, simpleWindowInfo.Rectangle);
                 }
 
                 NativeMethods.EnumChildWindows(handle, EvalControl, IntPtr.Zero);
@@ -160,13 +184,13 @@ namespace ShareX.ScreenCaptureLib
             {
                 Rectangle clientRect = NativeMethods.GetClientRect(handle);
 
-                if (clientRect.IsValid() && clientRect != windowInfo.Rectangle)
+                if (clientRect.IsValid() && clientRect != simpleWindowInfo.Rectangle)
                 {
                     windows.Add(new SimpleWindowInfo(handle, clientRect));
                 }
             }
 
-            windows.Add(windowInfo);
+            windows.Add(simpleWindowInfo);
 
             return true;
         }

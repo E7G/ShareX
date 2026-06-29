@@ -64,7 +64,8 @@ namespace ShareX.ScreenCaptureLib
 
         private bool IsValidWindow(WindowInfo window)
         {
-            return window != null && window.IsVisible && !string.IsNullOrEmpty(window.Text) && IsClassNameAllowed(window) && window.Rectangle.IsValid();
+            return window != null && window.IsVisible && !window.IsCloaked && !string.IsNullOrEmpty(window.Text) &&
+                IsClassNameAllowed(window) && window.Rectangle.IsValid();
         }
 
         private bool IsClassNameAllowed(WindowInfo window)

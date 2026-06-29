@@ -170,7 +170,7 @@ namespace ShareX.HelpersLib
 
         public bool IsMinimized => NativeMethods.IsIconic(Handle);
 
-        public bool IsVisible => NativeMethods.IsWindowVisible(Handle) && !IsCloaked;
+        public bool IsVisible => NativeMethods.IsWindowVisible(Handle);
 
         public bool IsCloaked => NativeMethods.IsWindowCloaked(Handle);
 
