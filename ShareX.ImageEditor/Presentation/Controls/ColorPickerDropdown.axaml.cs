@@ -29,6 +29,7 @@ using Avalonia.Controls.Primitives;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media;
+using ShareX.ImageEditor.Presentation.Views;
 
 namespace ShareX.ImageEditor.Presentation.Controls
 {
@@ -98,6 +99,8 @@ namespace ShareX.ImageEditor.Presentation.Controls
         }
 
         public event EventHandler<IBrush>? ColorChanged;
+
+        private bool _isScreenColorPickerOpen;
 
         static ColorPickerDropdown()
         {
@@ -169,6 +172,38 @@ namespace ShareX.ImageEditor.Presentation.Controls
             if (popup != null)
             {
                 popup.IsOpen = !popup.IsOpen;
+            }
+        }
+
+        private async void OnScreenColorPickerClick(object? sender, RoutedEventArgs e)
+        {
+            if (_isScreenColorPickerOpen)
+            {
+                return;
+            }
+
+            var popup = this.FindControl<Popup>("ColorPopup");
+            if (popup != null)
+            {
+                popup.IsOpen = false;
+            }
+
+            _isScreenColorPickerOpen = true;
+
+            try
+            {
+                var picker = new ScreenColorPickerWindow();
+                Window? owner = TopLevel.GetTopLevel(this) as Window;
+                Color? color = await picker.PickAsync(owner);
+
+                if (color.HasValue)
+                {
+                    SelectedColorValue = color.Value;
+                }
+            }
+            finally
+            {
+                _isScreenColorPickerOpen = false;
             }
         }
     }

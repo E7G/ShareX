@@ -80,17 +80,38 @@
                VerticalOffset="4">
             <Border Classes="popup-border popup-surface"
                     Classes.open="{Binding #ColorPopup.IsOpen}"
-                    Background="{DynamicResource ShareX.Brush.Background.Popup}" 
-                    CornerRadius="8" 
+                    Background="{DynamicResource ShareX.Brush.Background.Panel}"
+                    CornerRadius="8"
                     Padding="4"
                     BorderBrush="{DynamicResource ShareX.Brush.Border}"
                     BorderThickness="1">
-                <cp:ColorView x:Name="ColorViewControl"
-                              Color="{Binding SelectedColorValue, ElementName=ColorPickerDropdownRoot, Mode=TwoWay}"
-                              IsAlphaVisible="True"
-                              IsColorPreviewVisible="True"
-                              SelectedIndex="1"
-                              HsvColor="{Binding SelectedHsvColor, ElementName=ColorPickerDropdownRoot, Mode=TwoWay}"/>
+                <StackPanel>
+                    <cp:ColorView x:Name="ColorViewControl"
+                                  Color="{Binding SelectedColorValue, ElementName=ColorPickerDropdownRoot, Mode=TwoWay}"
+                                  IsAlphaVisible="True"
+                                  IsColorPreviewVisible="True"
+                                  SelectedIndex="1"
+                                  HsvColor="{Binding SelectedHsvColor, ElementName=ColorPickerDropdownRoot, Mode=TwoWay}"/>
+
+                    <Button Classes="editor-button"
+                            Margin="4"
+                            Height="40"
+                            HorizontalAlignment="Center"
+                            HorizontalContentAlignment="Left"
+                            Click="OnScreenColorPickerClick">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="{x:Static theming:EditorIcons.ScreenColorPicker}"
+                                       FontFamily="{DynamicResource ShareX.FontFamily.Icon}"
+                                       FontWeight="Normal"
+                                       FontSize="16"
+                                       VerticalAlignment="Center"/>
+                            <TextBlock Text="Pick color from screen"
+                                       FontWeight="Normal"
+                                       FontSize="16"
+                                       VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
             </Border>
         </Popup>
     </Grid>

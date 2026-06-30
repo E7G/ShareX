@@ -84,6 +84,7 @@ namespace ShareX.ImageEditor.Presentation.Theming
         public const string LayerFlatten = LucideIcons.layers_2;
         public const string ChevronDown = LucideIcons.chevron_down;
         public const string Zoom = LucideIcons.zoom_in;
+        public const string ScreenColorPicker = LucideIcons.pipette;
 
         public const string FileMenu = LucideIcons.file;
         public const string FileNew = LucideIcons.file_plus;
