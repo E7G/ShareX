@@ -670,7 +670,7 @@
             // 
             // tsmiBackgroundRemover
             // 
-            tsmiBackgroundRemover.Image = Properties.Resources.image_saturation;
+            tsmiBackgroundRemover.Image = Properties.Resources.wand_magic;
             tsmiBackgroundRemover.Name = "tsmiBackgroundRemover";
             resources.ApplyResources(tsmiBackgroundRemover, "tsmiBackgroundRemover");
             tsmiBackgroundRemover.Click += tsmiBackgroundRemover_Click;
@@ -1701,7 +1701,7 @@
             // 
             // tsmiTrayBackgroundRemover
             // 
-            tsmiTrayBackgroundRemover.Image = Properties.Resources.image_saturation;
+            tsmiTrayBackgroundRemover.Image = Properties.Resources.wand_magic;
             tsmiTrayBackgroundRemover.Name = "tsmiTrayBackgroundRemover";
             resources.ApplyResources(tsmiTrayBackgroundRemover, "tsmiTrayBackgroundRemover");
             tsmiTrayBackgroundRemover.Click += tsmiBackgroundRemover_Click;

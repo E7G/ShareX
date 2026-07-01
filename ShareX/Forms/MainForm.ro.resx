@@ -780,4 +780,10 @@
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Descriere</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>Eliminare fundal...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>Eliminare fundal...</value>
+  </data>
 </root>

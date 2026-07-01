@@ -780,4 +780,10 @@
   <data name="tsmiImageComparer.Text" xml:space="preserve">
     <value>图片比较器...</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>背景移除工具...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>背景移除工具...</value>
+  </data>
 </root>

@@ -780,4 +780,10 @@
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Leírás</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>Háttéreltávolító...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>Háttéreltávolító...</value>
+  </data>
 </root>

@@ -99,6 +99,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             _zoomController = new EditorZoomController(this);
             _selectionController = new EditorSelectionController(this);
             _inputController = new EditorInputController(this, _selectionController, _zoomController);
+            InitializeEasterEggs();
 
             // Subscribe to selection controller events
             _selectionController.RequestUpdateEffect += OnRequestUpdateEffect;
@@ -564,6 +565,7 @@ namespace ShareX.ImageEditor.Presentation.Views
             }
 
             UnhookAnnotationToolbarEvents();
+            StopEasterEggs();
             _selectionController.RequestUpdateEffect -= OnRequestUpdateEffect;
             ClearEffectPreviewCache();
             SetPlatformSettings(null);
@@ -1516,6 +1518,8 @@ namespace ShareX.ImageEditor.Presentation.Views
 
             // Skip shortcuts when a modal dialog is open (e.g. emoji picker search box)
             if (DataContext is MainViewModel { IsModalOpen: true }) return;
+
+            if (HandleEasterEggKeyDown(e)) return;
 
             if (e.KeyModifiers.HasFlag(KeyModifiers.Control) && !_inputController.IsDrawingActive)
             {

@@ -780,4 +780,10 @@
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Reiniciar ShareX como administrador</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>Eliminador de fondo...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>Eliminador de fondo...</value>
+  </data>
 </root>

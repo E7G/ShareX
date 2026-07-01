@@ -780,4 +780,10 @@
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Görüntüyü analiz et...</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>Arka plan kaldırıcı...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>Arka plan kaldırıcı...</value>
+  </data>
 </root>

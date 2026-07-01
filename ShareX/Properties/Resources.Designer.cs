@@ -3210,6 +3210,16 @@ namespace ShareX.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wand_magic {
+            get {
+                object obj = ResourceManager.GetObject("wand-magic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {0} configuration is invalid or missing. Please check &quot;Destination settings&quot; window to configure it..
         /// </summary>
         internal static string WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_ {

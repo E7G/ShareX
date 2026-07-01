@@ -73,6 +73,7 @@ namespace ShareX.ImageEditor.Presentation.Theming
         public const string ActionRotateLeft = LucideIcons.rotate_ccw_square;
         public const string ActionRotateRight = LucideIcons.rotate_cw_square;
         public const string ActionToggleToolbars = LucideIcons.chevrons_up_down;
+        public const string Achievement = LucideIcons.trophy;
 
         public const string FormatBold = LucideIcons.bold;
         public const string FormatItalic = LucideIcons.italic;

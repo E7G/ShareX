@@ -29,7 +29,6 @@ using Avalonia.Controls.Primitives;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media;
-using ShareX.ImageEditor.Presentation.Views;
 
 namespace ShareX.ImageEditor.Presentation.Controls
 {
@@ -100,8 +99,6 @@ namespace ShareX.ImageEditor.Presentation.Controls
 
         public event EventHandler<IBrush>? ColorChanged;
 
-        private bool _isScreenColorPickerOpen;
-
         static ColorPickerDropdown()
         {
             // Sync SelectedColor -> SelectedColorValue
@@ -133,17 +130,6 @@ namespace ShareX.ImageEditor.Presentation.Controls
             Loaded += (s, e) =>
             {
                 UpdateIconForeground(SelectedColorValue);
-
-                var colorView = this.FindControl<ColorView>("ColorViewControl");
-                if (colorView?.PaletteColors != null)
-                {
-                    var paletteColors = colorView.PaletteColors.ToList();
-                    int count = paletteColors.Count;
-                    paletteColors[count - 13] = Color.FromArgb(255, 235, 235, 235);
-                    paletteColors[count - 7] = Color.FromArgb(255, 20, 20, 20);
-                    paletteColors[count - 1] = Colors.Transparent;
-                    colorView.PaletteColors = paletteColors;
-                }
             };
         }
 
@@ -175,36 +161,5 @@ namespace ShareX.ImageEditor.Presentation.Controls
             }
         }
 
-        private async void OnScreenColorPickerClick(object? sender, RoutedEventArgs e)
-        {
-            if (_isScreenColorPickerOpen)
-            {
-                return;
-            }
-
-            var popup = this.FindControl<Popup>("ColorPopup");
-            if (popup != null)
-            {
-                popup.IsOpen = false;
-            }
-
-            _isScreenColorPickerOpen = true;
-
-            try
-            {
-                var picker = new ScreenColorPickerWindow();
-                Window? owner = TopLevel.GetTopLevel(this) as Window;
-                Color? color = await picker.PickAsync(owner);
-
-                if (color.HasValue)
-                {
-                    SelectedColorValue = color.Value;
-                }
-            }
-            finally
-            {
-                _isScreenColorPickerOpen = false;
-            }
-        }
     }
 }

@@ -780,4 +780,10 @@
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Аналізувати зображення...</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>Видалення фону...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>Видалення фону...</value>
+  </data>
 </root>

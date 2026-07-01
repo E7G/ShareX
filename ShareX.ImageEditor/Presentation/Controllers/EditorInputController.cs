@@ -965,14 +965,8 @@ public class EditorInputController
 
     public void OnKeyDown(object sender, KeyEventArgs e)
     {
-        if (!_isDrawing || e.Key is not Key.LeftCtrl and not Key.RightCtrl)
-        {
-            return;
-        }
-
-        // Re-arm Ctrl move mode immediately even if there hasn't been an
-        // intervening pointer move since the last release.
-        _wasCtrlHeldDuringDraw = false;
+        // Do not re-arm shape movement here. Ctrl KeyDown events can repeat while
+        // the key remains held, so movement must only be re-armed by OnKeyUp.
     }
 
     public void OnKeyUp(object sender, KeyEventArgs e)

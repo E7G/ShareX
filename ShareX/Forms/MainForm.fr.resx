@@ -780,4 +780,10 @@
   <data name="tsmiTrayMetadata.Text" xml:space="preserve">
     <value>Métadonnées...</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>Suppresseur d’arrière-plan...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>Suppresseur d’arrière-plan...</value>
+  </data>
 </root>

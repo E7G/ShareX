@@ -2178,7 +2178,7 @@ namespace ShareX
                     case HotkeyType.ImageBeautifier: return Resources.picture_sunset;
                     case HotkeyType.ImageEffects: return Resources.image_reflection;
                     case HotkeyType.ImageViewer: return Resources.images_flickr;
-                    case HotkeyType.BackgroundRemover: return Resources.image_saturation;
+                    case HotkeyType.BackgroundRemover: return Resources.wand_magic;
                     case HotkeyType.ImageComparer: return Resources.image_saturation;
                     case HotkeyType.ImageCombiner: return Resources.document_break;
                     case HotkeyType.ImageSplitter: return Resources.image_split;

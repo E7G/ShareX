@@ -872,4 +872,10 @@
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>توضیح</value>
   </data>
+  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
+    <value>حذف‌کننده پس‌زمینه...</value>
+  </data>
+  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
+    <value>حذف‌کننده پس‌زمینه...</value>
+  </data>
 </root>

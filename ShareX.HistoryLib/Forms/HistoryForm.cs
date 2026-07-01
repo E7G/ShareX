@@ -137,21 +137,24 @@ namespace ShareX.HistoryLib
                 allHistoryItems = await GetHistoryItems();
             }
 
-            cbTypeFilterSelection.Items.Clear();
-            cbHostFilterSelection.Items.Clear();
-            tstbSearch.AutoCompleteCustomSource.Clear();
-
-            if (allHistoryItems.Count > 0)
+            if (!IsDisposed)
             {
-                allTypeNames = allHistoryItems.Select(x => x.Type).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray();
-                cbTypeFilterSelection.Items.AddRange(allTypeNames.Select(x => typeNamesLocaleLookup.TryGetValue(x, out string value) ? value : x).ToArray());
-                cbHostFilterSelection.Items.AddRange(allHistoryItems.Select(x => x.Host).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray());
-                tstbSearch.AutoCompleteCustomSource.AddRange(allHistoryItems.Select(x => x.TagsProcessName).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray());
+                cbTypeFilterSelection.Items.Clear();
+                cbHostFilterSelection.Items.Clear();
+                tstbSearch.AutoCompleteCustomSource.Clear();
+
+                if (allHistoryItems.Count > 0)
+                {
+                    allTypeNames = allHistoryItems.Select(x => x.Type).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray();
+                    cbTypeFilterSelection.Items.AddRange(allTypeNames.Select(x => typeNamesLocaleLookup.TryGetValue(x, out string value) ? value : x).ToArray());
+                    cbHostFilterSelection.Items.AddRange(allHistoryItems.Select(x => x.Host).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray());
+                    tstbSearch.AutoCompleteCustomSource.AddRange(allHistoryItems.Select(x => x.TagsProcessName).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray());
+                }
+
+                ApplyFilterSimple();
+
+                ResetFilters();
             }
-
-            ApplyFilterSimple();
-
-            ResetFilters();
         }
 
         private HistoryItem[] him_GetHistoryItems()

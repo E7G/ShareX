@@ -101,14 +101,17 @@ namespace ShareX.HistoryLib
                 allHistoryItems = await GetHistoryItems();
             }
 
-            tstbSearch.AutoCompleteCustomSource.Clear();
-
-            if (allHistoryItems.Count > 0)
+            if (!IsDisposed)
             {
-                tstbSearch.AutoCompleteCustomSource.AddRange(allHistoryItems.Select(x => x.TagsProcessName).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray());
-            }
+                tstbSearch.AutoCompleteCustomSource.Clear();
 
-            ApplyFilter();
+                if (allHistoryItems.Count > 0)
+                {
+                    tstbSearch.AutoCompleteCustomSource.AddRange(allHistoryItems.Select(x => x.TagsProcessName).Where(x => !string.IsNullOrWhiteSpace(x)).Distinct().ToArray());
+                }
+
+                ApplyFilter();
+            }
         }
 
         private void DeleteHistoryItems(HistoryItem[] historyItems)
