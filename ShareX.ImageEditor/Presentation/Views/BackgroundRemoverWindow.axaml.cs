@@ -27,6 +27,7 @@ using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Markup.Xaml;
 using Avalonia.Platform.Storage;
+using ShareX.ImageEditor.Hosting;
 using ShareX.ImageEditor.Presentation.Theming;
 using ShareX.ImageEditor.Presentation.ViewModels;
 using SkiaSharp;
@@ -44,8 +45,13 @@ public partial class BackgroundRemoverWindow : Window
     }
 
     public BackgroundRemoverWindow(string? modelsFolder)
+        : this(modelsFolder, new BackgroundRemoverOptions())
     {
-        _viewModel = new BackgroundRemoverViewModel(modelsFolder);
+    }
+
+    public BackgroundRemoverWindow(string? modelsFolder, BackgroundRemoverOptions options)
+    {
+        _viewModel = new BackgroundRemoverViewModel(modelsFolder, options);
         DataContext = _viewModel;
         InitializeComponent();
         RequestedThemeVariant = ThemeManager.GetCurrentTheme();
