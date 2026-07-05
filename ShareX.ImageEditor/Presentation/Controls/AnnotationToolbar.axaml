@@ -39,7 +39,7 @@
                                             Margin="4,0"
                                             Background="{DynamicResource ShareX.Brush.Separator}"
                                             IsVisible="{Binding IsGroupSeparatorVisible}"/>
-                                    <Button Classes="editor-button toolbar-button"
+                                    <Button Classes="toolbar-button"
                                             ToolTip.Tip="{Binding ToolTip}"
                                             x:Name="FileMenuButton"
                                             MinWidth="54"
@@ -120,7 +120,7 @@
                                             </MenuFlyout>
                                         </Button.Flyout>
                                     </Button>
-                                    <Button Classes="editor-button toolbar-button"
+                                    <Button Classes="toolbar-button"
                                             Tag="{Binding}"
                                             Classes.active="{Binding IsActive}"
                                             Click="OnToolbarItemClick"
@@ -137,22 +137,22 @@
                                 Spacing="4"
                                 IsVisible="{Binding ShowEditingActions, ElementName=AnnotationToolbarRoot}">
                         <Border Width="1" Margin="4,0" Background="{DynamicResource ShareX.Brush.Separator}"/>
-                        <Button Classes="editor-button toolbar-button"
+                        <Button Classes="toolbar-button"
                                 IsEnabled="{Binding CanUndo}"
                                 Click="OnUndoClick"
                                 ToolTip.Tip="Undo (Ctrl+Z)"
                                 Content="{x:Static theming:EditorIcons.ActionUndo}"/>
-                        <Button Classes="editor-button toolbar-button"
+                        <Button Classes="toolbar-button"
                                 IsEnabled="{Binding CanRedo}"
                                 Click="OnRedoClick"
                                 ToolTip.Tip="Redo (Ctrl+Y)"
                                 Content="{x:Static theming:EditorIcons.ActionRedo}"/>
-                        <Button Classes="editor-button toolbar-button"
+                        <Button Classes="toolbar-button"
                                 IsEnabled="{Binding HasSelection}"
                                 Click="OnDeleteClick"
                                 ToolTip.Tip="Delete (Delete)"
                                 Content="{x:Static theming:EditorIcons.ActionDelete}"/>
-                        <Button Classes="editor-button toolbar-button"
+                        <Button Classes="toolbar-button"
                                 IsEnabled="{Binding HasAnnotations}"
                                 Click="OnClearClick"
                                 ToolTip.Tip="Delete all (Shift+Delete)"
@@ -272,13 +272,13 @@
                                                      IsVisible="{Binding ShowFontSize}"
                                                      ToolTip.Tip="Font size"/>
 
-                    <Button Classes="editor-button toolbar-button"
+                    <Button Classes="toolbar-button"
                             Classes.active="{Binding TextBold}"
                             Click="OnTextBoldClick"
                             IsVisible="{Binding ShowTextStyle}"
                             ToolTip.Tip="Toggle bold"
                             Content="{x:Static theming:EditorIcons.FormatBold}"/>
-                    <Button Classes="editor-button toolbar-button"
+                    <Button Classes="toolbar-button"
                             Classes.active="{Binding TextItalic}"
                             Click="OnTextItalicClick"
                             IsVisible="{Binding ShowTextItalic}"
@@ -330,13 +330,13 @@
                                              IsVisible="{Binding ShowSpotlightBlur}"
                                              ToolTip.Tip="Blur amount"/>
 
-                    <Button Classes="editor-button toolbar-button"
+                    <Button Classes="toolbar-button"
                             Classes.active="{Binding EffectEllipse}"
                             Click="OnEffectEllipseClick"
                             IsVisible="{Binding ShowEffectEllipse}"
                             ToolTip.Tip="Toggle ellipse shape"
                             Content="{x:Static theming:EditorIcons.ToggleEllipseShape}"/>
-                    <Button Classes="editor-button toolbar-button"
+                    <Button Classes="toolbar-button"
                             Classes.active="{Binding SpeechBalloonTail}"
                             Click="OnSpeechBalloonTailClick"
                             IsVisible="{Binding ShowSpeechBalloonTail}"
@@ -344,7 +344,7 @@
                             Content="{x:Static theming:EditorIcons.ToggleSpeechBalloonTail}"/>
                     <Grid IsVisible="{Binding ShowShadow}">
                         <Button x:Name="ShadowToggleButton"
-                                Classes="editor-button toolbar-button"
+                                Classes="toolbar-button"
                                 Classes.active="{Binding ShadowEnabled}"
                                 Click="OnShadowClick"
                                 PointerPressed="OnShadowPointerPressed"

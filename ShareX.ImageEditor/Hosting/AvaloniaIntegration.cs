@@ -26,6 +26,7 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
+using Avalonia.Markup.Xaml.Styling;
 using Avalonia.Themes.Fluent;
 using Avalonia.Threading;
 using ShareX.ImageEditor.Presentation.ViewModels;
@@ -38,7 +39,16 @@ namespace ShareX.ImageEditor.Hosting
     {
         public override void Initialize()
         {
+            Uri baseUri = new Uri("avares://ShareX.ImageEditor/");
+            Resources.MergedDictionaries.Add(new ResourceInclude(baseUri)
+            {
+                Source = new Uri("avares://ShareX.ImageEditor/Presentation/Theming/AppTheme.axaml")
+            });
             Styles.Add(new FluentTheme());
+            Styles.Add(new StyleInclude(baseUri)
+            {
+                Source = new Uri("avares://ShareX.ImageEditor/Presentation/Theming/AppStyles.axaml")
+            });
         }
 
         public override void OnFrameworkInitializationCompleted()
@@ -112,6 +122,17 @@ namespace ShareX.ImageEditor.Hosting
             Dispatcher.UIThread.Post(() =>
             {
                 ImageComparerWindow window = new ImageComparerWindow();
+                window.Show();
+            });
+        }
+
+        public static void ShowIconConverterWindow()
+        {
+            Initialize();
+
+            Dispatcher.UIThread.Post(() =>
+            {
+                IconConverterWindow window = new IconConverterWindow();
                 window.Show();
             });
         }

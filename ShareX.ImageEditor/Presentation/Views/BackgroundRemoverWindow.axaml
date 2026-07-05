@@ -16,7 +16,6 @@
         WindowStartupLocation="CenterScreen">
 
     <Window.Styles>
-        <StyleInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorStyles.axaml"/>
         <Style Selector="Border.remover-panel">
             <Setter Property="Background" Value="{DynamicResource ShareX.Brush.Background.Panel}"/>
             <Setter Property="BorderBrush" Value="{DynamicResource ShareX.Brush.Border}"/>
@@ -57,14 +56,6 @@
         </Style>
     </Window.Styles>
 
-    <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorTheme.axaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Window.Resources>
-
     <ThemeVariantScope RequestedThemeVariant="{x:Static theming:ThemeManager.ShareXDark}">
         <Grid Background="{DynamicResource ShareX.Brush.Background.Main}">
             <Grid RowDefinitions="Auto,*,Auto" Margin="16" RowSpacing="12">
@@ -81,7 +72,6 @@
                                        Text="{Binding ImagePath, TargetNullValue='No image selected'}"
                                        VerticalAlignment="Center"/>
                             <Button Grid.Column="2"
-                                    Classes="editor-button"
                                     Content="Browse..."
                                     Command="{Binding BrowseImageCommand}"/>
                         </Grid>
@@ -103,7 +93,6 @@
                                           VerticalAlignment="Center"
                                           ToolTip.Tip="Background removal model"/>
                                 <Button Grid.Column="1"
-                                        Classes="editor-button"
                                         MinWidth="0"
                                         Width="{Binding Bounds.Height, RelativeSource={RelativeSource Self}}"
                                         Padding="0"
@@ -117,7 +106,6 @@
                                                VerticalAlignment="Center"/>
                                 </Button>
                                 <Button Grid.Column="2"
-                                        Classes="editor-button"
                                         MinWidth="0"
                                         Width="{Binding Bounds.Height, RelativeSource={RelativeSource Self}}"
                                         Padding="0"
@@ -131,7 +119,6 @@
                                                VerticalAlignment="Center"/>
                                 </Button>
                                 <Button Grid.Column="3"
-                                        Classes="editor-button"
                                         Classes.guide-highlight="{Binding IsGuideHighlighted}"
                                         MinWidth="0"
                                         Width="{Binding Bounds.Height, RelativeSource={RelativeSource Self}}"
@@ -158,7 +145,6 @@
                                           ToolTip.Tip="Processing device"/>
                             </Grid>
                             <Button Grid.Column="2"
-                                    Classes="editor-button"
                                     Content="Remove Background"
                                     Command="{Binding RemoveBackgroundCommand}"/>
                         </Grid>
@@ -186,7 +172,7 @@
                             Orientation="Horizontal"
                             HorizontalAlignment="Right"
                             Spacing="8">
-                    <Button Classes="editor-button"
+                    <Button
                             Command="{Binding SaveCommand}">
                         <StackPanel Orientation="Horizontal" Spacing="8">
                             <TextBlock Text="{x:Static theming:EditorIcons.ActionSave}"
@@ -196,7 +182,7 @@
                             <TextBlock Text="Save" VerticalAlignment="Center"/>
                         </StackPanel>
                     </Button>
-                    <Button Classes="editor-button"
+                    <Button
                             Command="{Binding SaveAsCommand}">
                         <StackPanel Orientation="Horizontal" Spacing="8">
                             <TextBlock Text="{x:Static theming:EditorIcons.ActionSaveAs}"
@@ -209,7 +195,7 @@
                 </StackPanel>
             </Grid>
 
-            <Border Classes="popup-surface zoom-upward editor-toast"
+            <Border Classes="popup-surface zoom-upward app-toast"
                     Classes.open="{Binding IsNotificationOpen}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Bottom"

@@ -16,7 +16,6 @@
         WindowStartupLocation="CenterScreen">
 
     <Window.Styles>
-        <StyleInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorStyles.axaml"/>
         <Style Selector="Border.comparer-panel">
             <Setter Property="Background" Value="{DynamicResource ShareX.Brush.Background.Panel}"/>
             <Setter Property="BorderBrush" Value="{DynamicResource ShareX.Brush.Border}"/>
@@ -33,14 +32,6 @@
         </Style>
     </Window.Styles>
 
-    <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorTheme.axaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Window.Resources>
-
     <ThemeVariantScope RequestedThemeVariant="{x:Static theming:ThemeManager.ShareXDark}">
         <Grid Background="{DynamicResource ShareX.Brush.Background.Main}">
             <Grid RowDefinitions="Auto,*" Margin="16" RowSpacing="12">
@@ -56,7 +47,7 @@
                                        Classes="path-text"
                                        VerticalAlignment="Center"
                                        Text="{Binding Image1Path, TargetNullValue='No image selected'}"/>
-                            <Button Grid.Column="2" Classes="editor-button" Content="Choose..." Command="{Binding SelectImage1Command}"/>
+                            <Button Grid.Column="2" Content="Choose..." Command="{Binding SelectImage1Command}"/>
                         </Grid>
                     </Border>
 
@@ -71,7 +62,7 @@
                                        Classes="path-text"
                                        VerticalAlignment="Center"
                                        Text="{Binding Image2Path, TargetNullValue='No image selected'}"/>
-                            <Button Grid.Column="2" Classes="editor-button" Content="Choose..." Command="{Binding SelectImage2Command}"/>
+                            <Button Grid.Column="2" Content="Choose..." Command="{Binding SelectImage2Command}"/>
                         </Grid>
                     </Border>
                 </Grid>

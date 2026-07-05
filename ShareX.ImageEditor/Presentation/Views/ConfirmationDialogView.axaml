@@ -35,9 +35,9 @@
                     BorderBrush="{DynamicResource ShareX.Brush.Border}" BorderThickness="0,1,0,0"
                     Padding="10">
                 <StackPanel Orientation="Horizontal" Spacing="5" HorizontalAlignment="Right">
-                    <Button x:Name="YesButton" Classes="editor-button" Padding="20,0" Content="Yes" Command="{Binding YesCommand}" HorizontalContentAlignment="Center"/>
-                    <Button Classes="editor-button" Padding="20,0" Content="No" Command="{Binding NoCommand}" HorizontalContentAlignment="Center"/>
-                    <Button Classes="editor-button" Padding="20,0" Content="Cancel" Command="{Binding CancelCommand}" HorizontalContentAlignment="Center"/>
+                    <Button x:Name="YesButton" Padding="20,0" Content="Yes" Command="{Binding YesCommand}" HorizontalContentAlignment="Center"/>
+                    <Button Padding="20,0" Content="No" Command="{Binding NoCommand}" HorizontalContentAlignment="Center"/>
+                    <Button Padding="20,0" Content="Cancel" Command="{Binding CancelCommand}" HorizontalContentAlignment="Center"/>
                 </StackPanel>
             </Border>
         </Grid>

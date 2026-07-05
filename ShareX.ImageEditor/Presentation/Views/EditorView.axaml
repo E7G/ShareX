@@ -16,7 +16,6 @@
              Focusable="True">
 
     <UserControl.Styles>
-        <StyleInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorStyles.axaml"/>
         <Style Selector="Border.gradient-preview-half">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="BorderBrush" Value="Transparent"/>
@@ -74,12 +73,6 @@
     </UserControl.DataTemplates>
 
     <UserControl.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceInclude Source="avares://ShareX.ImageEditor/Presentation/Theming/ImageEditorTheme.axaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-        
         <converters:DoubleToCornerRadiusConverter x:Key="DoubleToCornerRadius" />
         <converters:EqualsConverter x:Key="EqualsConverter" />
 
@@ -201,7 +194,7 @@
                             <TextBlock Text="Background"
                                        VerticalAlignment="Center"/>
                         </StackPanel>
-                        
+
                         <!-- Background Margin -->
                         <StackPanel Spacing="0">
                             <Grid ColumnDefinitions="*,Auto">
@@ -273,51 +266,51 @@
                             <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*,*,*">
                                 <!-- Row 0 -->
                                 <Button Grid.Row="0" Grid.Column="0" Content="Auto"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="Auto"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=Auto}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                                 <Button Grid.Row="0" Grid.Column="1" Content="1:1"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="1:1"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=1:1}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                                 <Button Grid.Row="0" Grid.Column="2" Content="4:3"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="4:3"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=4:3}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 
                                 <!-- Row 1 -->
                                 <Button Grid.Row="1" Grid.Column="0" Content="3:2"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="3:2"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=3:2}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                                 <Button Grid.Row="1" Grid.Column="1" Content="16:9"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="16:9"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=16:9}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                                 <Button Grid.Row="1" Grid.Column="2" Content="5:3"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="5:3"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=5:3}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 
                                 <!-- Row 2 -->
                                 <Button Grid.Row="2" Grid.Column="0" Content="9:16"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="9:16"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=9:16}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                                 <Button Grid.Row="2" Grid.Column="1" Content="3:4"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="3:4"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=3:4}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                                 <Button Grid.Row="2" Grid.Column="2" Content="2:3"
-                                        Classes="editor-button ratio-button"
+                                        Classes="ratio-button"
                                         Command="{Binding SetOutputRatioCommand}" CommandParameter="2:3"
                                         Classes.active="{Binding SelectedOutputRatio, Converter={StaticResource EqualsConverter}, ConverterParameter=2:3}"
                                         HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
@@ -405,9 +398,8 @@
                                     </ItemsControl.ItemsPanel>
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate x:DataType="vm:MainViewModel+GradientPreset">
-                                            <Button Padding="0"
-                                                    BorderThickness="0"
-                                                    Background="Transparent"
+                                            <Button Classes="transparent-button"
+                                                    Padding="0"
                                                     Margin="2"
                                                     ToolTip.Tip="{Binding Name}"
                                                     Command="{ReflectionBinding DataContext.ApplyGradientPresetCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
@@ -465,7 +457,6 @@
 
                             <StackPanel IsVisible="{Binding IsImageBackgroundModeSelected}" Spacing="6">
                                 <Button x:Name="BrowseBackgroundImageButton"
-                                        Classes="editor-button"
                                         Content="Browse background image..."
                                         Click="OnBrowseBackgroundImageClick"
                                         HorizontalAlignment="Stretch"/>
@@ -702,37 +693,37 @@
                     </Button>
                 </Grid>
 
-                <Button Classes="editor-button" Command="{Binding CopyCommand}" Width="40" Padding="0"
+                <Button Command="{Binding CopyCommand}" Width="40" Padding="0"
                         IsVisible="{Binding ShowBottomToolbar}"
                         ToolTip.Tip="Copy image to clipboard (Ctrl+C)" ToolTip.Placement="Top" ToolTip.VerticalOffset="-5">
                     <TextBlock Text="{x:Static theming:EditorIcons.ActionCopy}" FontSize="18" FontFamily="{DynamicResource ShareX.FontFamily.Icon}" FontWeight="Normal"/>
                 </Button>
 
-                <Button Classes="editor-button" Command="{Binding SaveCommand}" Width="40" Padding="0"
+                <Button Command="{Binding SaveCommand}" Width="40" Padding="0"
                         IsVisible="{Binding ShowBottomToolbar}"
                         ToolTip.Tip="Save image (Ctrl+S)" ToolTip.Placement="Top" ToolTip.VerticalOffset="-5">
                     <TextBlock Text="{x:Static theming:EditorIcons.ActionSave}" FontSize="18" FontFamily="{DynamicResource ShareX.FontFamily.Icon}" FontWeight="Normal"/>
                 </Button>
 
-                <Button Classes="editor-button" Command="{Binding SaveAsCommand}" Width="40" Padding="0"
+                <Button Command="{Binding SaveAsCommand}" Width="40" Padding="0"
                         IsVisible="{Binding ShowBottomToolbar}"
                         ToolTip.Tip="Save image as... (Ctrl+Shift+S)" ToolTip.Placement="Top" ToolTip.VerticalOffset="-5">
                     <TextBlock Text="{x:Static theming:EditorIcons.ActionSaveAs}" FontSize="18" FontFamily="{DynamicResource ShareX.FontFamily.Icon}" FontWeight="Normal"/>
                 </Button>
 
-                <Button Classes="editor-button" Command="{Binding PinToScreenCommand}" IsEnabled="{Binding HasPreviewImage}" Width="40" Padding="0"
+                <Button Command="{Binding PinToScreenCommand}" IsEnabled="{Binding HasPreviewImage}" Width="40" Padding="0"
                         IsVisible="{Binding ShowBottomToolbar}"
                         ToolTip.Tip="Pin image to screen (Ctrl+P)" ToolTip.Placement="Top" ToolTip.VerticalOffset="-5">
                     <TextBlock Text="{x:Static theming:EditorIcons.ActionPinToScreen}" FontSize="18" FontFamily="{DynamicResource ShareX.FontFamily.Icon}" FontWeight="Normal"/>
                 </Button>
 
-                <Button Classes="editor-button" Command="{Binding PrintCommand}" IsEnabled="{Binding HasPreviewImage}" Width="40" Padding="0"
+                <Button Command="{Binding PrintCommand}" IsEnabled="{Binding HasPreviewImage}" Width="40" Padding="0"
                         IsVisible="{Binding ShowBottomToolbar}"
                         ToolTip.Tip="Print image... (Ctrl+Shift+P)" ToolTip.Placement="Top" ToolTip.VerticalOffset="-5">
                     <TextBlock Text="{x:Static theming:EditorIcons.ActionPrint}" FontSize="18" FontFamily="{DynamicResource ShareX.FontFamily.Icon}" FontWeight="Normal"/>
                 </Button>
 
-                <Button Classes="editor-button" Command="{Binding UploadCommand}" IsEnabled="{Binding HasPreviewImage}" Width="40" Padding="0"
+                <Button Command="{Binding UploadCommand}" IsEnabled="{Binding HasPreviewImage}" Width="40" Padding="0"
                         IsVisible="{Binding ShowBottomToolbar}"
                         ToolTip.Tip="Upload image (Ctrl+U)" ToolTip.Placement="Top" ToolTip.VerticalOffset="-5">
                     <TextBlock Text="{x:Static theming:EditorIcons.ActionUpload}" FontSize="18" FontFamily="{DynamicResource ShareX.FontFamily.Icon}" FontWeight="Normal"/>
@@ -740,7 +731,7 @@
             </StackPanel>
         </Border>
 
-        <Border Classes="popup-surface zoom-upward editor-toast"
+        <Border Classes="popup-surface zoom-upward app-toast"
                 Classes.open="{Binding IsNotificationOpen}"
                 Grid.Row="0"
                 HorizontalAlignment="Center"

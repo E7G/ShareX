@@ -12,7 +12,7 @@
                       SelectedIndex="1"
                       HsvColor="{Binding SelectedHsvColor, ElementName=ColorPickerPanelRoot, Mode=TwoWay}"/>
 
-        <Button Classes="editor-button"
+        <Button
                 Margin="4"
                 Height="40"
                 HorizontalAlignment="Center"

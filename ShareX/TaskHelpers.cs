@@ -1016,6 +1016,11 @@ namespace ShareX
             AvaloniaIntegration.ShowImageComparerWindow();
         }
 
+        public static void OpenIconConverter()
+        {
+            AvaloniaIntegration.ShowIconConverterWindow();
+        }
+
         public static void OpenBackgroundRemover(TaskSettings taskSettings = null)
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
