@@ -320,7 +320,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>312, 23</value>
   </data>
   <data name="cbVideoCodec.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;cbVideoCodec.Name" xml:space="preserve">
     <value>cbVideoCodec</value>
@@ -332,7 +332,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbVideoCodec.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="btnFFmpegBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -348,7 +348,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="btnFFmpegBrowse.Text" xml:space="preserve">
     <value>...</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;btnFFmpegBrowse.Name" xml:space="preserve">
     <value>btnFFmpegBrowse</value>
@@ -360,7 +359,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnFFmpegBrowse.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>14</value>
   </data>
   <data name="txtFFmpegPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 32</value>
@@ -381,7 +380,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtFFmpegPath.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>17</value>
   </data>
   <data name="cbCustomCommands.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -396,7 +395,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>154, 19</value>
   </data>
   <data name="cbCustomCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>16</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Use custom commands:</value>
@@ -411,7 +410,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbCustomCommands.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="txtCommandLinePreview.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -429,7 +428,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>632, 72</value>
   </data>
   <data name="txtCommandLinePreview.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>17</value>
   </data>
   <data name="&gt;&gt;txtCommandLinePreview.Name" xml:space="preserve">
     <value>txtCommandLinePreview</value>
@@ -441,7 +440,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtCommandLinePreview.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="txtUserArgs.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 288</value>
@@ -450,7 +449,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>632, 23</value>
   </data>
   <data name="txtUserArgs.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>15</value>
   </data>
   <data name="&gt;&gt;txtUserArgs.Name" xml:space="preserve">
     <value>txtUserArgs</value>
@@ -462,7 +461,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtUserArgs.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="cbVideoSource.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 80</value>
@@ -483,7 +482,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbVideoSource.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>13</value>
   </data>
   <data name="lblVideoSource.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -513,7 +512,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblVideoSource.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>15</value>
   </data>
   <data name="cbAudioSource.Location" type="System.Drawing.Point, System.Drawing">
     <value>336, 80</value>
@@ -534,7 +533,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbAudioSource.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>16</value>
   </data>
   <data name="lblAudioSource.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -564,7 +563,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblAudioSource.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>18</value>
   </data>
   <data name="cbAudioCodec.Location" type="System.Drawing.Point, System.Drawing">
     <value>336, 160</value>
@@ -573,7 +572,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>312, 23</value>
   </data>
   <data name="cbAudioCodec.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;cbAudioCodec.Name" xml:space="preserve">
     <value>cbAudioCodec</value>
@@ -586,91 +585,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="&gt;&gt;cbAudioCodec.ZOrder" xml:space="preserve">
     <value>11</value>
-  </data>
-  <data name="btnHelperDevicesHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnHelperDevicesHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>184, 112</value>
-  </data>
-  <data name="btnHelperDevicesHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 24</value>
-  </data>
-  <data name="btnHelperDevicesHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="btnHelperDevicesHelp.Text" xml:space="preserve">
-    <value>?</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="&gt;&gt;btnHelperDevicesHelp.Name" xml:space="preserve">
-    <value>btnHelperDevicesHelp</value>
-  </data>
-  <data name="&gt;&gt;btnHelperDevicesHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHelperDevicesHelp.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnHelperDevicesHelp.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="lblHelperDevices.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblHelperDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblHelperDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 117</value>
-  </data>
-  <data name="lblHelperDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 15</value>
-  </data>
-  <data name="lblHelperDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="lblHelperDevices.Text" xml:space="preserve">
-    <value>Installs "screen-capture-recorder" and "virtual-audio-capturer" video/audio source.</value>
-  </data>
-  <data name="&gt;&gt;lblHelperDevices.Name" xml:space="preserve">
-    <value>lblHelperDevices</value>
-  </data>
-  <data name="&gt;&gt;lblHelperDevices.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblHelperDevices.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblHelperDevices.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="btnInstallHelperDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnInstallHelperDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 112</value>
-  </data>
-  <data name="btnInstallHelperDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 24</value>
-  </data>
-  <data name="btnInstallHelperDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btnInstallHelperDevices.Text" xml:space="preserve">
-    <value>Install recorder devices...</value>
-  </data>
-  <data name="&gt;&gt;btnInstallHelperDevices.Name" xml:space="preserve">
-    <value>btnInstallHelperDevices</value>
-  </data>
-  <data name="&gt;&gt;btnInstallHelperDevices.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnInstallHelperDevices.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnInstallHelperDevices.ZOrder" xml:space="preserve">
-    <value>14</value>
   </data>
   <data name="lblCommandLineArgs.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -685,7 +599,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>205, 15</value>
   </data>
   <data name="lblCommandLineArgs.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>14</value>
   </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>Additional command line arguments:</value>
@@ -700,7 +614,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblCommandLineArgs.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="cbUseCustomFFmpegPath.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -730,7 +644,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cbUseCustomFFmpegPath.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="lblVideoEncoder.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -745,7 +659,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>86, 15</value>
   </data>
   <data name="lblVideoEncoder.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="lblVideoEncoder.Text" xml:space="preserve">
     <value>Video encoder:</value>
@@ -760,7 +674,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblVideoEncoder.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="lblAudioEncoder.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -775,7 +689,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>88, 15</value>
   </data>
   <data name="lblAudioEncoder.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>10</value>
   </data>
   <data name="lblAudioEncoder.Text" xml:space="preserve">
     <value>Audio encoder:</value>
@@ -790,7 +704,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblAudioEncoder.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="lblAACBitrateK.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -806,7 +720,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblAACBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblAACBitrateK.Name" xml:space="preserve">
     <value>lblAACBitrateK</value>
@@ -886,7 +799,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpAAC.Text" xml:space="preserve">
     <value>AAC</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpAAC.Name" xml:space="preserve">
     <value>tpAAC</value>
@@ -914,7 +826,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblOpusBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblOpusBitrateK.Name" xml:space="preserve">
     <value>lblOpusBitrateK</value>
@@ -993,7 +904,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpOpus.Text" xml:space="preserve">
     <value>Opus</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpOpus.Name" xml:space="preserve">
     <value>tpOpus</value>
@@ -1072,7 +982,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpVorbis.Text" xml:space="preserve">
     <value>Vorbis</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpVorbis.Name" xml:space="preserve">
     <value>tpVorbis</value>
@@ -1151,7 +1060,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpMP3.Text" xml:space="preserve">
     <value>MP3</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpMP3.Name" xml:space="preserve">
     <value>tpMP3</value>
@@ -1172,7 +1080,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>312, 80</value>
   </data>
   <data name="tcFFmpegAudioCodecs.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;tcFFmpegAudioCodecs.Name" xml:space="preserve">
     <value>tcFFmpegAudioCodecs</value>
@@ -1184,7 +1092,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tcFFmpegAudioCodecs.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="lblx264BitrateK.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1203,7 +1111,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblx264BitrateK.Text" xml:space="preserve">
     <value>kbps</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblx264BitrateK.Name" xml:space="preserve">
     <value>lblx264BitrateK</value>
@@ -1264,7 +1171,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblx264CRF.Text" xml:space="preserve">
     <value>CRF:</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblx264CRF.Name" xml:space="preserve">
     <value>lblx264CRF</value>
@@ -1346,7 +1252,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpX264.Text" xml:space="preserve">
     <value>x264 / x265</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpX264.Name" xml:space="preserve">
     <value>tpX264</value>
@@ -1377,7 +1282,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblVP8BitrateK.Text" xml:space="preserve">
     <value>kbps</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblVP8BitrateK.Name" xml:space="preserve">
     <value>lblVP8BitrateK</value>
@@ -1456,7 +1360,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpVpx.Text" xml:space="preserve">
     <value>VP8</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpVpx.Name" xml:space="preserve">
     <value>tpVpx</value>
@@ -1511,7 +1414,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpXvid.Text" xml:space="preserve">
     <value>Xvid</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpXvid.Name" xml:space="preserve">
     <value>tpXvid</value>
@@ -1593,7 +1495,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblNVENCBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblNVENCBitrateK.Name" xml:space="preserve">
     <value>lblNVENCBitrateK</value>
@@ -1726,7 +1627,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpNVENC.Text" xml:space="preserve">
     <value>NVENC</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpNVENC.Name" xml:space="preserve">
     <value>tpNVENC</value>
@@ -1814,7 +1714,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpGIF.Text" xml:space="preserve">
     <value>GIF</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpGIF.Name" xml:space="preserve">
     <value>tpGIF</value>
@@ -1845,7 +1744,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblAMFBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblAMFBitrateK.Name" xml:space="preserve">
     <value>lblAMFBitrateK</value>
@@ -2029,7 +1927,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpAMF.Text" xml:space="preserve">
     <value>AMF</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpAMF.Name" xml:space="preserve">
     <value>tpAMF</value>
@@ -2060,7 +1957,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="lblQSVBitrateK.Text" xml:space="preserve">
     <value>kbps</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;lblQSVBitrateK.Name" xml:space="preserve">
     <value>lblQSVBitrateK</value>
@@ -2193,7 +2089,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="tpQSV.Text" xml:space="preserve">
     <value>QuickSync</value>
-    <comment>@Invariant</comment>
   </data>
   <data name="&gt;&gt;tpQSV.Name" xml:space="preserve">
     <value>tpQSV</value>
@@ -2214,7 +2109,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>312, 80</value>
   </data>
   <data name="tcFFmpegVideoCodecs.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>12</value>
   </data>
   <data name="&gt;&gt;tcFFmpegVideoCodecs.Name" xml:space="preserve">
     <value>tcFFmpegVideoCodecs</value>
@@ -2226,7 +2121,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tcFFmpegVideoCodecs.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnResetOptions.Location" type="System.Drawing.Point, System.Drawing">
     <value>504, 416</value>
@@ -2235,7 +2130,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>144, 24</value>
   </data>
   <data name="btnResetOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>18</value>
   </data>
   <data name="btnResetOptions.Text" xml:space="preserve">
     <value>Reset options...</value>
@@ -2250,6 +2145,30 @@ A higher value means bad quality, but a low file size.</value>
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnResetOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDownloadRecorderDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 112</value>
+  </data>
+  <data name="btnDownloadRecorderDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 24</value>
+  </data>
+  <data name="btnDownloadRecorderDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnDownloadRecorderDevices.Text" xml:space="preserve">
+    <value>Download recorder devices...</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadRecorderDevices.Name" xml:space="preserve">
+    <value>btnDownloadRecorderDevices</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadRecorderDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadRecorderDevices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadRecorderDevices.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
