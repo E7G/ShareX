@@ -932,9 +932,24 @@ namespace ShareX
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
 
-            HashCheckerForm hashCheckerForm = new HashCheckerForm(filePath);
-            hashCheckerForm.PlayNotificationSound += () => PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings);
-            hashCheckerForm.Show();
+            AvaloniaIntegration.ShowHashCheckerWindow(
+                CalculateFileHashAsync,
+                () => PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings),
+                filePath);
+        }
+
+        private static async Task<string> CalculateFileHashAsync(
+            string filePath,
+            HashCheckerAlgorithm algorithm,
+            IProgress<double> progress,
+            CancellationToken cancellationToken)
+        {
+            cancellationToken.ThrowIfCancellationRequested();
+
+            HashChecker hashChecker = new HashChecker();
+            hashChecker.FileCheckProgressChanged += value => progress.Report(value);
+            using CancellationTokenRegistration registration = cancellationToken.Register(hashChecker.Stop);
+            return await hashChecker.Start(filePath, (HashType)algorithm);
         }
 
         public static void OpenMetadataWindow(string filePath = null)
@@ -1063,9 +1078,7 @@ namespace ShareX
                 return;
             }
 
-            VideoConverterForm videoConverterForm = new VideoConverterForm(taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath,
-                taskSettings.ToolsSettingsReference.VideoConverterOptions);
-            videoConverterForm.Show();
+            ShowVideoConverter(taskSettings);
         }
 
         public static void OpenVideoConverter(string filePath, TaskSettings taskSettings = null)
@@ -1079,10 +1092,79 @@ namespace ShareX
                     return;
                 }
 
-                VideoConverterForm videoConverterForm = new VideoConverterForm(filePath, taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath,
-                    taskSettings.ToolsSettingsReference.VideoConverterOptions);
-                videoConverterForm.Show();
+                ShowVideoConverter(taskSettings, filePath);
             }
+        }
+
+        private static void ShowVideoConverter(TaskSettings taskSettings, string inputFilePath = null)
+        {
+            ShareX.MediaLib.VideoConverterOptions source = taskSettings.ToolsSettingsReference.VideoConverterOptions;
+            VideoConverterSettings settings = new VideoConverterSettings
+            {
+                InputFilePath = source.InputFilePath,
+                OutputFolderPath = source.OutputFolderPath,
+                OutputFileName = source.OutputFileName,
+                VideoCodec = (VideoConverterCodec)source.VideoCodec,
+                VideoQuality = source.VideoQuality,
+                VideoQualityUseBitrate = source.VideoQualityUseBitrate,
+                VideoQualityBitrate = source.VideoQualityBitrate,
+                AutoOpenFolder = source.AutoOpenFolder
+            };
+
+            string ffmpegFilePath = taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath;
+            AvaloniaIntegration.ShowVideoConverterWindow(
+                settings,
+                (request, progress, cancellationToken) => RunVideoConversionAsync(ffmpegFilePath, request, progress, cancellationToken),
+                updated =>
+                {
+                    source.InputFilePath = updated.InputFilePath;
+                    source.OutputFolderPath = updated.OutputFolderPath;
+                    source.OutputFileName = updated.OutputFileName;
+                    source.VideoCodec = (ConverterVideoCodecs)updated.VideoCodec;
+                    source.VideoQuality = updated.VideoQuality;
+                    source.VideoQualityUseBitrate = updated.VideoQualityUseBitrate;
+                    source.VideoQualityBitrate = updated.VideoQualityBitrate;
+                    source.AutoOpenFolder = updated.AutoOpenFolder;
+                },
+                inputFilePath);
+        }
+
+        private static Task<VideoConversionResult> RunVideoConversionAsync(
+            string ffmpegFilePath,
+            VideoConversionRequest request,
+            IProgress<double> progress,
+            CancellationToken cancellationToken)
+        {
+            return Task.Run(() =>
+            {
+                cancellationToken.ThrowIfCancellationRequested();
+
+                using FFmpegCLIManager ffmpeg = new FFmpegCLIManager(ffmpegFilePath)
+                {
+                    ShowError = false,
+                    TrackEncodeProgress = true
+                };
+
+                ffmpeg.EncodeProgressChanged += percentage => progress.Report(percentage);
+                using CancellationTokenRegistration registration = cancellationToken.Register(ffmpeg.Close);
+                bool succeeded = ffmpeg.Run(request.Arguments);
+                bool wasCancelled = cancellationToken.IsCancellationRequested || ffmpeg.StopRequested;
+
+                if (succeeded && !wasCancelled && request.AutoOpenFolder)
+                {
+                    FileHelpers.OpenFolderWithFile(request.OutputFilePath);
+                }
+
+                string errorMessage = null;
+                if (!succeeded && !wasCancelled)
+                {
+                    errorMessage = ffmpeg.Output.ToString()
+                        .Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
+                        .LastOrDefault();
+                }
+
+                return new VideoConversionResult(succeeded, wasCancelled, errorMessage);
+            }, cancellationToken);
         }
 
         public static void OpenVideoThumbnailer(TaskSettings taskSettings = null)
@@ -1670,24 +1752,124 @@ namespace ShareX
             }
         }
 
-        public static void OpenQRCode()
+        public static void OpenQRCode(string text = null)
         {
-            QRCodeForm.GenerateQRCodeFromClipboard().Show();
+            if (text == null)
+            {
+                string clipboardText = ClipboardHelpers.GetText(true);
+                if (CheckQRCodeContent(clipboardText))
+                {
+                    text = clipboardText;
+                }
+            }
+
+            ShowQrCodeWindow(new QrCodeWindowOptions { InitialText = text });
         }
 
         public static void OpenQRCodeScanFromImageFile(string filePath)
         {
-            QRCodeForm.OpenFormScanFromImageFile(filePath).Show();
+            ShowQrCodeWindow(new QrCodeWindowOptions { InitialImageFilePath = filePath });
         }
 
         public static void OpenQRCodeScanScreen()
         {
-            QRCodeForm.OpenFormScanScreen();
+            ShowQrCodeWindow(new QrCodeWindowOptions { InitialScanMode = QrCodeScanMode.Screen });
         }
 
         public static void OpenQRCodeScanRegion()
         {
-            QRCodeForm.OpenFormScanRegion();
+            ShowQrCodeWindow(new QrCodeWindowOptions { InitialScanMode = QrCodeScanMode.Region });
+        }
+
+        private static void ShowQrCodeWindow(QrCodeWindowOptions options)
+        {
+            AvaloniaIntegration.ShowQrCodeWindow(new QrCodeServices
+            {
+                GeneratePreviewAsync = GenerateQrCodePreviewAsync,
+                ScanAsync = ScanQrCodeAsync,
+                SaveAsync = SaveQrCodeAsync,
+                CopyImage = CopyQrCodeImage,
+                UploadImage = UploadQrCodeImage,
+                PlayNotificationSound = () => PlayNotificationSoundAsync(NotificationSound.ActionCompleted)
+            }, options);
+        }
+
+        private static Task<byte[]> GenerateQrCodePreviewAsync(string text, int size)
+        {
+            return Task.Run(() =>
+            {
+                using Image image = GenerateQRCode(text, size);
+                if (image == null)
+                {
+                    return null;
+                }
+
+                using MemoryStream stream = new MemoryStream();
+                image.Save(stream, ImageFormat.Png);
+                return stream.ToArray();
+            });
+        }
+
+        private static Task<string[]> ScanQrCodeAsync(QrCodeScanMode mode, string filePath)
+        {
+            using Bitmap bitmap = mode switch
+            {
+                QrCodeScanMode.Screen => new Screenshot().CaptureFullscreen(),
+                QrCodeScanMode.Region => RegionCaptureTasks.GetRegionImage(
+                    TaskSettings.GetDefaultTaskSettings().CaptureSettings.SurfaceOptions),
+                QrCodeScanMode.ImageFile when !string.IsNullOrWhiteSpace(filePath) => ImageHelpers.LoadImage(filePath),
+                _ => null
+            };
+
+            return Task.FromResult(bitmap != null ? BarcodeScan(bitmap) : null);
+        }
+
+        private static Task SaveQrCodeAsync(string text, int size, string filePath)
+        {
+            return Task.Run(() =>
+            {
+                if (filePath.EndsWith(".svg", StringComparison.OrdinalIgnoreCase))
+                {
+                    BarcodeWriterSvg writer = new BarcodeWriterSvg
+                    {
+                        Format = BarcodeFormat.QR_CODE,
+                        Options = new QrCodeEncodingOptions
+                        {
+                            Width = size,
+                            Height = size,
+                            CharacterSet = "UTF-8"
+                        }
+                    };
+                    var svgImage = writer.Write(text);
+                    File.WriteAllText(filePath, svgImage.Content, Encoding.UTF8);
+                }
+                else
+                {
+                    using Image image = GenerateQRCode(text, size);
+                    if (image != null)
+                    {
+                        ImageHelpers.SaveImage(image, filePath);
+                    }
+                }
+            });
+        }
+
+        private static void CopyQrCodeImage(string text, int size)
+        {
+            using Image image = GenerateQRCode(text, size);
+            if (image != null)
+            {
+                ClipboardHelpers.CopyImage(image);
+            }
+        }
+
+        private static void UploadQrCodeImage(string text, int size)
+        {
+            using Image image = GenerateQRCode(text, size);
+            if (image != null)
+            {
+                MainFormUploadImage(new Bitmap(image));
+            }
         }
 
         public static void OpenRuler(TaskSettings taskSettings = null)

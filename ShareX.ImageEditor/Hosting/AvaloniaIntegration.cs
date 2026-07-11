@@ -137,6 +137,46 @@ namespace ShareX.ImageEditor.Hosting
             });
         }
 
+        public static void ShowHashCheckerWindow(
+            HashCalculationHandler hashCalculationHandler,
+            Action? playNotificationSound = null,
+            string? filePath = null)
+        {
+            Initialize();
+
+            Dispatcher.UIThread.Post(() =>
+            {
+                HashCheckerWindow window = new HashCheckerWindow(hashCalculationHandler, playNotificationSound, filePath);
+                window.Show();
+            });
+        }
+
+        public static void ShowQrCodeWindow(QrCodeServices services, QrCodeWindowOptions options)
+        {
+            Initialize();
+
+            Dispatcher.UIThread.Post(() =>
+            {
+                QrCodeWindow window = new QrCodeWindow(services, options);
+                window.Show();
+            });
+        }
+
+        public static void ShowVideoConverterWindow(
+            VideoConverterSettings settings,
+            VideoConversionHandler conversionHandler,
+            Action<VideoConverterSettings>? settingsChanged = null,
+            string? inputFilePath = null)
+        {
+            Initialize();
+
+            Dispatcher.UIThread.Post(() =>
+            {
+                VideoConverterWindow window = new VideoConverterWindow(settings, conversionHandler, settingsChanged, inputFilePath);
+                window.Show();
+            });
+        }
+
         public static void ShowBackgroundRemoverWindow(string? modelsFolder)
         {
             ShowBackgroundRemoverWindow(modelsFolder, new BackgroundRemoverOptions());
