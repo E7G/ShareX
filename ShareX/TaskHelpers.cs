@@ -25,7 +25,9 @@
 
 using ShareX.HelpersLib;
 using ShareX.HistoryLib;
-using ShareX.ImageEditor.Hosting;
+using ShareX.Tools;
+using ShareX.Tools.Integration;
+using ShareX.ImageEditor.Integration;
 using ShareX.ImageEffectsLib;
 using ShareX.IndexerLib;
 using ShareX.MediaLib;
@@ -932,7 +934,7 @@ namespace ShareX
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
 
-            AvaloniaIntegration.ShowHashCheckerWindow(
+            ToolsIntegration.ShowHashCheckerWindow(
                 CalculateFileHashAsync,
                 () => PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings),
                 filePath);
@@ -1021,26 +1023,86 @@ namespace ShareX
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
 
-            ImageCombinerForm imageCombinerForm = new ImageCombinerForm(taskSettings.ToolsSettingsReference.ImageCombinerOptions, imageFiles);
-            imageCombinerForm.ProcessRequested += bmp => UploadManager.RunImageTask(bmp, taskSettings);
-            imageCombinerForm.Show();
+            ShareX.MediaLib.ImageCombinerOptions source = taskSettings.ToolsSettingsReference.ImageCombinerOptions;
+            ImageCombinerSettings settings = new ImageCombinerSettings
+            {
+                Orientation = (ImageCombinerOrientation)source.Orientation,
+                Alignment = (ShareX.Tools.ImageCombinerAlignment)source.Alignment,
+                Space = source.Space,
+                WrapAfter = source.WrapAfter,
+                AutoFillBackground = source.AutoFillBackground
+            };
+
+            TaskSettings activeTaskSettings = taskSettings;
+            ToolsIntegration.ShowImageCombinerWindow(
+                settings,
+                new ImageCombinerServices
+                {
+                    CreatePreviewAsync = CreateImageCombinerPreviewAsync,
+                    ProcessAsync = request => ProcessCombinedImagesAsync(request, activeTaskSettings)
+                },
+                updated =>
+                {
+                    source.Orientation = (Orientation)updated.Orientation;
+                    source.Alignment = (ShareX.HelpersLib.ImageCombinerAlignment)updated.Alignment;
+                    source.Space = updated.Space;
+                    source.WrapAfter = updated.WrapAfter;
+                    source.AutoFillBackground = updated.AutoFillBackground;
+                },
+                imageFiles?.ToArray());
+        }
+
+        private static Task<byte[]> CreateImageCombinerPreviewAsync(ImageCombineRequest request)
+        {
+            return Task.Run(() =>
+            {
+                using Bitmap output = CombineImages(request);
+                if (output == null)
+                {
+                    return null;
+                }
+
+                using MemoryStream stream = new MemoryStream();
+                output.Save(stream, ImageFormat.Png);
+                return stream.ToArray();
+            });
+        }
+
+        private static async Task ProcessCombinedImagesAsync(ImageCombineRequest request, TaskSettings taskSettings)
+        {
+            Bitmap output = await Task.Run(() => CombineImages(request));
+            if (output != null)
+            {
+                UploadManager.RunImageTask(output, taskSettings);
+            }
+        }
+
+        private static Bitmap CombineImages(ImageCombineRequest request)
+        {
+            return ImageHelpers.CombineImages(
+                request.ImageFiles,
+                (Orientation)request.Settings.Orientation,
+                (ShareX.HelpersLib.ImageCombinerAlignment)request.Settings.Alignment,
+                request.Settings.Space,
+                request.Settings.WrapAfter,
+                request.Settings.AutoFillBackground);
         }
 
         public static void OpenImageComparer()
         {
-            AvaloniaIntegration.ShowImageComparerWindow();
+            ToolsIntegration.ShowImageComparerWindow();
         }
 
         public static void OpenIconConverter()
         {
-            AvaloniaIntegration.ShowIconConverterWindow();
+            ToolsIntegration.ShowIconConverterWindow();
         }
 
         public static void OpenBackgroundRemover(TaskSettings taskSettings = null)
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
 
-            AvaloniaIntegration.ShowBackgroundRemoverWindow(Program.ModelsFolder, taskSettings.ToolsSettingsReference.BackgroundRemoverOptions);
+            ToolsIntegration.ShowBackgroundRemoverWindow(Program.ModelsFolder, taskSettings.ToolsSettingsReference.BackgroundRemoverOptions);
         }
 
         public static void CombineImages(IEnumerable<string> imageFiles, Orientation orientation, TaskSettings taskSettings = null)
@@ -1059,14 +1121,12 @@ namespace ShareX
 
         public static void OpenImageSplitter()
         {
-            ImageSplitterForm imageSplitterForm = new ImageSplitterForm();
-            imageSplitterForm.Show();
+            ToolsIntegration.ShowImageSplitterWindow();
         }
 
         public static void OpenImageThumbnailer()
         {
-            ImageThumbnailerForm imageThumbnailerForm = new ImageThumbnailerForm();
-            imageThumbnailerForm.Show();
+            ToolsIntegration.ShowImageThumbnailerWindow();
         }
 
         public static void OpenVideoConverter(TaskSettings taskSettings = null)
@@ -1112,7 +1172,7 @@ namespace ShareX
             };
 
             string ffmpegFilePath = taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath;
-            AvaloniaIntegration.ShowVideoConverterWindow(
+            ToolsIntegration.ShowVideoConverterWindow(
                 settings,
                 (request, progress, cancellationToken) => RunVideoConversionAsync(ffmpegFilePath, request, progress, cancellationToken),
                 updated =>
@@ -1246,14 +1306,12 @@ namespace ShareX
 
         public static void OpenInspectWindow()
         {
-            InspectWindowForm inspectWindowForm = new InspectWindowForm();
-            inspectWindowForm.Show();
+            ToolsIntegration.ShowInspectWindowWindow();
         }
 
         public static void OpenClipboardViewer()
         {
-            ClipboardViewerForm clipboardViewerForm = new ClipboardViewerForm();
-            clipboardViewerForm.Show();
+            ToolsIntegration.ShowClipboardViewerWindow();
         }
 
         private static void ShowImageEditorSelector(TaskSettings taskSettings)
@@ -1422,7 +1480,7 @@ namespace ShareX
         {
             Bitmap bmpResult = null;
 
-            EditorEvents events = new EditorEvents
+            ImageEditorCallbacks events = new ImageEditorCallbacks
             {
                 CopyImageRequested = (skBitmap) =>
                 {
@@ -1479,12 +1537,12 @@ namespace ShareX
             if (bmp != null)
             {
                 using SKBitmap skBitmap = GdiBitmapToSkBitmap(bmp);
-                skBitmapResult = AvaloniaIntegration.ShowEditorDialog(skBitmap, taskSettings.ToolsSettingsReference.ImageEditorOptions,
+                skBitmapResult = ImageEditorIntegration.ShowEditorDialog(skBitmap, taskSettings.ToolsSettingsReference.ImageEditorOptions,
                     events, taskMode, filePath);
             }
             else
             {
-                skBitmapResult = AvaloniaIntegration.ShowEditorDialog(taskSettings.ToolsSettingsReference.ImageEditorOptions,
+                skBitmapResult = ImageEditorIntegration.ShowEditorDialog(taskSettings.ToolsSettingsReference.ImageEditorOptions,
                     events, taskMode, filePath);
             }
 
@@ -1696,31 +1754,20 @@ namespace ShareX
 
         public static void OpenImageViewer()
         {
-            string filePath = ImageHelpers.OpenImageFileDialog();
-            OpenImageViewer(filePath);
+            ToolsIntegration.ShowImageViewerWindow();
         }
 
         public static void OpenImageViewer(string filePath)
         {
             if (!string.IsNullOrEmpty(filePath) && File.Exists(filePath))
             {
-                string folderPath = Path.GetDirectoryName(filePath);
-                string[] files = Directory.GetFiles(folderPath);
-
-                if (files != null && files.Length > 0)
-                {
-                    int imageIndex = Array.IndexOf(files, filePath);
-                    ImageViewer.ShowImage(files, imageIndex);
-                }
+                ToolsIntegration.ShowImageViewerWindow(filePath);
             }
         }
 
         public static void OpenMonitorTest()
         {
-            using (MonitorTestForm monitorTestForm = new MonitorTestForm())
-            {
-                monitorTestForm.ShowDialog();
-            }
+            ToolsIntegration.ShowMonitorTestWindow();
         }
 
         public static void RunShareXAsAdmin(string arguments = null)
@@ -1763,38 +1810,38 @@ namespace ShareX
                 }
             }
 
-            ShowQrCodeWindow(new QrCodeWindowOptions { InitialText = text });
+            ShowQRCodeWindow(new QRCodeWindowOptions { InitialText = text });
         }
 
         public static void OpenQRCodeScanFromImageFile(string filePath)
         {
-            ShowQrCodeWindow(new QrCodeWindowOptions { InitialImageFilePath = filePath });
+            ShowQRCodeWindow(new QRCodeWindowOptions { InitialImageFilePath = filePath });
         }
 
         public static void OpenQRCodeScanScreen()
         {
-            ShowQrCodeWindow(new QrCodeWindowOptions { InitialScanMode = QrCodeScanMode.Screen });
+            ShowQRCodeWindow(new QRCodeWindowOptions { InitialScanMode = QRCodeScanMode.Screen });
         }
 
         public static void OpenQRCodeScanRegion()
         {
-            ShowQrCodeWindow(new QrCodeWindowOptions { InitialScanMode = QrCodeScanMode.Region });
+            ShowQRCodeWindow(new QRCodeWindowOptions { InitialScanMode = QRCodeScanMode.Region });
         }
 
-        private static void ShowQrCodeWindow(QrCodeWindowOptions options)
+        private static void ShowQRCodeWindow(QRCodeWindowOptions options)
         {
-            AvaloniaIntegration.ShowQrCodeWindow(new QrCodeServices
+            ToolsIntegration.ShowQRCodeWindow(new QRCodeServices
             {
-                GeneratePreviewAsync = GenerateQrCodePreviewAsync,
-                ScanAsync = ScanQrCodeAsync,
-                SaveAsync = SaveQrCodeAsync,
-                CopyImage = CopyQrCodeImage,
-                UploadImage = UploadQrCodeImage,
+                GeneratePreviewAsync = GenerateQRCodePreviewAsync,
+                ScanAsync = ScanQRCodeAsync,
+                SaveAsync = SaveQRCodeAsync,
+                CopyImage = CopyQRCodeImage,
+                UploadImage = UploadQRCodeImage,
                 PlayNotificationSound = () => PlayNotificationSoundAsync(NotificationSound.ActionCompleted)
             }, options);
         }
 
-        private static Task<byte[]> GenerateQrCodePreviewAsync(string text, int size)
+        private static Task<byte[]> GenerateQRCodePreviewAsync(string text, int size)
         {
             return Task.Run(() =>
             {
@@ -1810,21 +1857,21 @@ namespace ShareX
             });
         }
 
-        private static Task<string[]> ScanQrCodeAsync(QrCodeScanMode mode, string filePath)
+        private static Task<string[]> ScanQRCodeAsync(QRCodeScanMode mode, string filePath)
         {
             using Bitmap bitmap = mode switch
             {
-                QrCodeScanMode.Screen => new Screenshot().CaptureFullscreen(),
-                QrCodeScanMode.Region => RegionCaptureTasks.GetRegionImage(
+                QRCodeScanMode.Screen => new Screenshot().CaptureFullscreen(),
+                QRCodeScanMode.Region => RegionCaptureTasks.GetRegionImage(
                     TaskSettings.GetDefaultTaskSettings().CaptureSettings.SurfaceOptions),
-                QrCodeScanMode.ImageFile when !string.IsNullOrWhiteSpace(filePath) => ImageHelpers.LoadImage(filePath),
+                QRCodeScanMode.ImageFile when !string.IsNullOrWhiteSpace(filePath) => ImageHelpers.LoadImage(filePath),
                 _ => null
             };
 
             return Task.FromResult(bitmap != null ? BarcodeScan(bitmap) : null);
         }
 
-        private static Task SaveQrCodeAsync(string text, int size, string filePath)
+        private static Task SaveQRCodeAsync(string text, int size, string filePath)
         {
             return Task.Run(() =>
             {
@@ -1854,7 +1901,7 @@ namespace ShareX
             });
         }
 
-        private static void CopyQrCodeImage(string text, int size)
+        private static void CopyQRCodeImage(string text, int size)
         {
             using Image image = GenerateQRCode(text, size);
             if (image != null)
@@ -1863,7 +1910,7 @@ namespace ShareX
             }
         }
 
-        private static void UploadQrCodeImage(string text, int size)
+        private static void UploadQRCodeImage(string text, int size)
         {
             using Image image = GenerateQRCode(text, size);
             if (image != null)
@@ -1874,9 +1921,7 @@ namespace ShareX
 
         public static void OpenRuler(TaskSettings taskSettings = null)
         {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            RegionCaptureTasks.ShowScreenRuler(taskSettings.CaptureSettings.SurfaceOptions);
+            ToolsIntegration.ShowRulerWindow();
         }
 
         public static void SearchImageUsingGoogleLens(string url)

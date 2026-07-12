@@ -25,11 +25,12 @@
 
 using Newtonsoft.Json;
 using ShareX.HelpersLib;
-using ShareX.ImageEditor.Hosting;
+using ShareX.ImageEditor.Integration;
 using ShareX.ImageEffectsLib;
 using ShareX.IndexerLib;
 using ShareX.MediaLib;
 using ShareX.ScreenCaptureLib;
+using ShareX.Tools;
 using ShareX.UploadersLib;
 using System;
 using System.Collections.Generic;

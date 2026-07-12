@@ -24,6 +24,8 @@
     <PackageReference Include="ZXing.Net.Bindings.Windows.Compatibility" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ShareX.Avalonia\ShareX.Avalonia.csproj" />
+    <ProjectReference Include="..\ShareX.Tools\ShareX.Tools.csproj" />
     <ProjectReference Include="..\ShareX.HistoryLib\ShareX.HistoryLib.csproj" />
     <ProjectReference Include="..\ShareX.ImageEditor.App\ShareX.ImageEditor.App.csproj" Condition="'$(BuildImageEditor)' != 'false'">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
